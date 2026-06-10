@@ -1,0 +1,146 @@
+{
+ "slug": "fc19",
+ "title": "QROC — Complément & complexes immuns",
+ "questions": [
+  {
+   "id": "fc19-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **trois voies d'activation** du complément et precisez la **fonction specifique** attribuee a chacune.",
+   "answer": "Le complement s'active par trois voies aboutissant toutes a une **C3 convertase** puis a une C5 convertase et au complexe d'attaque membranaire. La **voie classique** assure la gestion des **complexes immuns (CI)** (activee par les Ac fixes sur leurs Ag). La **voie des lectines** detecte directement des **motifs bacteriens** (MBL, ficoline). La **voie alterne** est activee **en l'absence d'inhibiteurs** de surface et joue un role d'amplification.",
+   "keyPoints": [
+    "Voie classique = gestion des complexes immuns (activee par les Ac)",
+    "Voie des lectines = detection de motifs bacteriens (MBL, ficoline)",
+    "Voie alterne = activee en l'absence d'inhibiteurs, role d'amplification",
+    "Convergence vers C3 convertase / C5 convertase / MAC"
+   ]
+  },
+  {
+   "id": "fc19-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Dans l'**hemoglobinurie paroxystique nocturne (HPN)**, expliquez le mecanisme menant a l'hemolyse et nommez le traitement des formes severes.",
+   "answer": "L'HPN est liee a une **mutation acquise** du gene **PIG-A** dans les progeniteurs hematopoietiques, entrainant un defaut de production du **GPI**. Or le GPI sert d'ancrage membranaire aux regulateurs de la voie alterne **CD55 (DAF)** et **CD59 (MIRL)** sur les globules rouges. En leur absence, le complement attaque en permanence les hematies, provoquant une **hemolyse intravasculaire**. Le traitement des formes severes est l'**eculizumab**, un anticorps monoclonal **anti-C5** qui bloque le complexe d'attaque membranaire.",
+   "keyPoints": [
+    "Mutation acquise du gene PIG-A -> defaut de GPI",
+    "Perte de l'ancrage de CD55 et CD59 sur les GR",
+    "Activation permanente de la voie alterne -> hemolyse intravasculaire",
+    "Traitement : eculizumab (anticorps anti-C5)"
+   ],
+   "trap": "La mutation de l'HPN est ACQUISE (et non constitutionnelle), et la premiere consequence n'est pas l'insuffisance renale mais les cytopenies ; l'IR est une consequence tardive de l'accumulation d'hemoglobine."
+  },
+  {
+   "id": "fc19-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Definissez un **complexe immun (CI)**, son devenir physiologique, et a quel **type de Gell et Coombs** appartient l'hypersensibilite a complexes immuns.",
+   "answer": "Un complexe immun se forme a chaque fois qu'un **antigene est reconnu par un anticorps** (couple Ac/Ag) ; c'est un phenomene **physiologique** permanent, en faible quantite. Son objectif est de **faciliter l'elimination (clairance) de l'Ag**, notamment par phagocytose. Physiologiquement, les CI sont internalises et detruits par les **cellules phagocytaires via les recepteurs au Fc** des Ac, avec **activation de la voie classique** du complement. L'hypersensibilite a complexes immuns est de **type III** (delai d'environ 3-10h).",
+   "keyPoints": [
+    "CI = couple Ac/Ag, phenomene physiologique permanent",
+    "But : faciliter la clairance de l'Ag (phagocytose)",
+    "Phagocytose via les recepteurs au Fc + voie classique du complement",
+    "Hypersensibilite de type III (delai 3-10h)"
+   ],
+   "trap": "Le delai de l'hypersensibilite de type III est de 3 a 10h, et non 24-48h (qui correspond plutot a l'hypersensibilite retardee de type IV)."
+  },
+  {
+   "id": "fc19-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant les **vascularites a ANCA** : que signifie l'acronyme ANCA, et reliez le resultat de l'**immunofluorescence** (c-ANCA / p-ANCA) a la cible detectee en **ELISA**.",
+   "answer": "ANCA signifie **Anticorps Anti-Cytoplasme des PNN** (polynucleaires neutrophiles). En immunofluorescence indirecte, une fluorescence **diffuse du cytoplasme** correspond a un **c-ANCA**, tandis qu'une fluorescence **perinucleaire** correspond a un **p-ANCA**. En ELISA, la detection d'**anti-proteinase 3 (PR3)** correspond a un **c-ANCA**, et la detection d'**anti-myeloperoxydase (MPO)** correspond a un **p-ANCA**. Ces deux enzymes catalysent la reaction oxydative lors de la degranulation des PNN.",
+   "keyPoints": [
+    "ANCA = Anticorps Anti-Cytoplasme des PNN",
+    "Fluorescence diffuse = c-ANCA ; fluorescence perinucleaire = p-ANCA",
+    "Anti-PR3 (proteinase 3) -> c-ANCA",
+    "Anti-MPO (myeloperoxydase) -> p-ANCA"
+   ],
+   "trap": "Ne pas inverser : anti-PR3 donne un c-ANCA et anti-MPO donne un p-ANCA. L'immunofluorescence seule ne suffit pas au diagnostic, l'ELISA est aussi necessaire."
+  },
+  {
+   "id": "fc19-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "La **maladie de Horton** est une arterite. Precisez le **calibre des vaisseaux** atteints, le vaisseau le plus typiquement touche, le **mediateur immunitaire cle**, les complications redoutables et le moyen diagnostique de reference.",
+   "answer": "La maladie de Horton est une **artérite des gros vaisseaux**, touchant en particulier l'**artere temporale** (branche de la carotide externe) ou l'aorte, avec une inflammation de type **giganto-cellulaire**. Elle releve de l'**immunite cellulaire** mediee par les LT, avec un role central de l'**IFN-gamma** qui favorise la formation du granulome a cellules geantes (cascade IL-6, IL-1, IL-12/17/23). Les complications redoutables sont l'atteinte de la **carotide interne** (risque d'**AVC** et de **NOIA** = nevrite optique ischemique anterieure aigue) et l'atteinte de l'**aorte**. Le diagnostic de reference est la **biopsie** de l'artere temporale montrant des granulomes geants.",
+   "keyPoints": [
+    "Artérite des gros vaisseaux (artere temporale, aorte)",
+    "Inflammation giganto-cellulaire / immunite cellulaire (LT)",
+    "Mediateur cle : IFN-gamma",
+    "Complications : AVC, NOIA (carotide interne), atteinte aortique",
+    "Diagnostic : biopsie de l'artere temporale (granulomes geants)"
+   ],
+   "trap": "La maladie de Horton touche les GROS vaisseaux (et non les petits) ; la complication grave concerne la carotide INTERNE (et non externe)."
+  },
+  {
+   "id": "fc19-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quel est le **role de la regulation du complement** et quels sont les deux types de proteines regulatrices ? Donnez deux exemples de chaque type.",
+   "answer": "Le complement etant une cascade enzymatique potentiellement autodestructrice, sa **regulation est indispensable** pour eviter une activation excessive qui pourrait generer des maladies auto-immunes. Il existe deux types de proteines regulatrices : 1) les **proteines membranaires** presentes a la surface des cellules eucaryotes (qui protegent les cellules propres de l'organisme contre l'activation du complement) : **CD55 (DAF)** et **CD59 (MIRL)** ; 2) les **proteines circulantes** (plasmatiques) : **facteur H** et **facteur I** (les plus importants). Les bacteries ne possedent pas ces systemes de regulation, ce qui permet au complement de les attaquer.",
+   "keyPoints": [
+    "Regulation indispensable : eviter l'autodestruction et les maladies auto-immunes",
+    "Proteines membranaires : CD55 (DAF) et CD59 (MIRL)",
+    "Proteines circulantes : facteur H et facteur I (+++)",
+    "Les bacteries n'ont pas ces inhibiteurs -> le complement peut les attaquer"
+   ],
+   "trap": "Les proteines de regulation protegent les CELLULES DE L'ORGANISME (eucaryotes) : les cellules bacteriennes n'en possedent pas, ce qui permet la lyse bacterienne."
+  },
+  {
+   "id": "fc19-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez la **physiopathologie de la maladie serique** en listant ses etapes chronologiques, le type d'hypersensibilite implique et les principaux signes cliniques.",
+   "answer": "La **maladie serique** est une forme generalisee d'**hypersensibilite de type III** (complexes immuns). Sa physiopathologie se deroule en plusieurs etapes : 1) **injection d'un antigene etranger** (proteine, Ig etrangere) ; 2) **reponse anticorps** qui prend 10 a 15 jours a se constituer ; 3) **croisement des courbes Ag/Ac** : la stochiometrie entre les deux permet la **formation de complexes immuns**, avec un pic aigu de CI et une **vascularite generalisee** ; 4) **activation et consommation de la voie classique** du complement par les CI : chute du taux de **C4** ; 5) **recrutement des PNN**. Cliniquement : **fievre, alteration de l'etat general, poly-adenopathies, eruption cutanee (purpura), atteinte articulaire, atteinte renale**, 10 jours apres la premiere administration (ou en quelques heures lors d'une re-exposition).",
+   "keyPoints": [
+    "Hypersensibilite de type III (CI Ag-Ac + complement + PNN)",
+    "Etapes : injection Ag -> reponse Ac (10-15j) -> formation CI -> activation complement (chute C4) -> recrutement PNN",
+    "Clinique : fievre, AEG, adenopathies, purpura, arthrites, atteinte renale",
+    "Survient 10j apres 1ere administration ou en quelques heures si re-exposition"
+   ],
+   "trap": "La chute du taux de C4 (et non C3) est le marqueur biologique de l'activation de la VOIE CLASSIQUE par les complexes immuns dans la maladie serique."
+  },
+  {
+   "id": "fc19-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **nephropathie a IgA (maladie de Berger)** ? Precisez sa physiopathologie, le signe clinique cardinal et son pronostic renal.",
+   "answer": "La **nephropathie a IgA** (maladie de Berger) est la **glomérulonephrite la plus frequente dans le monde**. Elle touche preferentiellement l'**adulte jeune**, surtout les hommes. La physiopathologie implique une atteinte inflammatoire des muqueuses productrices d'IgA, qui forment des **complexes immuns se deposant dans le mesangium renal** (depots mésangiaux d'IgA), declenchant des **hematurics** lors des infections ORL. Le signe clinique cardinal est l'**hematurie glomérulaire** (visible dans 30 % des cas par le patient), associee a une **protéinurie glomérulaire** et parfois une HTA ou une insuffisance renale. Le pronostic est reserve : **30 a 50 % des patients** evoluent vers l'**insuffisance renale terminale** (dialyse ou greffe renale).",
+   "keyPoints": [
+    "GN la plus frequente dans le monde ; adulte jeune (hommes++)",
+    "Physiopathologie : CI IgA -> depots mesangiaux -> hematurie lors des infections ORL",
+    "Signe cardinal : hematurie glomérulaire (+/- proteinurie, HTA, IR)",
+    "Pronostic : 30-50% evoluent vers l'insuffisance renale terminale"
+   ],
+   "trap": "L'hematurie de la maladie de Berger est typiquement declenchee par les INFECTIONS ORL (et non par l'effort ou un traumatisme, contrairement a l'hematurie d'effort de l'athlete)."
+  },
+  {
+   "id": "fc19-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez les **trois conditions pathologiques** pouvant perturber la formation ou l'elimination des complexes immuns et conduire a des maladies a CI.",
+   "answer": "Les pathologies a complexes immuns peuvent etre secondaires a trois types d'anomalies (pouvant coexister) : 1) **Anomalies de formation des CI** (trop grand nombre) : l'auto-immunite entraine une production excessive de CI, submergeant les mecanismes d'elimination. 2) **Anomalies du complement** : le complement participe normalement a la solubilisation et a l'elimination des CI ; un deficit du complement (ex. dans le lupus) **empeche la clairance des complexes immuns**, favorisant leur accumulation et leurs depots tissulaires. 3) **Anomalies des cellules responsables de la clairance** des CI (GR, cellules mononuclees du foie et de la rate) : les cellules normalement chargees d'eliminer les CI sont **defaillantes**, entrainant leur persistance et leur depot.",
+   "keyPoints": [
+    "1) Exces de formation des CI (auto-immunite, antigénemie persistante)",
+    "2) Deficit du complement -> incapacite a solubiliser et eliminer les CI (ex. lupus)",
+    "3) Defaillance des cellules de la clairance (GR, cellules mononuclees foie/rate)",
+    "Ces 3 anomalies peuvent coexister dans une meme maladie"
+   ],
+   "trap": "Le complement joue un role PROTECTEUR en solubilisant les CI : un deficit du complement (ex. deficit en C4 ou C2) FAVORISE les maladies a CI comme le lupus, contrairement a ce que l'on pourrait intuiter."
+  },
+  {
+   "id": "fc19-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Qu'est-ce que la **cryoglobulinemie** ? Decrivez la physiopathologie, les trois types, les principales manifestations cliniques et l'etiologie predominante.",
+   "answer": "La **cryoglobulinemie** est caracterisee par la presence dans le serum de **cryoglobulines**, proteines (immunoglobulines) qui **precipitent au froid** (< 37 °C) et se resolubilisent a la chaleur. Ces Ig insolubilisees activent la **voie classique du complement** (consommation de **C4** effondre) et forment des **complexes immuns** generateurs de vascularite. On distingue **3 types** : **type 1** (Ig monoclonale seule, ex. IgM), associe a une hémopathie (myelome) ; **type 2** (IgM monoclonale + IgG polyclonale), souvent lie a l'**hepatite C** (+++) ou au VHB/lupus ; **type 3** (toutes polyclonales : IgM + IgG +/- IgA), lie a l'hepatite C, maladies auto-immunes. Manifestations cliniques : **purpura vasculaire** (signe le plus frequent), syndrome de Raynaud, arthralgies, polynévrites, **glomérulonephrite membranoproliferative** (avec proteinurie massive, syndrome nephrotique, IR).",
+   "keyPoints": [
+    "Cryoglobulines : Ig precipitant au froid -> activation complement (chute C4) + CI -> vascularite",
+    "Type 1 : Ig monoclonale -> hemopathie (myelome)",
+    "Type 2 : IgM monoclonale + IgG polyclonale -> hepatite C +++, VHB, lupus",
+    "Type 3 : polyclonale -> hepatite C, MAI ; Clinique : purpura, Raynaud, polynévrites, GN"
+   ],
+   "trap": "La chute du taux de C4 (et non C3) est le reflet de l'activation de la VOIE CLASSIQUE par les CI dans la cryoglobulinemie. Un C4 effondre avec C3 normal doit faire evoquer ce diagnostic."
+  }
+ ]
+}

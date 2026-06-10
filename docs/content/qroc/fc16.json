@@ -1,0 +1,138 @@
+{
+ "slug": "fc16",
+ "title": "QROC — Cytokines",
+ "questions": [
+  {
+   "id": "fc16-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Definissez les **cytokines** (nature, taille) et citez leurs **trois modes d'action** possibles.",
+   "answer": "Les cytokines sont de **petites proteines** (de l'ordre de **8 a 80 kDa**) qui font partie du **reseau de signalisation extracellulaire** controlant la reponse immunitaire. Elles peuvent avoir une action **autocrine, paracrine ou endocrine**.",
+   "keyPoints": [
+    "Petites proteines (8 a 80 kDa)",
+    "Reseau de signalisation extracellulaire de la reponse immunitaire",
+    "Action autocrine, paracrine ou endocrine"
+   ],
+   "trap": "Signalisation extracellulaire (et non intracellulaire)."
+  },
+  {
+   "id": "fc16-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'appelle-t-on **pleiotropie** des cytokines ? Quelle consequence pratique a-t-elle sur leur emploi therapeutique, et quelles familles font exception ?",
+   "answer": "La **pleiotropie** designe le fait qu'une cytokine provoque des **effets biologiques differents sur diverses cellules**. En therapeutique, cette pleiotropie est responsable de **nombreux effets indesirables**. Font exception (pas de pleiotropie) l'**EPO, le G-CSF et le GM-CSF**.",
+   "keyPoints": [
+    "Pleiotropie = effets biologiques differents sur diverses cellules",
+    "Responsable de nombreux effets indesirables",
+    "Exceptions sans pleiotropie : EPO, G-CSF, GM-CSF"
+   ]
+  },
+  {
+   "id": "fc16-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **trois grands types d'interferons** avec un exemple pour chacun, et indiquez l'indication therapeutique de l'**IFN beta**.",
+   "answer": "Les interferons interferent avec la replication virale et ont un effet antitumoral. Il en existe trois types : **type I (IFN alpha et beta)**, **type II (IFN gamma)** et **type III (IFN lambda)**. L'**IFN beta** est utilise dans le traitement de la **sclerose en plaques** pour ses proprietes immunomodulatrices (la SEP est une maladie auto-immune par lesion de la gaine de myeline).",
+   "keyPoints": [
+    "Type I : IFN alpha et beta",
+    "Type II : IFN gamma",
+    "Type III : IFN lambda",
+    "IFN beta = sclerose en plaques (immunomodulateur)"
+   ],
+   "trap": "IFN beta est de type I (et c'est lui qui traite la SEP, pas l'IFN gamma)."
+  },
+  {
+   "id": "fc16-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelle est la **seule interleukine ayant une AMM** ? Precisez son role physiologique cle et son indication therapeutique.",
+   "answer": "La seule interleukine possedant une AMM est l'**IL-2**. C'est la **cytokine cle pour l'activation et la proliferation des lymphocytes T**. Elle est utilisee dans le traitement des **cancers du rein metastatique**. D'autres interleukines (IL-7, IL-15, IL-21, IL-12, IL-10...) sont encore en cours d'essais.",
+   "keyPoints": [
+    "Seule interleukine avec AMM : IL-2",
+    "Role : activation et proliferation des lymphocytes T",
+    "Indication : cancer du rein metastatique"
+   ],
+   "trap": "IL-2 agit sur les lymphocytes T (et non B)."
+  },
+  {
+   "id": "fc16-qroc5",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Concernant les **CSF** : quel est le role physiologique de l'**EPO** et son indication, et quel est le but de l'emploi du **G-CSF / GM-CSF** ?",
+   "answer": "L'**erythropoietine (EPO)** est physiologiquement synthetisee par le **rein** et stimule la **synthese medullaire d'erythrocytes (globules rouges)** ; elle est utilisee pour les **anemies d'origine renale** ou apres chimiotherapie. Le **G-CSF et le GM-CSF** stimulent la production de **polynucleaires neutrophiles**, dans le but de **reduire la duree et les complications des neutropenies**.",
+   "keyPoints": [
+    "EPO : synthetisee par le rein, stimule la production de globules rouges (moelle)",
+    "EPO : indiquee dans les anemies d'origine renale / post-chimio",
+    "G-CSF et GM-CSF : stimulent les polynucleaires neutrophiles",
+    "But : reduire duree et complications des neutropenies"
+   ]
+  },
+  {
+   "id": "fc16-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **trois grandes familles de cytokines** actuellement utilisees en therapeutique chez l'Homme, et precisez les **trois grandes categories d'indications** communes a ces familles.",
+   "answer": "Les trois familles de cytokines disposant d'une autorisation de mise sur le marche chez l'Homme sont les **interferons**, les **interleukines** (seule l'IL-2) et les **CSF** (EPO, G-CSF, GM-CSF). Les trois grandes categories d'indications sont : les **cancers**, les **infections** et les **maladies dysimmunitaires**. Les autres familles de cytokines ne sont pas encore utilisees en pratique courante.",
+   "keyPoints": [
+    "Trois familles avec AMM : interferons, interleukines (IL-2), CSF (EPO, G-CSF, GM-CSF)",
+    "Indications communes : cancers, infections, maladies dysimmunitaires",
+    "Les CSF sont des cas particuliers : pas utilises comme modulateurs du systeme immunitaire"
+   ],
+   "trap": "Toutes les familles de cytokines ne sont PAS utilisees en therapeutique : seules les interferons, IL-2, EPO, G-CSF et GM-CSF disposent d'une AMM."
+  },
+  {
+   "id": "fc16-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **roles de l'IFN alpha** dans le traitement des cancers ? Precisez les **deux mecanismes** par lesquels il agit sur les tumeurs et les **deux mecanismes** par lesquels il agit dans l'hepatite B et C.",
+   "answer": "Dans le traitement des **cancers solides et hematologiques**, l'IFN alpha agit en : 1) **diminuant l'expression des oncogenes** et augmentant celle des genes suppresseurs de tumeur ; 2) **stimulant les lymphocytes T antitumoraux** et favorisant la **maturation des cellules dendritiques**. Dans le traitement des **hepatites B et C**, il agit par : 1) **stimulation des lymphocytes NK** et proliferation des lymphocytes T ; 2) **maturation des cellules dendritiques**. L'IFN alpha est physiologiquement secrete par les **cellules dendritiques et les macrophages**.",
+   "keyPoints": [
+    "Cancers : diminue oncogenes, augmente genes suppresseurs de tumeur",
+    "Cancers : stimule les LT antitumoraux et la maturation des DC",
+    "Hepatites B/C : stimule NK, proliferation LT, maturation des DC",
+    "Secrete physiologiquement par les cellules dendritiques et macrophages"
+   ]
+  },
+  {
+   "id": "fc16-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le role particulier de l'**IFN gamma** dans l'immunite ? Precisez son action sur les macrophages et son indication therapeutique, en nommant la maladie traitee.",
+   "answer": "L'**IFN gamma** (interferon de **type II**) joue un role majeur dans la **lutte contre les germes intracellulaires**. C'est un **activateur puissant des macrophages** et il **favorise la formation des granulomes**. Son indication therapeutique est rare : il est utilise dans la **granulomatose septique chronique** (deficit genetique touchant le fonctionnement des polynucleaires, avec absence d'explosion oxydative), afin de **reduire la frequence des infections graves** chez ces patients.",
+   "keyPoints": [
+    "IFN gamma = type II",
+    "Lutte contre les germes intracellulaires",
+    "Activateur puissant des macrophages ; favorise la formation des granulomes",
+    "Indication : granulomatose septique chronique (reduire les infections graves)"
+   ],
+   "trap": "Ne pas confondre : l'IFN gamma (type II) traite la granulomatose septique chronique, l'IFN beta (type I) traite la SEP."
+  },
+  {
+   "id": "fc16-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **PEGylation** d'une cytokine therapeutique ? Quel est son interet et quel probleme pharmacocinetique des cytokines cherche-t-on a corriger ?",
+   "answer": "La **PEGylation** consiste a effectuer des **modifications structurelles** d'une cytokine en lui greffant des chaines de **polyethylene glycol (PEG)**. Les cytokines ont une **faible demi-vie in vitro** (et donc in vivo apres administration), ce qui limite leur duree d'action et necessite des administrations rapprochees. La PEGylation permet d'**allonger la demi-vie** de la cytokine en augmentant sa taille et en reduisant sa clearance renale et sa degradation enzymatique. Certaines cytokines therapeutiques sont commercialisees sous **forme PEGyleee** pour cette raison.",
+   "keyPoints": [
+    "PEGylation = greffe de polyethylene glycol sur la cytokine",
+    "Probleme : faible demi-vie in vitro des cytokines",
+    "But : allonger la demi-vie et la duree d'action",
+    "Certaines biotherapies commercialisees sous forme PEGylee"
+   ]
+  },
+  {
+   "id": "fc16-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "En quoi les cytokines therapeutiques sont-elles des **biomedicaments** ? Qu'est-ce qui les distingue des medicaments chimiques classiques, et quelles en sont les **consequences pratiques** en matiere d'effets indesirables et de production ?",
+   "answer": "Les cytokines therapeutiques font partie des **biomedicaments** : ce sont des produits **biotechnologiques, pharmaceutiquement actifs, synthetises par une source biologique** (cellule vivante) et non obtenus par chimie de synthese (trop complexes a synthetiser). Leur production biologique entraine une **variabilite entre lots** plus importante que pour les molecules chimiques. Sur le plan des effets indesirables, leur **pleiotropie** (sauf EPO, G-CSF, GM-CSF) est responsable de **nombreux effets secondaires** car elles agissent sur de multiples types cellulaires differents. Contrairement aux medicaments chimiques dont les copies sont des **generiques**, les copies des biomedicaments sont des **biosimilaires** (non identiques a la molecule de reference, necessite des etudes de biosimilarite).",
+   "keyPoints": [
+    "Biomedicament : synthese biologique, pas de chimie de synthese",
+    "Variabilite entre lots plus importante que pour les chimiques",
+    "Effets indesirables multiples dus a la pleiotropie",
+    "Copies = biosimilaires (non generiques) ; necessitent etudes de biosimilarite"
+   ],
+   "trap": "Un biosimilaire n'est PAS une copie exacte (contrairement au generique) : il faut prouver la biosimilarite par une batterie d'etudes reglementees."
+  }
+ ]
+}

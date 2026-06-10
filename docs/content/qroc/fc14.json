@@ -1,0 +1,143 @@
+{
+ "slug": "fc14",
+ "title": "QROC — Immunopathologie VIH",
+ "questions": [
+  {
+   "id": "fc14-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Décrivez les **trois etapes** de l'entree du VIH dans un lymphocyte T CD4, en precisant les glycoproteines virales et le co-recepteur impliques.",
+   "answer": "L'entree se fait en trois etapes. 1) **Attachement** : la glycoproteine **GP120** se lie au recepteur **CD4** de la cellule cible. 2) **Liaison au co-recepteur** : apres un changement de conformation, GP120 se lie a un co-recepteur, **CCR5 ou CXCR4** (selon le tropisme de la souche). 3) **Fusion** : la glycoproteine **GP41** assure la fusion de l'enveloppe virale avec la membrane cellulaire, creant un pore qui laisse penetrer la capside.",
+   "keyPoints": [
+    "Attachement GP120 / recepteur CD4",
+    "Liaison au co-recepteur CCR5 ou CXCR4 apres changement de conformation de GP120",
+    "Fusion via GP41 avec la membrane"
+   ],
+   "trap": "Ne pas inverser les roles : GP120 = attachement/co-recepteur, GP41 = fusion."
+  },
+  {
+   "id": "fc14-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **retrovirus** ? Citez les **trois enzymes** virales necessaires a la replication du VIH et leur role respectif.",
+   "answer": "Un **retrovirus** est un virus dont le materiel genetique est de l'**ARN** (simple brin pour le VIH), qui est transcrit en **ADN** par une enzyme interne. Les trois enzymes sont : la **transcriptase inverse** (retrotranscrit l'ARN viral en ADN), l'**integrase** (integre cet ADN dans le genome de la cellule hote) et la **protease** (permet la maturation/formation de nouvelles particules virales infectantes).",
+   "keyPoints": [
+    "Retrovirus = ARN transcrit en ADN par une enzyme interne",
+    "Transcriptase inverse = ARN vers ADN",
+    "Integrase = integration dans le genome de la cellule hote",
+    "Protease = formation de nouveaux virions infectants"
+   ]
+  },
+  {
+   "id": "fc14-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Pourquoi la **reponse immunitaire adaptative humorale** est-elle peu efficace contre le VIH ? Citez l'interet diagnostique et therapeutique des anticorps anti-VIH.",
+   "answer": "La reponse est limitee par la **grande variabilite genetique** du virus et par un phenomene de **masking** (glycosylation, changement de conformation) qui masque les antigenes et perturbe leur reconnaissance. Les **anticorps neutralisants** produits par les LB (notamment contre la **gp120**) sont **faibles et tardifs**. Ils sont surtout utiles pour le **diagnostic**. Sur le plan therapeutique, environ **1%** des patients produisent des anticorps **largement neutralisants (bNAbs)**, piste de recherche (vaccination passive, transfert protecteur chez le primate).",
+   "keyPoints": [
+    "Variabilite du virus + masking (glycosylation/conformation)",
+    "Ac neutralisants faibles et tardifs, surtout anti-gp120",
+    "Utiles pour le diagnostic",
+    "bNAbs (~1%) = piste therapeutique/vaccinale"
+   ],
+   "trap": "Les anticorps anti-VIH servent au diagnostic mais ne protegent pas de l'infection (sauf les bNAbs)."
+  },
+  {
+   "id": "fc14-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **reservoir viral** dans l'infection a VIH ? Citez le tissu reservoir principal et le type cellulaire majeur, et expliquez pourquoi les reservoirs persistent sous traitement.",
+   "answer": "Le reservoir est constitue de cellules infectees de facon latente ou l'**ADN viral est integre mais non transcrit** (chromatine fermee), avec possibilite de **reactivation** a tout moment. Le principal reservoir est constitue des **lymphocytes T CD4 memoires** (cellules quiescentes, 'resting immune cells'), et le **tissu reservoir majeur est l'intestin** (notamment les **Th17**). Sous traitement, l'ARN viral circulant chute mais les **cellules quiescentes restent infectees** : le traitement bloque le cycle viral mais n'elimine pas l'ADN integre, d'ou la persistance des reservoirs.",
+   "keyPoints": [
+    "Reservoir = ADN integre non transcrit, reactivable",
+    "Cellules : LT CD4 memoires quiescentes",
+    "Tissu majeur : intestin (Th17)",
+    "Le traitement fait chuter l'ARN circulant mais ne touche pas les reservoirs"
+   ]
+  },
+  {
+   "id": "fc14-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Decrivez le mecanisme genetique protegeant les **sujets exposes non infectes (HENI)** vis-a-vis du VIH, et expliquez le lien avec les patients en **remission apres greffe de moelle osseuse**.",
+   "answer": "Il existe une **deletion de 32 paires de bases dans le gene CCR5** (delta32), qui empeche l'expression fonctionnelle du co-recepteur **CCR5** et donc **empeche le virus de penetrer dans les cellules cibles**. Ce mecanisme explique la remission de quelques patients (environ 7 dans le monde) : a la suite d'un cancer, ils ont recu une **greffe de moelle osseuse d'un donneur porteur de la mutation CCR5**, ce qui a reconstitue un repertoire immunitaire resistant a l'entree du virus. D'autres facteurs interviennent chez les HENI (activite NK accrue, reponses Th/CTL fortes, IgA/IgG neutralisantes muqueuses, auto-anticorps anti-CCR5/CD4/HLA, certains CMH I), mais les mecanismes precis restent mal compris.",
+   "keyPoints": [
+    "Deletion 32 pb du gene CCR5 (delta32)",
+    "Empeche la penetration du virus dans les cellules cibles",
+    "~7 patients en remission via greffe de moelle d'un donneur CCR5-muté",
+    "Autres facteurs HENI : NK, reponses T, IgA neutralisantes muqueuses (mecanismes mal compris)"
+   ],
+   "trap": "C'est le co-recepteur CCR5 (pas le recepteur CD4) qui est aboli par la mutation delta32."
+  },
+  {
+   "id": "fc14-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **quatre grandes classes d'antirétroviraux** (ARV) utilisés dans le traitement du VIH et pour chacune, précisez l'étape du cycle viral ciblée.",
+   "answer": "Les quatre classes d'antirétroviraux sont : 1) Les **inhibiteurs d'entrée**, qui comprennent les inhibiteurs d'attachement (bloquent GP120/CD4), les inhibiteurs des co-récepteurs (bloquent la liaison GP120/CCR5 ou CXCR4) et les inhibiteurs de fusion (se lient à GP41 pour empêcher la fusion membranaire) ; 2) Les **inhibiteurs de la transcriptase inverse** (ITI) : les INTI (analogues nucléosidiques/nucléotidiques, compétiteurs des bases nucléiques qui interrompent l'élongation de la chaîne ADN) et les INNTI (inhibiteurs non nucléosidiques qui se lient directement à la transcriptase inverse et l'inactivent) ; 3) Les **inhibiteurs d'intégrase**, qui empêchent l'intégration de l'ADN viral dans le génome de la cellule hôte ; 4) Les **inhibiteurs de protéase**, qui bloquent la maturation des protéines virales et empêchent la formation de nouveaux virions infectants.",
+   "keyPoints": [
+    "Inhibiteurs d'entrée : attachement (GP120/CD4), co-récepteurs (CCR5/CXCR4), fusion (GP41)",
+    "Inhibiteurs de la transcriptase inverse : INTI (analogues de bases) et INNTI",
+    "Inhibiteurs d'intégrase : bloquent l'intégration de l'ADN viral",
+    "Inhibiteurs de protéase : bloquent la formation de virions infectants"
+   ],
+   "trap": "Les INTI sont des ANALOGUES de bases nucléiques (compétition) alors que les INNTI agissent par LIAISON DIRECTE à la transcriptase inverse ; ce sont des mécanismes différents pour la même enzyme."
+  },
+  {
+   "id": "fc14-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **rôle des cellules dendritiques** (plasmacytoïdes et conventionnelles) dans la réponse immunitaire innée au VIH, et expliquez comment les **cDC1 et cDC2** coopèrent pour activer les lymphocytes T CD8 cytotoxiques.",
+   "answer": "Les **cellules dendritiques plasmacytoïdes (pDC)** détectent l'ARN viral via **TLR7** et produisent massivement des **interférons de type I et III** (IFN-I), réponse antivirale précoce. Elles ne permettent pas la réplication virale (pas de fusion). Les **cellules dendritiques conventionnelles** se divisent en deux sous-types coopérant : les **cDC2** peuvent être infectées par le VIH (via CD4) ; elles produisent des cytokines d'alerte et libèrent des **antigènes viraux** en mourant. Les **cDC1**, non infectées, captent ces antigènes viraux et les présentent via le **CMH de classe I (cross-présentation)** ; activées par TLR7/8, elles **activent les lymphocytes T CD8 cytotoxiques**. Ainsi, cDC2 = source d'antigènes et cDC1 = activatrices des CD8, formant une coopération essentielle à la réponse cytotoxique antivirale.",
+   "keyPoints": [
+    "pDC : détection ARN via TLR7 -> IFN de type I (pas de réplication virale)",
+    "cDC2 : infectées par VIH -> cytokines d'alerte + libération d'Ag viraux",
+    "cDC1 : cross-présentation des Ag viraux (CMH I) -> activation des LT CD8",
+    "Coopération cDC2 (source d'Ag) et cDC1 (activation CTL)"
+   ],
+   "trap": "Les cDC2 peuvent être infectées par le VIH (elles expriment le CD4) contrairement aux cDC1 ; mais ce sont les cDC1 qui activent les CD8 par cross-présentation."
+  },
+  {
+   "id": "fc14-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **rôle du tropisme du VIH** pour CCR5 et CXCR4 : quelles souches utilisent quel co-récepteur, à quelle phase de l'infection chacun prédomine-t-il, et quelle conséquence cela a-t-il sur les traitements ?",
+   "answer": "Le VIH utilise l'un ou l'autre des co-récepteurs après liaison initiale à CD4 via GP120 : les souches **R5 (à tropisme CCR5)** sont les virus **prédominants lors de la primo-infection et de la phase chronique** précoce ; elles infectent préférentiellement les macrophages et les LT CD4 au niveau des muqueuses. Les souches **X4 (à tropisme CXCR4)** apparaissent plus tardivement, notamment lors de la progression vers le SIDA, et ciblent surtout les **LT CD4 naïfs et des thymocytes**. Certaines souches ont un **double tropisme (R5/X4)**. Cette distinction a une importance thérapeutique : les **inhibiteurs de co-récepteurs CCR5** (ex : maraviroc) ne sont efficaces que contre les souches R5 ; avant leur prescription, un **test de tropisme** est obligatoire pour vérifier que le patient n'est pas porteur de souches X4 ou à double tropisme (contre lesquelles le maraviroc serait inefficace).",
+   "keyPoints": [
+    "Souches R5 (CCR5) : primo-infection et phase chronique précoce, macrophages et LT CD4 des muqueuses",
+    "Souches X4 (CXCR4) : phase tardive / progression SIDA, LT CD4 naïfs",
+    "Double tropisme R5/X4 possible",
+    "Inhibiteurs CCR5 (maraviroc) : efficaces seulement contre R5 -> test de tropisme obligatoire avant prescription"
+   ],
+   "trap": "Le maraviroc est un inhibiteur du CO-RÉCEPTEUR CCR5 (et non du récepteur CD4 lui-même) ; il est inefficace contre les souches X4 et à double tropisme."
+  },
+  {
+   "id": "fc14-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez la **cinétique de l'infection par le VIH** : comment évoluent la **charge virale** et le **taux de lymphocytes T CD4** de la primo-infection au stade SIDA, et quel seuil de CD4 déclenche la décision thérapeutique ?",
+   "answer": "La cinétique de l'infection VIH présente trois phases : 1) **Primo-infection** : forte augmentation de la **charge virale** (ARN viral plasmatique), accompagnée d'une **baisse initiale des CD4** et d'une augmentation importante des **CD8** (effecteurs antiviraux majeurs dès J4, pouvant atteindre 20 fois la normale) ; les CD4 remontent partiellement grâce à la réponse immunitaire. 2) **Phase chronique asymptomatique (latence clinique)** : la charge virale se stabilise à un niveau bas (setpoint), les CD4 diminuent progressivement (perte d'environ 50-100/mm³/an) ; cette phase peut durer plusieurs années à plus d'une décennie. 3) **Stade SIDA** : effondrement des CD4 (généralement < 200/mm³) et remontée de la charge virale ; survenue d'**infections opportunistes** et de cancers. En pratique, le traitement antirétroviral est initié **dès le diagnostic** pour tous les patients ; historiquement le seuil de déclenchement était à **500 CD4/mm³** (au-delà, on pouvait différer pour limiter les résistances). Le seuil de **200 CD4/mm³** définit le SIDA immunologique.",
+   "keyPoints": [
+    "Primo-infection : charge virale élevée, baisse CD4, hausse CD8",
+    "Phase chronique : charge virale basse (setpoint), déclin progressif des CD4",
+    "Stade SIDA : CD4 < 200/mm³, charge virale haute, infections opportunistes",
+    "Traitement antirétroviral désormais initié dès le diagnostic ; seuil historique 500 CD4/mm³"
+   ],
+   "trap": "Au stade SIDA, la charge virale REMONTE (le système immunitaire est épuisé) : ne pas confondre avec la phase chronique où elle est basse. Le stade SIDA est défini par CD4 < 200/mm³ ET/OU la survenue d'infections/cancers classants."
+  },
+  {
+   "id": "fc14-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez pourquoi la **mise au point d'un vaccin contre le VIH** est particulièrement difficile, et quels sont les critères immunologiques qu'un vaccin idéal devrait remplir.",
+   "answer": "La mise au point d'un vaccin contre le VIH se heurte à plusieurs obstacles majeurs : la **grande variabilité génétique** du virus (multiples sous-types, groupes, mutations fréquentes lors de la réplication car ARN simple brin) rendant impossible un vaccin à spectre étroit ; le phénomène de **masking** (glycosylation, changements conformationnels des glycoprotéines GP120/GP41) qui empêche la reconnaissance par les anticorps ; la **mise en place rapide de réservoirs viraux latents** avant même l'établissement d'une réponse immunitaire efficace ; et l'**épuisement du système immunitaire**. À ce jour, un seul essai clinique (RV144, Thaïlande 2009) a montré une protection partielle (30 % de réduction du risque à 42 mois). Un vaccin idéal devrait induire : des **anticorps neutralisants à large spectre** dans les **muqueuses** (rôle probable des IgA) ; des **réponses durables des LT CD8 cytotoxiques** anti-VIH ; des **réponses LT CD4 Th1** (IL-2, IFN-γ) ; et couvrir **plusieurs antigènes** (stratégie mosaïque) pour contrer la diversité virale.",
+   "keyPoints": [
+    "Obstacles : variabilité génétique élevée + masking (GP120/GP41) + réservoirs précoces + épuisement immunitaire",
+    "Un seul essai positif : RV144 (Thaïlande, 2009) = 30 % de protection partielle seulement",
+    "Vaccin idéal : Ac neutralisants à large spectre dans les muqueuses (IgA) + LT CD8 durables + LT CD4 Th1",
+    "Stratégie mosaïque (plusieurs Ag) pour couvrir la diversité virale"
+   ],
+   "trap": "Le VIH mute fréquemment car c'est un ARN simple brin (les erreurs de réplication ne sont pas corrigées) ; c'est ce qui rend la mise au point d'un vaccin si difficile et explique l'émergence de résistances aux ARV."
+  }
+ ]
+}

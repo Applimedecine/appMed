@@ -1,0 +1,144 @@
+{
+ "slug": "fc12",
+ "title": "QROC — Immunosuppresseurs",
+ "questions": [
+  {
+   "id": "fc12-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **quatre grandes classes d'immunosuppresseurs** à retenir.",
+   "answer": "Les quatre classes sont : les **glucocorticoïdes**, les **inhibiteurs de l'activation des lymphocytes T** (qui empêchent les LT d'agir), les **inhibiteurs de la prolifération des lymphocytes T (antiprolifératifs)** et les **anticorps déplétants** (qui provoquent la destruction cellulaire).",
+   "keyPoints": [
+    "Glucocorticoïdes",
+    "Inhibiteurs de l'activation des LT",
+    "Inhibiteurs de la prolifération des LT (antiprolifératifs)",
+    "Anticorps déplétants"
+   ]
+  },
+  {
+   "id": "fc12-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le **mécanisme d'action des inhibiteurs de la calcineurine** (ciclosporine, tacrolimus) et sur quel **signal d'activation** du lymphocyte T agissent-ils ?",
+   "answer": "Ils agissent sur le **signal 1** (stimulation du TCR). Après fixation à une immunophiline (la **cyclophilline** pour la ciclosporine, la **FKBP12** pour le tacrolimus), le complexe formé **bloque la calcineurine**. La calcineurine ne peut plus déphosphoryler le facteur de transcription **NFAT**, ce qui empêche la **production d'IL-2** et donc l'**activation du lymphocyte T**.",
+   "keyPoints": [
+    "Inhibition du signal 1 (TCR)",
+    "Liaison à une immunophiline (cyclophilline / FKBP12) puis blocage de la calcineurine",
+    "Pas de déphosphorylation de NFAT -> pas d'IL-2 -> pas d'activation du LT"
+   ],
+   "trap": "Ne pas confondre le tacrolimus (inhibiteur de la calcineurine, signal 1) avec le sirolimus/évérolimus (inhibiteurs de mTOR, signal 3), bien qu'ils soient tous des macrolides."
+  },
+  {
+   "id": "fc12-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant l'**abatacept** et le **bélatacept** : quelle est leur nature, leur mécanisme d'action et l'indication propre du **bélatacept** ?",
+   "answer": "Ce sont des **protéines de fusion (chimériques)** associant un **fragment Fc d'IgG1** (allongeant la demi-vie) à la protéine **CTLA-4**. Elles agissent sur le **signal 2 (co-stimulation)** : par compétition, le CTLA-4 du médicament se fixe sur **CD80/CD86 (B7)** des cellules présentatrices d'antigène et **empêche la liaison avec le CD28** du lymphocyte T, bloquant ainsi le signal de co-stimulation et donc l'activation du LT. Le **bélatacept** est indiqué dans la **prévention du rejet de greffe rénale** (l'abatacept étant utilisé dans les rhumatismes inflammatoires / maladies auto-immunes).",
+   "keyPoints": [
+    "Protéines de fusion Fc-IgG1 + CTLA-4",
+    "Inhibiteurs de la co-stimulation (signal 2)",
+    "Saturent CD80/86 (B7) -> bloquent la liaison B7-CD28",
+    "Bélatacept = prévention du rejet de greffe rénale"
+   ],
+   "trap": "L'abatacept N'EST PAS un inhibiteur de la calcineurine : c'est un inhibiteur de la co-stimulation (2e signal)."
+  },
+  {
+   "id": "fc12-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **quatre mécanismes d'action du rituximab** et précisez sa cible.",
+   "answer": "Le rituximab est un **anticorps monoclonal chimérique anti-CD20**, molécule présente sur le **lymphocyte B**, entraînant une **déplétion B profonde et durable (5-6 mois)**. Ses quatre mécanismes sont : l'**ADCC** (cytotoxicité dépendante des anticorps, recrutement de cellules effectrices comme les NK via le Fc), la **CDC** (cytotoxicité dépendante du complément), l'**apoptose** (cascade intracellulaire après fixation sur le CD20) et l'**ADP** (phagocytose médiée par les anticorps, recrutement de macrophages via le Fc).",
+   "keyPoints": [
+    "Anticorps monoclonal chimérique anti-CD20 (LB)",
+    "ADCC (cytotoxicité dépendante des Ac, NK)",
+    "CDC (dépendante du complément)",
+    "Apoptose",
+    "ADP (phagocytose médiée par les Ac, macrophages)"
+   ],
+   "trap": "Le CD20 est porté par le lymphocyte B (et non le LT) : le rituximab déplète les LB, pas les LT."
+  },
+  {
+   "id": "fc12-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "En transplantation d'organes, justifiez la **stratégie d'association** des immunosuppresseurs et l'organisation en **plusieurs phases** du traitement.",
+   "answer": "Les associations sont systématiques pour obtenir des **effets additifs ou synergiques** (par exemple blocage simultané de l'activation et de la prolifération des LT), ce qui permet de **diminuer les posologies** et de **limiter les effets secondaires**. On n'associe **pas de molécules de même mécanisme d'action ou de mêmes effets indésirables** (ex : pas de ciclosporine avec du tacrolimus : majoration des effets indésirables sans gain d'efficacité). Le traitement comporte **3 phases** : une **phase d'induction** (immunosuppression forte les premiers jours), une **phase de maintenance pré-adaptative** (3-6 mois) et une **phase de maintenance post-adaptative** (6 mois à toute la vie). Le but est d'atteindre rapidement la **dose minimale efficace** pour prévenir le rejet tout en limitant infections et cancers ; en transplantation d'organes, le traitement est **à vie**.",
+   "keyPoints": [
+    "Associations = effets additifs/synergiques -> baisse des posologies + limitation des effets secondaires",
+    "Ne pas associer des molécules de même mécanisme (ex : ciclosporine + tacrolimus)",
+    "3 phases : induction -> maintenance pré-adaptative (3-6 mois) -> post-adaptative (>6 mois)",
+    "Dose minimale efficace ; immunosuppression à vie en transplantation d'organes"
+   ],
+   "trap": "On n'associe JAMAIS des immunosuppresseurs de même classe (majoration des effets indésirables sans gain d'efficacité), contrairement à une idée reçue."
+  },
+  {
+   "id": "fc12-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **mécanisme d'action des inhibiteurs de mTOR** (sirolimus, évérolimus) : sur quel signal du lymphocyte T agissent-ils et quelles sont leurs **indications spécifiques** au-delà de la prévention du rejet ?",
+   "answer": "Le sirolimus et l'évérolimus sont des **macrolides inhibiteurs de mTOR** qui agissent sur le **signal 3** (action de l'IL-2 sur son récepteur CD25). Après liaison à la **FKBP12**, le complexe inhibe **mTOR**, régulateur central de la survie cellulaire et du passage de la phase G0 à G1 du cycle cellulaire, ce qui **bloque la prolifération des lymphocytes T** activés. Contrairement au tacrolimus (signal 1), ils n'inhibent pas la calcineurine. Indications spécifiques : en plus de la **prévention du rejet de greffe** (rénal, cardiaque), les inhibiteurs de mTOR ont des **propriétés antiprolifératives** exploitées dans : l'**enrobage de stents coronariens** (prévention de la resténose), et le **traitement anticancéreux** (cancer du sein, du rein, tumeurs neuroendocrines pour l'évérolimus). Ils présenteraient un **risque cancérigène moindre** que les inhibiteurs de la calcineurine.",
+   "keyPoints": [
+    "Signal 3 (IL-2/CD25) -> blocage du cycle cellulaire en G0/G1",
+    "Liaison FKBP12 puis inhibition de mTOR (différent du tacrolimus qui cible la calcineurine)",
+    "Stents coronariens (antiprolifératif vasculaire)",
+    "Évérolimus = anticancéreux (sein, rein, tumeurs neuroendocrines)"
+   ],
+   "trap": "Ne pas confondre le tacrolimus (macrolide inhibiteur de la calcineurine, signal 1 via FKBP12) avec le sirolimus/évérolimus (macrolides inhibiteurs de mTOR, signal 3 via FKBP12 également) : même immunophiline, cibles différentes."
+  },
+  {
+   "id": "fc12-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez les mécanismes d'action de l'**azathioprine** et du **mycophénolate mofétil (MMF)** en tant qu'antiprolifératifs. Sur quelle voie de synthèse des purines chacun agit-il ?",
+   "answer": "Les deux molécules sont des **antiprolifératifs** qui inhibent la synthèse d'ADN en bloquant la production de bases puriques, mais par des mécanismes différents. L'**azathioprine** est une prodrogue métabolisée en **6-mercaptopurine (6-MP)**, qui inhibe la **synthèse des purines** (inhibition enzymatique globale de la voie de novo et de la voie de récupération) et bloque également la réplication de l'ADN. Le **mycophénolate mofétil** est hydrolysé en **acide mycophénolique**, inhibiteur sélectif de l'**inosine-5'-monophosphate déshydrogénase (IMPDH)**, enzyme clé de la **voie de novo de synthèse des purines** ; cette enzyme est particulièrement indispensable aux lymphocytes T et B activés (qui ne disposent pas efficacement de la voie de récupération). Le MMF est donc plus **sélectif** sur les lymphocytes. Les deux sont indiqués dans la **prévention des rejets de greffe** et les **maladies auto-immunes**.",
+   "keyPoints": [
+    "Azathioprine -> 6-MP : inhibition de la synthèse des purines (voie de novo + récupération) + réplication ADN",
+    "MMF -> acide mycophénolique : inhibition sélective de l'IMPDH (voie de novo des purines uniquement)",
+    "MMF plus sélectif sur lymphocytes T et B activés (pas de voie de récupération efficace)",
+    "Surveillance NFS et bilan hépatique pour les deux"
+   ],
+   "trap": "Le MMF inhibe la synthèse DE NOVO des purines (via IMPDH), pas la voie de récupération ; l'azathioprine inhibe les deux. Ne pas confondre avec le léflunomide qui inhibe la synthèse des PYRIMIDINES (DHODH)."
+  },
+  {
+   "id": "fc12-qroc8",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quels sont les **deux principaux risques** liés à l'immunosuppression au long cours, quels **types de cancers** sont les plus fréquents, et par quels mécanismes l'immunosuppression favorise-t-elle leur survenue ?",
+   "answer": "Les deux principaux risques de l'immunosuppression au long cours sont les **infections** et les **cancers**, proportionnels au **degré et à la durée** de l'immunosuppression. Les cancers les plus fréquents sont les **cancers cutanés** et les **lymphomes**. Deux mécanismes expliquent ce sur-risque : d'une part, une **diminution de l'immunité anti-tumorale** (perte du contrôle des cellules tumorales par les lymphocytes T cytotoxiques et les cellules NK) ; d'autre part, la **réplication de virus oncogènes** qui, en se répliquant, induisent une transformation maligne des cellules hôtes (ex : **EBV → lymphome**, **HHV-8 → sarcome de Kaposi**). Parmi les immunosuppresseurs, les **inhibiteurs de la calcineurine** et l'**azathioprine** sont plus cancérigènes ; les **inhibiteurs de mTOR** et le **mycophénolate** présentent un moindre risque.",
+   "keyPoints": [
+    "Deux risques majeurs : infections et cancers (proportionnels au degré + durée de l'immunosuppression)",
+    "Cancers les plus fréquents : cutanés et lymphomes",
+    "Mécanismes : diminution immunité anti-tumorale + réplication de virus oncogènes (EBV/HHV-8)",
+    "Inhibiteurs calcineurine et azathioprine = risque cancérigène > inhibiteurs mTOR et MMF"
+   ]
+  },
+  {
+   "id": "fc12-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez le **mécanisme d'action et les effets indésirables distinctifs** du **tacrolimus** par rapport à la **ciclosporine**, et expliquez l'importance de la **surveillance pharmacologique** pour les deux molécules.",
+   "answer": "La **ciclosporine** (décapeptide cyclique isolé d'un champignon) se fixe à la **cyclophilline** ; le complexe bloque la calcineurine. Le **tacrolimus** (FK506, macrolide isolé d'une bactérie) se fixe à la **FKBP12** ; le complexe bloque également la calcineurine : même cible, immunophiline différente. Les deux provoquent : inhibition de l'IL-2, diminution de l'expression de CD40, induction de TGF-β. Les **effets indésirables communs** : HTA, néphrotoxicité, dyslipidémie, infections, cancers. Les **effets propres à la ciclosporine** : **hypertrophie gingivale** et **hirsutisme**. Les **effets propres au tacrolimus** : **diabète sucré**, **tremblements**, **alopécie réversible** (mais absence d'hypertrophie gingivale et d'hirsutisme). La **surveillance pharmacologique (suivi thérapeutique)** est indispensable pour les deux car elles ont un **index thérapeutique étroit** (concentration efficace proche de la concentration toxique) et une **grande variabilité inter- et intra-individuelle**, notamment en cas d'interactions médicamenteuses via le **cytochrome P450 3A4 (CYP3A4)**.",
+   "keyPoints": [
+    "Ciclosporine : cyclophilline -> blocage calcineurine ; effets propres : hypertrophie gingivale, hirsutisme",
+    "Tacrolimus : FKBP12 -> blocage calcineurine ; effets propres : diabète, tremblements, alopécie",
+    "Index thérapeutique étroit pour les deux -> suivi pharmacologique obligatoire",
+    "Métabolisme par CYP3A4 -> interactions médicamenteuses fréquentes"
+   ],
+   "trap": "Tacrolimus et ciclosporine ont le même mécanisme (calcineurine) mais des immunophilines différentes ; ne JAMAIS les associer ensemble (même mécanisme = majoration des effets indésirables sans gain d'efficacité)."
+  },
+  {
+   "id": "fc12-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **sérum anti-lymphocytaire (SAL)** ? Décrivez son mode de préparation, son mécanisme d'action et ses **principaux effets indésirables**.",
+   "answer": "Le **SAL** est une préparation d'**IgG polyclonales** obtenues à partir de **lapin ou de cheval immunisé contre des thymocytes humains (précurseurs des LT)**. Les animaux produisent des anticorps anti-LT humains ; on purifie les IgG de leur sang pour les administrer au patient. Mécanisme : les IgG se fixent sur les LT et recrutent le **complément (CDC)** et les **phagocytes (ADP)**, provoquant une **lymphopénie T profonde et rapide**. Indications : traitement du **rejet de greffe** (rarement en prévention, surtout en traitement d'un rejet avéré) et des **aplasies médullaires**. Effets indésirables : **hypersensibilité de type I** (réaction anaphylactique possible) ; **syndrome de relargage cytokinique** (frissons, fièvre, céphalées, vomissements, dyspnée, hypotension dans les 72 h) lié à la lyse/activation lymphocytaire non spécifique ; **maladie sérique (hypersensibilité de type III)** entre le 7e et le 11e jour (complexes immuns circulants) ; risque important d'infections et cytopénies.",
+   "keyPoints": [
+    "IgG polyclonales anti-thymocytes humains (lapin ou cheval immunisé)",
+    "Lymphopénie T profonde et rapide (CDC + phagocytose via Fc)",
+    "Indications : traitement du rejet de greffe + aplasie médullaire",
+    "EI : hypersensibilité type I, syndrome de relargage cytokinique (72 h), maladie sérique (J7-J11)"
+   ],
+   "trap": "Le SAL utilise des IgG POLYCLONALES (et non monoclonales) ; c'est le rituximab qui est un anticorps MONOCLONAL (anti-CD20 sur les LB)."
+  }
+ ]
+}

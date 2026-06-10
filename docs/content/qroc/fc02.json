@@ -75,6 +75,137 @@
     "Même cible (récepteur) mais effets opposés (stimule vs bloque)"
    ],
    "trap": "Ne pas inverser agoniste/antagoniste : Basedow **stimule**, myasthénie **bloque**."
+  },
+  {
+   "id": "fc02-qroc7",
+   "difficulty": "moyen",
+   "points": 4,
+   "question": "Classez les **facteurs favorisants** des MAI en grandes catégories, avec un exemple par catégorie.",
+   "answer": "Quatre grandes catégories : **génétiques** (surtout le **HLA** : B27 → spondylarthrite axiale, DRB1 → polyarthrite rhumatoïde ; mais aussi **AIRE** → APS-1, Fas/FasL, déficit en **C2** → lupus, FcγRIIB) ; **hormonaux** (nette **prédominance féminine**, surtout pour les connectivites) ; **infectieux** (**Coxsackie B4 → diabète de type 1** par mimétisme avec la GAD) ; **physico-chimiques** (**UV → lupus**, médicaments comme la D-pénicillamine ou la quinine, **IFN-α → thyroïdite**).",
+   "keyPoints": [
+    "Génétiques : HLA (B27/SpA, DRB1/PR), AIRE, C2, Fas/FasL",
+    "Hormonaux : prédominance féminine (connectivites)",
+    "Infectieux : Coxsackie B4 → DT1",
+    "Physico-chimiques : UV → lupus, médicaments, IFN-α → thyroïdite"
+   ]
+  },
+  {
+   "id": "fc02-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les mécanismes de **tolérance des lymphocytes B**, centrale et périphérique.",
+   "answer": "**Tolérance centrale** : dans la **moelle osseuse**, un LB auto-réactif peut remanier son récepteur par **receptor editing** (réédition du BCR) pour ne plus reconnaître le soi. **Tolérance périphérique** : **anergie** (les LB ont besoin du signal **CD40** des LT auxiliaires pour être pleinement activés), **délétion clonale**, **ignorance**, et action des **LBreg**. Ces mécanismes éliminent ou neutralisent les LB auto-réactifs ayant échappé au contrôle médullaire.",
+   "keyPoints": [
+    "Centrale : moelle, receptor editing (réédition du BCR)",
+    "Périphérique : anergie (besoin du CD40), délétion, ignorance",
+    "LBreg"
+   ],
+   "trap": "Pour le LB c'est le **receptor editing** (réédition du BCR) qui caractérise la tolérance centrale, à ne pas confondre avec la sélection négative thymique du LT."
+  },
+  {
+   "id": "fc02-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Pour le **lupus**, le **syndrome de Guillain-Barré** et le **diabète de type 1**, précisez le mécanisme lésionnel.",
+   "answer": "**Lupus** : auto-anticorps **anti-ADN natif** formant des **complexes immuns** qui activent le **complément** et lèsent les organes (rein, cœur…). **Guillain-Barré** : auto-anticorps **anti-gangliosides** (par **mimétisme moléculaire avec *Campylobacter***) attaquant les **nœuds de Ranvier**. **Diabète de type 1** : destruction des **cellules β** par les **LT CD8** (mimétisme **Coxsackie / GAD**). On illustre ainsi des lésions par complexes immuns, par auto-Ac de mimétisme et par cytotoxicité T.",
+   "keyPoints": [
+    "Lupus : anti-ADN natif → complexes immuns + complément",
+    "Guillain-Barré : anti-gangliosides (mimétisme Campylobacter) → nœuds de Ranvier",
+    "DT1 : LT CD8 → destruction des cellules β (Coxsackie/GAD)"
+   ]
+  },
+  {
+   "id": "fc02-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Sur quoi repose le **diagnostic** d'une MAI et quelles sont les grandes options **thérapeutiques** ?",
+   "answer": "Le diagnostic repose avant tout sur la **détection des auto-anticorps** (complétée si besoin par le **typage HLA** et la **biopsie**). Le traitement associe des **immunosuppresseurs / corticoïdes**, des **biothérapies** (anti-TNF, anti-CD20…), la **plasmaphérèse** en phase aiguë, et des **thérapies cellulaires** en développement (Treg, CAR-T).",
+   "keyPoints": [
+    "Diagnostic = détection des auto-anticorps (± HLA, biopsie)",
+    "Immunosuppresseurs / corticoïdes",
+    "Biothérapies (anti-TNF, anti-CD20)",
+    "Plasmaphérèse en aigu ; thérapies cellulaires (Treg, CAR-T)"
+   ]
+  },
+  {
+   "id": "fc02-qroc11",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Distinguez l'**auto-immunité physiologique** de l'**auto-immunité pathologique**.",
+   "answer": "L'**auto-immunité physiologique** correspond à la présence d'**auto-anticorps naturels** (IgM polyréactifs de faible affinité, issus des LB1a CD5+) **sans maladie** : c'est un phénomène normal. L'**auto-immunité pathologique** est une **réponse immunitaire dirigée contre les antigènes du soi entraînant des lésions tissulaires** ; elle correspond à la maladie auto-immune proprement dite. La frontière tient à la **pathogénicité** et aux lésions, pas à la simple présence d'auto-Ac.",
+   "keyPoints": [
+    "Physiologique : auto-Ac naturels, sans maladie (normal)",
+    "Pathologique : réponse anti-soi avec lésions tissulaires",
+    "La différence = présence de lésions / pathogénicité"
+   ],
+   "trap": "La seule présence d'**auto-anticorps** ne définit pas une MAI : les auto-Ac naturels existent à l'état physiologique sans pathologie."
+  },
+  {
+   "id": "fc02-qroc12",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle du gène **AIRE** dans la tolérance centrale, et quelle maladie résulte de sa mutation ?",
+   "answer": "**AIRE** (Autoimmune Regulator) est un facteur de transcription exprimé dans les **cellules épithéliales médullaires du thymus**. Son rôle est de forcer l'expression d'**antigènes périphériques** (antigènes d'organes normalement non présents dans le thymus : insuline, thyroglobuline…) afin que les LT auto-réactifs reconnaissant ces antigènes soient éliminés par **sélection négative** (apoptose). Sans AIRE, ces LT auto-réactifs **échappent au thymus** et attaquent les organes périphériques. La mutation d'AIRE entraîne le **syndrome APS-1** (Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy) caractérisé par : **hypoparathyroïdie**, **insuffisance surrénalienne auto-immune** et **candidose cutanéo-muqueuse**.",
+   "keyPoints": [
+    "AIRE = facteur de transcription des cellules épithéliales médullaires thymiques",
+    "Exprime des antigènes périphériques dans le thymus → sélection négative des LT auto-réactifs",
+    "Mutation AIRE → syndrome APS-1 (hypoparathyroïdie + insuffisance surrénalienne + candidose)"
+   ],
+   "trap": "AIRE agit au niveau de la tolérance CENTRALE (thymus), pas périphérique. Sans AIRE, les LT auto-réactifs échappent à la sélection négative."
+  },
+  {
+   "id": "fc02-qroc13",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le rôle du **HLA-B27** dans la spondylarthrite axiale et du **HLA-DRB1** dans la polyarthrite rhumatoïde.",
+   "answer": "Le **HLA** est le principal facteur génétique des MAI. Le **HLA-B27** (molécule de classe I) est fortement associé à la **spondylarthrite axiale (SpA)** : environ 90 % des patients SpA sont HLA-B27 positifs (contre 8 % dans la population générale). Son rôle exact n'est pas totalement élucidé mais il pourrait présenter des peptides bactériens (notamment intestinaux) à des LT CD8 auto-réactifs, ou former des dimères aberrants stimulant le système immunitaire. Le **HLA-DRB1** (molécule de classe II) est associé à la **polyarthrite rhumatoïde (PR)** : certains allèles partagent une séquence commune appelée **« épitope partagé »** (shared epitope) qui prédispose à une présentation de peptides auto-antigéniques (citrullinés) aux LT CD4.",
+   "keyPoints": [
+    "HLA-B27 (classe I) → spondylarthrite axiale (~90 % des patients SpA)",
+    "HLA-DRB1 (classe II) → polyarthrite rhumatoïde (épitope partagé)",
+    "HLA = principal facteur génétique des MAI"
+   ],
+   "trap": "HLA-B27 est une molécule de classe I (présente aux LT CD8) ; HLA-DRB1 est de classe II (présente aux LT CD4). Ne pas inverser les classes."
+  },
+  {
+   "id": "fc02-qroc14",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Distinguez les **MAI spécifiques d'organe** et les **MAI systémiques (connectivites)**, en donnant deux exemples de chaque et en précisant le type d'auto-anticorps et le mécanisme lésionnel prédominant.",
+   "answer": "Les **MAI spécifiques d'organe** ciblent un seul organe ou tissu : la réponse auto-immune est dirigée contre des antigènes propres à cet organe. Exemples : (1) **Diabète de type 1** : LT CD8 détruisent les cellules β du pancréas (mécanisme cellulaire T, mimétisme Coxsackie/GAD) ; (2) **Thyroïdite de Hashimoto** : auto-Ac anti-TPO et anti-thyroglobuline + LT cytotoxiques détruisent la thyroïde → hypothyroïdie. Les **MAI systémiques (connectivites)** touchent plusieurs organes simultanément, par des auto-Ac dirigés contre des antigènes ubiquitaires. Exemples : (1) **Lupus (LES)** : complexes immuns anti-ADNn → lésions rénales, articulaires, cutanées ; (2) **Polyarthrite rhumatoïde (PR)** : auto-Ac anti-CCP/ACPA + LT Th17 → synovite et érosions articulaires.",
+   "keyPoints": [
+    "Spécifique d'organe : DT1 (LT CD8, cellules β), Hashimoto (anti-TPO, anti-Tg, LT cytotoxiques)",
+    "Systémique : LES (anti-ADNn, CIC, rein/peau/articulations), PR (anti-CCP, synovite)",
+    "Spécifique : Ag d'un seul organe ; Systémique : Ag ubiquitaires"
+   ],
+   "trap": "La polyarthrite rhumatoïde est une MAI SYSTÉMIQUE (connectivite) et non spécifique d'organe, même si l'atteinte articulaire domine cliniquement."
+  },
+  {
+   "id": "fc02-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle du **FcγRIIB** dans la tolérance des lymphocytes B, et pourquoi son polymorphisme est-il associé aux MAI ?",
+   "answer": "**FcγRIIB** (CD32b) est un **récepteur inhibiteur des IgG** exprimé à la surface des **lymphocytes B**. Son rôle est de **freiner l'activation des LB** : quand des IgG se lient simultanément au BCR (signal d'activation) et à FcγRIIB (signal inhibiteur via le domaine ITIM), il y a un **freinage de la réponse humorale** (signalisation inhibitrice → ↓ production d'Ac). Ce mécanisme constitue un **point de contrôle de la tolérance B périphérique** : il évite une sur-activation des LB lors d'une réponse immunitaire. Des **polymorphismes de FcγRIIB** réduisant son expression ou son activité inhibitrice sont associés aux **MAI** (notamment le lupus et la PR), car les LB auto-réactifs échappent à ce frein et sont suractivés.",
+   "keyPoints": [
+    "FcγRIIB = récepteur inhibiteur des IgG sur les LB",
+    "Freine l'activation des LB (domaine ITIM → signal inhibiteur)",
+    "Point de contrôle de la tolérance B périphérique",
+    "Polymorphismes → ↓ freinage → suractivation des LB auto-réactifs → MAI (lupus, PR)"
+   ],
+   "trap": "FcγRIIB est un récepteur INHIBITEUR (et non activateur) : sa perte de fonction favorise les MAI en levant le frein sur les LB."
+  },
+  {
+   "id": "fc02-qroc16",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quel est le rôle du facteur de transcription **FOXP3** et des **lymphocytes T régulateurs (Treg)** dans la tolérance, et quelle maladie résulte de sa mutation ?",
+   "answer": "**FOXP3** (Forkhead box P3) est le facteur de transcription **maître** des **lymphocytes T régulateurs (Treg)** : il conditionne leur différenciation et leur fonction suppressive. Les Treg (phénotype **CD4⁺ CD25⁺ FOXP3⁺**) sont les acteurs centraux de la **tolérance périphérique** : ils inhibent les LT auto-réactifs ayant échappé à la tolérance centrale par plusieurs mécanismes — sécrétion de cytokines immunosuppressives (**IL-10, TGF-β**), consommation d'**IL-2** (privation des LT effecteurs), expression de **CTLA-4** (compétition avec CD28 pour B7) et action de l'**IDO**. La mutation de FOXP3 (liée à l'X) entraîne le **syndrome IPEX** (Immunodysregulation Polyendocrinopathy Enteropathy X-linked) : absence de Treg fonctionnels → auto-immunité multisystémique sévère et précoce (entéropathie auto-immune, diabète de type 1 néonatal, dermatite, thyroïdite), souvent fatale sans greffe de moelle.",
+   "keyPoints": [
+    "FOXP3 = facteur de transcription maître des Treg (CD4⁺ CD25⁺ FOXP3⁺)",
+    "Treg = acteurs centraux de la tolérance périphérique",
+    "Suppression : IL-10/TGF-β, consommation d'IL-2, CTLA-4, IDO",
+    "Mutation FOXP3 → syndrome IPEX (auto-immunité multisystémique sévère, liée à l'X)"
+   ],
+   "trap": "FOXP3/Treg agissent en tolérance PÉRIPHÉRIQUE (≠ AIRE qui agit en central/thymus). IPEX (FOXP3) et APS-1 (AIRE) sont deux maladies monogéniques distinctes de rupture de tolérance."
   }
  ]
 }

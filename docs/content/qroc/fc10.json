@@ -1,0 +1,142 @@
+{
+ "slug": "fc10",
+ "title": "QROC — Vaccins & adjuvants",
+ "questions": [
+  {
+   "id": "fc10-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Donnez la **définition d'un vaccin** et précisez le type d'immunisation qu'il induit, en l'opposant à l'immunisation passive.",
+   "answer": "Un vaccin est un **morceau (ou une préparation antigénique) de pathogène** destiné à induire chez la personne ou l'animal vacciné une **réponse immunitaire**. Il est **spécifique d'un agent pathogène** et capable de **protéger contre l'infection naturelle ou d'en atténuer les conséquences**. Il induit une **immunisation active**, c'est-à-dire que c'est l'organisme du sujet qui fabrique sa propre réponse, par opposition à l'**immunisation passive** qui correspond au **transfert d'anticorps d'un individu à un autre**. Les vaccins à ARN (ARNm) sont aussi des vaccins, l'ARNm constituant une préparation antigénique.",
+   "keyPoints": [
+    "Vaccin = morceau/préparation antigénique de pathogène induisant une réponse immunitaire",
+    "Spécifique d'un agent pathogène, protège ou atténue l'infection naturelle",
+    "Immunisation active (le sujet fabrique sa réponse)",
+    "Immunisation passive = transfert d'anticorps d'un individu à l'autre"
+   ],
+   "trap": "Le vaccin induit une immunisation ACTIVE, pas passive : l'immunisation passive correspond au transfert d'anticorps."
+  },
+  {
+   "id": "fc10-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **principaux avantages et inconvénients des vaccins vivants atténués**. Chez quelles populations sont-ils **contre-indiqués** ?",
+   "answer": "Les vaccins vivants atténués utilisent une **forme atténuée du pathogène**, proche d'une infection naturelle : ils sont donc **très immunogènes** et induisent une **réponse immune similaire à l'infection naturelle**, **habituellement efficace avec une seule dose**, avec une **bonne sollicitation de l'immunité cellulaire et locale**, **sans adjuvant** et **peu coûteux**. Inconvénients : l'**atténuation est parfois incomplète**, ils ne sont **pas dépourvus de risque infectieux** (réversion du virus polio, BCGites, vaccine généralisée), sont **allergisants** (production sur œufs embryonnés), **instables** (stockage/transport difficiles) et peuvent interférer avec les anticorps circulants. Ils sont **contre-indiqués chez les immunodéprimés (ID) et chez les femmes enceintes**, mais sont utilisés chez les enfants.",
+   "keyPoints": [
+    "Forme atténuée, très immunogène, proche de l'infection naturelle",
+    "Souvent efficace en une seule dose, immunité cellulaire/locale, sans adjuvant",
+    "Risque infectieux (réversion polio, BCGite), atténuation parfois incomplète, instables",
+    "Contre-indiqués chez les immunodéprimés et les femmes enceintes"
+   ],
+   "trap": "Les vaccins vivants atténués sont contre-indiqués chez l'immunodéprimé et la femme enceinte (y compris sous chimiothérapie), mais utilisés chez l'enfant."
+  },
+  {
+   "id": "fc10-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Opposez les vaccins **polysaccharidiques purs** et **polysaccharidiques conjugués** : type de lymphocyte sollicité, isotype d'anticorps produit et existence d'une mémoire immunitaire.",
+   "answer": "Les vaccins **polysaccharidiques purs** sont **thymo-indépendants** : le polysaccharide a une **forte affinité pour le BCR** et se lie facilement aux lymphocytes B, induisant **surtout des IgM** (et un peu d'IgG). Comme ce sont des sucres et non des peptides, ils **ne sont pas présentés par le CMH** et **n'induisent quasiment pas de réponse CD4** : ils sont donc **peu immunogènes chez l'enfant**, d'effet **de courte durée** (rappel tous les 5 ans), sans mémoire. Les vaccins **polysaccharidiques conjugués** ajoutent une **protéine porteuse** au sucre : l'ensemble est présenté par les cellules B aux **lymphocytes CD4**, ce qui permet une **production d'IgG +++** et l'établissement d'une **mémoire immunitaire**. Ils ont donc remplacé les polysaccharides purs (exemples : pneumocoque, Haemophilus influenzae, méningocoque).",
+   "keyPoints": [
+    "Polysaccharides purs : thymo-indépendants, forte affinité BCR, surtout IgM",
+    "Purs : pas de présentation CMH, pas de CD4, peu immunogènes chez l'enfant, rappel tous les 5 ans",
+    "Conjugués : protéine porteuse → réponse CD4 → IgG +++",
+    "Conjugués : mémoire immunitaire (ont remplacé les purs)"
+   ],
+   "trap": "Les polysaccharides purs produisent surtout des IgM (réponse thymo-indépendante, sans mémoire) ; ce sont les conjugués qui produisent des IgG."
+  },
+  {
+   "id": "fc10-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **adjuvant** ? Détaillez ses **deux grands rôles** dans un vaccin et donnez un exemple de chaque grande catégorie.",
+   "answer": "Un adjuvant (du latin *adjuvare*, assister) est une **molécule qui facilite la présentation et la prise en charge de l'antigène** et améliore sa distribution au moment de la vaccination. Ses deux grands rôles sont : **(1) protéger le vaccin**, en lui permettant de **rester suffisamment longtemps au site d'injection** et en **ralentissant sa dégradation** (cas de l'**aluminium**) ; **(2) stimuler la réponse immunitaire**, en **augmentant et accélérant la réponse spécifique et sa longévité**, en améliorant la présentation de l'antigène, en l'améliorant chez les immunodéficients (personnes âgées, enfants), et en **réduisant la quantité d'antigène nécessaire** (\"dose sparing\", utile en pandémie). On distingue les **molécules physicochimiques** qui retardent la dégradation de l'antigène (**sels minéraux d'aluminium**, **huiles/émulsions**) et les adjuvants **immunostimulants** (**ligands de l'immunité innée**).",
+   "keyPoints": [
+    "Adjuvant = molécule qui facilite la présentation/prise en charge de l'antigène",
+    "Rôle 1 : protéger le vaccin (reste au site, ralentit la dégradation — ex aluminium)",
+    "Rôle 2 : stimuler/augmenter et prolonger la réponse immunitaire, réduire la dose d'antigène",
+    "Catégories : physicochimiques (aluminium, huiles) et immunostimulants (ligands immunité innée)"
+   ]
+  },
+  {
+   "id": "fc10-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le lien physiopathologique entre **vaccination et auto-immunité** (rupture de tolérance, mimétisme moléculaire). Citez l'épisode considéré comme la **seule mise en cause réellement avérée** d'un vaccin et son mécanisme.",
+   "answer": "On évolue vers une maladie auto-immune lorsque la **tolérance vis-à-vis du soi est brisée** : si l'on **stimule trop fortement la réponse immunitaire** avec un vaccin, il existe un risque théorique d'induire une auto-immunité. L'hypothèse physiopathologique repose sur le **mimétisme moléculaire** : certains pathogènes (et donc certains vaccins) portent des **antigènes ressemblant aux antigènes du soi**. Les risques tiennent ainsi aux **adjuvants** (qui peuvent lever la tolérance du soi), aux **antigènes injectés proches du soi**, et au **terrain de la personne vaccinée**. La **seule mise en cause réellement avérée** est la **narcolepsie après vaccination H1N1 (vaccin adjuvanté, 2014)** : certains lots contenaient un **épitope similaire à l'hypocrétine**, protéine régulant l'endormissement, induisant une narcolepsie par **mimétisme moléculaire** ; après changement de composition, le problème a disparu. À l'inverse, les liens supposés (Guillain-Barré/grippe, SEP/hépatite B, autisme/ROR) ont été **invalidés** par les études ultérieures : corrélation n'est pas causalité.",
+   "keyPoints": [
+    "Auto-immunité = rupture de la tolérance du soi ; risque si réponse trop fortement stimulée",
+    "Mimétisme moléculaire : Ag du vaccin ressemblant aux Ag du soi",
+    "Risques : adjuvants levant la tolérance, Ag proches du soi, terrain du sujet",
+    "Seul lien avéré : narcolepsie / H1N1 adjuvanté (épitope proche de l'hypocrétine)",
+    "Liens Guillain-Barré, SEP/hépatite B, autisme/ROR invalidés (corrélation ≠ causalité)"
+   ],
+   "trap": "Le seul lien réellement avéré est narcolepsie/H1N1 ; les associations Guillain-Barré/grippe, SEP/hépatite B et autisme/ROR ont été invalidées."
+  },
+  {
+   "id": "fc10-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Distinguez **vaccination prophylactique** et **vaccination thérapeutique** : définition, population cible et objectif immunologique pour chacune. Donnez un exemple de chaque type.",
+   "answer": "La **vaccination prophylactique** s'adresse à une personne **n'ayant jamais été en contact** avec l'agent pathogène : l'objectif est de **préparer le système immunitaire** à une infection potentielle en induisant des **cellules effectrices et mémoires** capables d'une réponse rapide et puissante lors d'une future exposition. Exemples : vaccin contre la rougeole (ROR), contre l'hépatite B, contre le papillomavirus (HPV). La **vaccination thérapeutique** (ou vaccino-thérapie) s'adresse à une personne **déjà exposée ou infectée** par le pathogène : l'objectif est de **réactiver des cellules effectrices non efficaces** ou épuisées pour les rendre à nouveau fonctionnelles. Elle est développée dans des contextes d'**infection chronique** (ex. VHC, VIH) ou de **cancers** (ex. mélanome, vaccins anti-tumoraux à base de néoantigènes). La distinction fondamentale est donc : prophylactique = **prévenir** (avant tout contact), thérapeutique = **traiter** (après contact/infection).",
+   "keyPoints": [
+    "Prophylactique : personne naïve, induit effecteurs + mémoire, prévenir la maladie",
+    "Thérapeutique : personne déjà exposée, réactiver les effecteurs épuisés",
+    "Prophylactique ex : ROR, HPV, hépatite B",
+    "Thérapeutique ex : infections chroniques (VIH, VHC), vaccins anti-tumoraux"
+   ],
+   "trap": "La vaccination thérapeutique ne cherche pas à induire une mémoire de novo mais à réactiver des cellules déjà existantes mais non fonctionnelles."
+  },
+  {
+   "id": "fc10-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez la **réponse immunitaire primaire** puis **secondaire** à la suite d'une vaccination. Quelles différences y a-t-il en termes d'isotypes, de cinétique et d'intensité ?",
+   "answer": "Lors de la **primo-vaccination** (réponse primaire) : les lymphocytes B naïfs reconnaissent l'antigène vaccinal, se différencient en plasmocytes et produisent d'abord majoritairement des **IgM**, puis commencent une commutation isotypique vers les **IgG** ; la réponse est **lente** (pic vers 10-14 jours), **moins intense** et de durée limitée ; simultanément, des **lymphocytes B et T mémoires** se forment. Lors d'un **rappel (réponse secondaire)** : les lymphocytes B mémoires sont rapidement activés et produisent d'emblée de grandes quantités d'**IgG** (et d'IgA) de haute affinité (après maturation d'affinité dans les centres germinatifs) ; la réponse est **beaucoup plus rapide** (2-5 jours), **plus intense** (titre d'Ac × 10 à × 100) et **plus durable**. C'est ce principe de réponse secondaire qui justifie les **schémas de primo-vaccination à plusieurs doses puis rappels** pour obtenir une immunité protectrice durable.",
+   "keyPoints": [
+    "Réponse primaire : surtout IgM → IgG, lente (pic 10-14 j), moins intense, génère des mémoires",
+    "Réponse secondaire : IgG haute affinité, rapide (2-5 j), très intense, durable",
+    "Principe de la mémoire immunitaire : justifie les rappels vaccinaux"
+   ]
+  },
+  {
+   "id": "fc10-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quels sont les **avantages et inconvénients des vaccins inactivés** par rapport aux vaccins vivants atténués ? Dans quels contextes cliniques les vaccins inactivés sont-ils préférables ?",
+   "answer": "Les vaccins **inactivés** (virus ou bactérie tuée, ou sous-unités purifiées) présentent comme **avantages** : ils **ne peuvent plus se répliquer** (sécurité totale chez les immunodéprimés), **interférence minimale** avec les anticorps circulants, **bonne stabilité** (stockage plus aisé), et peuvent être administrés chez les **femmes enceintes** et les **immunodéprimés**. Leurs **inconvénients** sont : généralement **moins immunogènes** que les vaccins vivants (pas de réplication, donc pas d'amplification de l'antigène), nécessitent **3 à 5 doses** (primo-vaccination + rappels), induisent une réponse essentiellement **humorale** avec **faible stimulation de l'immunité cellulaire et locale**, les **taux d'anticorps diminuent avec le temps** (nécessité de rappels), et ils requièrent souvent la présence d'**adjuvants**. Ils sont préférables dans les situations où la sécurité prime : patients **immunodéprimés** (cancer, VIH, traitement immunosuppresseur), **femmes enceintes** (vaccin anti-grippal inactivé recommandé pendant la grossesse), **nourrissons immunologiquement immatures**, et **personnes âgées**.",
+   "keyPoints": [
+    "Avantages : sécurité (pas de réplication), utilisables chez ID et femmes enceintes",
+    "Inconvénients : moins immunogènes, 3-5 doses, immunité surtout humorale, rappels nécessaires",
+    "Nécessité d'adjuvants pour compenser la faible immunogénicité",
+    "Préférables : immunodéprimés, femmes enceintes, nourrissons, personnes âgées"
+   ],
+   "trap": "Les vaccins inactivés ne sont PAS aussi efficaces que les vivants, mais c'est la sécurité qui justifie leur choix chez l'immunodéprimé et la femme enceinte."
+  },
+  {
+   "id": "fc10-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **toxoïde** ? Expliquez son principe de fabrication et citez deux exemples de maladies pour lesquelles on utilise ce type de vaccin.",
+   "answer": "Un **toxoïde** (ou anatoxine) est une **toxine bactérienne rendue non toxique** par modification chimique (formaldéhyde) ou physique (chaleur), tout en **conservant ses propriétés immunogènes** (épitopes reconnus par le système immunitaire). Principe de fabrication : on extrait la toxine produite par la bactérie, on lui retire ou inactive les **groupes chimiques responsables de la toxicité** (notamment les fractions qui permettent la liaison aux récepteurs cellulaires et déclenchent la cascade pathologique), tout en préservant les **épitopes antigéniques**. Après injection, le système immunitaire produit des **anticorps neutralisants** capables de **bloquer la liaison de la toxine native** à son récepteur → protection contre les effets pathologiques de la toxine lors d'une infection réelle. Exemples : **vaccin antitétanique** (toxoïde tétanique), **vaccin antidiphtérique** (toxoïde diphtérique). Ces deux toxoïdes sont systématiquement associés dans les vaccins combinés (DTP).",
+   "keyPoints": [
+    "Toxoïde = toxine inactivée chimiquement, non toxique mais immunogène",
+    "Fabrication : inactivation des groupes toxiques (formaldéhyde) en conservant les épitopes",
+    "Résultat : anticorps neutralisants bloquant la liaison de la toxine native",
+    "Exemples : tétanos et diphtérie (toxoïdes dans le vaccin DTP)"
+   ]
+  },
+  {
+   "id": "fc10-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Pourquoi la **couverture vaccinale** doit-elle atteindre un seuil critique pour permettre l'**immunité collective** ? Quelle est la conséquence d'une couverture insuffisante, illustrée par l'épidémie de rougeole en France ?",
+   "answer": "L'**immunité collective** (ou immunité de groupe) repose sur le principe que lorsqu'une proportion suffisante de la population est immunisée, la **circulation du pathogène est interrompue** : les individus non immunisés (nourrissons, immunodéprimés) sont indirectement protégés car ils ne rencontrent plus le virus. Le **seuil de couverture** nécessaire dépend du **taux de reproduction de base (R0)** du pathogène : pour la rougeole (R0 = 15-18), la couverture doit dépasser **95 %** pour interrompre la transmission. En dessous de ce seuil, des **épidémies** peuvent survenir, même dans des pays disposant d'un vaccin efficace. La France a connu une **épidémie de rougeole en 2017**, touchant particulièrement les régions à fort lobbyisme anti-vaccin (Ardèche, Hautes-Alpes) où la couverture était tombée sous 65 %. Cette épidémie illustre que la vaccination est un **acte collectif** et non seulement individuel.",
+   "keyPoints": [
+    "Immunité collective : interruption de la circulation du pathogène si couverture > seuil critique",
+    "Seuil pour la rougeole : > 95 % (R0 = 15-18)",
+    "En dessous : épidémies possibles même avec un vaccin efficace",
+    "Épidémie rougeole France 2017 : couverture < 65 % dans les régions touchées"
+   ]
+  }
+ ]
+}

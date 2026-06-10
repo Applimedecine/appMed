@@ -1,0 +1,138 @@
+{
+ "slug": "fc20",
+ "title": "QROC — MICI",
+ "questions": [
+  {
+   "id": "fc20-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **deux formes principales** de MICI et opposez-les selon leur **localisation digestive**.",
+   "answer": "Les deux formes principales de MICI sont la **maladie de Crohn (MC)** et la **rectocolite hemorragique (RCH)**. La maladie de Crohn peut toucher **tout le segment digestif de la bouche jusqu'a l'anus**, de maniere **discontinue** (atteinte preferentielle de l'ileon terminal et du colon droit). La RCH touche **toujours le rectum**, s'etend de maniere **continue** vers l'amont (jusqu'a la pancolite), avec un **ileon sain**. Il s'agit de deux entites distinctes sur les plans physiopathologique, clinique, histologique et therapeutique.",
+   "keyPoints": [
+    "Maladie de Crohn et rectocolite hemorragique",
+    "MC : bouche a l'anus, atteinte discontinue (ileon terminal, colon droit)",
+    "RCH : rectum toujours, lesions continues, ileon sain"
+   ]
+  },
+  {
+   "id": "fc20-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Le gene **NOD2 (CARD15)** est le principal facteur de predisposition genetique de la maladie de Crohn. Precisez sa fonction, le type cellulaire ou il est exprime et l'effet d'une mutation homozygote sur le risque de MC.",
+   "answer": "**NOD2 (proteine CARD15)** est le **premier gene de susceptibilite** decouvert pour la maladie de Crohn et le facteur de risque genetique le plus important. Il code un **recepteur intracytoplasmique** de l'immunite innee present dans les **cellules de Paneth** (ainsi que macrophages et cellules dendritiques) qui reconnait des composants bacteriens, notamment le **muramyl dipeptide (MDP)** via son domaine LRR. Une **mutation homozygote** multiplie le risque de MC par **environ 40** (contre x1,5 a x3 pour une mutation heterozygote). La mutation entraine une inflammation chronique deregulee dirigee contre les bacteries endogenes.",
+   "keyPoints": [
+    "NOD2/CARD15 = premier gene de susceptibilite, facteur de risque majeur",
+    "Recepteur intracytoplasmique des cellules de Paneth reconnaissant le MDP",
+    "Mutation heterozygote : risque x1,5-3",
+    "Mutation homozygote : risque x40"
+   ],
+   "trap": "Les mutations de NOD2 sont associees a la maladie de Crohn, et non a la rectocolite hemorragique."
+  },
+  {
+   "id": "fc20-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le **role du tabac** dans les MICI ? Distinguez son effet dans la maladie de Crohn et dans la rectocolite hemorragique.",
+   "answer": "Le tabac a un **role ambigu** et **oppose** selon la MICI (point tombable +++). Dans la **maladie de Crohn**, il a un **effet deletere** : il augmente le risque de developper la maladie (risque relatif environ 2), l'aggrave, augmente les recidives, le recours a la chirurgie et aux immunosuppresseurs, et diminue la reponse au Remicade (anti-TNF alpha) ; l'arret du tabac reduit de moitie ces risques de recidive. Dans la **rectocolite hemorragique**, il a au contraire un **effet protecteur** (risque environ 2,5 fois plus faible chez les fumeurs, evolution plus benigne).",
+   "keyPoints": [
+    "Maladie de Crohn : effet deletere (RR environ 2, aggrave, augmente recidives)",
+    "RCH : effet protecteur (risque 2,5 fois plus faible chez les fumeurs)",
+    "Effet oppose entre les deux pathologies"
+   ],
+   "trap": "Ne pas inverser : le tabac est DELETERE dans la maladie de Crohn et PROTECTEUR dans la RCH."
+  },
+  {
+   "id": "fc20-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelle est l'**orientation de la reponse T helper** predominante dans la maladie de Crohn et dans la rectocolite hemorragique ? Citez un anticorps utile au diagnostic differentiel de chaque maladie.",
+   "answer": "La maladie de Crohn est caracterisee par une reponse essentiellement **Th1** (d'ou l'efficacite des anti-TNF alpha comme l'infliximab et de l'anti-IL12/23 ustekinumab), tandis que la rectocolite hemorragique est associee a une reponse **Th2**. Sur le plan diagnostique, on recherche les **ASCA** (anticorps anti-Saccharomyces cerevisiae), plutot evocateurs de la **maladie de Crohn** (60%), et les **p-ANCA** (anticorps anti-cytoplasme des PNN), plutot evocateurs de la **RCH** (80%).",
+   "keyPoints": [
+    "Maladie de Crohn = reponse Th1",
+    "RCH = reponse Th2",
+    "ASCA -> plutot maladie de Crohn",
+    "p-ANCA (ANCAx) -> plutot RCH"
+   ],
+   "trap": "Th1 pour la maladie de Crohn, Th2 pour la RCH (erreur classique en QCM). ASCA et ANCA sont doses en routine, et non uniquement si le bilan est anormal."
+  },
+  {
+   "id": "fc20-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Detaillez les **trois grandes categories de facteurs** impliquees dans la physiopathologie multifactorielle des MICI, et expliquez le role de l'**autophagie** dans la maladie de Crohn.",
+   "answer": "La physiopathologie des MICI est **multifactorielle**, associant : des **facteurs genetiques** (genes de susceptibilite, NOD2 +++), des **facteurs environnementaux** (alimentation, microbiote, antibiotiques, hygiene domestique, tabac) et un **dereglement du systeme immunitaire** (inne et adaptatif) avec augmentation de la **permeabilite intestinale**. Ces facteurs convergent vers une **dysbiose** (diminution de la diversite du microbiote). L'**autophagie**, processus de degradation lysosomale des constituants cellulaires (dont les bacteries intracellulaires), est **inefficace** dans la maladie de Crohn du fait de mutations des genes **ATG16L1 et IRGM**, entrainant la **persistance de bacteries pathogenes intracellulaires**.",
+   "keyPoints": [
+    "Facteurs genetiques (NOD2 +++)",
+    "Facteurs environnementaux (alimentation, microbiote, antibiotiques, hygiene)",
+    "Dereglement immunitaire (inne + adaptatif) + permeabilite intestinale augmentee",
+    "Autophagie inefficace dans la MC (mutations ATG16L1, IRGM) -> persistance bacterienne"
+   ],
+   "trap": "Dans la MC, l'autophagie est INEFFICACE (et non plus efficace) ; le microbiote est appauvri (dysbiose = DIMINUTION de la diversite, et non augmentation)."
+  },
+  {
+   "id": "fc20-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez les **alterations de la barriere epitheliale intestinale** dans la maladie de Crohn, en citant au moins trois mecanismes.",
+   "answer": "Dans la maladie de Crohn, la barriere epitheliale est **plus permeable que la normale** du fait de plusieurs alterations : (1) la **mucine est insuffisante voire inexistante** (diminution d'expression des genes MUC1, MUC19 et PTGER4), reduisant la protection physico-chimique contre les agents pathogenes ; (2) les **jonctions serrees sont plus laches** (expression abaissee des claudines), augmentant la permeabilite et permettant l'acces des antigenes luminaux a la lamina propria ; (3) les **cellules de Paneth sont defectueuses** (mutation du gene ATG16L, qui controle l'autophagie), produisant des granules non fonctionnels et peu de **peptides antimicrobiens** (alpha-defensines). Ces trois mecanismes conjugues favorisent la translocation bacterienne et l'inflammation chronique.",
+   "keyPoints": [
+    "Mucine insuffisante/absente (MUC1, MUC19, PTGER4)",
+    "Jonctions serrees laches (claudines ↓) → ↑ permeabilite",
+    "Cellules de Paneth defectueuses (ATG16L) → ↓ peptides antimicrobiens (α-defensines)"
+   ],
+   "trap": "L'anomalie des jonctions serrees entraine une AUGMENTATION de la permeabilite (et non une diminution). Les cellules de Paneth sont alterees dans la MC, pas dans la RCH."
+  },
+  {
+   "id": "fc20-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez les **modifications du microbiote intestinal** observees dans la maladie de Crohn (dysbiose), en citant les phyla concernes et un exemple de bacterie particuliere.",
+   "answer": "Dans la maladie de Crohn, on observe une **dysbiose** caracterisee par une **diminution de la diversite du microbiote**. Sur le plan quantitatif, on note une **diminution des phyla Firmicutes et Bacteroides** (qui representent normalement 90-95% du microbiote) et une **augmentation relative des enterobacteries**. La reduction de *Faecalibacterium prausnitzii* (un Firmicute aux proprietes anti-inflammatoires) est associee a une augmentation du risque de recurrence post-operatoire de MC ileale. On retrouve aussi une **augmentation des souches d'E. coli adherentes et invasives** (AIEC), ainsi que l'identification possible de *Mycobacterium avium paratuberculosis* dans les tissus de patients. Les bacteries commensales saines inhibent normalement la voie NF-kB dans les cellules epitheliales : leur diminution perpetue l'inflammation.",
+   "keyPoints": [
+    "Dysbiose = DIMINUTION de la diversite du microbiote",
+    "↓ Firmicutes et Bacteroides ; ↑ enterobacteries",
+    "↓ Faecalibacterium prausnitzii → ↑ risque de recurrence post-operatoire",
+    "Presence de souches E. coli adherentes et invasives (AIEC)"
+   ],
+   "trap": "La dysbiose correspond a une DIMINUTION de la diversite (et non une augmentation). Ne pas confondre la reduction de Firmicutes avec une augmentation globale du microbiote."
+  },
+  {
+   "id": "fc20-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelles sont les **manifestations extradigestives** communes aux deux formes de MICI ? Citez une complication hepatobiliaire associee **plutot a la RCH**.",
+   "answer": "Les deux formes de MICI (MC et RCH) peuvent s'accompagner de manifestations **extradigestives** communes : **arthrites peripheriques** (20% des cas dans les deux formes), **erytheme noueux**, **pyoderma gangrenosum** et **atteinte oculaire** (uveites, episclerites). La complication hepatobiliaire associee **plutot a la RCH** est la **cholangite sclerosante primitive (CSP)**, une cholangite fibro-inflammatoire chronique des voies biliaires intra- et extrahépatiques qui peut evoluer vers la cirrhose et justifie une surveillance endoscopique reguliere (risque de cholangiocarcinome).",
+   "keyPoints": [
+    "Manifestations communes : arthrites peripheriques (20%), erytheme noueux, pyoderma gangrenosum, atteinte oculaire",
+    "Complication hepatobiliaire de la RCH : cholangite sclerosante primitive (CSP)"
+   ],
+   "trap": "La cholangite sclerosante primitive est associee a la RCH (et non a la MC). L'hippocratisme digital est plutot observe dans la MC."
+  },
+  {
+   "id": "fc20-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Decrivez le role des **cellules dendritiques** dans la physiopathologie des MICI, et expliquez pourquoi leur comportement est **contraire a leur action tolérogene habituelle**.",
+   "answer": "Dans l'intestin sain, les **cellules dendritiques mucosales** ont un **role tolerogene** : elles synthetisent de forts taux de **TGF-β et IL-10** et induisent des lymphocytes T regulateurs, maintenant l'homeostasie intestinale face au microbiote. Dans les MICI, elles adoptent un **phenotype active** : on observe une **augmentation de leur nombre et de leur expression de CD40/CD86** (molecules de costimulation), une **augmentation de la secretion de TNF-α, IL-6, IL-8** (cytokines pro-inflammatoires) et une **surexpression des TLR2 et TLR4** avec une reponse exageree au LPS. Des **polymorphismes du gene IL-23R** dans la MC induisent la secretion d'IL-17 et d'IFN-γ par les lymphocytes innés. Ce basculement du phenotype tolerogene vers un phenotype effecteur initie et perpetue la cascade inflammatoire, a l'oppose de leur fonction protectrice habituelle.",
+   "keyPoints": [
+    "DC saines : tolerogenes (TGF-β, IL-10, induction de Treg)",
+    "DC dans MICI : phenotype active (↑ CD40/CD86, ↑ TNF-α/IL-6/IL-8, ↑ TLR2/TLR4)",
+    "Polymorphismes IL-23R → IL-17 et IFN-γ par lymphocytes innes",
+    "Distribution et phenotype correles a l'activite de la maladie"
+   ]
+  },
+  {
+   "id": "fc20-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les grandes classes therapeutiques utilisees dans les MICI, en respectant l'**ordre de prescription habituel**, et donnez un exemple de biotherapie.",
+   "answer": "Le traitement des MICI suit une **escalade therapeutique** : (1) **Salicyles (aminosalicyles)** comme la mesalazine (anti-inflammatoires de premiere intention, surtout dans la RCH) ; (2) **Corticoides** (eviter au long cours du fait des effets secondaires) ; (3) **Immunosuppresseurs** (azathioprine, methotrexate) ; (4) **Biotherapies** : en premier lieu les **anti-TNF alpha** (infliximab/Remicade, adalimumab) pour la MC, ainsi que l'**ustekinumab** (anti-IL12/23) et les **anti-integrines** (vedolizumab, anti-alpha4-beta7) ; (5) **Chirurgie** (resections en cas de complications). La **transplantation fecale** est en cours d'etude (guerison clinique dans 30% des cas, amelioration dans 60-70%).",
+   "keyPoints": [
+    "Salicyles → corticoides → immunosuppresseurs → biotherapies → chirurgie",
+    "Biotherapies : anti-TNF alpha (infliximab), anti-IL12/23 (ustekinumab), anti-alpha4beta7 (vedolizumab)",
+    "Transplantation fecale : en cours d'etude"
+   ],
+   "trap": "Les anti-TNF sont EFFICACES dans les MICI (point de QCM classique). Le tabac diminue la reponse au Remicade (infliximab) dans la MC."
+  }
+ ]
+}

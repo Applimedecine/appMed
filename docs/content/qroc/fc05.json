@@ -50,7 +50,7 @@
     "GVH : LT vs hôte (peau, intestin, foie) → délétère",
     "GVL : LT vs cellules tumorales → bénéfique"
    ],
-   "trap": "**H = Host (hôte) = à éviter** ; **L = Leukemia = recherché**. Même mécanisme, cibles opposées."
+   "trap": "**H = Host (l'hôte) = à éviter** ; **L = Leukemia = recherché**. Même mécanisme, cibles opposées."
   },
   {
    "id": "fc05-qroc5",
@@ -75,6 +75,132 @@
     "Sources : moelle, sang périphérique mobilisé, sang de cordon",
     "Allogreffe : hémopathies malignes, déficits génétiques",
     "Autogreffe : hémopathies, MAI/inflammatoires"
+   ]
+  },
+  {
+   "id": "fc05-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez les **cellules souches mésenchymateuses** et les **cellules souches adultes/fœtales** (potentiel, accessibilité).",
+   "answer": "Les deux sont **multipotentes**. Les **CS mésenchymateuses** sont des cellules **stromales** issues de tissus **facilement accessibles** (moelle, tissu adipeux, cordon). Les **CS adultes / fœtales** sont prélevées dès la naissance mais sont **rares et difficiles à isoler**. Aucune ne pose de **problème éthique** (contrairement aux CSE).",
+   "keyPoints": [
+    "Les deux sont multipotentes",
+    "Mésenchymateuses : stromales, tissus facilement accessibles (moelle, adipeux, cordon)",
+    "CS adultes/fœtales : rares et difficiles à isoler",
+    "Pas de problème éthique"
+   ]
+  },
+  {
+   "id": "fc05-qroc8",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que le **Sipuleucel-T (PROVENGE)** et dans quelle indication est-il utilisé ?",
+   "answer": "Le **Sipuleucel-T (PROVENGE)** est le **1ᵉʳ vaccin thérapeutique anti-tumoral**. Il repose sur des **cellules dendritiques immunisées** (présentation d'un antigène tumoral) et est utilisé dans le **cancer de la prostate**.",
+   "keyPoints": [
+    "1er vaccin thérapeutique anti-tumoral",
+    "Cellules dendritiques immunisées",
+    "Indication : cancer de la prostate"
+   ]
+  },
+  {
+   "id": "fc05-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez **deux exemples de thérapie génique ou de médecine régénérative** vus dans le cours, en précisant leur indication.",
+   "answer": "Le **Strimvelis** est une **thérapie génique** du **déficit en ADA** : les **CSH sont corrigées ex vivo** avant réinjection. L'**HOLOCLAR** permet la **reconstruction de la cornée**. À cela s'ajoutent les **cellules souches cutanées** utilisées chez les **grands brûlés**.",
+   "keyPoints": [
+    "Strimvelis : thérapie génique du déficit en ADA (CSH corrigées ex vivo)",
+    "HOLOCLAR : reconstruction de la cornée",
+    "CS cutanées : grands brûlés"
+   ]
+  },
+  {
+   "id": "fc05-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Avant une **allogreffe de CSH**, quelles sont les deux exigences principales concernant le **donneur** et la **préparation du receveur** ?",
+   "answer": "L'allogreffe exige une **compatibilité HLA maximale** entre donneur et receveur. Le receveur doit bénéficier d'un **conditionnement** : une **chimiothérapie myéloablative**, éventuellement associée à une **irradiation**, pour préparer la greffe.",
+   "keyPoints": [
+    "Compatibilité HLA maximale",
+    "Conditionnement du receveur",
+    "Chimiothérapie myéloablative ± irradiation"
+   ],
+   "trap": "L'**autogreffe** (cellules du patient) n'impose **ni** compatibilité HLA **ni** ce risque immunologique."
+  },
+  {
+   "id": "fc05-qroc11",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quelle propriété des **CAR-T cells** explique qu'ils reconnaissent leur cible **indépendamment du CMH**, et quel est l'antigène phare visé ?",
+   "answer": "Les **CAR-T cells** expriment un **récepteur antigénique chimérique (CAR)** qui se lie **directement** à l'antigène tumoral de surface, sans nécessiter de **présentation par le CMH** : c'est tout l'intérêt de la technique. L'antigène phare visé est le **CD19**, exprimé par les **lymphomes et leucémies B**.",
+   "keyPoints": [
+    "Récepteur chimérique (CAR) → liaison directe à l'antigène",
+    "Reconnaissance SANS présentation par le CMH",
+    "Cible phare = CD19 (hémopathies B)"
+   ],
+   "trap": "L'intérêt du CAR-T est justement de s'affranchir du **CMH** (contrairement au TCR classique)."
+  },
+  {
+   "id": "fc05-qroc12",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Pourquoi les **cellules souches embryonnaires (CSE)** sont-elles associées à un **problème éthique**, et en quoi les **iPS** constituent-elles une alternative ?",
+   "answer": "Les **CSE** sont extraites de **blastocystes humains** (embryons au stade 5 jours), ce qui implique leur **destruction**. Cela soulève un problème éthique majeur lié au statut de l'embryon humain. Les **iPS** (cellules souches pluripotentes induites) contournent ce problème : elles sont obtenues par **reprogrammation de cellules adultes somatiques** (ajout de facteurs transcriptionnels, prix Nobel à **Yamanaka**), sans aucune destruction d'embryon. Elles conservent la **pluripotence** des CSE.",
+   "keyPoints": [
+    "CSE : extraites de blastocystes → destruction d'embryon → problème éthique",
+    "iPS : reprogrammation de cellules adultes (Yamanaka) → pas d'embryon",
+    "iPS conservent la pluripotence des CSE"
+   ],
+   "trap": "Les **iPS** ne sont PAS des cellules embryonnaires : ce sont des cellules **adultes reprogrammées**."
+  },
+  {
+   "id": "fc05-qroc13",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Comment mobilise-t-on les **CSH** en vue d'un prélèvement par **sang périphérique**, et pourquoi cette technique est-elle avantageuse ?",
+   "answer": "Les **CSH** sont normalement retenues dans la **moelle osseuse**. Pour les mobiliser vers le **sang périphérique**, on administre du **G-CSF** (facteur de croissance des granulocytes) qui libère les CSH de leurs niches médullaires. Cette technique est avantageuse car le **prélèvement par cytaphérèse** (aphérèse) est **moins invasif** que la ponction médullaire chirurgicale sous anesthésie générale, et permet de recueillir un **grand nombre de CSH**.",
+   "keyPoints": [
+    "Mobilisation par G-CSF (libère les CSH de la moelle)",
+    "Prélèvement par cytaphérèse du sang périphérique",
+    "Moins invasif que la ponction médullaire"
+   ]
+  },
+  {
+   "id": "fc05-qroc14",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez les **organes cibles** de la GVH aiguë et expliquez pourquoi il est difficile de **supprimer totalement** la GVH sans perdre l'effet **GVL**.",
+   "answer": "La **GVH aiguë** est la réaction des **LT du donneur** contre les tissus de l'hôte. Ses organes cibles sont la **peau** (érythème, bulles), l'**intestin** (diarrhées profuses) et le **foie** (cholestase). L'élimination totale de la GVH est difficile car elle partage le **même mécanisme** que la GVL : les mêmes LT du donneur qui attaquent l'hôte sont ceux qui détruisent les cellules tumorales résiduelles. Une immunosuppression trop intense **prévient la GVH** mais **supprime également la GVL**, augmentant le risque de rechute leucémique. C'est tout le défi de l'allogreffe.",
+   "keyPoints": [
+    "GVH aiguë : peau, intestin, foie",
+    "GVH et GVL = même mécanisme (LT du donneur), cibles différentes",
+    "Immunosuppression totale = perte de l'effet GVL → risque de rechute"
+   ],
+   "trap": "On ne peut pas **éliminer totalement** la GVH sans sacrifier la GVL : ce sont **deux faces d'une même réaction**."
+  },
+  {
+   "id": "fc05-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **deux effets indésirables majeurs** des CAR-T cells ? Décrivez brièvement le mécanisme du **syndrome de relargage cytokinique (CRS)**.",
+   "answer": "Les deux effets indésirables majeurs des CAR-T cells sont le **syndrome de relargage cytokinique (CRS)** et la **neurotoxicité (ICANS)**. Le **CRS** est déclenché par la **lyse massive des cellules tumorales** par les CAR-T cells activés, entraînant la libération de grandes quantités de **cytokines pro-inflammatoires** (IL-6, TNF, IFN-γ, etc.). Il se manifeste par une **fièvre élevée**, une hypotension et des défaillances organiques potentiellement sévères. Il est traité par du **tocilizumab** (anti-IL-6).",
+   "keyPoints": [
+    "EI majeurs : CRS et ICANS (neurotoxicité)",
+    "CRS = lyse tumorale massive → orage cytokinique (IL-6, TNF, IFN-γ)",
+    "Traitement du CRS = tocilizumab (anti-IL-6)"
+   ],
+   "trap": "L'**ICANS** est la neurotoxicité associée aux CAR-T : à ne pas confondre avec le CRS (même si les deux peuvent coexister)."
+  },
+  {
+   "id": "fc05-qroc16",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est l'intérêt du **sang de cordon** comme source de CSH, et quelles en sont les **limites** ?",
+   "answer": "Le **sang de cordon ombilical** (et du placenta) est une source de **CSH facilement accessible** à la naissance, sans risque pour le donneur. Ses avantages sont : une **tolérance immunitaire plus grande** (moins de GVH car les LT du cordon sont plus immatures), une disponibilité immédiate dans des **banques publiques** et une **compatibilité HLA moins stricte** requise. Sa limite principale est le **faible volume** prélevable, ce qui implique un **nombre insuffisant de CSH** pour reconstituer la moelle chez un adulte de grand gabarit.",
+   "keyPoints": [
+    "Source accessible à la naissance, sans risque donneur",
+    "Moins de GVH (LT immatures), compatibilité HLA moins stricte",
+    "Limite : faible volume → nombre de CSH insuffisant chez l'adulte"
    ]
   }
  ]

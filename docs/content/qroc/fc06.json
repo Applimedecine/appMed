@@ -73,6 +73,70 @@
     "Déficit complet en IgA (~1/700) → risque de choc anaphylactique",
     "Vérifier les IgA / utiliser des IVIg sans IgA"
    ]
+  },
+  {
+   "id": "fc06-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comment sont **fabriquées** les IVIg ? Quel type de **glycosylation** portent les IgG, et sur quel **domaine** se situe-t-elle ?",
+   "answer": "Les IVIg sont obtenues par **fractionnement du plasma** poolé de **milliers de donneurs sains** : le plasma est collecté, puis les IgG sont purifiées par des méthodes physicochimiques (précipitation à l'éthanol de Cohn, chromatographies). Ce procédé confère un **répertoire anticorps extrêmement large**, représentatif de la diversité immune de la population. Les IgG portent une **N-glycosylation** (liaison à un résidu asparagine) sur leur **domaine CH2 de la région Fc** ; c'est cette glycosylation qui conditionne leur affinité pour les FcγR et leur potentiel pro- ou anti-inflammatoire (notamment via la sialylation). La **O-glycosylation** (liaison à une sérine ou une thréonine) concerne en revanche les **IgA et les IgD**.",
+   "keyPoints": [
+    "Fabrication : fractionnement du plasma poolé de milliers de donneurs",
+    "IgG : N-glycosylation sur le domaine CH2 de la région Fc",
+    "N-glycosylation conditionne l'affinité pour les FcγR et l'effet pro-/anti-inflammatoire",
+    "O-glycosylation → IgA et IgD (pas les IgG)"
+   ],
+   "trap": "Ne pas confondre N-glycosylation (IgG, sur CH2 Fc) et O-glycosylation (IgA, IgD)."
+  },
+  {
+   "id": "fc06-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle du **BAFF** dans l'immunité humorale, et comment les IVIg interfèrent-elles avec cette voie ?",
+   "answer": "Le **BAFF** (B-cell Activating Factor, ou BLyS) est une **cytokine de la famille du TNF** produite notamment par les cellules dendritiques et les macrophages. Il joue un rôle essentiel dans la **survie, la maturation et la différenciation des lymphocytes B** : il se fixe sur ses récepteurs (BAFF-R, BCMA, TACI) à la surface des LB et prévient leur apoptose. Dans les maladies auto-immunes, un excès de BAFF favorise la survie de **LB autoréactifs**. Les IVIg contiennent des **anticorps anti-BAFF**, qui **bloquent** l'action du BAFF → **inhibition des lymphocytes B** → réduction de la production d'auto-anticorps. Cette voie constitue l'un des mécanismes immunomodulateurs des IVIg.",
+   "keyPoints": [
+    "BAFF = facteur de survie/maturation/différenciation des LB (famille TNF)",
+    "Excès de BAFF → survie des LB autoréactifs dans les maladies auto-immunes",
+    "IVIg : anticorps anti-BAFF → inhibition des LB → ↓ auto-anticorps"
+   ]
+  },
+  {
+   "id": "fc06-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Citez **3 indications immunomodulatrices majeures** des IVIg et précisez, pour chacune, la place des IVIg dans la stratégie thérapeutique.",
+   "answer": "**1. Syndrome de Guillain-Barré (SGB)** : les IVIg sont un traitement de **première intention**, au même titre que les échanges plasmatiques ; elles sont administrées à 1-2 g/kg en cures courtes. **2. Purpura thrombopénique immunologique (PTI)** : les IVIg sont indiquées en **urgence** (ex. avant une chirurgie ou en cas de saignement grave) pour une remontée rapide des plaquettes par blocage des FcγR macrophagiques qui détruisent les plaquettes opsonisées. **3. Maladie de Kawasaki** : les IVIg constituent le traitement de **référence** (à 2 g/kg en dose unique), associées à l'aspirine, pour prévenir les **anévrismes coronariens** qui font la gravité de la maladie. Dans toutes ces indications, la dose utilisée est **immunomodulatrice (1-2 g/kg)**, non substitutive.",
+   "keyPoints": [
+    "Guillain-Barré : 1ère intention (avec échanges plasmatiques), 1-2 g/kg",
+    "PTI : urgence pré-chirurgicale ou saignement grave, blocage FcγR macrophagiques",
+    "Kawasaki : référence (2 g/kg dose unique) + aspirine → prévention anévrismes coronariens",
+    "Toutes ces indications : dose immunomodulatrice (1-2 g/kg)"
+   ],
+   "trap": "Dans le PTI, les IVIg n'agissent pas en neutralisant directement les auto-anticorps anti-plaquettes mais en bloquant les FcγR des macrophages qui détruisent les plaquettes opsonisées."
+  },
+  {
+   "id": "fc06-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Expliquez pourquoi le **FcRn** assure le **transfert placentaire** des IgG et quelle en est la conséquence clinique pour le nouveau-né.",
+   "answer": "Le **FcRn** (récepteur néonatal du Fc) est exprimé sur les **cellules du syncytiotrophoblaste placentaire** : il capte les IgG maternelles circulantes par leur région Fc, les **internalise et les transcyte** à travers le placenta vers la circulation fœtale. Ce mécanisme est **actif, saturable et bidirectionnel** selon le pH (liaison à pH acide dans les endosomes, libération à pH neutre vers le fœtus). Conséquences cliniques : (1) le nouveau-né bénéficie d'une **immunité passive** contre les agents pathogènes rencontrés par la mère (protection pendant 3-6 mois) ; (2) mais si la mère a des **auto-anticorps IgG pathogènes** (ex. anti-plaquettes dans le PTI, anti-TSHr dans Basedow), ceux-ci sont également transférés → possibilité de **maladie néonatale transitoire** (thrombopénie néonatale, hyperthyroïdie néonatale).",
+   "keyPoints": [
+    "FcRn sur le syncytiotrophoblaste : transcytose active des IgG maternelles vers le fœtus",
+    "Nouveau-né : immunité passive pendant 3-6 mois",
+    "Risque : transfert des auto-Ac IgG pathogènes → maladie néonatale transitoire"
+   ]
+  },
+  {
+   "id": "fc06-qroc11",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **réponse anti-idiotypique** ? Comment les IVIg exploitent-elles ce mécanisme dans les maladies auto-immunes ?",
+   "answer": "Chaque anticorps possède une région variable (paratope) appelée **idiotype**, qui peut elle-même être reconnue comme un antigène par d'autres anticorps, appelés **anti-idiotypes**. Les anti-idiotypes se lient au paratope des anticorps cibles et en **bloquent la fixation à l'antigène**, neutralisant ainsi leur activité. Dans les maladies auto-immunes, les auto-anticorps pathogènes (ex. anti-récepteur à l'acétylcholine dans la myasthénie, anti-facteur VIII dans les hémophilies acquises) sont porteurs d'idiotypes spécifiques. Les IVIg, issues de **milliers de donneurs**, contiennent naturellement des **anticorps anti-idiotypiques** dirigés contre un très large spectre d'idiotypes : ils **neutralisent les auto-anticorps pathogènes** en se liant à leurs régions variables, réduisant ainsi leur demi-vie effective et leur capacité à cibler les antigènes du soi.",
+   "keyPoints": [
+    "Idiotype = région variable d'un Ac reconnaissable par des anti-idiotypes",
+    "Anti-idiotypes bloquent le paratope → neutralisation de l'anticorps cible",
+    "IVIg : répertoire élargi d'anti-idiotypes → neutralisation des auto-Ac pathogènes"
+   ]
   }
  ]
 }

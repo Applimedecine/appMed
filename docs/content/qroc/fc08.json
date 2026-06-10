@@ -1,0 +1,142 @@
+{
+ "slug": "fc08",
+ "title": "QROC — Eczémas",
+ "questions": [
+  {
+   "id": "fc08-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **4 phases cliniques** de l'eczéma. Quel signe est **constant** quelle que soit la phase, et la phase desquamative laisse-t-elle une cicatrice ?",
+   "answer": "Les 4 phases cliniques de l'eczéma sont : la phase **érythémateuse**, la phase **vésiculeuse**, la phase **suintante** et la phase **desquamative**. Le **prurit est constant** dans toutes les phases. La phase desquamative correspond à la **guérison sans cicatrice**.",
+   "keyPoints": [
+    "Phases : érythémateuse, vésiculeuse, suintante, desquamative",
+    "Prurit constant",
+    "Phase desquamative : guérison sans cicatrice"
+   ],
+   "trap": "La phase desquamative guérit SANS cicatrice."
+  },
+  {
+   "id": "fc08-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Sur quelle **triade clinique** repose le diagnostic de la **dermatite atopique (DA)** ? Précisez l'âge de début habituel et l'évolution de la prévalence avec l'âge.",
+   "answer": "Le diagnostic de la DA est **clinique** et repose sur une triade : les **lésions d'eczéma**, le **grattage / prurit** et la **xérose** (sécheresse cutanée, souvent en dehors des poussées). Le début est le plus souvent **précoce, dans l'enfance**, avec une évolution **chronique** et des comorbidités atopiques. La **prévalence varie de 10 à 30 % chez l'enfant** puis **diminue à environ 2 % chez l'adulte**.",
+   "keyPoints": [
+    "Diagnostic clinique",
+    "Triade : eczéma + prurit/grattage + xérose",
+    "Début précoce dans l'enfance, évolution chronique",
+    "Prévalence : 10-30 % enfant vs ~2 % adulte"
+   ]
+  },
+  {
+   "id": "fc08-qroc3",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le rôle de l'**altération de la barrière cutanée** dans l'initiation de la dermatite atopique. Précisez le statut de la **mutation de la filaggrine** et le rôle de **Staphylococcus aureus**.",
+   "answer": "La barrière cutanée altérée est souvent le **point de départ** de la DA : elle laisse pénétrer allergènes et irritants, déclenchant une **inflammation de type 2**. L'augmentation du pH active des enzymes qui dégradent des composants essentiels comme la **filaggrine** ; sa mutation **augmente le risque** de DA mais constitue un **facteur de susceptibilité non nécessaire et non suffisant** (tous les patients ne l'ont pas, et la porter ne suffit pas à induire la maladie). Cette altération favorise la **colonisation par S. aureus**, qui **prolifère lors des poussées** : il produit des **superantigènes** (stimulant les LT) et des **toxines cytotoxiques** (détruisant les kératinocytes), entraînant la libération des cytokines clés (**IL-5, IL-13, IL-31**), le recrutement de LT type 2, l'éosinophilie et l'élévation des IgE. Entre les poussées, **S. epidermidis** prédomine et joue un rôle **immunorégulateur**.",
+   "keyPoints": [
+    "Barrière altérée = porte d'entrée des allergènes → inflammation type 2",
+    "Mutation filaggrine : facteur de susceptibilité non nécessaire ni suffisant",
+    "S. aureus prolifère lors des poussées (superantigènes + toxines)",
+    "Cytokines : IL-5, IL-13, IL-31 (prurit)",
+    "S. epidermidis (intercrise) = immunorégulateur"
+   ],
+   "trap": "La mutation de la filaggrine n'est ni nécessaire ni suffisante pour développer une DA : c'est un simple facteur de susceptibilité."
+  },
+  {
+   "id": "fc08-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez le mécanisme d'action du **dupilumab** et celui des **inhibiteurs de JAK** dans la dermatite atopique. Distinguez aussi le dupilumab du tralokinumab/lebrikizumab.",
+   "answer": "Le **dupilumab** est un **anticorps monoclonal humanisé** qui cible le **récepteur commun à l'IL-4 et l'IL-13**, bloquant la voie de signalisation de ces deux cytokines centrales de la DA ; à la différence, le **tralokinumab et le lebrikizumab** ciblent **directement l'IL-13 circulante**. Les **inhibiteurs de JAK** sont de **petites molécules** intracellulaires qui bloquent la **voie JAK-STAT** : ils inhibent la signalisation de nombreuses cytokines et bloquent directement la **programmation/polarisation des lymphocytes T** (Th1, Th2, Th17, Th22), agissant donc plus en amont et plus largement que les biomédicaments. Comme l'IL-4 et l'IL-13 passent par **JAK1**, on utilise des inhibiteurs sélectifs de JAK1 (upadacitinib, abrocitinib).",
+   "keyPoints": [
+    "Dupilumab = Ac monoclonal anti-récepteur commun IL-4/IL-13",
+    "Tralokinumab/lebrikizumab = anti-IL-13 circulante directe",
+    "Inhibiteurs de JAK = petites molécules, voie JAK-STAT",
+    "JAK bloque la programmation des LT (action plus large/amont)",
+    "IL-4/IL-13 via JAK1 → inhibiteurs sélectifs JAK1"
+   ],
+   "trap": "Le dupilumab ne cible pas directement l'IL-13 circulante (c'est le tralokinumab/lebrikizumab) mais le récepteur commun IL-4/IL-13."
+  },
+  {
+   "id": "fc08-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Opposez l'**eczéma de contact allergique (ECA)** et l'**eczéma de contact irritatif (ECI)** : type d'immunité mise en jeu, type d'hypersensibilité et lymphocytes impliqués. Quel est l'examen de référence pour diagnostiquer l'ECA ?",
+   "answer": "L'**ECI** correspond à une activation de l'**immunité innée** seulement : les substances cytotoxiques détruisent directement la barrière, sans présentation antigénique ganglionnaire ni immunité adaptative ; il représente **80 % des eczémas de contact**. L'**ECA** est une **hypersensibilité retardée de type IV** qui met en jeu l'**immunité adaptative** via des **lymphocytes T spécifiques de l'allergène** : il évolue en une phase de **sensibilisation** (asymptomatique, génération de LT spécifiques) puis une phase de **challenge** lors de la réexposition ; les **LT CD8** sont les principales cellules effectrices (cytotoxicité, apoptose kératinocytaire) et les **LT CD4 régulateurs (FOXP3, IL-10)** assurent la tolérance. Ce qui discrimine l'ECA de l'ECI est donc l'**activation de l'immunité adaptative**. L'examen de référence (gold standard) de l'ECA est le **patch-test** (allergènes standardisés appliqués 48 h, lectures à 48-72-96 h).",
+   "keyPoints": [
+    "ECI : immunité innée seule, 80 % des EC",
+    "ECA : hypersensibilité retardée de type IV, immunité adaptative",
+    "ECA effecteur = LT CD8 ; LT CD4 régulateurs (FOXP3, IL-10)",
+    "Discrimination = activation de l'immunité adaptative dans l'ECA",
+    "Diagnostic ECA : patch-test (gold standard)"
+   ]
+  },
+  {
+   "id": "fc08-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle des **cellules de Langerhans** dans la physiopathologie de l'eczéma de contact allergique ? Précisez leur localisation et leur fonction dans la phase de sensibilisation.",
+   "answer": "Les **cellules de Langerhans (CL)** sont des **cellules dendritiques résidentes de l'épiderme**, situées dans les couches supra-basales de la peau. Elles expriment le **CD1a**, le **langerine (CD207)** et les molécules du **CMH de classe II**, ce qui leur confère une capacité de présentation antigénique professionnelle. Dans la **phase de sensibilisation** de l'eczéma de contact allergique : (1) les CL **captent et internalisent l'haptène** (substance chimique de faible poids moléculaire) qui s'est fixé à une protéine porteuse cutanée ; (2) elles **migrent vers les ganglions lymphatiques drainants** où elles présentent le complexe haptène-protéine aux **lymphocytes T naïfs** via le CMH II (LT CD4) et le CMH I (LT CD8) ; (3) cette présentation entraîne la **clonale expansion** des LT spécifiques de l'haptène et la génération de **lymphocytes T mémoires** ; (4) lors d'une réexposition, ces LT mémoires migrent vers la peau et déclenchent la réaction d'eczéma. Les CL sont donc **essentielles à l'initiation** de la réponse adaptative dans l'ECA.",
+   "keyPoints": [
+    "CL = cellules dendritiques résidentes de l'épiderme (CD1a+, langerine+, CMH II+)",
+    "Phase de sensibilisation : capture de l'haptène → migration ganglionnaire → présentation aux LT",
+    "Expansion clonale des LT CD4 et CD8 spécifiques + génération de LT mémoires",
+    "Lors de la réexposition : LT mémoires → déclenchement de l'eczéma"
+   ]
+  },
+  {
+   "id": "fc08-qroc7",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelles sont les **cytokines de type 2** impliquées dans la dermatite atopique ? Décrivez le rôle spécifique de l'**IL-4**, de l'**IL-13** et de l'**IL-31**.",
+   "answer": "Dans la dermatite atopique, la réponse **Th2 (type 2)** domine et s'appuie sur trois cytokines clés : **IL-4** : cytokine pivotale qui (1) induit la **commutation isotypique des LB vers IgE** (voie IgE-médiée de l'allergie) et (2) favorise la **polarisation des LT naïfs en Th2** ; elle amplifie ainsi la boucle auto-entretenue de l'atopie. **IL-13** : cytokine produite par les Th2 et les **ILC2** (cellules lymphoïdes innées de type 2) ; elle agit directement sur les **kératinocytes** en réduisant l'expression de la **filaggrine**, de la **loricrine** et des **lipides lamellaires** → altération de la barrière cutanée ; elle participe aussi à la **fibrose et au remodelage** tissulaire. **IL-31** : principale cytokine du **prurit** (ou « cytokine des démangeaisons ») ; produite par les LT Th2, elle agit sur les **fibres nerveuses sensitives** de la peau en se liant au récepteur IL-31RA, déclenchant le signal de prurit. C'est la cible du némoliuzumab (anticorps anti-IL-31RA).",
+   "keyPoints": [
+    "IL-4 : commutation isotypique vers IgE + polarisation Th2",
+    "IL-13 : altération de la barrière (↓ filaggrine, loricrine, lipides) + remodelage",
+    "IL-31 : cytokine du prurit, agit sur les fibres nerveuses sensitives"
+   ]
+  },
+  {
+   "id": "fc08-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le **phénomène de sensibilisation cutanée** de l'eczéma atopique. Comment la **voie transcutanée** contribue-t-elle au développement de la **marche atopique** ?",
+   "answer": "La **sensibilisation cutanée** désigne l'acquisition d'une réponse IgE spécifique d'un allergène via la peau, par opposition à la voie orale ou respiratoire. Dans la DA, la **barrière cutanée altérée** (déficit en filaggrine, lipides, peptides antimicrobiens) permet le **passage transcutané d'allergènes** (acariens, pollens, aliments comme l'arachide) qui, en conditions physiologiques, resteraient au dehors. Ces allergènes sont captés par les **cellules dendritiques épidermiques** (cellules de Langerhans) dans un microenvironnement **pro-Th2** (keratinocytes activés libérant **TSLP, IL-25 et IL-33** → activation des ILC2 et polarisation Th2) → production d'**IgE spécifiques**. Ce phénomène s'inscrit dans la **marche atopique** : la sensibilisation cutanée précoce (ex. arachide par la peau lésée) précède le développement d'une **allergie alimentaire**, puis d'un **asthme allergique** et d'une **rhinoconjonctivite** plus tard. L'hypothèse de la **double voie d'exposition** (Lack) stipule que l'exposition cutanée conduit à la sensibilisation, tandis que l'exposition orale précoce favorise la **tolérance**.",
+   "keyPoints": [
+    "Barrière altérée → passage transcutané d'allergènes → sensibilisation IgE",
+    "Microenvironnement pro-Th2 : kératinocytes → TSLP, IL-25, IL-33 → ILC2 → Th2",
+    "Marche atopique : sensibilisation cutanée → allergie alimentaire → asthme → rhinite",
+    "Hypothèse double voie (Lack) : voie cutanée = sensibilisation ; voie orale précoce = tolérance"
+   ],
+   "trap": "La sensibilisation à l'arachide peut se faire par voie cutanée (via la peau lésée) bien avant tout contact oral ; l'introduction orale précoce favorise au contraire la tolérance."
+  },
+  {
+   "id": "fc08-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **filaggrine** ? Quel est son rôle dans la barrière cutanée et quelles sont les conséquences de sa perte de fonction ?",
+   "answer": "La **filaggrine** (FLG, *filament aggregating protein*) est une **protéine structurale** exprimée dans les couches superficielles de l'épiderme (granuleuse et cornée). Son rôle est double : (1) elle **agrège les filaments de kératine** pour former les **cornéocytes aplatis** de la couche cornée, assurant la solidité mécanique de la barrière ; (2) sa **dégradation** génère des **acides aminés hygroscopiques** (facteur naturel d'hydratation, NMF : acide pyrrolidone-carboxylique, acide urocanique…) qui maintiennent l'**hydratation** de la peau et contribuent à l'**acidité du pH** cutané (pH ~5,5), inhibant certaines protéases. En cas de **perte de fonction** (mutation *FLG*, présente chez 20-30 % des patients DA) : ↑ pH cutané → activation des sérine-protéases → dégradation des cornéodesmosines et des lipides lamellaires → **altération de la perméabilité** → pénétration des allergènes et irritants → déclenchement de l'inflammation type 2. La filaggrine est le **principal facteur génétique** de susceptibilité à la DA.",
+   "keyPoints": [
+    "Filaggrine : protéine de la couche granuleuse/cornée, agrège les filaments de kératine",
+    "Dégradation → NMF → hydratation cutanée + pH acide (~5,5)",
+    "Perte de fonction : ↑ pH → sérine-protéases → altération barrière → inflammation type 2",
+    "Mutation FLG : principal facteur génétique de susceptibilité à la DA (20-30 % des patients)"
+   ]
+  },
+  {
+   "id": "fc08-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez pourquoi l'**hypersensibilité retardée de type IV** est dite « **retardée** ». Décrivez la chronologie de la réaction lors de la phase de **challenge** dans l'eczéma de contact allergique.",
+   "answer": "L'hypersensibilité de **type IV** est dite **retardée** car les symptômes surviennent **48 à 72 heures** après le contact avec l'allergène, contrairement au type I (immédiat, < 1 heure). Ce délai s'explique par le fait qu'elle est **médiée par des lymphocytes T**, et non par des anticorps préformés. Lors de la **phase de challenge** (réexposition à l'allergène chez un sujet déjà sensibilisé) : (1) l'allergène est capturé par les **cellules dendritiques cutanées résidentes** et présenté aux **LT CD8 et CD4 mémoires** circulants ; (2) ces LT mémoires reconnaissent l'antigène et s'**activent** (secrétion d'IFN-γ, IL-17, TNF-α) → activation des kératinocytes → libération de chimiokines (CXCL9, CXCL10) ; (3) recrutement massif de **LT cytotoxiques CD8** qui induisent l'**apoptose des kératinocytes** → formation des vésicules ; (4) la réaction est maximale à **48-72 h** et régulée par les **LT CD4 régulateurs (FOXP3+, IL-10)**.",
+   "keyPoints": [
+    "Retardée = 48-72 h après contact (car médiée par LT, pas par Ac préformés)",
+    "Phase challenge : présentation aux LT mémoires → activation (IFN-γ, IL-17)",
+    "Recrutement des LT CD8 → apoptose des kératinocytes → vésicules",
+    "Régulation par LT CD4 FOXP3+ (IL-10)"
+   ],
+   "trap": "Le délai de 48-72 h distingue l'HSR de type IV du type I (< 1 h) ; ce délai est dû au temps de recrutement et d'activation des lymphocytes T mémoires."
+  }
+ ]
+}

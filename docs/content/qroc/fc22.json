@@ -1,0 +1,76 @@
+{
+ "slug": "fc22",
+ "title": "QROC — Neuro-immunologie",
+ "questions": [
+  {
+   "id": "fc22-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quel est le **rôle de la microglie** dans le système nerveux central ? Quel type cellulaire représente-t-elle et quelles sont ses fonctions principales ?",
+   "answer": "La **microglie** représente les **macrophages résidents** du système nerveux central. Elle joue un rôle essentiel dans : **(1)** la **surveillance de l'homéostasie** cérébrale ; **(2)** la **régulation du nombre de neurones** et de leurs précurseurs ; **(3)** la **réponse sentinelle rapide** aux signaux de danger (immunité innée). Elle assure la **phagocytose** des débris cellulaires et des synapses non fonctionnelles (remodelage synaptique), via le complément (**C1q, C3**). Une activation excessive de la microglie entretient une neuro-inflammation chronique délétère, impliquée dans les maladies neurodégénératives.",
+   "keyPoints": [
+    "Microglie = macrophages résidents du SNC",
+    "Surveillance homéostasie, régulation neuronale, sentinelle anti-danger",
+    "Phagocytose synapses via C1q/C3 (remodelage synaptique)",
+    "Activation excessive → neuro-inflammation chronique"
+   ],
+   "trap": "En conditions physiologiques, le tissu cérébral est dépourvu de cellules immunitaires périphériques : seule la microglie assure l'immunité résidente. La présence d'autres cellules immunitaires témoigne d'une pathologie."
+  },
+  {
+   "id": "fc22-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **mécanisme immunologique de la sclérose en plaques (SEP)** et précisez le **marqueur diagnostique** recherché lors de la ponction lombaire.",
+   "answer": "La **SEP** est une maladie auto-immune démyélinisante du **SNC** (et non du SNP). Une inflammation en périphérie conduit à la **perméabilisation de la barrière hémato-encéphalique (BHE)** et à l'infiltration de lymphocytes T auto-réactifs. Les **LT Th2** (favorisés pendant la grossesse) activent les **LB** → différenciation en plasmocytes → production d'**auto-anticorps contre les composants de la myéline** → destruction des **oligodendrocytes** → démyélinisation. Le marqueur diagnostique spécifique est la détection de **bandes oligoclonales dans le LCR** (ponction lombaire), témoignant d'une production intrathécale d'immunoglobulines.",
+   "keyPoints": [
+    "SEP = démyélinisation du SNC (≠ SNP), auto-immune",
+    "Perméabilisation BHE → infiltrat LT → Th2 → LB → auto-Ac anti-myéline",
+    "Destruction des oligodendrocytes",
+    "Marqueur diagnostique : bandes oligoclonales dans le LCR (PL)"
+   ],
+   "trap": "La SEP touche le SNC (≠ syndrome de Guillain-Barré qui touche le SNP). La cellule cible est l'oligodendrocyte (myéline du SNC), pas la cellule de Schwann (myéline du SNP)."
+  },
+  {
+   "id": "fc22-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'une **encéphalite auto-immune** ? Donnez la définition, la nature de la cible antigénique et les principaux traitements.",
+   "answer": "Les **encéphalites auto-immunes** constituent un groupe hétérogène de pathologies causées par des **anticorps dirigés contre des protéines neuronales** (protéines synaptiques, récepteurs ioniques, neurotransmetteurs). Ces Ac sont **directement pathogènes** : ils perturbent le fonctionnement neuronal → symptômes psychiatriques (hallucinations, irritabilité, troubles du sommeil), troubles cognitifs, crises épileptiques, mouvements anormaux. La cible antigénique est **membranaire** (accessible aux Ac). Exemple le plus fréquent : **encéphalite à anti-NMDAR** (bloquant les récepteurs glutaminergiques NMDA). Les traitements ciblent le SI en périphérie : **immunoglobulines IV**, **échanges plasmatiques**, **immunosuppresseurs** (dont **anti-CD20 = rituximab** → destruction des LB sécrétant les Ac).",
+   "keyPoints": [
+    "Auto-Ac contre protéines neuronales membranaires (récepteurs synaptiques)",
+    "Ac pathogènes : perturbation du fonctionnement neuronal",
+    "Exemple le plus fréquent : encéphalite à anti-NMDAR",
+    "Traitement : IgIV, échanges plasmatiques, anti-CD20 (rituximab)"
+   ]
+  },
+  {
+   "id": "fc22-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **mécanisme auto-immun de la myasthénie** et le rôle du thymus dans cette maladie.",
+   "answer": "La **myasthénie** est une maladie auto-immune de la **jonction neuromusculaire**. Des **auto-anticorps dirigés contre les récepteurs de l'acétylcholine (RACh)** bloquent ou induisent la destruction de ces récepteurs → dysfonctionnement de la transmission neuromusculaire → **fatigabilité excessive fluctuante** à l'effort (ptosis, diplopie, dysphagie, dyspnée). Le **thymus** joue un rôle central : il possède des cellules myoïdes ressemblant aux cellules musculaires ; une inflammation thymique conduit les CPA à présenter les épitopes des RACh aux LT, qui activent des LB thymiques formant des centres germinatifs producteurs d'auto-Ac. **15-20 %** des patients présentent un **thymome**. Traitement : **inhibiteurs de l'acétylcholinestérase**, immunosuppresseurs, **thymectomie** (si thymome).",
+   "keyPoints": [
+    "Auto-Ac anti-RACh → blocage jonction neuromusculaire",
+    "Fatigue fluctuante à l'effort (ptosis, diplopie, dysphagie)",
+    "Thymus : présentation épitopes RACh → auto-Ac thymiques",
+    "15-20 % : thymome → thymectomie"
+   ],
+   "trap": "Le traitement utilise des INHIBITEURS de l'acétylcholinestérase (augmente l'ACh dans la fente), non des activateurs. Ne pas confondre avec la myasthénie de Lambert-Eaton (Ac anti-canaux Ca²⁺, associée aux cancers)."
+  },
+  {
+   "id": "fc22-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez le **mécanisme immunologique du syndrome de Guillain-Barré** (polyradiculonévrite aiguë) : site anatomique atteint, cellule cible, concept de mimétisme moléculaire et traitement.",
+   "answer": "Le **syndrome de Guillain-Barré** est une neuropathie inflammatoire **démyélinisante** du **système nerveux périphérique** (SNP), touchant les racines nerveuses et les nerfs qui les prolongent. Dans plus de **50 % des cas**, il est précédé d'un épisode infectieux (**CMV, EBV, Campylobacter jejuni**). Le mécanisme central est le **mimétisme moléculaire** : des antigènes bactériens ou viraux ressemblent à des antigènes de la **myéline du SNP** → la réponse immunitaire anti-infectieuse (Th1 + Th2, production d'IgG) se retourne contre la myéline → **démyélinisation** des nerfs périphériques. La cellule cible est la **cellule de Schwann** (productrice de myéline dans le SNP). Traitement : **immunoglobulines IV** ou **échanges plasmatiques**.",
+   "keyPoints": [
+    "SNP (≠ SNC) : nerfs périphériques, racines, atteinte ascendante",
+    "Précédé d'infection (Campylobacter, CMV, EBV dans > 50 %)",
+    "Mimétisme moléculaire : Ac anti-pathogène croisent avec myéline SNP",
+    "Cellule cible : cellule de Schwann",
+    "Traitement : IgIV ou échanges plasmatiques"
+   ],
+   "trap": "Guillain-Barré touche le SNP (cellule de Schwann) et non le SNC (oligodendrocyte). L'atteinte est ascendante (débute aux membres inférieurs). À distinguer de la SEP qui est une maladie du SNC."
+  }
+ ]
+}

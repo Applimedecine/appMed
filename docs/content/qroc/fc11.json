@@ -1,0 +1,141 @@
+{
+ "slug": "fc11",
+ "title": "QROC — AINS & AIS",
+ "questions": [
+  {
+   "id": "fc11-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **trois phases** successives de l'inflammation aiguë.",
+   "answer": "L'inflammation aiguë comporte une **phase vasculaire** (immédiate, débutant par une vasoconstriction puis des modifications de la microcirculation locale), une **phase cellulaire** (mobilisation et afflux de nombreuses cellules) et une **phase de résolution / cicatrisation** (restauration des tissus).",
+   "keyPoints": [
+    "Phase vasculaire",
+    "Phase cellulaire",
+    "Phase de résolution / réparation / cicatrisation"
+   ],
+   "trap": "Ne pas oublier la 3e phase (résolution) : retenir seulement 'vasculaire + cellulaire' est une erreur classique (cf. correction QCM : 3 phases et non 2)."
+  },
+  {
+   "id": "fc11-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **mécanisme d'action commun à tous les AINS** et précisez le rôle respectif des deux isoformes de cyclo-oxygénase (COX-1 et COX-2).",
+   "answer": "Tous les AINS agissent par **inhibition des cyclo-oxygénases (COX)**, ce qui diminue la **synthèse des prostaglandines**. La **COX-1** est dite **constitutive** : elle synthétise des prostaglandines physiologiques (protection de la muqueuse gastrique, maintien du flux sanguin rénal, agrégation plaquettaire via le TXA2) ; son inhibition explique la toxicité gastrique/rénale et l'allongement du temps de saignement. La **COX-2** est **inductible**, exprimée lors des phénomènes inflammatoires : son inhibition procure les effets recherchés **antipyrétique, anti-inflammatoire et antalgique**.",
+   "keyPoints": [
+    "Inhibition des COX -> baisse des prostaglandines",
+    "COX-1 = constitutive (gastro-protection, flux rénal, agrégation plaquettaire/TXA2)",
+    "COX-2 = inductible, impliquée dans l'inflammation",
+    "Effets indésirables liés à COX-1, effets bénéfiques liés à COX-2"
+   ],
+   "trap": "La plupart des AINS actuels inhibent à la fois COX-1 et COX-2 ; ils ne sont pas spécifiques de la COX-2 (recherche en cours de molécules plus sélectives)."
+  },
+  {
+   "id": "fc11-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "L'aspirine bloque la COX de deux manières selon le métabolite. Expliquez la différence entre l'**acide acétylsalicylique** et l'**acide salicylique**, et l'effet attendu à **faible dose**.",
+   "answer": "L'aspirine est une **prodrogue** rapidement hydrolysée en **acide salicylique**. L'**acide acétylsalicylique** réalise un **blocage irréversible** de la COX par **acétylation**, tandis que l'**acide salicylique** réalise un **blocage réversible**. À **faible dose**, l'aspirine est presque totalement métabolisée dès le premier passage hépatique : on obtient une **inhibition sélective de la COX-1 plaquettaire** (blocage du TXA2 pour toute la vie de la plaquette, 7 à 10 jours), d'où un **effet antiagrégant plaquettaire** sans action anti-inflammatoire systémique.",
+   "keyPoints": [
+    "Aspirine = prodrogue hydrolysée en acide salicylique",
+    "Acide acétylsalicylique = blocage irréversible (acétylation)",
+    "Acide salicylique = blocage réversible",
+    "Faible dose = effet antiagrégant (inhibition COX-1 plaquettaire / TXA2)"
+   ],
+   "trap": "Inverser réversible/irréversible : c'est l'acide ACÉTYLsalicylique qui est irréversible, l'acide salicylique qui est réversible (erreur fréquente en QCM)."
+  },
+  {
+   "id": "fc11-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Définissez le **syndrome de Reye** : terrain, circonstance de survenue et atteintes principales. Quelle conduite pratique en découle ?",
+   "answer": "Le syndrome de Reye est une maladie **rare et potentiellement mortelle** survenant essentiellement **chez l'enfant** après la **prise d'aspirine au cours d'un épisode viral aigu** (varicelle, grippe, rhume). Il associe une **atteinte cérébrale non inflammatoire (œdème cérébral)** et une **atteinte hépatique (stéatose)**, avec vomissements, encéphalopathie chez un patient apyrétique et hépatomégalie. En pratique : chez un enfant ayant une maladie virale, on ne donne **pas d'aspirine** sans avis médical et on privilégie le **paracétamol**.",
+   "keyPoints": [
+    "Enfant + prise d'aspirine pendant un syndrome viral aigu",
+    "Atteinte cérébrale non inflammatoire (œdème) + atteinte hépatique (stéatose)",
+    "Privilégier le paracétamol chez l'enfant fébrile"
+   ]
+  },
+  {
+   "id": "fc11-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le **mécanisme d'action génomique** des anti-inflammatoires stéroïdiens (AIS), en distinguant l'effet des **GRE positifs** et des **GRE négatifs**.",
+   "answer": "Les glucocorticoïdes, lipophiles, **diffusent passivement** à travers la membrane et se fixent sur un **récepteur intracytoplasmique** (libérant les HSP/immunophilines associées). Le complexe glucocorticoïde-récepteur migre dans le noyau et se fixe sur les séquences **GRE (Glucocorticoid Response Element)** des régions promotrices. La fixation sur des **GRE positifs** **induit la transcription** de protéines **anti-inflammatoires / immunosuppressives** (annexine 1 qui inhibe la phospholipase A2, protéine IkB, récepteur de type II de l'IL-1, IL-10). La fixation sur des **GRE négatifs (nGRE)** **réprime la transcription** de gènes **pro-inflammatoires** (COX-2, cytokines IL-1, TNF-alpha, IL-6, IL-2, IFN-gamma, molécules d'adhérence E-sélectine, ICAM-1, VCAM-1).",
+   "keyPoints": [
+    "Diffusion passive + récepteur intracytoplasmique -> noyau",
+    "GRE positifs = induction de protéines anti-inflammatoires (annexine 1, IkB, IL-10)",
+    "GRE négatifs = répression de gènes pro-inflammatoires (COX-2, cytokines, molécules d'adhérence)",
+    "Action génomique (lente)"
+   ],
+   "trap": "Les corticoïdes ont aussi une action non génomique rapide (forte posologie) ; l'action génomique, elle, est nécessairement plus lente."
+  },
+  {
+   "id": "fc11-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quels sont les **quatre signes cardinaux** de l'inflammation aiguë locale (signa Celsi) et à quels mécanismes vasculaires chacun est-il lié ?",
+   "answer": "Les quatre signes cardinaux sont : la **rougeur (rubor)** due à la vasodilatation artériolaire et à l'augmentation du flux sanguin local ; la **chaleur (calor)** due à ce même afflux sanguin accru ; le **gonflement/œdème (tumor)** résultant de l'augmentation de la perméabilité vasculaire avec exsudation plasmatique dans les tissus ; la **douleur (dolor)** causée par la compression des terminaisons nerveuses par l'œdème et l'action directe des médiateurs algogènes tels que les **bradykinines** et les **prostaglandines** sur les nocicepteurs.",
+   "keyPoints": [
+    "Rubor = vasodilatation -> afflux sanguin accru",
+    "Calor = afflux sanguin accru",
+    "Tumor = augmentation de la perméabilité vasculaire -> exsudat",
+    "Dolor = médiateurs algogènes (bradykinines, prostaglandines) + compression par l'œdème"
+   ]
+  },
+  {
+   "id": "fc11-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez la **voie des kinines** dans la phase vasculaire de l'inflammation : quels sont les précurseurs, l'enzyme clé et les principaux effets des **bradykinines** ?",
+   "answer": "La coagulation entraîne la formation de **fibrine**, qui active la **prékallikréine** en **kallikréine**. La kallikréine clive les **kininogènes** (précurseurs inactifs) en libérant des **bradykinines** (nonapeptides). Les bradykinines produisent : une **augmentation de la perméabilité vasculaire** (en stimulant la phospholipase A2, qui libère l'acide arachidonique → prostaglandines via COX et leucotriènes via 5-lipoxygénase) ; une **douleur** (interaction avec des récepteurs spécifiques sur les neurones sensoriels) ; et une **amplification de la réaction inflammatoire** (activation de la voie alterne du complément avec la plasmine). Les bradykinines sont rapidement détruites par les **kininases**.",
+   "keyPoints": [
+    "Fibrine -> prékallikréine -> kallikréine -> kininogène -> bradykinines",
+    "Bradykinines : augmentation de la perméabilité vasculaire + stimulation phospholipase A2",
+    "Bradykinines : algogènes (neurones sensoriels)",
+    "Bradykinines : destruction rapide par les kininases"
+   ],
+   "trap": "La bradykinine stimule la phospholipase A2, enzyme clé qui fournit l'acide arachidonique pour les deux voies (COX et lipoxygénase) ; c'est ce lien indirect qui explique pourquoi les AINS n'inhibent pas complètement la douleur d'origine kinine."
+  },
+  {
+   "id": "fc11-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **syndrome de Fernand Widal** : quelle est la triade caractéristique, quel mécanisme moléculaire le sous-tend, et quelle conséquence pratique pour la prescription d'AINS ?",
+   "answer": "Le syndrome de Fernand Widal associe une **triade** : **intolérance à l'aspirine**, **polypose nasale** et **asthme**. Il débute souvent vers 30-40 ans par une rhinite chronique, surtout chez la femme (fréquence 10-20 % des asthmes de l'adulte). Le mécanisme est une **anomalie génétique du métabolisme de l'acide arachidonique** : l'inhibition de la COX-1 par les AINS fait dériver l'acide arachidonique vers la voie de la **5-lipoxygénase**, entraînant une surproduction de **cystéinyl-leucotriènes** (LTC4, LTD4) à fort pouvoir **pro-inflammatoire et bronchoconstricteur**. En pratique, l'intolérance à l'aspirine implique une **réaction croisée avec tous les AINS** inhibiteurs de la COX-1 : tous les AINS sont **contre-indiqués** chez ces patients.",
+   "keyPoints": [
+    "Triade : intolérance aspirine + polypose nasale + asthme",
+    "Mécanisme : anomalie du métabolisme de l'AA -> surproduction de cystéinyl-leucotriènes",
+    "Réaction croisée avec tous les AINS (CI de tous les AINS)"
+   ],
+   "trap": "Le syndrome de Widal n'est pas une allergie immunologique classique (pas d'IgE spécifiques) mais une intolérance pharmacologique ; tous les AINS inhibant la COX-1 sont contre-indiqués, y compris l'ibuprofène."
+  },
+  {
+   "id": "fc11-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Citez les **principaux effets indésirables** des AINS non salicylés et expliquez le mécanisme physiopathologique de la **toxicité rénale**.",
+   "answer": "Les effets indésirables des AINS non salicylés comprennent : **gastroduodénaux** (dyspepsie 10-30 %, ulcères 15-25 % après 12 semaines, perforations/hémorragies), **rénaux** (IRA fonctionnelle, néphropathie), **allergiques** (urticaire, bronchospasme, dermatoses bulleuses), **hépatiques**, **neurosensoriels** (céphalées, vertiges) et **cardiovasculaires** (HTA, décompensation d'insuffisance cardiaque, risque d'AVC/IDM pour les anti-COX-2 sélectifs). La **toxicité rénale** est due à l'inhibition de la COX-1 rénale : les **prostaglandines rénales** jouent un rôle vasodilatateur sur l'artériole afférente et modulateur de la réabsorption tubulaire de sodium et d'eau ; leur inhibition entraîne une **vasoconstriction** de l'artériole afférente, une baisse du DFG et une **rétention hydrosodée** (oligurie, œdèmes, HTA). Ce risque est majoré chez le sujet âgé, en cas de déshydratation ou d'insuffisance cardiaque.",
+   "keyPoints": [
+    "Effets gastroduodénaux : dyspepsie, ulcères, hémorragies (COX-1)",
+    "Toxicité rénale : inhibition des prostaglandines vasodilatatrices rénales -> vasoconstriction artériole afférente -> IRA fonctionnelle",
+    "Rétention hydrosodée, oligurie, HTA",
+    "Risque cardiovasculaire majoré avec anti-COX-2 sélectifs (rofécoxib retiré du marché)"
+   ],
+   "trap": "Les AINS anti-COX-2 sélectifs (coxibs) réduisent la toxicité gastrique mais augmentent le risque cardiovasculaire (absence d'effet antiagrégant plaquettaire et persistance de la synthèse de TXA2) ; ils restent néphrotoxiques."
+  },
+  {
+   "id": "fc11-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **rôle de la phospholipase A2** dans la synthèse des médiateurs de l'inflammation, et expliquez comment les **corticoïdes** inhibent indirectement la production de prostaglandines et de leucotriènes.",
+   "answer": "La **phospholipase A2 (PLA2)** est l'enzyme clé qui hydrolyse les **phospholipides membranaires** pour libérer de l'**acide arachidonique (AA)**, précurseur commun des eicosanoïdes. L'AA est ensuite métabolisé par deux voies principales : la **voie des cyclo-oxygénases (COX-1 et COX-2)** → prostaglandines et thromboxanes (vasodilatation, algésie, fièvre, agrégation plaquettaire) ; la **voie des 5-lipoxygénases (5-LOX)** → leucotriènes (chimiotactisme des PNN, bronchoconstriction, perméabilité vasculaire). Les **corticoïdes (AIS)** inhibent la PLA2 **indirectement** : via les GRE positifs, ils induisent la transcription de l'**annexine 1 (lipocortine 1)**, protéine qui **bloque la PLA2** ; en supprimant la libération d'AA, ils bloquent simultanément **les deux voies** (COX et LOX), ce qui explique leur supériorité anti-inflammatoire sur les AINS (qui n'inhibent que la voie COX).",
+   "keyPoints": [
+    "PLA2 : hydrolyse les phospholipides -> acide arachidonique",
+    "AA -> COX -> prostaglandines/TXA2 ; AA -> 5-LOX -> leucotriènes",
+    "Corticoïdes : induction de l'annexine 1 (via GRE+) -> inhibition de la PLA2",
+    "Corticoïdes bloquent AUSSI la voie LOX (contrairement aux AINS)"
+   ],
+   "trap": "Les AINS n'inhibent QUE la voie COX ; les corticoïdes inhibent en amont (PLA2 via annexine 1) et bloquent donc les deux voies COX ET LOX : c'est pourquoi les corticoïdes sont plus puissants mais aussi plus toxiques."
+  }
+ ]
+}

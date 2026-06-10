@@ -1,0 +1,225 @@
+{
+ "slug": "fc15",
+ "code": "FC15",
+ "title": "Mécanismes de rejet de greffe",
+ "shortTitle": "Rejet de greffe",
+ "prof": "Pr. Mariat",
+ "curated": true,
+ "updated": "2026-06-10",
+ "summary": "Le **rejet de greffe** est une réponse **adaptative** du receveur, médiée surtout par les **lymphocytes T**, dirigée contre les **allo-antigènes = molécules HLA (CMH)** du donneur. Sa particularité est une **allo-réactivité explosive** (~1 LT sur 100 recruté, contre 1 sur 1 000 000 en réponse classique). On distingue l'allo-reconnaissance **directe** (phase aiguë) et **indirecte** (phase chronique), et plusieurs types de rejet (hyperaigu, aigu, chronique). Le **cross-match** est le test clé : il vérifie l'absence d'**Ac anti-HLA** du receveur dirigés contre le donneur avant la greffe.",
+ "sections": [
+  {
+   "id": "vocabulaire",
+   "icon": "📖",
+   "heading": "Vocabulaire : greffes & antigènes",
+   "accent": "teal",
+   "blocks": [
+    {
+     "type": "definition",
+     "items": [
+      {"t": "Orthotopique", "d": "Greffe dans la loge anatomique de l'organe d'intérêt (ex : transplantation cardiaque, hépatique)."},
+      {"t": "Hétérotopique", "d": "Greffe dans une loge anatomique différente (ex : rein greffé en fosse iliaque sans retirer les reins natifs)."}
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Type de greffe", "Donneur ↔ Receveur", "Réponse"],
+     "rows": [
+      ["**Autogreffe**", "Le même individu (ex : peau d'un grand brûlé)", "Aucune"],
+      ["**Allogreffe**", "Deux individus génétiquement différents, **même espèce**", "Allogénique"],
+      ["**Xénogreffe**", "Deux **espèces différentes** (ex : porc → homme, CRISPR/Cas9)", "Xénogénique (barrière la plus difficile)"]
+     ]
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Auto-antigène** : ne stimule pas de réponse immunitaire.",
+      "**Allo-antigène** : antigène génétiquement différent mais de la **même espèce** → réponse allogénique.",
+      "**Xéno-antigène** : d'une espèce différente → réponse xénogénique."
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "info",
+     "html": "La xénogreffe expose à un risque viral inter-espèces : un receveur d'un cœur de porc génétiquement modifié a survécu 3 mois et est décédé d'un **problème viral** (virus porcin), non immunologique."
+    }
+   ]
+  },
+  {
+   "id": "reponse-adaptative",
+   "icon": "🧬",
+   "heading": "Le rejet : une réponse adaptative à mémoire",
+   "accent": "indigo",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "Le rejet de greffe est causé par une réponse du receveur de type **adaptative**, qui possède donc une **mémoire immunitaire** (réponse plus rapide et plus intense lors d'une réexposition)."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**1ʳᵉ greffe** (fond génétique étranger) → rejet à **J10**.",
+      "**2ᵉ greffe** du même fond génétique → rejet accéléré **avant J3** (mémoire).",
+      "Greffe d'un **3ᵉ fond génétique** (jamais rencontré) → rejet de nouveau à **J10** (le receveur reste naïf vis-à-vis de ce nouveau fond)."
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "Le recrutement, la prolifération et la migration des **lymphocytes T** du receveur dans le greffon demandent **5 à 7 jours**. À la biopsie, la peau rejetée est massivement envahie par les LT."
+    }
+   ]
+  },
+  {
+   "id": "activation-lt",
+   "icon": "⚙️",
+   "heading": "Activation du lymphocyte T : les 3 signaux",
+   "accent": "green",
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      "**Signal 1 — reconnaissance** : interaction spécifique entre le **TCR** et la conformation **peptide + CMH** présentée par la CPA.",
+      "**Signal 2 — costimulation** : signaux fournis par la CPA (ex : **CD28**). Sans lui, la synapse est instable et le LT repart.",
+      "**Signal 3 — prolifération clonale** : facteurs de croissance, surtout l'**IL-2** (action autocrine et paracrine)."
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "Certaines molécules de costimulation délivrent un **signal négatif** (co-inhibition). Les deux à retenir : **CTLA-4** et **PD-1/PD-L1** — cibles des anticorps monoclonaux en immunothérapie."
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "La **costimulation n'est pas facultative** : sans signal 2, pas d'activation. Et le LT ne reconnaît jamais le CMH « tout seul » → toujours **via une CPA**."
+    }
+   ]
+  },
+  {
+   "id": "cmh",
+   "icon": "🎯",
+   "heading": "Le CMH (HLA) : classe I vs classe II",
+   "accent": "amber",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["", "HLA classe I", "HLA classe II"],
+     "rows": [
+      ["Cellules l'exprimant", "**Toutes les cellules nucléées** (ubiquitaire)", "Restreint aux **CPA**"],
+      ["Antigènes", "Protéines **intracytoplasmiques** (virus, cellules tumorales)", "Protéines **extracellulaires** (bactéries extracellulaires)"],
+      ["Apprêtement", "Dégradation par le **protéasome**", "**Phagocytose** → endosome → lysosome"],
+      ["LT cible", "**LT CD8** cytotoxiques", "**LT CD4** (orchestrent la réponse humorale)"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "info",
+     "html": "Le système HLA a été découvert par **Jean Dausset** (prix Nobel de Médecine **1980**)."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Ontogénie thymique — sélection positive** : on garde les thymocytes qui reconnaissent (faiblement/moyennement) le CMH du soi → favorise la **restriction au soi**. Ceux qui ne le reconnaissent pas du tout meurent par apoptose.",
+      "**Sélection négative** : on élimine les thymocytes interagissant **trop fortement** avec le soi → limite l'**auto-réactivité**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "allo-reconnaissance",
+   "icon": "🔀",
+   "heading": "Spécificité de la réponse allogénique",
+   "accent": "rose",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "Les **allo-antigènes** qui stimulent le rejet sont les **protéines HLA (CMH)** du donneur. Le CMH du donneur est reconnu comme étranger par les LT du receveur (**cross-réactivité** / mimétisme conformationnel)."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Spécificité relative** : la reconnaissance dépend de la configuration combinée **peptide + CMH**, pas du peptide seul.",
+      "Par mimétisme conformationnel, un même **allo-CMH** recrute **plusieurs TCR différents** → réponse **explosive et multipliée**.",
+      "Réponse classique : **~1 LT sur 1 000 000**. Réponse allogénique : **~1 LT sur 100**."
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Allo-reconnaissance", "Directe", "Indirecte"],
+     "rows": [
+      ["Phase", "**Aiguë** (précoce)", "**Chronique** (plus tardive)"],
+      ["Mécanisme", "Les LT du receveur reconnaissent directement le **CMH du donneur** sur les CPA du greffon", "Les **CPA du receveur** captent et présentent les **allo-peptides** du donneur (système classique)"],
+      ["CMH impliqué", "CMH du **donneur**", "CMH du **receveur (soi)**"],
+      ["Fréquence des LT", "1 LT pour 100", "1 LT pour 1 000 000"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "mnemo",
+     "html": "**Directe = Donneur** (CMH du donneur, phase aiguë) · **Indirecte = Interne** (nos propres CPA présentent l'allo-peptide, phase chronique)."
+    }
+   ]
+  },
+  {
+   "id": "types-rejet",
+   "icon": "🩺",
+   "heading": "Les types de rejet",
+   "accent": "teal",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Rejet", "Mécanisme", "Délai"],
+     "rows": [
+      ["**Hyperaigu**", "Incompatibilité **ABO** : Ac **naturels** anti-A/B sur l'endothélium → complément → thrombose", "Immédiat (heures)"],
+      ["**Type hyperaigu (HLA)**", "Ac **anti-HLA acquis** non détectés (cross-match raté) → complément → rejet", "Très précoce"],
+      ["**Aigu**", "Médié par les **LT** : œdème, fièvre, douleur ; infiltrat de LT activés à la biopsie", "Jours à semaines"],
+      ["**Chronique**", "Médié par les cellules, autre voie de recrutement → impose l'**immunosuppression à vie**", "Mois à années"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "Les **Ac anti-HLA** ne sont pas naturels (contrairement aux Ac anti-ABO). Ils s'acquièrent dans **3 situations** à dépister : **grossesse**, **transfusion sanguine**, **greffe antérieure**."
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "Le rejet de greffe est une réponse **allo-immune** (≠ auto-immune) et **adaptative** (≠ innée). Il n'est **pas** assimilé à une hypersensibilité retardée. Une greffe orthotopique **peut** être rejetée."
+    }
+   ]
+  },
+  {
+   "id": "cross-match",
+   "icon": "🔬",
+   "heading": "Le cross-match +++",
+   "accent": "indigo",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "**Tombable en QROC** : « Comment fait-on un cross-match ? À quoi sert-il ? » — Test réalisé **au lit du patient le jour J** de la greffe."
+    },
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "**Cross-match** : test détectant la présence, chez le **receveur**, d'**Ac anti-HLA spécifiques** des antigènes HLA apportés par le **donneur**. On met en contact le sérum/plasma du receveur avec les cellules nucléées du donneur (ex : lymphocytes B)."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Cytométrie de flux** : un Ac secondaire couplé à un **fluorochrome** révèle la fixation des Ac anti-HLA → **fluorescence** si présence.",
+      "**Cytotoxicité (lyse au microscope)** : ajout de **complément** → si l'Ac est fixé, activation du complément → **destruction des cellules** (colorants vitaux)."
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "Un cross-match **positif** = présence d'Ac anti-HLA du receveur contre le donneur → **contre-indique la greffe** (risque de rejet hyperaigu). La greffe n'est possible que si le cross-match est **négatif**."
+    }
+   ]
+  }
+ ]
+}

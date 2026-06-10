@@ -77,6 +77,193 @@
     "Tabac → hypercitrullination",
     "Synergie HLA-DRB1 + tabac → ACPA → PR"
    ]
+  },
+  {
+   "id": "fc04a-qroc7",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quel est le **signe radiographique caractéristique** de la PR et sa **localisation typique** ?",
+   "answer": "Le signe radiographique caractéristique est l'**érosion** osseuse, dont la localisation typique est la **tête du 5ᵉ métatarse**. Elle traduit l'action du **pannus** sur l'os (via RANKL → ostéoclastes) et signe l'atteinte structurale de la maladie.",
+   "keyPoints": [
+    "Signe caractéristique = érosion",
+    "Localisation typique = tête du 5ᵉ métatarse",
+    "Traduit l'atteinte osseuse (pannus/ostéoclastes)"
+   ]
+  },
+  {
+   "id": "fc04a-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Un étudiant cite l'axe **IL-17 / IL-23** comme central dans la physiopathologie de la PR. Qu'en pensez-vous, et à quelle pathologie cet axe se rapporte-t-il ?",
+   "answer": "C'est une **erreur classique** : l'axe **IL-17 / IL-23** n'appartient **pas** à la PR mais aux **spondylarthrites** (cf. FC04b). Dans la PR, la destruction articulaire passe par le **pannus** (synoviocytes B), avec **RANKL** (érosions osseuses) et les **métalloprotéinases** (destruction du cartilage).",
+   "keyPoints": [
+    "Faux : IL-17/IL-23 = spondylarthrites",
+    "PR = pannus, RANKL, MMP",
+    "Ne pas confondre les deux rhumatismes"
+   ],
+   "trap": "L'axe **IL-17 / IL-23** est un piège : il caractérise les **spondylarthrites**, pas la PR."
+  },
+  {
+   "id": "fc04a-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "En dehors de l'HLA-DRB1, citez un autre **gène de susceptibilité** de la PR et précisez le **traitement symptomatique** de la maladie.",
+   "answer": "Un autre gène de susceptibilité de la PR est le **PTPN22** (prédisposition, comme l'HLA-DRB1). Le traitement **symptomatique** repose sur les **antalgiques, les AINS et les corticoïdes** ; il est distinct du **traitement de fond** (méthotrexate en 1ʳᵉ intention) qui, lui, agit sur l'évolution de la maladie.",
+   "keyPoints": [
+    "Gène de susceptibilité = PTPN22",
+    "Symptomatique : antalgiques, AINS, corticoïdes",
+    "À distinguer du traitement de fond (méthotrexate)"
+   ]
+  },
+  {
+   "id": "fc04a-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Précisez le rôle respectif du **RANKL** et des **métalloprotéinases** (MMP) produits par le pannus, et les lésions qui en résultent.",
+   "answer": "Le **RANKL** active les **ostéoclastes**, responsables des **érosions osseuses**. Les **métalloprotéinases (MMP)** dégradent le **cartilage**, ce qui se traduit par un **pincement articulaire**. Ces deux médiateurs sont produits par le **pannus** (synoviale hyperplasique/agressive) et expliquent la destruction articulaire de la PR.",
+   "keyPoints": [
+    "RANKL → ostéoclastes → érosions osseuses",
+    "MMP → dégradation du cartilage → pincement",
+    "Les deux sont produits par le pannus"
+   ],
+   "trap": "Ne pas inverser : **RANKL → os (érosions)** ; **MMP → cartilage (pincements)**."
+  },
+  {
+   "id": "fc04a-qroc11",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Définissez la **synovite** et expliquez son intérêt diagnostique, puis nommez la structure pathologique qui en dérive dans la PR.",
+   "answer": "La **synovite** est un **gonflement articulaire** inflammatoire ; elle constitue la **porte d'entrée du diagnostic** de la PR. Elle correspond à une inflammation de la **membrane synoviale**, où les **synoviocytes B (fibroblastes)** acquièrent un **phénotype tumoral** pour former le **pannus**, synoviale hyperplasique et agressive à l'origine de la destruction articulaire.",
+   "keyPoints": [
+    "Synovite = gonflement articulaire = porte d'entrée diagnostique",
+    "Inflammation de la membrane synoviale",
+    "Évolution → pannus (synoviocytes B tumoraux)"
+   ]
+  },
+  {
+   "id": "fc04a-qroc12",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelles grosses articulations la PR a-t-elle tendance à **épargner**, et quel diagnostic faut-il évoquer devant une atteinte **axiale** ?",
+   "answer": "La PR a une atteinte **distale, bilatérale et symétrique** des **petites articulations** (mains/pieds) et **épargne** typiquement les **épaules** et les **hanches**. Devant une atteinte **axiale** (rachis), il ne faut **pas** retenir la PR mais évoquer une **spondylarthrite** (cf. FC04b).",
+   "keyPoints": [
+    "PR = petites articulations distales, bilatérales, symétriques",
+    "Épargne les épaules et les hanches",
+    "Atteinte axiale → penser spondylarthrite"
+   ],
+   "trap": "Une atteinte **axiale** n'est pas une PR : elle oriente vers une **spondylarthrite**."
+  },
+  {
+   "id": "fc04a-qroc13",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "À quel moment de l'histoire de la maladie les **ACPA** peuvent-ils être détectés, et quelle action exercent-ils sur l'os (en dehors de leur valeur de marqueur) ?",
+   "answer": "Les **ACPA** sont détectables **jusqu'à 10 ans AVANT** l'apparition des symptômes, ce qui définit une **phase pré-PR** (asymptomatique). Au-delà de leur rôle de marqueur diagnostique, ils **activent les ostéoclastes**, contribuant ainsi directement à la **destruction osseuse**.",
+   "keyPoints": [
+    "Détectables jusqu'à 10 ans avant les symptômes (phase pré-PR)",
+    "Activent les ostéoclastes",
+    "Participent à la destruction osseuse"
+   ],
+   "trap": "Les ACPA précèdent les symptômes de plusieurs années : ils sont présents **avant**, pas seulement à la phase d'état."
+  },
+  {
+   "id": "fc04a-qroc14",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Parmi les biothérapies de la PR, lesquelles ciblent respectivement les **lymphocytes T** et les **lymphocytes B** ?",
+   "answer": "En cas d'échec du méthotrexate, on peut cibler les **lymphocytes T** par un **CTLA-4-Ig** (abatacept, bloquant la co-stimulation) et les **lymphocytes B** par un **anti-CD20** (rituximab). D'autres cibles existent : **TNF-α, IL-6, IL-1, GM-CSF** et les inhibiteurs de **JAK**.",
+   "keyPoints": [
+    "Lymphocytes T = CTLA-4-Ig",
+    "Lymphocytes B = anti-CD20",
+    "Autres cibles : TNF-α, IL-6, IL-1, GM-CSF, JAK"
+   ]
+  },
+  {
+   "id": "fc04a-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez l'**épitope partagé** porté par l'HLA-DRB1 : nature, classe de CMH et fréquence dans la PR.",
+   "answer": "L'**épitope partagé** est une séquence d'acides aminés (**QKRAA**) portée par certains allèles **HLA-DRB1**, molécule de **CMH de classe II**. Il constitue le principal facteur de **prédisposition** génétique de la PR, retrouvé chez environ **2/3** des patients ; il favorise la présentation des peptides citrullinés.",
+   "keyPoints": [
+    "Épitope partagé = séquence QKRAA",
+    "HLA-DRB1 = CMH de classe II",
+    "Présent chez ~2/3 des PR (prédisposition)"
+   ]
+  },
+  {
+   "id": "fc04a-qroc16",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Pourquoi le **sevrage tabagique** est-il impératif dans la PR ? Expliquez le **double rôle** délétère du tabac.",
+   "answer": "Le tabac a un **double rôle** délétère. D'une part, il est un **facteur de risque** de la maladie en induisant une **hypercitrullination** (notamment via la NETose), favorisant la production d'**ACPA**. D'autre part, il **diminue la réponse aux traitements**. Pour ces deux raisons, l'**arrêt du tabac est impératif** dans la prise en charge.",
+   "keyPoints": [
+    "Facteur de risque : hypercitrullination → ACPA",
+    "Diminue la réponse aux traitements",
+    "Sevrage tabagique impératif"
+   ]
+  },
+  {
+   "id": "fc04a-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le mécanisme de la **NETose** et son rôle dans la genèse des **ACPA**.",
+   "answer": "La **NETose** est un mécanisme de mort des **polynucléaires neutrophiles (PNN)** qui libèrent des **pièges extracellulaires** (NETs : *Neutrophil Extracellular Traps*), constitués de chromatine et de protéines granulaires. Dans ces NETs, les protéines sont **fortement citrullinées** (par l'enzyme **PAD** activée lors de la NETose). Ces peptides citrullinés constituent des **néo-antigènes** reconnus par le système immunitaire, déclenchant la synthèse d'**ACPA** chez les individus génétiquement prédisposés (HLA-DRB1+).",
+   "keyPoints": [
+    "NETose = mort des PNN → libération de NETs (chromatine + protéines)",
+    "NETs = source d'hypercitrullination (PAD activée)",
+    "Peptides citrullinés → néo-antigènes → ACPA"
+   ]
+  },
+  {
+   "id": "fc04a-qroc18",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel micro-organisme lié à la **parodontite** est impliqué dans la physiopathologie de la PR, et par quel mécanisme ?",
+   "answer": "Il s'agit de ***Porphyromonas gingivalis***, une bactérie responsable de **parodontite**. Elle exprime une enzyme propre (**PPAD**, *Porphyromonas PAD*) capable de **citrulliner** des protéines bactériennes et des protéines de l'hôte. Cette **hypercitrullination** locale induit une production d'**ACPA** chez les individus prédisposés, reliant la santé buccale à la physiopathologie de la PR.",
+   "keyPoints": [
+    "Porphyromonas gingivalis (parodontite)",
+    "Exprime une PAD bactérienne (PPAD) → citrullination",
+    "Hypercitrullination → ACPA chez les prédisposés"
+   ],
+   "trap": "C'est la **seule bactérie** qui exprime une PAD propre : lien direct parodontite → PR via citrullination."
+  },
+  {
+   "id": "fc04a-qroc19",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "La PR est-elle une maladie **auto-immune** ou **auto-inflammatoire** ? Justifiez en citant deux éléments caractéristiques.",
+   "answer": "La PR est une maladie **auto-immune** (et non auto-inflammatoire). Les deux éléments qui le confirment sont : (1) la présence d'**auto-anticorps spécifiques** (**ACPA** très spécifiques et **facteur rhumatoïde**), et (2) l'implication du **CMH de classe II** (HLA-DRB1, épitope partagé) dans la présentation des peptides citrullinés — ce qui est la signature d'une réponse **adaptative**.",
+   "keyPoints": [
+    "PR = auto-immune (≠ auto-inflammatoire)",
+    "Auto-anticorps : ACPA + facteur rhumatoïde",
+    "CMH classe II (HLA-DRB1) → réponse adaptative"
+   ],
+   "trap": "Ne pas confondre avec les **spondylarthrites** qui sont **auto-inflammatoires** (pas d'auto-anticorps spécifiques)."
+  },
+  {
+   "id": "fc04a-qroc20",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez la **séquence chronologique** de la PR, depuis la phase pré-clinique jusqu'à la destruction articulaire.",
+   "answer": "La PR se développe en plusieurs étapes. (1) **Phase pré-PR** : hypercitrullination (tabac, NETose, *P. gingivalis*) chez un sujet HLA-DRB1+ → production d'**ACPA détectables jusqu'à 10 ans avant** les symptômes. (2) **Phase d'état** : synovite clinique avec activation des **synoviocytes B** → formation du **pannus**. (3) **Destruction articulaire** : le pannus produit **RANKL** (→ ostéoclastes → **érosions**) et **MMP** (→ destruction du cartilage → **pincement**). Les ACPA eux-mêmes contribuent aux érosions en activant les ostéoclastes.",
+   "keyPoints": [
+    "Pré-PR : hypercitrullination → ACPA (dès -10 ans)",
+    "Phase d'état : synovite → pannus (synoviocytes B)",
+    "Destruction : RANKL → érosions ; MMP → pincements"
+   ]
+  },
+  {
+   "id": "fc04a-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le mécanisme d'action des **inhibiteurs de JAK** dans la PR, et à quel stade de la prise en charge sont-ils utilisés ?",
+   "answer": "Les **inhibiteurs de JAK** (tofacitinib, baricitinib, etc.) bloquent les **JAK kinases** impliquées dans la **voie de signalisation intracellulaire** des cytokines pro-inflammatoires (notamment IL-6, IL-2, GM-CSF). Ils s'administrent **par voie orale**, ce qui les distingue des biothérapies injectables. Ils sont utilisés en cas d'**échec du méthotrexate**, au même titre que les biothérapies ciblant TNF-α, IL-6, etc.",
+   "keyPoints": [
+    "Inhibiteurs des JAK kinases (voie de signalisation des cytokines)",
+    "Prise orale (≠ biothérapies injectables)",
+    "Indiqués en cas d'échec du méthotrexate"
+   ],
+   "trap": "Les inhibiteurs de JAK sont des **petites molécules orales** : ne pas les confondre avec les biothérapies (anticorps monoclonaux injectables)."
   }
  ]
 }

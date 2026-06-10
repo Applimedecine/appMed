@@ -1,0 +1,144 @@
+{
+ "slug": "fc18",
+ "title": "QROC — Déficits immunitaires (DIH)",
+ "questions": [
+  {
+   "id": "fc18-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez **quatre** des signes cliniques d'alerte (parmi les 13 a connaitre) devant faire evoquer un **deficit immunitaire primitif (DIP)** chez l'enfant.",
+   "answer": "Parmi les 13 signes d'alerte, on peut citer : **plus de 8 otites par an**, **plus de 2 sinusites par an**, **plus de 3 pneumonies**, **plus de 2 mois de traitement antibiotique par an**, la **necessite d'un traitement antibiotique en IV**, **2 infections severes dans l'annee**, un **ralentissement de la croissance**, des **mycoses cutaneo-muqueuses chroniques ou recidivantes**, une **cytopenie auto-immune**, des **lymphomes dans la petite enfance / cancers familiaux**, un **cas d'immunodeficience dans la famille** ou des **allergies alimentaires severes**.",
+   "keyPoints": [
+    "Infections ORL/pulmonaires repetees (>8 otites, >2 sinusites, >3 pneumonies)",
+    "Antibiotherapie prolongee (>2 mois/an) ou necessite d'antibiotiques IV",
+    "Ralentissement de croissance, mycoses chroniques, infections severes recidivantes",
+    "Contexte familial : immunodeficience, cancers/lymphomes, cytopenie auto-immune"
+   ],
+   "trap": "Le seuil retenu est strict : c'est plus de 2 PNEUMONIES (3 dans l'item) et non une seule par an ; une seule pneumonie n'est pas un signe d'alerte."
+  },
+  {
+   "id": "fc18-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant le **systeme du complement** : decrivez le mecanisme final aboutissant a la cytolyse et citez les **quatre roles principaux** du complement.",
+   "answer": "Le complement repose sur une **cascade proteolytique** (les proteines du complement sont des proteases a action enzymatique) aboutissant a un **complexe d'attaque membranaire (MAC)** par **polymerisation du C9**, qui perfore la membrane de la cellule infectee (lyse osmotique). Ses quatre roles sont : 1) **cytolyse** via le MAC, 2) **phagocytose par opsonisation** (les opsonines **C3b et C4b** se fixent sur les microorganismes), 3) **role dans l'inflammation** via l'activite anaphylatoxique de **C3a, C4a et C5a** (recrutement par chimiotactisme), 4) **transport et elimination (clairance) des complexes immuns** circulants.",
+   "keyPoints": [
+    "Cascade proteolytique -> MAC par polymerisation du C9 -> perforation/lyse osmotique",
+    "Opsonisation par C3b et C4b -> phagocytose",
+    "Inflammation : anaphylatoxines C3a, C4a, C5a (chimiotactisme)",
+    "Transport et clairance des complexes immuns"
+   ]
+  },
+  {
+   "id": "fc18-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **examens biologiques de premiere intention** a realiser pour affirmer simplement l'existence d'un DIP ? Precisez l'interet de la NFS et celui du dosage des IgG, IgA, IgM.",
+   "answer": "En premiere intention, on realise : une **NFS** (numeration des leucocytes, PN, lymphocytes, plaquettes et anomalies morphologiques des GB) qui permet de reperer une **lymphopenie persistante** a explorer, surtout chez le nouveau-ne (**< 3500/mm3**) ou le nourrisson ; le **dosage des IgG, IgA, IgM** pour evaluer la reponse humorale de maniere **indirecte** ; le **dosage des anticorps vaccinaux** (a titrer apres 6 mois) ; une **serologie apres une infection prouvee** ; le **dosage des sous-classes d'IgG** ; et une **imagerie** (Rx thoracique recherchant l'ombre thymique, l'echographie etant meilleure pour le thymus).",
+   "keyPoints": [
+    "NFS : lymphopenie persistante a explorer (<3500/mm3 chez le nouveau-ne)",
+    "Dosage IgG/IgA/IgM : evaluation INDIRECTE de la reponse humorale",
+    "Ac vaccinaux (apres 6 mois) + serologie post-infection prouvee",
+    "Sous-classes d'IgG + imagerie (Rx/echo du thymus)"
+   ],
+   "trap": "Le dosage des Ig evalue la reponse humorale de facon INDIRECTE (et non directe) ; le titrage des Ac vaccinaux se fait apres 6 mois, pas avant (persistance des Ac maternels)."
+  },
+  {
+   "id": "fc18-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Definissez le **deficit immunitaire combine severe (SCID/DICS)** : phenotype lymphocytaire typique, signes cliniques et contre-indication majeure a connaitre.",
+   "answer": "Le SCID est un **deficit immunitaire combine severe et recessif**, typiquement de phenotype **T- B+ NK-** (presence de LB mais absence de LT et de NK). Les LB sont presents mais **dysfonctionnels** car la synthese des anticorps depend de la fonction auxiliaire des LT. Cliniquement : **lymphopenie < 3000/mm3**, **absence de thymus** (atrophie par defaut de colonisation par les LT), rashes, diarrhees, pneumopathies alveolo-interstitielles, mauvaise croissance ponderale. La prise en charge repose sur la **greffe de moelle osseuse** ; il est **formellement contre-indique d'injecter des vaccins vivants attenues** (risque de BCGite).",
+   "keyPoints": [
+    "Deficit combine severe recessif, phenotype T- B+ NK-",
+    "LB presents mais dysfonctionnels (synthese d'Ac depend des LT)",
+    "Lymphopenie <3000/mm3, absence/atrophie du thymus",
+    "Greffe de moelle ; CI absolue des vaccins vivants attenues (BCGite)"
+   ],
+   "trap": "Meme avec des LB presents, la fonction humorale est deficiente car la production d'anticorps requiert l'aide des LT : le SCID reste un deficit combine."
+  },
+  {
+   "id": "fc18-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "A propos de la **granulomatose septique chronique** : expliquez le mecanisme physiopathologique (en partant de la phagocytose) et citez les **deux methodes diagnostiques** utilisees.",
+   "answer": "La phagocytose normale par les **polynucleaires (PN)** fait intervenir, apres emprisonnement de la bacterie, l'activation d'un complexe multimoleculaire : la **NADPH-oxydase**. Cette enzyme utilise le NADPH et, par transfert de protons dans le phagolysosome, declenche une **explosion oxydative** produisant des radicaux libres bactericides (**O2-, H2O2, HClO**). En cas de **perte de fonction d'une molecule constituant cette enzyme**, il n'y a **plus de radicaux bactericides** : la bacterie continue de survivre dans les cellules, ce qui definit la **granulomatose septique chronique** (maladie le plus souvent liee a l'X). Le diagnostic repose sur : 1) le **test au nitroblue de tetrazolium (NBT)** historiquement (le NBT incolore vire au bleu sous l'action des radicaux ; pas de changement de couleur chez le patient deficitaire) ; 2) la **cytometrie en flux avec la DHR (dihydrorhodamine)**, substrat qui devient fluorescent en presence de radicaux libres (non transforme chez le patient en deficit complet).",
+   "keyPoints": [
+    "Phagocytose par les PN -> activation de la NADPH-oxydase -> explosion oxydative",
+    "Radicaux bactericides : O2-, H2O2, HClO",
+    "Deficit d'une sous-unite -> pas de radicaux -> survie bacterienne intracellulaire = granulomatose septique chronique (souvent liee a l'X)",
+    "Diagnostic : test au NBT (virage au bleu) et cytometrie a la DHR (fluorescence)"
+   ],
+   "trap": "Le bilan immunitaire de base (NFS, Ig, phenotype lymphocytaire) est NORMAL : c'est une anomalie de FONCTION des phagocytes, a evoquer notamment devant une infection a Staphylocoque dore (ex. abces hepatique)."
+  },
+  {
+   "id": "fc18-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelle est la difference entre un **deficit immunitaire hereditaire (DIH)** et un **deficit immunitaire acquis** ? Donnez un exemple de chaque et precisez combien d'enfants naissent avec un DIP en France par an.",
+   "answer": "Un **deficit immunitaire hereditaire (DIH)** est une **erreur innee du systeme immunitaire**, transmise selon les lois mendeliennes, qui affecte des genes specifiques et se manifeste **tres tot dans la vie**. Il est constitutionnel et peut servir de modele d'etude du systeme immunitaire. Exemple : le SCID, la maladie de Bruton. Un **deficit immunitaire acquis** survient secondairement a un traitement (immunosuppresseurs, corticoides, chimiotherapie) ou une maladie (ex : VIH). Il n'est pas transmissible. En France, **environ 400 enfants par an** naissent avec un DIP, et 7 000 a 8 000 personnes vivent avec ces pathologies.",
+   "keyPoints": [
+    "DIH = erreur innee, constitutionnelle, mendeline, se manifeste tot (ex : SCID, Bruton)",
+    "Deficit acquis = secondaire a un traitement ou une maladie (ex : VIH, chimio)",
+    "France : ~400 naissances/an avec un DIP ; 7 000-8 000 personnes affectees",
+    "Plus de 460 genes responsables et 430 maladies recensees"
+   ]
+  },
+  {
+   "id": "fc18-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez la **maladie de Bruton** : mode de transmission, consequence moleculaire, phenotype immunologique et prise en charge.",
+   "answer": "La **maladie de Bruton** est une immunodeficience primitive **liee a l'X** (touche donc les garcons), causee par la **mutation du gene BTK** (Bruton Tyrosine Kinase). En l'absence de signalisation BTK, il n'y a **pas de differenciation ni de survie des lymphocytes B** : on observe une **absence de lymphocytes B matures** et un **deficit profond en immunoglobulines** (agammaglobulinemie). Cliniquement, cela se traduit par des **infections bacteriennes repetees**. A l'examen, il n'y a pas d'amygdales (absence de tissu lymphoide B). Le traitement repose sur un **traitement substitutif par immunoglobulines polyvalentes** (une perfusion par mois ou auto-injection hebdomadaire en sous-cutane).",
+   "keyPoints": [
+    "Liee a l'X (garcons), mutation du gene BTK (Bruton Tyrosine Kinase)",
+    "Absence de LB matures et deficit profond en Ig (agammaglobulinemie)",
+    "Clinique : infections bacteriennes repetees, pas d'amygdales",
+    "Traitement : substitution par Ig polyvalentes (mensuelle IV ou hebdomadaire SC)"
+   ],
+   "trap": "La maladie de Bruton est une immunodeficience HUMORALE PURE (absence de LB matures). Contrairement au SCID, les lymphocytes T sont normaux."
+  },
+  {
+   "id": "fc18-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **deficit immunitaire commun variable (DICV)** ? Precisez sa definition biologique, sa prevalence, l'age de revelation et les complications associees.",
+   "answer": "Le **deficit immunitaire commun variable (DICV)** est le deficit immunitaire hereditaire humoral predominant le **plus frequent** chez l'adulte (prevalence : **1/30 000**), se revelant le plus souvent a l'**adolescence ou chez le jeune adulte**. Il est defini par une **hypogammaglobulinemie** globale : **IgG < 5 g/L**, souvent associee a un deficit en IgA (50 % des cas) et en IgM (20 % des cas). Les lymphocytes B sont **presents en nombre normal** mais ont un **defaut de secretion d'immunoglobulines** (defaut de cooperation LT/LB et de cellules B memoires). Complications : infections bacteriennes repetees (ORL et pulmonaires), **syndrome tumoral** (adenopathies, splenomegalie) dans 40 % des cas, et **maladie auto-immune** dans 20 % des cas.",
+   "keyPoints": [
+    "DICV : DI humoral le plus frequent (1/30 000), revelation a l'adolescence/adulte jeune",
+    "IgG < 5 g/L, souvent deficit en IgA et IgM ; LB presents mais non fonctionnels",
+    "Defaut de cooperation LT/LB et de cellules B memoires",
+    "Complications : infections repetees, syndrome tumoral (40%), maladie auto-immune (20%)"
+   ],
+   "trap": "Dans le DICV, les LB sont PRESENTS (contrairement a la maladie de Bruton ou ils sont absents) mais ils sont non fonctionnels."
+  },
+  {
+   "id": "fc18-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **deficit immunitaire syndromique** ? Illustrez par le **syndrome de DiGeorge** : anomalie genetique, organes atteints et consequence immunologique.",
+   "answer": "Un **deficit immunitaire syndromique** survient lorsqu'une mutation d'un gene **pleiotropique** (a plusieurs fonctions) entraine a la fois un deficit immunitaire ET d'autres anomalies organiques. Le **syndrome de DiGeorge** est du a une **micro-deletion du bras long du chromosome 22 (22q11)**. Les structures derivant du 3e et 4e arcs branchiaux sont touchees : **aplasie ou hypoplasie du thymus** (=> deficit T surtout quantitatif), **agnesie des parathyroides** (hypocalcemie), **cardiopathies congenitales** (gros vaisseaux) et un **syndrome dysmorphique** discret. La consequence immunologique principale est une **reduction quantitative des populations lymphocytaires** T en lien avec l'atteinte thymique.",
+   "keyPoints": [
+    "Syndromique : gene pleiotropique -> DI + autres anomalies",
+    "DiGeorge : micro-deletion 22q11",
+    "Aplasie/hypoplasie du thymus, agenese des parathyroides, cardiopathies congenitales, dysmorphie",
+    "Consequence immuno : deficit T quantitatif (reduction des LT)"
+   ],
+   "trap": "Le syndrome de DiGeorge est aussi frequent que la trisomie 21 : ne pas le negliger devant un tableau de malformations cardiaques + hypocalcemie chez le nouveau-ne."
+  },
+  {
+   "id": "fc18-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le role du **lymphocyte T CD4** dans la cooperation immunitaire. Quelles sont les consequences d'un deficit en CD4 sur l'immunite humorale et cellulaire ? Citez l'exemple pathologique le plus connu.",
+   "answer": "Le **lymphocyte T CD4 (helper)** est l'intermediaire central de la reponse immunitaire : il active d'autres cellules via la **synthese de cytokines/interleukines**, stimule l'**immunite innee** (macrophages), permet la **commutation de classe** des immunoglobulines (IgM -> IgG), et amplifie l'activation et la proliferation des LT et LB. Il renforce egalement la phagocytose. Un **deficit en CD4** entraine donc : 1) une **reduction de la commutation de classe** (persistance des IgM, peu d'IgG) ; 2) une **reduction de la phagocytose** ; 3) un **deficit immunitaire combine humoral et cellulaire**, avec risque accru d'**infections bacteriennes** (par defaut humoral) et **opportunistes**. L'exemple le plus connu est le **VIH/SIDA**, qui detruit progressivement les lymphocytes CD4, exposant le patient aux infections opportunistes.",
+   "keyPoints": [
+    "CD4 (helper) : synthese cytokines, commutation de classe (IgM->IgG), activation LT/LB/macrophages",
+    "Deficit CD4 -> reduction commutation de classe, reduction phagocytose",
+    "Deficit combine : infections bacteriennes + opportunistes",
+    "Exemple : VIH (destruction des CD4 -> SIDA)"
+   ],
+   "trap": "Un deficit en CD4 entraine un deficit a la FOIS humoral ET cellulaire car les LB dependent de l'aide des LT CD4 pour produire des IgG : c'est un deficit COMBINE et non purement cellulaire."
+  }
+ ]
+}

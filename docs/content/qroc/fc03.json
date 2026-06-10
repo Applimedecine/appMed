@@ -75,6 +75,139 @@
     "Défaut d'invasion trophoblastique → hypoxie placentaire",
     "Déficit en LTreg"
    ]
+  },
+  {
+   "id": "fc03-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les **deux interfaces materno-fœtales** et précisez laquelle prédomine jusqu'au terme.",
+   "answer": "L'**interface 1** est formée par le **cytotrophoblaste extra-villeux** : elle est **précoce** (1ᵉʳ trimestre) puis disparaît, et assure les premiers échanges gazeux et trophiques. L'**interface 2** est formée par le **syncytiotrophoblaste** : elle est **dominante jusqu'au terme** et constitue le **contact majeur avec le système immunitaire maternel** tout en assurant les apports trophiques. C'est donc le **syncytiotrophoblaste** qui prédomine en fin de grossesse.",
+   "keyPoints": [
+    "Interface 1 : cytotrophoblaste extra-villeux, précoce puis disparaît",
+    "Interface 2 : syncytiotrophoblaste, dominante jusqu'au terme",
+    "Syncytiotrophoblaste = contact majeur avec le SI maternel"
+   ]
+  },
+  {
+   "id": "fc03-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez l'immaturité de l'**immunité innée du nouveau-né** (au moins 3 éléments).",
+   "answer": "Plusieurs effecteurs innés sont immatures : les **PNN** sont moins performants (une **chute du cordon > 21 jours** évoque un **déficit en CD18**), avec une baisse de **TLR4 / CD14** ; les **cellules dendritiques** expriment moins de **HLA-II et d'IL-12** ; les **pDC** produisent **moins d'IFN α/β**, ce qui expose aux infections à **VRS, CMV, HSV** ; les **NK** ne sont qu'à environ **50 %** de leur capacité. L'immunité innée néonatale est donc globalement déficiente, surtout sur le plan fonctionnel.",
+   "keyPoints": [
+    "PNN moins performants (chute du cordon > 21 j = déficit CD18), ↓ TLR4/CD14",
+    "DC : ↓ HLA-II et ↓ IL-12",
+    "pDC : ↓ IFN α/β → VRS, CMV, HSV",
+    "NK ~50 %"
+   ]
+  },
+  {
+   "id": "fc03-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **profil Th2** du nouveau-né et que dit la **théorie hygiéniste** ?",
+   "answer": "Les réponses fœtales et néonatales sont orientées **Th2 « tolérogènes »**, et les **LTreg** migrent vers le tube digestif (jusqu'à ~18 mois) pour établir la **tolérance alimentaire**. La **théorie hygiéniste** propose qu'une **moindre exposition microbienne** favorise les **allergies et les maladies auto-immunes**, tandis qu'un profil **Th1** protège de l'**atopie**. En pratique, protéger l'enfant repose sur la **vaccination (dès 2 mois)**, le **cocooning** et l'**allaitement**.",
+   "keyPoints": [
+    "Réponses néonatales Th2 tolérogènes",
+    "LTreg → tube digestif (~18 mois) → tolérance alimentaire",
+    "Théorie hygiéniste : moins de microbes → plus d'allergies/MAI ; Th1 protège de l'atopie",
+    "Protection : vaccination (2 mois), cocooning, allaitement"
+   ],
+   "trap": "C'est un profil **Th2** (et non Th1) qui domine chez le nouveau-né ; le profil **Th1** est protecteur vis-à-vis de l'atopie."
+  },
+  {
+   "id": "fc03-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le mécanisme de l'**iso-immunisation Rhésus** et précisez à quelle grossesse l'anémie fœtale est la plus marquée.",
+   "answer": "L'iso-immunisation Rhésus survient quand la **mère est Rh⁻ et le père Rh⁺** (fœtus potentiellement Rh⁺). Au contact des hématies fœtales, la mère s'immunise et produit des **anticorps anti-Rh**. L'**anémie fœtale** est surtout marquée à la **2ᵉ grossesse** (la 1ʳᵉ servant surtout à sensibiliser la mère), les IgG anti-Rh traversant alors le placenta et détruisant les hématies fœtales.",
+   "keyPoints": [
+    "Mère Rh⁻ / père Rh⁺",
+    "Immunisation maternelle → anticorps anti-Rh",
+    "Anémie fœtale surtout à la 2ᵉ grossesse"
+   ],
+   "trap": "L'atteinte est typiquement plus grave à la **2ᵉ grossesse** : la 1ʳᵉ grossesse sert surtout à sensibiliser la mère."
+  },
+  {
+   "id": "fc03-qroc11",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que le **lupus néonatal** et quelle est sa complication cardiaque caractéristique ?",
+   "answer": "Le lupus néonatal est lié au **passage transplacentaire d'IgG maternelles anti-SSA / anti-SSB**. Sa complication cardiaque caractéristique est le **bloc auriculo-ventriculaire (BAV)**, secondaire à l'atteinte du tissu de conduction fœtal par ces auto-anticorps.",
+   "keyPoints": [
+    "IgG maternelles anti-SSA/SSB transplacentaires",
+    "Complication caractéristique : bloc auriculo-ventriculaire (BAV)"
+   ]
+  },
+  {
+   "id": "fc03-qroc12",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le rôle de l'**IDO (indoleamine 2,3-dioxygénase)** dans la tolérance materno-fœtale.",
+   "answer": "L'**IDO** (indoleamine 2,3-dioxygénase) est une enzyme produite notamment par les **macrophages et les cellules dendritiques déciduales**. Elle catalyse le **catabolisme du tryptophane**, acide aminé essentiel à la prolifération des lymphocytes T. En dégradant le tryptophane local, l'IDO crée un **microenvironnement appauvri en tryptophane** qui inhibe la prolifération et l'activation des **LT effecteurs** (notamment les LT cytotoxiques CD8, absents de la déciduale). Cet effet suppresseur favorise l'expansion et la fonction des **LTreg** et contribue à maintenir la tolérance au site d'implantation. L'IDO est donc l'un des mécanismes tolérogènes entretenant la **tolérance materno-fœtale locale**.",
+   "keyPoints": [
+    "IDO = enzyme catabolisant le tryptophane (acide aminé essentiel aux LT)",
+    "↓ tryptophane local → inhibition de la prolifération des LT effecteurs",
+    "Favorise les LTreg et la tolérance locale",
+    "Produite par macrophages et DC déciduales"
+   ],
+   "trap": "L'IDO inhibe les LT effecteurs par CARENCE en tryptophane (et non par un signal inhibiteur direct). Son action est locale (au site d'implantation)."
+  },
+  {
+   "id": "fc03-qroc13",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les **propriétés de HLA-G** et son importance dans la tolérance materno-fœtale.",
+   "answer": "**HLA-G** est une molécule **HLA de classe I non classique** (dite tolérogène) exprimée exclusivement par le **trophoblaste** (et non par les autres cellules somatiques). Elle joue un rôle central dans la **protection du fœtus** vis-à-vis du système immunitaire maternel à travers plusieurs mécanismes : (1) **inhibition des NK** (via les récepteurs inhibiteurs ILT2/ILT4 et KIR2DL4) qui sont les cellules majoritaires de la déciduale ; (2) **inhibition des LT cytotoxiques CD8** (via ILT2) ; (3) **inhibition des cellules dendritiques** (via ILT4), réduisant la présentation antigénique ; (4) **induction et expansion des LTreg**, renforçant le microenvironnement tolérogène. HLA-G est ainsi l'une des molécules clés permettant au fœtus d'**échapper à la reconnaissance immunitaire** tout en maintenant la capacité de la mère à se défendre contre les infections.",
+   "keyPoints": [
+    "HLA-G = HLA de classe I non classique, exprimé exclusivement par le trophoblaste",
+    "Inhibe les NK (ILT2/ILT4, KIR2DL4), LT CD8 (ILT2) et DC (ILT4)",
+    "Induit et favorise les LTreg",
+    "Permettre l'échappement du fœtus à la reconnaissance immunitaire"
+   ],
+   "trap": "HLA-G est une molécule **tolérogène** (non classique) et non une molécule de présentation antigénique classique. Elle INHIBE les NK et LT, contrairement aux HLA classiques."
+  },
+  {
+   "id": "fc03-qroc14",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez le **syndrome des anti-phospholipides (SAPL)** associé à la grossesse : définition, auto-anticorps impliqués, mécanisme et forme obstétricale.",
+   "answer": "Le **SAPL** est une maladie auto-immune primitive (50%) ou secondaire au LES (35%) caractérisée par des **thromboses artérielles et/ou veineuses** et des **complications obstétricales**, en présence d'**anticorps anti-phospholipides** persistants. Les auto-anticorps impliqués sont : **l'anticoagulant circulant (lupique)** qui allonge le TCA, les **anti-cardiolipine** (reconnaissent le complexe cardiolipine/β2GP1) et les **anti-β2-glycoprotéine 1 (anti-β2GP1)**. La **β2GP1** est normalement sous forme circulante et se fixe aux phospholipides anioniques lors d'une lésion vasculaire ; les auto-Ac la reconnaissent alors et activent les cellules endothéliales, les plaquettes et les monocytes → état prothrombotique. La **forme obstétricale** se manifeste par des **avortements à répétition**, des **morts fœtales in utero**, une **prématurité** et des prééclampsies sévères. En cas d'anticorps isolés sans symptômes, on ne traite pas ; en cas d'anticorps persistants (confirmés à 12 semaines), une prise en charge anticoagulante peut être discutée.",
+   "keyPoints": [
+    "SAPL = thromboses + complications obstétricales + Ac anti-phospholipides persistants",
+    "Ac : anticoagulant circulant, anti-cardiolipine, anti-β2GP1",
+    "β2GP1 normalement circulante → fixation aux PL → activation endothéliale/plaquettaire",
+    "Forme obstétricale : avortements répétés, MFIU, prééclampsies"
+   ],
+   "trap": "Des Ac anti-phospholipides lors d'une infection aiguë NE définissent PAS un SAPL : il faut des Ac PERSISTANTS (confirmés à 12 semaines). L'anticoagulant circulant ALLONGE le TCA in vitro mais correspond à un état PROTHROMBOTIQUE in vivo."
+  },
+  {
+   "id": "fc03-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez pourquoi les **prématurés** sont particulièrement vulnérables sur le plan immunologique et comment on peut les protéger.",
+   "answer": "Les **prématurés** présentent une vulnérabilité immunologique accrue pour deux raisons principales : (1) **Déficit en IgG maternelles** : le transfert des IgG via le FcRn transplacentaire se fait **essentiellement au 3ᵉ trimestre** (après 28-32 SA), de sorte que les prématurés nés avant terme disposent de **niveaux d'IgG insuffisants** pour assurer une protection efficace contre les infections bactériennes et virales (~6 mois normalement) ; (2) **Immaturité plus profonde** de l'immunité innée (PNN, DC, NK, barrières) et adaptative (répertoire T réduit). Leur protection repose sur : l'**allaitement maternel** (IgA sécrétoires + lactoferrine + lysozyme dès la naissance), les **immunoglobulines en perfusion (IVIG)** dans certaines indications, la **vaccination adaptée** (possible dès la naissance selon l'âge gestationnel) et le **cocooning** (vaccination de l'entourage, notamment contre la coqueluche).",
+   "keyPoints": [
+    "Transfert des IgG maternelles surtout au 3ᵉ trimestre → prématuré = ↓ IgG",
+    "Immaturité innée et adaptative plus profonde",
+    "Protection : allaitement (IgA), IVIG si indiqué, vaccination adaptée, cocooning"
+   ],
+   "trap": "Les IgG maternelles sont transférées via le **FcRn** au 3ᵉ trimestre : un prématuré de 28 SA a reçu très peu d'IgG. Les IgA du lait maternel NE passent PAS dans le sang mais protègent les muqueuses digestives."
+  },
+  {
+   "id": "fc03-qroc16",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comment **prévient-on** l'iso-immunisation Rhésus chez une mère Rh⁻ ? Précisez le principe et le moment d'administration.",
+   "answer": "La prévention de l'iso-immunisation Rhésus repose sur l'injection d'**immunoglobulines anti-D (anti-Rh)** à la mère **Rh⁻** non encore immunisée. Le principe est celui d'une **immunosuppression passive** : les Ac anti-D injectés **neutralisent et éliminent les hématies fœtales Rh⁺** passées dans la circulation maternelle **avant** que le système immunitaire maternel ne les reconnaisse et ne s'immunise (pas de production d'anticorps endogènes, donc pas de mémoire). L'administration se fait : (1) de façon **systématique à 28 SA** (prophylaxie anténatale) ; (2) **dans les 72 heures suivant l'accouchement** si le nouveau-né est Rh⁺ ; (3) lors de tout **événement potentiellement immunisant** (fausse couche, amniocentèse, traumatisme abdominal, métrorragies, IVG). Cette prévention est **inutile si la mère est déjà immunisée** (anticorps anti-D déjà présents).",
+   "keyPoints": [
+    "Injection d'immunoglobulines anti-D à la mère Rh⁻ non immunisée",
+    "Principe : immunosuppression passive (élimination des hématies fœtales Rh⁺ avant immunisation)",
+    "Systématique à 28 SA + dans les 72 h post-accouchement (si nouveau-né Rh⁺)",
+    "Aussi lors de tout événement immunisant (FCS, amniocentèse, traumatisme)",
+    "Inutile si mère déjà immunisée"
+   ],
+   "trap": "La prophylaxie anti-D doit être administrée AVANT l'immunisation (≤ 72 h) : une fois la mère immunisée, elle est inefficace. Elle ne protège pas la grossesse en cours mais les grossesses futures."
   }
  ]
 }

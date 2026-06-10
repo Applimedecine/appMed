@@ -75,6 +75,192 @@
     "Axe IL-17 / IL-23 également ciblé",
     "AINS en symptomatique"
    ]
+  },
+  {
+   "id": "fc04b-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez l'**évolution radiographique** d'une spondylarthrite axiale, du stade initial au stade avancé.",
+   "answer": "L'évolution se fait d'une forme **non radiographique** vers une forme **radiographique** (en **~10 ans**), puis vers l'**ankylose** (ponts osseux). Au stade avancé, on observe la **colonne en bambou**, la **mise au carré des vertèbres** et la **fusion sacro-iliaque** ; l'**IRM** montre un œdème sous-chondral. La progression structurale s'évalue par le score **mSASSS**.",
+   "keyPoints": [
+    "Non radiographique → radiographique (~10 ans) → ankylose",
+    "Stade avancé : colonne en bambou, vertèbres au carré, fusion sacro-iliaque",
+    "IRM : œdème sous-chondral ; score = mSASSS"
+   ]
+  },
+  {
+   "id": "fc04b-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Une spondylarthrite **périphérique** (sans atteinte axiale) est suspectée. Quels marqueurs génétiques attendez-vous, et que dire de l'**HLA-B27** dans cette forme ?",
+   "answer": "Dans les formes **périphériques**, l'**HLA-B27 n'est pas** retrouvé (il est associé aux formes **axiales**). On attend plutôt l'implication de l'**IL-23** et, en cas de psoriasis associé, de l'allèle **Cw6**. La forme périphérique se distingue donc nettement de la forme axiale B27+.",
+   "keyPoints": [
+    "Formes périphériques : pas de B27",
+    "Marqueurs : IL-23 et Cw6 (psoriasis)",
+    "B27 = réservé aux formes axiales"
+   ],
+   "trap": "B27 → **axial** seulement. Dans les formes **périphériques**, on cherche plutôt **IL-23** et **Cw6**."
+  },
+  {
+   "id": "fc04b-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Détaillez la **part génétique** des spondylarthrites : poids de l'HLA-B27 et autres gènes impliqués.",
+   "answer": "La génétique explique environ **24 %** de la susceptibilité aux spondylarthrites ; l'**HLA-B27** en représente à lui seul **~20 %**. D'autres gènes contribuent : **ERAP1**, **IL-17** et **IL-23**. Cela explique qu'on puisse être **B27+ sans être malade** (prévalence **6-8 %** en France).",
+   "keyPoints": [
+    "Génétique ~24 %, dont B27 ~20 %",
+    "Autres gènes : ERAP1, IL-17, IL-23",
+    "B27+ ≠ malade (6-8 % de la population)"
+   ]
+  },
+  {
+   "id": "fc04b-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Le **facteur rhumatoïde** est-il un marqueur des spondylarthrites ? Quelle est la nature inflammatoire de ces maladies ?",
+   "answer": "**Non** : le **facteur rhumatoïde n'est pas** un marqueur des spondylarthrites (il oriente vers la PR). Les spondylarthrites sont des maladies **auto-inflammatoires** (et non auto-immunes), sans auto-anticorps spécifiques.",
+   "keyPoints": [
+    "FR n'est PAS un marqueur de SpA",
+    "SpA = maladies auto-inflammatoires",
+    "Pas d'auto-anticorps spécifiques"
+   ],
+   "trap": "Le **FR** appartient au bilan de la PR, pas des spondylarthrites (qui sont auto-**inflammatoires**)."
+  },
+  {
+   "id": "fc04b-qroc11",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le **site initial** de l'inflammation dans une spondylarthrite, et comment le **stress mécanique** y déclenche-t-il la maladie ?",
+   "answer": "Le site initial est l'**enthèse** (insertion des **tendons/ligaments** sur l'os). Le **stress mécanique** y active le mécanosenseur **PIEZO1** (formes axiales), ce qui **déclenche la formation osseuse**. L'immunité innée (macrophages/DC) y produit alors **TNF-α** et **IL-23**, amorçant l'axe IL-23 → IL-17.",
+   "keyPoints": [
+    "Site initial = enthèse (insertions tendons/ligaments)",
+    "Stress mécanique → PIEZO1 (axial) → formation osseuse",
+    "Innée : TNF-α et IL-23"
+   ]
+  },
+  {
+   "id": "fc04b-qroc12",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'appelle-t-on **dactylite** dans les spondylarthrites, et quelles sont les **trois** atteintes extra-articulaires à connaître ?",
+   "answer": "La **dactylite** est un gonflement diffus d'un doigt (ou orteil) réalisant l'aspect de « **doigt en saucisse** ». Les trois manifestations **extra-articulaires** caractéristiques sont l'**uvéite** (œil), la **MICI** (intestin) et le **psoriasis** (peau).",
+   "keyPoints": [
+    "Dactylite = doigt en saucisse",
+    "Extra-articulaire : uvéite, MICI, psoriasis",
+    "Mémo : œil - intestin - peau"
+   ]
+  },
+  {
+   "id": "fc04b-qroc13",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "En quoi le comportement **osseux** des spondylarthrites diffère-t-il de celui de la PR ? Comment se forme le **syndesmophyte** ?",
+   "answer": "Contrairement à la PR qui **détruit** surtout l'os, la spondylarthrite associe **destruction ET formation osseuse** (os neuf). Après la **résolution d'une enthésite**, il se forme un **syndesmophyte** : une **calcification verticale** le long des disques intervertébraux. Son accumulation aboutit, au stade avancé, à la « colonne en bambou » et à l'ankylose.",
+   "keyPoints": [
+    "SpA = destruction ET formation osseuse (≠ PR qui détruit surtout)",
+    "Syndesmophyte = calcification verticale post-enthésite",
+    "Accumulation → colonne en bambou / ankylose"
+   ],
+   "trap": "La SpA **reconstruit** de l'os (formation osseuse), contrairement à la PR essentiellement destructrice."
+  },
+  {
+   "id": "fc04b-qroc14",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelles cellules produisent l'**IL-17 et l'IL-22** dans la spondylarthrite, et quelle est la **double conséquence** de ces cytokines ?",
+   "answer": "Sous l'effet de l'**IL-23**, ce sont les **Th17** et les **ILC3** qui sécrètent l'**IL-17 et l'IL-22**. Ces cytokines ont une **double conséquence** : une **inflammation locale** (au niveau de l'enthèse) **et** un **remodelage osseux anormal** (formation osseuse), ce qui explique l'association inflammation-construction osseuse propre à la SpA.",
+   "keyPoints": [
+    "Producteurs : Th17 et ILC3 (sous IL-23)",
+    "IL-17 et IL-22",
+    "Double effet : inflammation locale + remodelage osseux anormal"
+   ]
+  },
+  {
+   "id": "fc04b-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez la composante d'**immunité innée** initiant la spondylarthrite (cellules, cytokines) et la cellule portant le récepteur à l'IL-23.",
+   "answer": "L'immunité **innée** est initiatrice : les **macrophages** et les **cellules dendritiques** produisent du **TNF-α** et de l'**IL-23** au niveau de l'enthèse soumise au stress mécanique. Ce sont des **cellules T résidentes** porteuses du **récepteur à l'IL-23** qui répondent à cette cytokine, amorçant l'axe IL-23 → IL-17.",
+   "keyPoints": [
+    "Innée : macrophages et cellules dendritiques",
+    "Produisent TNF-α et IL-23",
+    "Cellules T résidentes porteuses du récepteur à l'IL-23"
+   ]
+  },
+  {
+   "id": "fc04b-qroc16",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quelle **triade lésionnelle** caractérise les spondylarthrites et illustre pourquoi ce sont des maladies **auto-inflammatoires** ?",
+   "answer": "Les spondylarthrites associent une **triade** : **inflammation**, **érosion** **ET formation osseuse**. Cette combinaison (notamment la **construction** osseuse, absente de la PR) ainsi que l'absence d'auto-anticorps spécifiques en font des maladies **auto-inflammatoires** (et non auto-immunes), reposant sur l'axe **enthèse + stress mécanique + IL-23/IL-17/TNF** sur terrain **HLA-B27** dans les formes axiales.",
+   "keyPoints": [
+    "Triade : inflammation + érosion + formation osseuse",
+    "Formation osseuse = signature (≠ PR)",
+    "Maladies auto-inflammatoires (pas auto-immunes), pas d'auto-Ac spécifiques"
+   ],
+   "trap": "Maladie auto-**inflammatoire** (et non auto-immune) : la **formation osseuse** la distingue de la PR."
+  },
+  {
+   "id": "fc04b-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de la protéine **ERAP1** dans les spondylarthrites, et pourquoi son interaction avec l'**HLA-B27** est-elle particulièrement pertinente ?",
+   "answer": "**ERAP1** (*Endoplasmic Reticulum Aminopeptidase 1*) est une aminopeptidase du réticulum endoplasmique impliquée dans le **traitement des peptides** destinés à être présentés par les molécules **HLA de classe I**, dont l'**HLA-B27**. Des variants de **ERAP1** modifient le **répertoire peptidique** présenté par B27, ce qui influence la reconnaissance par les lymphocytes T et contribue à la susceptibilité aux spondylarthrites. Son association avec la SpA n'est retrouvée que chez les individus **B27+**, illustrant une interaction gène-gène.",
+   "keyPoints": [
+    "ERAP1 = aminopeptidase du RE → traitement des peptides pour CMH classe I",
+    "Modifie le répertoire peptidique présenté par HLA-B27",
+    "Association ERAP1-SpA uniquement chez les sujets B27+"
+   ],
+   "trap": "ERAP1 interagit spécifiquement avec **B27** (classe I) : son rôle est épistasique, pas indépendant."
+  },
+  {
+   "id": "fc04b-qroc18",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que la **sacro-iliite** et comment la distingue-t-on à l'imagerie entre la forme **non radiographique** et la forme **radiographique** ?",
+   "answer": "La **sacro-iliite** est l'inflammation des **articulations sacro-iliaques**, manifestation axiale centrale des spondylarthrites. Dans la forme **non radiographique**, la radiographie standard est normale : seule l'**IRM** met en évidence un **œdème sous-chondral** (signe précoce). Dans la forme **radiographique**, la radiographie conventionnelle révèle des **érosions, une sclérose et une fusion** des articulations sacro-iliaques.",
+   "keyPoints": [
+    "Sacro-iliite = inflammation des articulations sacro-iliaques",
+    "Forme non radiographique : IRM (œdème sous-chondral), radio normale",
+    "Forme radiographique : érosions, sclérose, fusion visible à la radio"
+   ]
+  },
+  {
+   "id": "fc04b-qroc19",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Que signifie le score **mSASSS** et quels éléments radiographiques évalue-t-il dans la spondylarthrite axiale ?",
+   "answer": "Le **mSASSS** (*modified Stokes Ankylosing Spondylitis Spinal Score*) est un score radiographique qui évalue la **progression structurale** de la spondylarthrite axiale. Il quantifie les **syndesmophytes** et les **érosions/sclérose/fusion** des coins vertébraux sur les vertèbres **cervicales et lombaires** (de C2 à D2 et de D12 à S1). Chaque coin vertébral est coté de 0 à 3 : 0 = normal, 1 = érosion/sclérose, 2 = syndesmophyte, 3 = pont osseux (fusion).",
+   "keyPoints": [
+    "mSASSS = score de progression structurale radiographique",
+    "Évalue coins vertébraux cervicaux et lombaires",
+    "Cotation 0-3 par coin : normal → érosion → syndesmophyte → fusion"
+   ]
+  },
+  {
+   "id": "fc04b-qroc20",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Différenciez **spondylite** et **sacro-iliite** comme manifestations axiales de la spondylarthrite, en précisant leur localisation respective.",
+   "answer": "La **sacro-iliite** désigne l'inflammation des **articulations sacro-iliaques** (jonction entre le sacrum et les os iliaques), souvent bilatérale, qui constitue le signe d'appel le plus précoce des spondylarthrites axiales. La **spondylite** désigne l'inflammation du **rachis** (vertèbres, disques intervertébraux, ligaments), se traduisant par des **enthésites vertébrales** et conduisant à la formation de **syndesmophytes** puis à l'ankylose rachidienne.",
+   "keyPoints": [
+    "Sacro-iliite : articulations sacro-iliaques, signe précoce",
+    "Spondylite : rachis, enthésites vertébrales → syndesmophytes",
+    "Les deux sont des manifestations axiales de la SpA"
+   ],
+   "trap": "La **sacro-iliite** est souvent le **premier signe** : ne pas attendre la spondylite pour évoquer le diagnostic."
+  },
+  {
+   "id": "fc04b-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de l'**enthèse** dans la formation des **syndesmophytes**, et pourquoi les zones soumises à contrainte mécanique sont-elles préférentiellement touchées ?",
+   "answer": "L'**enthèse** est le site d'insertion des **tendons et ligaments** sur l'os, soumis à des **contraintes mécaniques** importantes. Dans la spondylarthrite, le **stress mécanique** active le mécanosenseur **PIEZO1**, déclenchant une réponse inflammatoire locale (enthésite). Après la **résolution de l'enthésite**, il se produit une **ossification réactionnelle** qui forme un **syndesmophyte**. Les zones à forte contrainte mécanique (rachis, articulations sacro-iliaques) sont donc préférentiellement touchées car elles concentrent le signal déclencheur.",
+   "keyPoints": [
+    "Enthèse = insertion tendons/ligaments, soumise à stress mécanique",
+    "Stress → PIEZO1 → enthésite → ossification réactionnelle",
+    "Zones à forte contrainte (rachis, sacro-iliaques) préférentiellement atteintes"
+   ]
   }
  ]
 }

@@ -1,0 +1,71 @@
+{
+ "slug": "fc15",
+ "title": "QROC — Rejet de greffe",
+ "questions": [
+  {
+   "id": "fc15-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Définissez et distinguez les termes **autogreffe**, **allogreffe** et **xénogreffe** en précisant le couple donneur/receveur et le type de réponse immunitaire induit.",
+   "answer": "**Autogreffe** : le donneur et le receveur sont le **même individu** (ex : peau d'un grand brûlé). La réponse immunitaire est **absente** (reconnu comme 'soi'). **Allogreffe** : donneur et receveur sont deux individus génétiquement différents de la **même espèce** (ex : greffe rénale). La réponse est **allogénique**, médiée par les LT du receveur reconnaissant les allo-antigènes HLA du donneur. **Xénogreffe** : donneur et receveur sont de **deux espèces différentes** (ex : cœur de porc → homme). La réponse **xénogénique** est la plus difficile à contrôler (barrière immunologique majeure et risques viraux inter-espèces).",
+   "keyPoints": [
+    "Autogreffe : même individu, pas de réponse immune",
+    "Allogreffe : même espèce, réponse allogénique (LT + HLA)",
+    "Xénogreffe : espèces différentes, réponse xénogénique (la plus difficile)"
+   ]
+  },
+  {
+   "id": "fc15-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Le rejet de greffe est une réponse **adaptative à mémoire**. Quelles preuves expérimentales illustrent ce caractère, et quelle est la conséquence clinique principale ?",
+   "answer": "Le caractère **adaptatif et mémorisé** du rejet est démontré par la cinétique expérimentale : une **1ʳᵉ greffe** d'un fond génétique étranger est rejetée à **J10** (5-7 jours nécessaires au recrutement, prolifération et migration des LT dans le greffon). Une **2ᵉ greffe du même fond génétique** est rejetée de façon accélérée, **avant J3** (réponse mémoire plus rapide et plus intense). En revanche, une greffe d'un **3ᵉ fond génétique** jamais rencontré est de nouveau rejetée à J10 (le receveur reste naïf vis-à-vis de ce fond). Conséquence clinique : cette mémoire impose une **immunosuppression à vie** et contre-indique toute greffe ABO-incompatible ou cross-match positif.",
+   "keyPoints": [
+    "1re greffe → rejet J10 (5-7 j de recrutement/prolifération T)",
+    "2e greffe même fond → rejet avant J3 (mémoire immunitaire)",
+    "3e fond différent → retour à J10 (naïf vis-à-vis de ce nouveau fond)",
+    "Conséquence : immunosuppression à vie"
+   ]
+  },
+  {
+   "id": "fc15-qroc3",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez la différence entre **allo-reconnaissance directe** et **allo-reconnaissance indirecte** : CPA impliquée, CMH utilisé, fréquence des LT recrutés et type de rejet associé.",
+   "answer": "**Allo-reconnaissance directe** : les LT du receveur reconnaissent directement le **CMH du donneur** (intact) présenté par les **CPA du greffon** (cellules dendritiques passagères du donneur). Par mimétisme conformationnel, ce CMH allogénique recrute **~1 LT sur 100** (réponse explosive). C'est le mécanisme de la phase **aiguë** (précoce). **Allo-reconnaissance indirecte** : les **CPA du receveur** captent et apprêtent les protéines HLA du donneur, les présentent sous forme d'**allo-peptides** sur leur propre **CMH du receveur (soi)**, selon le schéma classique. Seuls ~**1 LT sur 1 000 000** répondent. C'est le mécanisme de la phase **chronique** (tardive, fibrose). Mnémotechnique : **Directe = Donneur ; Indirecte = Interne (nos CPA)**.",
+   "keyPoints": [
+    "Directe : CPA du donneur + CMH du donneur → 1 LT/100, phase aiguë",
+    "Indirecte : CPA du receveur + CMH du receveur + allo-peptides → 1 LT/1 000 000, phase chronique",
+    "Directe = Donneur ; Indirecte = Interne"
+   ],
+   "trap": "Dans la voie directe, le CMH utilisé est celui du DONNEUR. Dans la voie indirecte, c'est le CMH du RECEVEUR qui présente les allo-peptides du donneur. Ne pas les inverser."
+  },
+  {
+   "id": "fc15-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les **types de rejet de greffe** (hyperaigu, aigu, chronique) : mécanisme principal et délai de survenue pour chacun.",
+   "answer": "**Rejet hyperaigu** : survient en quelques **heures**, médié par des **anticorps préformés** (Ac anti-ABO naturels en cas d'incompatibilité ABO, ou Ac anti-HLA acquis non détectés par un cross-match raté). Ces Ac se fixent sur l'endothélium → activation du **complément** → **thrombose** intravasculaire → nécrose immédiate du greffon. **Rejet aigu** : survient en **jours à semaines**, médié par les **LT** du receveur (voie directe d'allo-reconnaissance). Cliniquement : fièvre, œdème, douleur ; à la biopsie : infiltrat de LT activés. **Rejet chronique** : survient en **mois à années**, médié par les cellules (voie indirecte) et des Ac anti-HLA de novo → fibrose progressive, perte lente de la fonction du greffon. Il impose l'immunosuppression à vie.",
+   "keyPoints": [
+    "Hyperaigu : Ac préformés (anti-ABO ou anti-HLA) → complément → thrombose, heures",
+    "Aigu : LT (voie directe) → infiltrat, jours à semaines",
+    "Chronique : voie indirecte + Ac de novo → fibrose, mois à années"
+   ],
+   "trap": "Les Ac anti-HLA ne sont pas naturels (contrairement aux Ac anti-ABO). Ils s'acquièrent lors d'une grossesse, d'une transfusion sanguine ou d'une greffe antérieure → à rechercher systématiquement."
+  },
+  {
+   "id": "fc15-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **cross-match** ? Décrivez les deux techniques de réalisation et précisez ce qu'implique un résultat positif.",
+   "answer": "Le **cross-match** est un test réalisé **le jour J** de la greffe qui recherche, chez le receveur, la présence d'**Ac anti-HLA dirigés spécifiquement contre les antigènes HLA du donneur**. On met en contact le **sérum du receveur** avec les **cellules nucléées du donneur** (ex : lymphocytes B). Deux techniques : **1. Cytométrie de flux** : un Ac secondaire couplé à un **fluorochrome** révèle la fixation des Ac anti-HLA → résultat positif si fluorescence détectée. **2. Cytotoxicité dépendante du complément (CDC)** : ajout de **complément** au mélange ; si Ac fixés → activation du complément → **lyse cellulaire** visualisée par colorant vital au microscope. Un cross-match **positif** signifie la présence d'Ac anti-HLA du receveur contre le donneur → **contre-indication formelle à la greffe** (risque de rejet hyperaigu).",
+   "keyPoints": [
+    "Sérum du receveur + cellules nucléées du donneur",
+    "Technique 1 : cytométrie de flux (fluorochrome → fluorescence)",
+    "Technique 2 : cytotoxicité dépendante du complément (lyse + colorant vital)",
+    "Positif → contre-indication absolue à la greffe"
+   ],
+   "trap": "Le cross-match est réalisé le jour J (pas à l'avance) car les Ac peuvent apparaître tardivement. Un cross-match négatif est indispensable avant toute greffe."
+  }
+ ]
+}

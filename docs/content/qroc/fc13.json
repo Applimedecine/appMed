@@ -1,0 +1,145 @@
+{
+ "slug": "fc13",
+ "title": "QROC — Bilan immunologique",
+ "questions": [
+  {
+   "id": "fc13-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quels sont les **tests diagnostiques basiques** de première intention pour évaluer l'état d'un déficit immunitaire ?",
+   "answer": "Le bilan de base comprend : la **numération formule sanguine (NFS)** (recherche de changements quantitatifs et morphologiques), le dosage des **protéines sériques / immunoglobulines (IgG, IgA, IgM, IgE)** qui constitue la 1re étape pour identifier un problème immunitaire, et les **marqueurs inflammatoires** (CRP, ferritine pour évaluer le caractère chronique de l'inflammation).",
+   "keyPoints": [
+    "NFS (numération formule sanguine)",
+    "Dosage des immunoglobulines / protéines sériques (IgG, IgA, IgM, IgE)",
+    "Marqueurs inflammatoires (CRP, ferritine)"
+   ],
+   "trap": "Le bilan biologique ne se conçoit qu'après un examen clinique poussé : ce dernier n'est jamais facultatif."
+  },
+  {
+   "id": "fc13-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **principe de la néphélométrie / immunoturbidimétrie** pour le dosage des immunoglobulines et indiquez s'il s'agit d'un test qualitatif ou quantitatif.",
+   "answer": "C'est une technique **quantitative** (peu spécifique) de routine. La **formation de complexes Ag/Ac** en milieu liquide augmente la **turbidité** du milieu, proportionnellement à la quantité d'antigène à doser. Les variations de turbidité sont mesurées par un **néphélomètre** envoyant un faisceau laser : la déviation du faisceau est comparée à celle obtenue avec des quantités connues d'antigène, ce qui permet d'en déduire la concentration. Elle sert à doser de nombreuses protéines sériques (immunoglobulines, sous-classes, chaînes légères, fractions du complément C3, C4, FB).",
+   "keyPoints": [
+    "Test QUANTITATIF (peu spécifique)",
+    "Mesure des réactions de précipitation / turbidité liées aux complexes Ag/Ac",
+    "Faisceau laser dévié, comparé à des quantités connues d'antigène",
+    "Dose Ig, sous-classes, chaînes légères, fractions du complément"
+   ],
+   "trap": "La néphélométrie est un test QUANTITATIF, pas qualitatif (confusion fréquente en QCM)."
+  },
+  {
+   "id": "fc13-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Présentez les **trois types de cryoglobulines**, en précisant la composition et le contexte de chacun.",
+   "answer": "Une cryoglobuline est une **immunoglobuline qui précipite à froid**. Le **type 1** est **monoclonal** (5-20 g/L), le plus sévère (ex : myélome multiple avec IgM élevées, problème de viscosité sanguine, mauvais pronostic). Le **type 2** est associé au **facteur rhumatoïde**, surtout retrouvé dans les **infections chroniques**. Le **type 3** est **polyclonal (mixte)**, retrouvé dans les infections chroniques (hépatite C) et les **maladies auto-immunes** ; c'est le plus favorable car les taux sont plus faibles.",
+   "keyPoints": [
+    "Cryoglobuline = Ig qui précipite à froid",
+    "Type 1 = monoclonal, le plus sévère (ex : myélome)",
+    "Type 2 = avec facteur rhumatoïde, infections chroniques",
+    "Type 3 = polyclonal/mixte (hépatite C, MAI), le plus favorable"
+   ],
+   "trap": "Le type 1 est MONOclonal (et non polyclonal) : le type polyclonal/mixte est le type 3."
+  },
+  {
+   "id": "fc13-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez la **CRP** et la **procalcitonine (PCT)** en tant que marqueurs inflammatoires : cinétique et intérêt pour différencier infection bactérienne et virale.",
+   "answer": "La **CRP** est une protéine de **cinétique rapide** et de grande amplitude : elle apparaît dès la **6e-12e heure** (optimale à 24 h), sous dépendance de l'**IL-6**, et augmente fortement au cours des **infections bactériennes mais pas virales**. La **procalcitonine** est un marqueur encore plus **précoce (2-3 h)**, qui augmente lui aussi au cours des **infections bactériennes et non virales**, et est corrélé à la sévérité de l'infection. Particularité utile : dans le **lupus (LES)**, la CRP n'augmente jamais, contrairement aux autres maladies (dissociation VS accélérée / CRP normale).",
+   "keyPoints": [
+    "CRP = cinétique rapide (6-12 h), dépend de l'IL-6, augmente dans les infections bactériennes non virales",
+    "PCT = marqueur très précoce (2-3 h), bactérien non viral, corrélé à la sévérité",
+    "CRP n'augmente pas dans le lupus (LES)"
+   ],
+   "trap": "CRP et PCT s'élèvent dans les infections BACTÉRIENNES, pas virales : la PCT n'est pas un marqueur des infections virales."
+  },
+  {
+   "id": "fc13-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Dans l'**exploration fonctionnelle de la réponse humorale** par la vaccination, expliquez la **3e étape** (spécificité des anticorps) : quels vaccins utiliser, quelles IgG recherchées et quelle démarche en l'absence de réponse.",
+   "answer": "Cette 3e étape évalue la **fonctionnalité des anticorps (des LB)** quand le dosage des Ig totales et des sous-classes est normal (déficit fonctionnel). On vaccine puis on recherche des **anticorps spécifiques par ELISA** : avec un **vaccin conjugué/inactivé protéique** (Diphtérie, Tétanos, Polio) on recherche surtout les **IgG1** ; avec un **vaccin polysaccharidique** (Pneumo23, Méningo) on recherche surtout les **IgG2**. Si la réponse est absente, on **revaccine et on refait le dosage 3 mois après**, jusqu'à 3 fois ; en l'absence de réponse après le second vaccin, on peut poser le diagnostic de **déficit en lymphocytes**.",
+   "keyPoints": [
+    "But : tester la fonctionnalité des Ac/LB (déficit fonctionnel)",
+    "Vaccin protéique (DTP) -> IgG1 ; vaccin polysaccharidique (Pneumo23, Méningo) -> IgG2",
+    "Dosage des Ac spécifiques par ELISA",
+    "Si absence de réponse : revacciner (jusqu'à 3 fois) ; sinon diagnostic de déficit lymphocytaire"
+   ],
+   "trap": "Une absence de réponse après revaccination N'élimine PAS un déficit : au contraire, elle oriente vers un déficit fonctionnel / lymphocytaire."
+  },
+  {
+   "id": "fc13-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **cinq grandes catégories de déficits immunitaires primitifs (DIP)** et leur fréquence relative, en précisant quel type cellulaire est le plus souvent touché.",
+   "answer": "Les cinq grandes catégories de DIP sont : les **déficits en lymphocytes B** (50 % des DIP), qui regroupent les hypo/agammaglobulinémies (ex : maladie de Bruton, déficit sélectif en IgA) ; les **déficits immunitaires communs variables (DICV)** (20 % des DIP), déficit incomplet en LT/LB souvent sous-diagnostiqué ; les **déficits en phagocytes** (18 % des DIP), quantitatifs ou qualitatifs (neutrophiles, macrophages) entraînant un risque infectieux majeur notamment aux mycobactéries et bactéries encapsulées ; les **déficits en lymphocytes T** (10 % des DIP), déficits immunitaires combinés sévères (DICS), moins fréquents mais plus sévères ; les **anomalies du système du complément** (< 2 % des DIP), notamment du C2, associées à des formes de lupus.",
+   "keyPoints": [
+    "Déficits LB = 50 % (agammaglobulinémie, déficit IgA, Bruton)",
+    "DICV = 20 % (déficit partiel LT/LB, souvent sous-diagnostiqué)",
+    "Déficits en phagocytes = 18 %",
+    "Déficits LT (DICS) = 10 %, les plus sévères",
+    "Déficits du complément < 2 % (C2, formes lupiques)"
+   ],
+   "trap": "Les déficits en LB sont les PLUS FRÉQUENTS (50 %) ; les déficits en LT sont les PLUS SÉVÈRES mais moins fréquents (10 %)."
+  },
+  {
+   "id": "fc13-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **principe de l'immunofluorescence indirecte** pour la recherche d'auto-anticorps dans les maladies auto-immunes : sur quelles cibles cellulaires ou tissulaires est-elle réalisée, et quelle information qualitative fournit-elle ?",
+   "answer": "L'**immunofluorescence indirecte (IFI)** permet d'identifier le **type d'anticorps** et la **structure contre laquelle ils réagissent** grâce à la fluorescence. La technique utilise des **cellules ou coupes tissulaires** comme support antigénique : des **cellules HEp-2** (cellules épithéliales humaines) pour la recherche d'**anticorps antinucléaires (AAN/ACAN)** dans le diagnostic des **connectivites** ; des **coupes d'organes** (foie-rein-estomac, thyroïde, peau, cervelet) pour la recherche d'auto-anticorps **spécifiques d'organes** (neuropathie, cœliaque, MICI) ; des **neutrophiles humains** pour la recherche des **ANCA** (anticorps anti-cytoplasme des neutrophiles) dans le diagnostic des **vascularites**. La technique est **très sensible mais peu spécifique** : elle détecte la présence et la localisation intracellulaire des anticorps, mais doit être complétée par des techniques ELISA/Luminex pour une identification et quantification précises.",
+   "keyPoints": [
+    "Cellules HEp-2 -> AAN/ACAN (connectivites)",
+    "Coupes d'organes (foie/rein/thyroïde…) -> auto-Ac spécifiques d'organes",
+    "Neutrophiles humains -> ANCA (vascularites)",
+    "Très sensible, peu spécifique : détecte la localisation intracellulaire des Ac"
+   ],
+   "trap": "L'IFI est une technique QUALITATIVE (identifie le type d'Ac et sa localisation) et non quantitative ; la néphélométrie/ELISA est quantitative."
+  },
+  {
+   "id": "fc13-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **intérêts du suivi des biothérapies** (anticorps monoclonaux thérapeutiques) par le bilan immunologique, et quels paramètres sont mesurés ?",
+   "answer": "Le suivi des biothérapies par bilan immunologique est indiqué pour : 1) **Mesurer les concentrations sériques** du médicament afin d'adapter les doses à la situation du patient (médecine personnalisée et optimisation médico-économique) ; 2) **Identifier un échappement thérapeutique** : environ 40 % des patients peuvent développer des **anticorps anti-médicament** (HAMA ou anti-idiotypes) qui neutralisent le traitement (ex : anticorps anti-infliximab, anti-adalimumab) ; 3) **Prévenir la toxicité** (syndrome de relargage cytokinique, immunoactivation) ; 4) **Évaluer l'efficacité d'anticorps déplétants** par immunophénotypage (ex : compter les LB résiduels après rituximab). Les paramètres mesurés incluent : dosage du médicament dans le sang, dosage des anticorps anti-médicament, immunophénotypage des populations cellulaires cibles.",
+   "keyPoints": [
+    "Adapter les doses : médecine personnalisée (dosage du médicament sérique)",
+    "Détecter les anticorps anti-médicament (échappement, ~40 % des cas)",
+    "Prévenir la toxicité (syndrome de relargage cytokinique)",
+    "Vérifier l'efficacité déplétante : immunophénotypage (ex : LB après rituximab)"
+   ],
+   "trap": "Les biothérapies ne sont PAS administrées par voie orale (protéines détruites par l'acidité gastrique) : elles sont injectées. Le suivi thérapeutique est indispensable car ces médicaments sont très coûteux et pas toujours adaptés à tous les patients."
+  },
+  {
+   "id": "fc13-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez le **bilan du complément** : quels paramètres mesurer en première intention, comment interpréter une **hypocomplémentémie** et dans quelles pathologies la retrouve-t-on ?",
+   "answer": "En **première intention**, on dose le **CH50** (activité hémolytique totale : voie classique et finale commune), le **C3** et le **C4**. Une **hypocomplémentémie** (baisse du CH50, C3 et/ou C4) reflète une **consommation** du complément par activation excessive. Deux situations principales : activation de la **voie classique** (diminution conjointe de C1, C2, C4) → **infections à complexes immuns** ou **maladies auto-immunes** (lupus systémique, vascularites, maladie sérique) ; activation de la **voie alterne** → infections à **Neisseria** (méningocoque). Un **déficit génétique** est suspecté si les fractions sont normales avec activité fonctionnelle effondrée ; le déficit en **C2** est le plus fréquent, associé à des formes de **lupus néonatal**. A contrario, une **hypercomplémentémie** est retrouvée dans les syndromes inflammatoires non-immunologiques (cancers, hémopathies, hépatites aiguës, IDM en phase aiguë).",
+   "keyPoints": [
+    "1re intention : CH50 + C3 + C4",
+    "Hypocomplémentémie = consommation (voie classique : lupus/vascularites ; voie alterne : Neisseria)",
+    "Déficit génétique en C2 : le plus fréquent, associé au lupus néonatal",
+    "Hypercomplémentémie : inflammations non-immunologiques (cancers, hépatites aiguës, IDM)"
+   ],
+   "trap": "L'hypercomplémentémie est peu spécifique et retrouvée dans de nombreux syndromes inflammatoires ; c'est l'HYPO-complémentémie (consommation) qui est la plus informative pour orienter vers une pathologie auto-immune ou à complexes immuns."
+  },
+  {
+   "id": "fc13-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **principe et les applications du test ELISA** dans le bilan immunologique. Quels sont ses différents formats et dans quels contextes est-il utilisé ?",
+   "answer": "L'**ELISA (Enzyme-Linked Immunosorbent Assay)** est une technique immunologique très couramment utilisée, dans laquelle le **complexe Ag/Ac est révélé par un anticorps couplé à une enzyme** (PAL, HRP, luciférase) dont l'activité sur un substrat chromogène ou luminogène produit un signal colorimétrique ou lumineux proportionnel à la quantité d'anticorps ou d'antigène. Il existe quatre formats principaux : **ELISA directe** (dosage d'Ac ou Ag) ; **ELISA indirecte** (recherche d'anticorps spécifiques dans le sérum du patient) ; **ELISA compétitif** (dosage d'un Ac) ; **ELISA sandwich** (recherche d'un Ag entre deux Ac). Les résultats peuvent être **qualitatifs, semi-quantitatifs ou quantitatifs**. Applications : **sérologies** (vaccinales, infectieuses), **dosages hormonaux**, dosage de médicaments, **recherche d'auto-anticorps** (maladies auto-immunes), **allergologie** (IgE spécifiques), dosage des anticorps anti-médicaments (biothérapies).",
+   "keyPoints": [
+    "Complexe Ag/Ac révélé par Ac couplé à une enzyme -> signal colorimétrique/lumineux",
+    "4 formats : directe, indirecte, compétitive, sandwich",
+    "Résultats qualitatifs/semi-quantitatifs/quantitatifs",
+    "Applications : sérologies, hormones, auto-Ac, allergie, dosage médicaments"
+   ],
+   "trap": "L'ELISA est une technique polyvalente et automatisable ; l'immunofluorescence est plus sensible mais moins spécifique et plus qualitative. Ne pas confondre le RIA (radio-isotope, technique de référence mais quasiment abandonnée) et l'ELISA (enzyme, technique de routine actuelle)."
+  }
+ ]
+}

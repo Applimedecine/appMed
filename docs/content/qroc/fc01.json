@@ -78,6 +78,200 @@
     "1ʳᵉ mesure de prévention = vaccination",
     "Pistes : adjuvants, doses, voies d'administration"
    ]
+  },
+  {
+   "id": "fc01-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez l'évolution du **compartiment lymphocytaire T** chez le sujet âgé, notamment le pool naïf et l'effet du **CMV**.",
+   "answer": "L'involution thymique entraîne une perte du **pool de LT naïfs d'environ 3 %/an dès 20 ans** (mesurable par les **TRECs** : plus il y a de TRECs, plus il y a de cellules naïves). En parallèle, on accumule des **LT mémoires très différenciés** et surtout des **expansions oligoclonales de CD8** sous l'effet de stimulations virales chroniques, au premier rang desquelles le **CMV** (aussi EBV/HSV/HIV). Ces clones mémoires occupent l'espace périphérique et appauvrissent le répertoire.",
+   "keyPoints": [
+    "Perte des LT naïfs ~3 %/an dès 20 ans, mesurée par les TRECs",
+    "↑ TRECs = ↑ cellules naïves",
+    "Accumulation de LT mémoires différenciés",
+    "Expansions oligoclonales de CD8 liées au CMV (++)"
+   ],
+   "trap": "Plus il y a de **TRECs**, plus il y a de cellules **naïves** (et non l'inverse) : les TRECs sont un marqueur de production thymique récente."
+  },
+  {
+   "id": "fc01-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quelles sont les principales altérations des **lymphocytes B** dans l'immunosénescence et leurs conséquences ?",
+   "answer": "On observe une **diminution des LB naïfs**, favorisée par la baisse de l'**IL-7** stromale et la baisse des enzymes **RAG / AID**. Cela aboutit à un **switch IgG → IgM** (donc des anticorps de **faible affinité**), à une **augmentation des auto-anticorps** et à l'émergence de **clones** pouvant donner une **immunoglobuline monoclonale (MGUS)**. La qualité de la réponse humorale est donc globalement dégradée.",
+   "keyPoints": [
+    "↓ LB naïfs, ↓ IL-7 stromale, ↓ RAG/AID",
+    "Switch IgG → IgM (faible affinité)",
+    "↑ auto-anticorps",
+    "Émergence de clones : Ig monoclonale / MGUS"
+   ],
+   "trap": "Chez le sujet âgé le switch se fait dans le sens **IgG → IgM** (régression vers des Ac de faible affinité), pas l'inverse."
+  },
+  {
+   "id": "fc01-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Distinguez les causes **intrinsèques** et **extrinsèques** du vieillissement de l'immunité adaptative, avec des exemples.",
+   "answer": "Les causes **intrinsèques** concernent **la cellule elle-même** : défaut de différenciation des cellules souches hématopoïétiques, **↑ apoptose / ↓ prolifération** des progéniteurs intrathymiques, mutations de l'ADN. Les causes **extrinsèques** concernent le **microenvironnement** : **↓ des cellules épithéliales thymiques**, **↓ de l'IL-7 stromale**, **↓ de la GH / IGF-1** et effet des hormones stéroïdiennes. Le vieillissement adaptatif est donc **multifactoriel**.",
+   "keyPoints": [
+    "Intrinsèque = la cellule (différenciation CSH, apoptose/prolifération, mutations ADN)",
+    "Extrinsèque = le microenvironnement (épithélium thymique, IL-7, GH/IGF-1, stéroïdes)",
+    "Processus multifactoriel"
+   ],
+   "trap": "La baisse de **GH/IGF-1** et d'**IL-7** est **extrinsèque** (microenvironnement), pas intrinsèque ; ne jamais présenter le vieillissement comme unifactoriel."
+  },
+  {
+   "id": "fc01-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Situez les grandes étapes chronologiques du système immunitaire selon le repère **« 20 - 30 - 70 »**.",
+   "answer": "Le système immunitaire **mûrit jusqu'à 16-20 ans** (développement et maturation du répertoire), il **commence à vieillir vers 25-30 ans** avec le début de l'**involution thymique**, et devient **nettement immunosénescent vers 65-70 ans**. Autrement dit : on **monte** jusqu'à 20 ans, on **plafonne puis décline** dès 30, on est **sénescent** à 70.",
+   "keyPoints": [
+    "Maturation jusqu'à 16-20 ans",
+    "Début du vieillissement / involution thymique vers 25-30 ans",
+    "Système nettement sénescent vers 65-70 ans"
+   ]
+  },
+  {
+   "id": "fc01-qroc11",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que l'**inflammaging** en tant que **boucle auto-entretenue**, et quelles en sont les conséquences générales ?",
+   "answer": "L'inflammaging est une **inflammation chronique de faible grade** qui fonctionne comme une **boucle auto-entretenue** : des cellules qui meurent **libèrent des signaux inflammatoires** → ces signaux provoquent l'**apoptose d'autres cellules** → l'inflammation devient **chronique**. Cette boucle alimente les **comorbidités** (diabète, HTA, MCV…) et la **neurosénescence**, contribuant à la fragilité globale du sujet âgé.",
+   "keyPoints": [
+    "Inflammation chronique de bas grade auto-entretenue",
+    "Cellules mortes → signaux inflammatoires → apoptose d'autres cellules",
+    "Conséquences : comorbidités et neurosénescence"
+   ]
+  },
+  {
+   "id": "fc01-qroc12",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez comment l'altération des **barrières épithéliales** chez le sujet âgé favorise certaines infections, en donnant des exemples précis.",
+   "answer": "Les **barrières épithéliales** deviennent **moins jointives** et la **clairance mucociliaire diminue**, ce qui favorise les **pneumonies** (infections respiratoires basses). Au niveau digestif, la **baisse de l'acidité gastrique** et la **diminution du MALT** favorisent les **infections digestives** et une **dysbiose**. Ces altérations de l'immunité innée non cellulaire s'ajoutent au déclin fonctionnel des cellules.",
+   "keyPoints": [
+    "Barrières moins jointives + ↓ clairance mucociliaire → pneumonies",
+    "↓ acidité gastrique + ↓ MALT → infections digestives + dysbiose",
+    "Altération de l'immunité innée au-delà des cellules"
+   ]
+  },
+  {
+   "id": "fc01-qroc13",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Décrivez les deux piliers **métabolique** et **hématopoïétique** de l'immunosénescence.",
+   "answer": "L'**adaptation métabolique** se caractérise par une **augmentation de la glycolyse** avec une **baisse de la production d'ATP et de cytokines**. Les **changements hématopoïétiques** correspondent à un **biais myéloïde** des cellules souches hématopoïétiques (CSH), c'est-à-dire une orientation préférentielle de la différenciation vers la lignée myéloïde au détriment de la lignée lymphoïde.",
+   "keyPoints": [
+    "Métabolique : ↑ glycolyse, ↓ ATP, ↓ cytokines",
+    "Hématopoïétique : biais myéloïde des CSH"
+   ]
+  },
+  {
+   "id": "fc01-qroc14",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Au-delà de 75 ans, quelles modifications quantitatives et qualitatives observe-t-on sur les **lymphocytes T**, et quelle en est la conséquence fonctionnelle ?",
+   "answer": "Après 75 ans, on observe une **diminution du nombre de LT**, une **inversion du ratio CD4/CD8 (< 1)** et un **raccourcissement des télomères**. Le raccourcissement télomérique limite la capacité de **prolifération** des lymphocytes. La conséquence fonctionnelle est une **moindre capacité de réponse proliférative** face aux antigènes, aggravant l'appauvrissement du répertoire déjà dominé par des clones mémoires.",
+   "keyPoints": [
+    "↓ nombre de LT après 75 ans",
+    "Inversion du ratio CD4/CD8 (< 1)",
+    "Télomères raccourcis → ↓ prolifération"
+   ],
+   "trap": "Le ratio CD4/CD8 est **inversé (< 1)** chez le sujet âgé : ce n'est pas une simple baisse des CD4 mais bien un renversement du rapport normalement supérieur à 1."
+  },
+  {
+   "id": "fc01-qroc15",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelles sont les principales **conséquences cliniques** de l'immunosénescence en dehors de la baisse de l'efficacité vaccinale ?",
+   "answer": "L'immunosénescence augmente le risque d'**infections** (respiratoires basses, sepsis) et de **réactivations virales**, notamment du **VZV** (zona). Elle s'accompagne aussi d'une augmentation des **cancers**, des **maladies cardio-vasculaires** et des **maladies auto-immunes**. Ces conséquences reflètent à la fois le défaut de surveillance immunitaire et le contexte d'inflammation chronique (inflammaging).",
+   "keyPoints": [
+    "↑ infections (respiratoires basses, sepsis)",
+    "↑ réactivations virales (VZV / zona)",
+    "↑ cancers, maladies cardio-vasculaires et auto-immunes"
+   ]
+  },
+  {
+   "id": "fc01-qroc16",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "En dehors de la vaccination, citez les **pistes** envisagées pour limiter l'immunosénescence et expliquez le principe du « bien vieillir ».",
+   "answer": "Le principe du « bien vieillir » repose sur la **régulation de la balance inflammation / anti-inflammation**, c'est-à-dire le contrôle de l'inflammaging. Les **pistes** envisagées sont la **restriction calorique**, la **télomérase**, l'**IL-7** (pour relancer la production de cellules naïves) et le **contrôle des infections chroniques**, en particulier le **CMV**. On peut aussi améliorer la vaccination par des **adjuvants**, des doses adaptées et de nouvelles voies (intranasale).",
+   "keyPoints": [
+    "Clé du bien vieillir = réguler la balance inflammation / anti-inflammation",
+    "Pistes : restriction calorique, télomérase, IL-7",
+    "Contrôle des infections chroniques (CMV)"
+   ]
+  },
+  {
+   "id": "fc01-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le phénotype des **LT CD8 sénescents** (CD8+CD28−) et expliquez pourquoi leur accumulation est délétère.",
+   "answer": "Les **LT CD8 sénescents** (CD8+CD28−) sont des cellules **très différenciées** qui ont perdu la molécule de co-stimulation CD28. Ils sont particulièrement **induits par les stimulations virales chroniques**, notamment le **CMV** (++ important), et s'accumulent progressivement avec l'âge en occupant l'espace périphérique au détriment des cellules naïves. Leur accumulation est délétère à plusieurs niveaux : (1) ils **appauvrissent le répertoire T** en monopolisant l'espace de prolifération homéostatique ; (2) ils contribuent à l'**inflammaging** par sécrétion de cytokines pro-inflammatoires ; (3) leur prolifération est limitée par le **raccourcissement des télomères**, rendant la réponse immunitaire quantitativement et qualitativement insuffisante. Ils participent au profil de risque immunologique du sujet âgé avec l'**inversion du ratio CD4/CD8**.",
+   "keyPoints": [
+    "CD8+CD28− : très différenciés, induits par le CMV++",
+    "Appauvrissent le répertoire T (occupent l'espace périphérique)",
+    "Contribuent à l'inflammaging (cytokines pro-inflammatoires)",
+    "Télomères raccourcis → prolifération limitée",
+    "Participation à l'inversion du ratio CD4/CD8"
+   ],
+   "trap": "La perte de CD28 ne signifie PAS que ces cellules sont inactives : elles sécrètent des cytokines pro-inflammatoires et aggravent l'inflammaging."
+  },
+  {
+   "id": "fc01-qroc18",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelle est la **relation entre CMV et immunosénescence** ? Pourquoi le contrôle du CMV est-il une piste thérapeutique ?",
+   "answer": "La **séropositivité au CMV** est un **marqueur du profil de risque immunologique** du sujet âgé. Le CMV, virus latent non éliminable, génère des **stimulations antigéniques chroniques** qui induisent des **expansions oligoclonales de LT CD8** (CD8+CD28−) : ces clones anti-CMV occupent l'espace périphérique, réduisent la diversité du répertoire T et contribuent à l'**inflammaging**. Le contrôle du CMV est donc une piste pour **limiter l'usure prématurée du système immunitaire** : des stratégies antivirales ou vaccinales contre le CMV pourraient ralentir l'immunosénescence en libérant de l'espace pour des cellules naïves et en réduisant la charge inflammatoire chronique.",
+   "keyPoints": [
+    "CMV séropositif = marqueur du profil de risque immunologique",
+    "CMV → expansions oligoclonales de CD8 → appauvrissement du répertoire",
+    "Contrôle du CMV = piste pour limiter l'immunosénescence"
+   ]
+  },
+  {
+   "id": "fc01-qroc19",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez comment le **biais myéloïde des cellules souches hématopoïétiques (CSH)** s'installe avec l'âge et quelles en sont les conséquences sur la production lymphocytaire.",
+   "answer": "Avec l'âge, les **cellules souches hématopoïétiques (CSH)** s'orientent préférentiellement vers la **lignée myéloïde** au détriment de la **lignée lymphoïde** : c'est le **biais myéloïde**. Ce phénomène résulte d'une combinaison de causes intrinsèques (modifications épigénétiques et mutations acquises dans les CSH) et extrinsèques (modifications du microenvironnement médullaire, notamment ↓ IL-7 stromale). Les conséquences sont : (1) une **réduction de la production de progéniteurs lymphoïdes** (↓ LB naïfs, ↓ production thymique de LT naïfs) ; (2) une **augmentation relative de la production myéloïde** qui contribue à l'inflammaging (macrophages, monocytes pro-inflammatoires). Ce biais accentue la défaillance de l'immunité adaptative sans compenser le déclin fonctionnel de l'innée.",
+   "keyPoints": [
+    "Biais myéloïde des CSH avec l'âge : orientation vers la lignée myéloïde",
+    "Causes intrinsèques (épigénétique, mutations) et extrinsèques (↓ IL-7)",
+    "Conséquences : ↓ progéniteurs lymphoïdes, ↓ LB et LT naïfs",
+    "↑ production myéloïde → inflammaging"
+   ],
+   "trap": "Le biais myéloïde n'améliore PAS l'immunité innée : les cellules myéloïdes produites en excès restent fonctionnellement altérées et contribuent surtout à l'inflammaging."
+  },
+  {
+   "id": "fc01-qroc20",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Comparez les **conséquences de l'immunosénescence sur les lymphocytes B** (production, isotypie, auto-anticorps) et expliquez le lien avec le risque de **MGUS**.",
+   "answer": "Dans l'immunosénescence, les **lymphocytes B naïfs diminuent** du fait de la baisse de l'**IL-7 stromale** et de la réduction des enzymes **RAG et AID**. Ces modifications aboutissent à : (1) un **switch d'isotype régressif IgG → IgM** (anticorps de faible affinité, peu protecteurs malgré leur présence quantitative) ; (2) une **augmentation des auto-anticorps** (défaut de tolérance humorale) contribuant aux MAI du sujet âgé ; (3) l'émergence de **clones lymphocytaires B** pouvant produire une **immunoglobuline monoclonale**. Cette clonalité progressive définit la **MGUS** (Monoclonal Gammopathy of Undetermined Significance), marqueur de risque d'évolution vers un myélome multiple ou une lymphoprolifération maligne. La MGUS est ainsi une **conséquence directe de la dérégulation de la balance lymphocytaire B** dans l'immunosénescence.",
+   "keyPoints": [
+    "↓ LB naïfs (↓ IL-7, ↓ RAG/AID)",
+    "Switch IgG → IgM : Ac de faible affinité",
+    "↑ auto-anticorps → risque de MAI",
+    "Émergence de clones B → Ig monoclonale → MGUS → risque myélome"
+   ],
+   "trap": "Le switch dans le sens IgG → IgM signifie une RÉGRESSION vers des anticorps moins évolués (faible affinité), pas une amélioration. La MGUS est une gammapathie monoclonale à surveiller (risque d'hémopathie maligne)."
+  },
+  {
+   "id": "fc01-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de l'**IL-7** dans le maintien du compartiment T naïf, et pourquoi sa diminution avec l'âge aggrave-t-elle l'immunosénescence ?",
+   "answer": "L'**IL-7** est une cytokine stromale produite par les cellules épithéliales thymiques et les cellules stromales de la moelle osseuse. Elle joue un rôle essentiel dans la **survie et la prolifération homéostatique des LT naïfs** en périphérie (signal de survie) et dans la **thymopoïèse** (différenciation des progéniteurs T dans le thymus). Avec l'âge, la **diminution de la production d'IL-7** (cause extrinsèque du vieillissement adaptatif) contribue à : (1) la **réduction du pool de LT naïfs** (moins de survie périphérique) ; (2) l'**aggravation de l'involution thymique** (moins de soutien à la thymopoïèse résiduelle) ; (3) le **biais myéloïde des CSH** par perte du signal lymphopoïétique. La **supplémentation en IL-7 recombinante** est ainsi l'une des pistes thérapeutiques envisagées pour « relancer » la production de cellules naïves chez le sujet âgé.",
+   "keyPoints": [
+    "IL-7 = signal de survie des LT naïfs + soutien à la thymopoïèse",
+    "Cause extrinsèque du vieillissement (produite par le microenvironnement)",
+    "↓ IL-7 → ↓ LT naïfs + aggravation involution thymique + biais myéloïde",
+    "IL-7 recombinante = piste thérapeutique"
+   ],
+   "trap": "La baisse d'IL-7 est une cause **EXTRINSÈQUE** (microenvironnement), pas intrinsèque à la cellule T elle-même."
   }
  ]
 }
