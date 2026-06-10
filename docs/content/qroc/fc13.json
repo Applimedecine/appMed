@@ -1,5 +1,74 @@
 {
  "slug": "fc13",
  "title": "QROC — Bilan immunologique",
- "questions": []
+ "questions": [
+  {
+   "id": "fc13-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quels sont les **tests diagnostiques basiques** de première intention pour évaluer l'état d'un déficit immunitaire ?",
+   "answer": "Le bilan de base comprend : la **numération formule sanguine (NFS)** (recherche de changements quantitatifs et morphologiques), le dosage des **protéines sériques / immunoglobulines (IgG, IgA, IgM, IgE)** qui constitue la 1re étape pour identifier un problème immunitaire, et les **marqueurs inflammatoires** (CRP, ferritine pour évaluer le caractère chronique de l'inflammation).",
+   "keyPoints": [
+    "NFS (numération formule sanguine)",
+    "Dosage des immunoglobulines / protéines sériques (IgG, IgA, IgM, IgE)",
+    "Marqueurs inflammatoires (CRP, ferritine)"
+   ],
+   "trap": "Le bilan biologique ne se conçoit qu'après un examen clinique poussé : ce dernier n'est jamais facultatif."
+  },
+  {
+   "id": "fc13-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **principe de la néphélométrie / immunoturbidimétrie** pour le dosage des immunoglobulines et indiquez s'il s'agit d'un test qualitatif ou quantitatif.",
+   "answer": "C'est une technique **quantitative** (peu spécifique) de routine. La **formation de complexes Ag/Ac** en milieu liquide augmente la **turbidité** du milieu, proportionnellement à la quantité d'antigène à doser. Les variations de turbidité sont mesurées par un **néphélomètre** envoyant un faisceau laser : la déviation du faisceau est comparée à celle obtenue avec des quantités connues d'antigène, ce qui permet d'en déduire la concentration. Elle sert à doser de nombreuses protéines sériques (immunoglobulines, sous-classes, chaînes légères, fractions du complément C3, C4, FB).",
+   "keyPoints": [
+    "Test QUANTITATIF (peu spécifique)",
+    "Mesure des réactions de précipitation / turbidité liées aux complexes Ag/Ac",
+    "Faisceau laser dévié, comparé à des quantités connues d'antigène",
+    "Dose Ig, sous-classes, chaînes légères, fractions du complément"
+   ],
+   "trap": "La néphélométrie est un test QUANTITATIF, pas qualitatif (confusion fréquente en QCM)."
+  },
+  {
+   "id": "fc13-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Présentez les **trois types de cryoglobulines**, en précisant la composition et le contexte de chacun.",
+   "answer": "Une cryoglobuline est une **immunoglobuline qui précipite à froid**. Le **type 1** est **monoclonal** (5-20 g/L), le plus sévère (ex : myélome multiple avec IgM élevées, problème de viscosité sanguine, mauvais pronostic). Le **type 2** est associé au **facteur rhumatoïde**, surtout retrouvé dans les **infections chroniques**. Le **type 3** est **polyclonal (mixte)**, retrouvé dans les infections chroniques (hépatite C) et les **maladies auto-immunes** ; c'est le plus favorable car les taux sont plus faibles.",
+   "keyPoints": [
+    "Cryoglobuline = Ig qui précipite à froid",
+    "Type 1 = monoclonal, le plus sévère (ex : myélome)",
+    "Type 2 = avec facteur rhumatoïde, infections chroniques",
+    "Type 3 = polyclonal/mixte (hépatite C, MAI), le plus favorable"
+   ],
+   "trap": "Le type 1 est MONOclonal (et non polyclonal) : le type polyclonal/mixte est le type 3."
+  },
+  {
+   "id": "fc13-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez la **CRP** et la **procalcitonine (PCT)** en tant que marqueurs inflammatoires : cinétique et intérêt pour différencier infection bactérienne et virale.",
+   "answer": "La **CRP** est une protéine de **cinétique rapide** et de grande amplitude : elle apparaît dès la **6e-12e heure** (optimale à 24 h), sous dépendance de l'**IL-6**, et augmente fortement au cours des **infections bactériennes mais pas virales**. La **procalcitonine** est un marqueur encore plus **précoce (2-3 h)**, qui augmente lui aussi au cours des **infections bactériennes et non virales**, et est corrélé à la sévérité de l'infection. Particularité utile : dans le **lupus (LES)**, la CRP n'augmente jamais, contrairement aux autres maladies (dissociation VS accélérée / CRP normale).",
+   "keyPoints": [
+    "CRP = cinétique rapide (6-12 h), dépend de l'IL-6, augmente dans les infections bactériennes non virales",
+    "PCT = marqueur très précoce (2-3 h), bactérien non viral, corrélé à la sévérité",
+    "CRP n'augmente pas dans le lupus (LES)"
+   ],
+   "trap": "CRP et PCT s'élèvent dans les infections BACTÉRIENNES, pas virales : la PCT n'est pas un marqueur des infections virales."
+  },
+  {
+   "id": "fc13-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Dans l'**exploration fonctionnelle de la réponse humorale** par la vaccination, expliquez la **3e étape** (spécificité des anticorps) : quels vaccins utiliser, quelles IgG recherchées et quelle démarche en l'absence de réponse.",
+   "answer": "Cette 3e étape évalue la **fonctionnalité des anticorps (des LB)** quand le dosage des Ig totales et des sous-classes est normal (déficit fonctionnel). On vaccine puis on recherche des **anticorps spécifiques par ELISA** : avec un **vaccin conjugué/inactivé protéique** (Diphtérie, Tétanos, Polio) on recherche surtout les **IgG1** ; avec un **vaccin polysaccharidique** (Pneumo23, Méningo) on recherche surtout les **IgG2**. Si la réponse est absente, on **revaccine et on refait le dosage 3 mois après**, jusqu'à 3 fois ; en l'absence de réponse après le second vaccin, on peut poser le diagnostic de **déficit en lymphocytes**.",
+   "keyPoints": [
+    "But : tester la fonctionnalité des Ac/LB (déficit fonctionnel)",
+    "Vaccin protéique (DTP) -> IgG1 ; vaccin polysaccharidique (Pneumo23, Méningo) -> IgG2",
+    "Dosage des Ac spécifiques par ELISA",
+    "Si absence de réponse : revacciner (jusqu'à 3 fois) ; sinon diagnostic de déficit lymphocytaire"
+   ],
+   "trap": "Une absence de réponse après revaccination N'élimine PAS un déficit : au contraire, elle oriente vers un déficit fonctionnel / lymphocytaire."
+  }
+ ]
 }

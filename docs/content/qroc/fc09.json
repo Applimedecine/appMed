@@ -1,5 +1,71 @@
 {
  "slug": "fc09",
  "title": "QROC — Immunothérapie antitumorale",
- "questions": []
+ "questions": [
+  {
+   "id": "fc09-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Décrivez la **théorie des 3 E** de l'immunoediting : nommez les trois phases dans l'ordre et donnez une phrase de définition pour chacune.",
+   "answer": "La théorie des **3 E** (immunoediting) décrit l'évolution de la relation tumeur-système immunitaire. **1. Élimination** : le SI reconnaît et détruit efficacement les cellules transformées (immunosurveillance classique). **2. Équilibre** : la tumeur résiste à l'élimination complète mais reste contrôlée ; la pression de sélection du SI modèle (édite) les variants tumoraux. **3. Échappement** : les variants peu immunogènes sélectionnés prolifèrent, le SI ne peut plus contrôler la tumeur → la maladie devient cliniquement visible.",
+   "keyPoints": [
+    "Élimination : destruction efficace des cellules tumorales",
+    "Équilibre : contrôle partiel + immunoediting (sélection de variants)",
+    "Échappement : prolifération incontrôlée, maladie clinique"
+   ],
+   "trap": "L'ordre est impératif (Élimination → Équilibre → Échappement). Un patient peut rester très longtemps en phase d'équilibre."
+  },
+  {
+   "id": "fc09-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le concept de **'missing self'** et comment les cellules **NK** reconnaissent et éliminent une cellule tumorale.",
+   "answer": "Les cellules **NK** (Natural Killer) expriment deux types de récepteurs : des **récepteurs activateurs (KAR)** et des **récepteurs inhibiteurs (KIR)**. Les KIR reconnaissent le **CMH-I** du soi → signal inhibiteur → la NK épargne la cellule. Lorsqu'une cellule tumorale **perd l'expression du CMH-I** (mécanisme fréquent d'échappement à l'immunité adaptative), les KIR ne reçoivent plus de signal inhibiteur : la balance bascule en faveur de l'activation. C'est le **'missing self'** (soi manquant). La NK active lyse alors la cible par **perforine et granzymes**, induisant l'apoptose.",
+   "keyPoints": [
+    "NK : balance KIR (inhibiteur, reconnaît CMH-I) / KAR (activateur)",
+    "Missing self : perte du CMH-I → KIR sans signal → activation NK",
+    "Lyse par perforine/granzyme → apoptose de la cellule tumorale"
+   ],
+   "trap": "Ce mécanisme est complémentaire à la réponse T : les LT CD8 ne peuvent pas tuer les cellules sans CMH-I, alors que les NK les ciblent précisément. Les deux bras s'articulent."
+  },
+  {
+   "id": "fc09-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Distinguez les **macrophages associés à la tumeur (TAM) M1 et M2** : phénotype, cytokines principales et impact pronostique.",
+   "answer": "Les **TAM M1** ont un phénotype **pro-inflammatoire** : ils sécrètent des cytokines de type **Th1** (IFN-γ, TNF-α, IL-12) et exercent une action **cytotoxique** directe sur la tumeur → **inhibent** la croissance tumorale → **bon pronostic**. Les **TAM M2** ont un phénotype **anti-inflammatoire** : ils sécrètent **IL-10, TGF-β, VEGF**, favorisent l'angiogenèse, la fibrose et l'immunosuppression du microenvironnement → **favorisent la croissance tumorale** dans les tumeurs froides → **mauvais pronostic**. L'orientation M1/M2 dépend du microenvironnement tumoral.",
+   "keyPoints": [
+    "TAM M1 : pro-inflammatoire, Th1 (IFN-γ, IL-12), anti-tumoral, bon pronostic",
+    "TAM M2 : anti-inflammatoire, IL-10/TGF-β/VEGF, pro-tumoral, mauvais pronostic",
+    "Le ratio M1/M2 influence le pronostic"
+   ]
+  },
+  {
+   "id": "fc09-qroc4",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Citez et décrivez **au moins 4 mécanismes d'échappement tumoral**, en les classant par catégorie (présentation antigénique, costimulation, immunosuppression, dysfonction lymphocytaire).",
+   "answer": "**1. Altération de la présentation antigénique** : perte ou diminution d'expression du **CMH-I** (mutation de β2m, défaut de TAP-1/TAP-2 ou LMP-2/LMP-7) → les LT CD8 ne reconnaissent plus la cellule tumorale. **2. Défaut de costimulation** : inhibition de **B7.1/B7.2 et CD40** → les LT naïfs ne reçoivent pas le signal 2 → **anergie lymphocytaire**. **3. Immunosuppression par le microenvironnement** : recrutement de **Treg** sécrétant TGF-β et IL-10 ; expression d'**IDO** (dégradation du tryptophane) ; cellules **MDSC** suppressives. **4. Activation des checkpoints** : surexpression de **PD-L1** sur la tumeur se liant à **PD-1** des LT → épuisement/apoptose des LT ; **CTLA-4** → co-inhibition de l'activation T.",
+   "keyPoints": [
+    "Perte CMH-I : invisible aux LT CD8",
+    "Anergie : absence de signal 2 (B7, CD40)",
+    "Immunosuppression : Treg, IDO, TGF-β, IL-10, MDSC",
+    "Checkpoints : PD-1/PD-L1 et CTLA-4 → épuisement LT"
+   ],
+   "trap": "L'IDO dégrade le tryptophane, limitant la prolifération T : son action est immunosuppressive. Ne pas confondre avec la perte du CMH-I (qui cible la présentation antigénique)."
+  },
+  {
+   "id": "fc09-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez **ipilimumab** et **pembrolizumab** : cible moléculaire, lieu d'action et mécanisme de levée de l'inhibition des LT.",
+   "answer": "**Ipilimumab** cible **CTLA-4**, un récepteur co-inhibiteur exprimé par les LT lors de la phase d'**amorçage dans les ganglions lymphatiques**. En bloquant CTLA-4 (qui entre en compétition avec CD28 pour se lier à B7), il permet la pleine costimulation des LT naïfs → augmentation du nombre de LT effecteurs recrutés. **Pembrolizumab** (et nivolumab) ciblent **PD-1**, exprimé par les LT épuisés au contact de la tumeur dans le **microenvironnement tumoral** ; **PD-1 est un marqueur d'épuisement**. En bloquant l'axe PD-1/PD-L1, on restaure la cytotoxicité des LT déjà infiltrés dans la tumeur.",
+   "keyPoints": [
+    "Ipilimumab : anti-CTLA-4, phase d'amorçage (ganglions), amplifie le recrutement T",
+    "Pembrolizumab : anti-PD-1 (marqueur d'épuisement), microenvironnement tumoral",
+    "Les deux lèvent l'inhibition des LT à des étapes différentes"
+   ],
+   "trap": "CTLA-4 agit en phase d'amorçage (avant contact tumoral) ; PD-1 agit au niveau de la tumeur (phase effectrice). Les combiner a une efficacité supérieure mais une toxicité auto-immune accrue."
+  }
+ ]
 }

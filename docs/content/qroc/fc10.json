@@ -1,5 +1,76 @@
 {
  "slug": "fc10",
  "title": "QROC — Vaccins & adjuvants",
- "questions": []
+ "questions": [
+  {
+   "id": "fc10-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Donnez la **définition d'un vaccin** et précisez le type d'immunisation qu'il induit, en l'opposant à l'immunisation passive.",
+   "answer": "Un vaccin est un **morceau (ou une préparation antigénique) de pathogène** destiné à induire chez la personne ou l'animal vacciné une **réponse immunitaire**. Il est **spécifique d'un agent pathogène** et capable de **protéger contre l'infection naturelle ou d'en atténuer les conséquences**. Il induit une **immunisation active**, c'est-à-dire que c'est l'organisme du sujet qui fabrique sa propre réponse, par opposition à l'**immunisation passive** qui correspond au **transfert d'anticorps d'un individu à un autre**. Les vaccins à ARN (ARNm) sont aussi des vaccins, l'ARNm constituant une préparation antigénique.",
+   "keyPoints": [
+    "Vaccin = morceau/préparation antigénique de pathogène induisant une réponse immunitaire",
+    "Spécifique d'un agent pathogène, protège ou atténue l'infection naturelle",
+    "Immunisation active (le sujet fabrique sa réponse)",
+    "Immunisation passive = transfert d'anticorps d'un individu à l'autre"
+   ],
+   "trap": "Le vaccin induit une immunisation ACTIVE, pas passive : l'immunisation passive correspond au transfert d'anticorps."
+  },
+  {
+   "id": "fc10-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **principaux avantages et inconvénients des vaccins vivants atténués**. Chez quelles populations sont-ils **contre-indiqués** ?",
+   "answer": "Les vaccins vivants atténués utilisent une **forme atténuée du pathogène**, proche d'une infection naturelle : ils sont donc **très immunogènes** et induisent une **réponse immune similaire à l'infection naturelle**, **habituellement efficace avec une seule dose**, avec une **bonne sollicitation de l'immunité cellulaire et locale**, **sans adjuvant** et **peu coûteux**. Inconvénients : l'**atténuation est parfois incomplète**, ils ne sont **pas dépourvus de risque infectieux** (réversion du virus polio, BCGites, vaccine généralisée), sont **allergisants** (production sur œufs embryonnés), **instables** (stockage/transport difficiles) et peuvent interférer avec les anticorps circulants. Ils sont **contre-indiqués chez les immunodéprimés (ID) et chez les femmes enceintes**, mais sont utilisés chez les enfants.",
+   "keyPoints": [
+    "Forme atténuée, très immunogène, proche de l'infection naturelle",
+    "Souvent efficace en une seule dose, immunité cellulaire/locale, sans adjuvant",
+    "Risque infectieux (réversion polio, BCGite), atténuation parfois incomplète, instables",
+    "Contre-indiqués chez les immunodéprimés et les femmes enceintes"
+   ],
+   "trap": "Les vaccins vivants atténués sont contre-indiqués chez l'immunodéprimé et la femme enceinte (y compris sous chimiothérapie), mais utilisés chez l'enfant."
+  },
+  {
+   "id": "fc10-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Opposez les vaccins **polysaccharidiques purs** et **polysaccharidiques conjugués** : type de lymphocyte sollicité, isotype d'anticorps produit et existence d'une mémoire immunitaire.",
+   "answer": "Les vaccins **polysaccharidiques purs** sont **thymo-indépendants** : le polysaccharide a une **forte affinité pour le BCR** et se lie facilement aux lymphocytes B, induisant **surtout des IgM** (et un peu d'IgG). Comme ce sont des sucres et non des peptides, ils **ne sont pas présentés par le CMH** et **n'induisent quasiment pas de réponse CD4** : ils sont donc **peu immunogènes chez l'enfant**, d'effet **de courte durée** (rappel tous les 5 ans), sans mémoire. Les vaccins **polysaccharidiques conjugués** ajoutent une **protéine porteuse** au sucre : l'ensemble est présenté par les cellules B aux **lymphocytes CD4**, ce qui permet une **production d'IgG +++** et l'établissement d'une **mémoire immunitaire**. Ils ont donc remplacé les polysaccharides purs (exemples : pneumocoque, Haemophilus influenzae, méningocoque).",
+   "keyPoints": [
+    "Polysaccharides purs : thymo-indépendants, forte affinité BCR, surtout IgM",
+    "Purs : pas de présentation CMH, pas de CD4, peu immunogènes chez l'enfant, rappel tous les 5 ans",
+    "Conjugués : protéine porteuse → réponse CD4 → IgG +++",
+    "Conjugués : mémoire immunitaire (ont remplacé les purs)"
+   ],
+   "trap": "Les polysaccharides purs produisent surtout des IgM (réponse thymo-indépendante, sans mémoire) ; ce sont les conjugués qui produisent des IgG."
+  },
+  {
+   "id": "fc10-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **adjuvant** ? Détaillez ses **deux grands rôles** dans un vaccin et donnez un exemple de chaque grande catégorie.",
+   "answer": "Un adjuvant (du latin *adjuvare*, assister) est une **molécule qui facilite la présentation et la prise en charge de l'antigène** et améliore sa distribution au moment de la vaccination. Ses deux grands rôles sont : **(1) protéger le vaccin**, en lui permettant de **rester suffisamment longtemps au site d'injection** et en **ralentissant sa dégradation** (cas de l'**aluminium**) ; **(2) stimuler la réponse immunitaire**, en **augmentant et accélérant la réponse spécifique et sa longévité**, en améliorant la présentation de l'antigène, en l'améliorant chez les immunodéficients (personnes âgées, enfants), et en **réduisant la quantité d'antigène nécessaire** (\"dose sparing\", utile en pandémie). On distingue les **molécules physicochimiques** qui retardent la dégradation de l'antigène (**sels minéraux d'aluminium**, **huiles/émulsions**) et les adjuvants **immunostimulants** (**ligands de l'immunité innée**).",
+   "keyPoints": [
+    "Adjuvant = molécule qui facilite la présentation/prise en charge de l'antigène",
+    "Rôle 1 : protéger le vaccin (reste au site, ralentit la dégradation — ex aluminium)",
+    "Rôle 2 : stimuler/augmenter et prolonger la réponse immunitaire, réduire la dose d'antigène",
+    "Catégories : physicochimiques (aluminium, huiles) et immunostimulants (ligands immunité innée)"
+   ]
+  },
+  {
+   "id": "fc10-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le lien physiopathologique entre **vaccination et auto-immunité** (rupture de tolérance, mimétisme moléculaire). Citez l'épisode considéré comme la **seule mise en cause réellement avérée** d'un vaccin et son mécanisme.",
+   "answer": "On évolue vers une maladie auto-immune lorsque la **tolérance vis-à-vis du soi est brisée** : si l'on **stimule trop fortement la réponse immunitaire** avec un vaccin, il existe un risque théorique d'induire une auto-immunité. L'hypothèse physiopathologique repose sur le **mimétisme moléculaire** : certains pathogènes (et donc certains vaccins) portent des **antigènes ressemblant aux antigènes du soi**. Les risques tiennent ainsi aux **adjuvants** (qui peuvent lever la tolérance du soi), aux **antigènes injectés proches du soi**, et au **terrain de la personne vaccinée**. La **seule mise en cause réellement avérée** est la **narcolepsie après vaccination H1N1 (vaccin adjuvanté, 2014)** : certains lots contenaient un **épitope similaire à l'hypocrétine**, protéine régulant l'endormissement, induisant une narcolepsie par **mimétisme moléculaire** ; après changement de composition, le problème a disparu. À l'inverse, les liens supposés (Guillain-Barré/grippe, SEP/hépatite B, autisme/ROR) ont été **invalidés** par les études ultérieures : corrélation n'est pas causalité.",
+   "keyPoints": [
+    "Auto-immunité = rupture de la tolérance du soi ; risque si réponse trop fortement stimulée",
+    "Mimétisme moléculaire : Ag du vaccin ressemblant aux Ag du soi",
+    "Risques : adjuvants levant la tolérance, Ag proches du soi, terrain du sujet",
+    "Seul lien avéré : narcolepsie / H1N1 adjuvanté (épitope proche de l'hypocrétine)",
+    "Liens Guillain-Barré, SEP/hépatite B, autisme/ROR invalidés (corrélation ≠ causalité)"
+   ],
+   "trap": "Le seul lien réellement avéré est narcolepsie/H1N1 ; les associations Guillain-Barré/grippe, SEP/hépatite B et autisme/ROR ont été invalidées."
+  }
+ ]
 }

@@ -1,5 +1,73 @@
 {
  "slug": "fc14",
  "title": "QROC — Immunopathologie VIH",
- "questions": []
+ "questions": [
+  {
+   "id": "fc14-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Décrivez les **trois etapes** de l'entree du VIH dans un lymphocyte T CD4, en precisant les glycoproteines virales et le co-recepteur impliques.",
+   "answer": "L'entree se fait en trois etapes. 1) **Attachement** : la glycoproteine **GP120** se lie au recepteur **CD4** de la cellule cible. 2) **Liaison au co-recepteur** : apres un changement de conformation, GP120 se lie a un co-recepteur, **CCR5 ou CXCR4** (selon le tropisme de la souche). 3) **Fusion** : la glycoproteine **GP41** assure la fusion de l'enveloppe virale avec la membrane cellulaire, creant un pore qui laisse penetrer la capside.",
+   "keyPoints": [
+    "Attachement GP120 / recepteur CD4",
+    "Liaison au co-recepteur CCR5 ou CXCR4 apres changement de conformation de GP120",
+    "Fusion via GP41 avec la membrane"
+   ],
+   "trap": "Ne pas inverser les roles : GP120 = attachement/co-recepteur, GP41 = fusion."
+  },
+  {
+   "id": "fc14-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **retrovirus** ? Citez les **trois enzymes** virales necessaires a la replication du VIH et leur role respectif.",
+   "answer": "Un **retrovirus** est un virus dont le materiel genetique est de l'**ARN** (simple brin pour le VIH), qui est transcrit en **ADN** par une enzyme interne. Les trois enzymes sont : la **transcriptase inverse** (retrotranscrit l'ARN viral en ADN), l'**integrase** (integre cet ADN dans le genome de la cellule hote) et la **protease** (permet la maturation/formation de nouvelles particules virales infectantes).",
+   "keyPoints": [
+    "Retrovirus = ARN transcrit en ADN par une enzyme interne",
+    "Transcriptase inverse = ARN vers ADN",
+    "Integrase = integration dans le genome de la cellule hote",
+    "Protease = formation de nouveaux virions infectants"
+   ]
+  },
+  {
+   "id": "fc14-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Pourquoi la **reponse immunitaire adaptative humorale** est-elle peu efficace contre le VIH ? Citez l'interet diagnostique et therapeutique des anticorps anti-VIH.",
+   "answer": "La reponse est limitee par la **grande variabilite genetique** du virus et par un phenomene de **masking** (glycosylation, changement de conformation) qui masque les antigenes et perturbe leur reconnaissance. Les **anticorps neutralisants** produits par les LB (notamment contre la **gp120**) sont **faibles et tardifs**. Ils sont surtout utiles pour le **diagnostic**. Sur le plan therapeutique, environ **1%** des patients produisent des anticorps **largement neutralisants (bNAbs)**, piste de recherche (vaccination passive, transfert protecteur chez le primate).",
+   "keyPoints": [
+    "Variabilite du virus + masking (glycosylation/conformation)",
+    "Ac neutralisants faibles et tardifs, surtout anti-gp120",
+    "Utiles pour le diagnostic",
+    "bNAbs (~1%) = piste therapeutique/vaccinale"
+   ],
+   "trap": "Les anticorps anti-VIH servent au diagnostic mais ne protegent pas de l'infection (sauf les bNAbs)."
+  },
+  {
+   "id": "fc14-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **reservoir viral** dans l'infection a VIH ? Citez le tissu reservoir principal et le type cellulaire majeur, et expliquez pourquoi les reservoirs persistent sous traitement.",
+   "answer": "Le reservoir est constitue de cellules infectees de facon latente ou l'**ADN viral est integre mais non transcrit** (chromatine fermee), avec possibilite de **reactivation** a tout moment. Le principal reservoir est constitue des **lymphocytes T CD4 memoires** (cellules quiescentes, 'resting immune cells'), et le **tissu reservoir majeur est l'intestin** (notamment les **Th17**). Sous traitement, l'ARN viral circulant chute mais les **cellules quiescentes restent infectees** : le traitement bloque le cycle viral mais n'elimine pas l'ADN integre, d'ou la persistance des reservoirs.",
+   "keyPoints": [
+    "Reservoir = ADN integre non transcrit, reactivable",
+    "Cellules : LT CD4 memoires quiescentes",
+    "Tissu majeur : intestin (Th17)",
+    "Le traitement fait chuter l'ARN circulant mais ne touche pas les reservoirs"
+   ]
+  },
+  {
+   "id": "fc14-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Decrivez le mecanisme genetique protegeant les **sujets exposes non infectes (HENI)** vis-a-vis du VIH, et expliquez le lien avec les patients en **remission apres greffe de moelle osseuse**.",
+   "answer": "Il existe une **deletion de 32 paires de bases dans le gene CCR5** (delta32), qui empeche l'expression fonctionnelle du co-recepteur **CCR5** et donc **empeche le virus de penetrer dans les cellules cibles**. Ce mecanisme explique la remission de quelques patients (environ 7 dans le monde) : a la suite d'un cancer, ils ont recu une **greffe de moelle osseuse d'un donneur porteur de la mutation CCR5**, ce qui a reconstitue un repertoire immunitaire resistant a l'entree du virus. D'autres facteurs interviennent chez les HENI (activite NK accrue, reponses Th/CTL fortes, IgA/IgG neutralisantes muqueuses, auto-anticorps anti-CCR5/CD4/HLA, certains CMH I), mais les mecanismes precis restent mal compris.",
+   "keyPoints": [
+    "Deletion 32 pb du gene CCR5 (delta32)",
+    "Empeche la penetration du virus dans les cellules cibles",
+    "~7 patients en remission via greffe de moelle d'un donneur CCR5-muté",
+    "Autres facteurs HENI : NK, reponses T, IgA neutralisantes muqueuses (mecanismes mal compris)"
+   ],
+   "trap": "C'est le co-recepteur CCR5 (pas le recepteur CD4) qui est aboli par la mutation delta32."
+  }
+ ]
 }

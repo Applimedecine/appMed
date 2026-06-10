@@ -1,5 +1,69 @@
 {
  "slug": "fc23",
  "title": "QROC — Infections longues",
- "questions": []
+ "questions": [
+  {
+   "id": "fc23-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Définissez les **syndromes post-infectieux** : à quel moment surviennent-ils, quel est le symptôme le plus fréquent, et donnez deux exemples de pathogènes responsables.",
+   "answer": "Les **syndromes post-infectieux** correspondent à la persistance de symptômes après la résolution de la phase aiguë d'une infection. Ils surviennent alors que l'infection aiguë est **terminée** mais que certains symptômes persistent durablement (semaines, mois, voire années). Le **symptôme le plus fréquent** est la **fatigue**, suivie des douleurs musculaires, articulaires et des troubles neurocognitifs. Ils peuvent survenir après de nombreuses infections : **SARS-CoV-2** (COVID long), **virus Epstein-Barr** (syndrome de fatigue chronique), **Borrelia burgdorferi** (séquelles de maladie de Lyme), **virus Chikungunya**, **virus Ebola**, etc.",
+   "keyPoints": [
+    "Post-infectieux : survient après la phase aiguë, infection terminée",
+    "Symptôme le plus fréquent : fatigue",
+    "Autres : douleurs musculaires/articulaires, troubles cognitifs",
+    "Exemples : SARS-CoV-2, EBV, Borrelia burgdorferi, Chikungunya"
+   ]
+  },
+  {
+   "id": "fc23-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Donnez la définition du **COVID long** selon l'OMS, en précisant les trois critères qui le définissent, son mode de diagnostic et sa prévalence estimée.",
+   "answer": "Selon la définition de l'**OMS**, le **COVID long** est caractérisé par des symptômes : **(1)** apparaissant après une infection aiguë par le **SARS-CoV-2** ; **(2)** persistant **plus de deux mois** ; **(3)** ne pouvant pas être expliqués par une autre maladie. Le diagnostic est donc un **diagnostic d'exclusion** : il faut éliminer toutes les autres causes pouvant expliquer les symptômes. Les symptômes les plus fréquents sont la fatigue, la dyspnée, les troubles du goût et de l'odorat. Prévalence estimée : environ **6 personnes sur 100** infectées en 2025 développent des symptômes persistants, et **4 % de la population française** était concernée en 2023.",
+   "keyPoints": [
+    "3 critères OMS : après SARS-CoV-2, > 2 mois, non expliqué par autre maladie",
+    "Diagnostic d'exclusion",
+    "Symptômes : fatigue, dyspnée, troubles goût/odorat",
+    "Prévalence : ~6/100 infectés (2025), ~4 % population française (2023)"
+   ]
+  },
+  {
+   "id": "fc23-qroc3",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Citez et décrivez **au moins 4 des 5 hypothèses mécanistiques** proposées pour expliquer le COVID long.",
+   "answer": "Cinq hypothèses mécanistiques sont étudiées. **(1) Persistance virale** : du matériel génétique du SARS-CoV-2 a été retrouvé dans différents tissus (foie, cerveau, poumon, peau) plusieurs mois après l'infection aiguë — sa présence est associée à un risque accru de COVID long. **(2) Micro-caillots** : présence de microthromboses sanguines perturbant la circulation et l'oxygénation tissulaire. **(3) Dysfonction immunitaire** : niveaux élevés d'IgG, taux de cortisol abaissé, activation anormale du SI avec persistance d'une inflammation chronique. **(4) Réactivation de virus latents** : notamment la réactivation de l'**EBV**, retrouvée chez certains patients atteints de COVID long. **(5) Auto-anticorps** : présence d'auto-Ac chez certains patients, mais résultats encore contradictoires.",
+   "keyPoints": [
+    "Persistance virale : ARN/protéines SARS-CoV-2 dans les tissus à distance",
+    "Micro-caillots : microthromboses, hypoxie tissulaire",
+    "Dysfonction immunitaire : IgG ↑, cortisol ↓, inflammation persistante",
+    "Réactivation EBV",
+    "Auto-anticorps (résultats contradictoires)"
+   ],
+   "trap": "Ces hypothèses ne sont pas mutuellement exclusives et peuvent coexister chez un même patient. Aucun mécanisme unique n'explique tous les cas de COVID long à ce jour."
+  },
+  {
+   "id": "fc23-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **facteurs de risque** et les **facteurs protecteurs** du COVID long identifiés dans les études épidémiologiques ?",
+   "answer": "**Facteurs de risque** identifiés : être une **femme**, avoir des **maladies chroniques préexistantes** (diabète, arthrite rhumatoïde, migraines…), avoir eu une **infection initiale sévère**, et l'infection par certains **variants** (le variant **Delta** semblait associé à un risque plus élevé que le variant Omicron). Le nombre d'infections successives n'est pas établi comme facteur de risque (absence de consensus). **Facteur protecteur** principal : la **vaccination** avant l'infection réduit significativement le risque → **1 dose** avant infection : réduction d'environ **15 %** ; **2 doses** avant infection : réduction d'environ **24 %** ; les **non-vaccinés** présentent le risque le plus élevé.",
+   "keyPoints": [
+    "Facteurs de risque : femme, comorbidités (diabète, AR, migraines), infection sévère, variant Delta",
+    "Facteur protecteur : vaccination (1 dose → -15 % ; 2 doses → -24 %)"
+   ]
+  },
+  {
+   "id": "fc23-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les deux **hypothèses mécanistiques** proposées pour expliquer les douleurs articulaires persistantes après infection par le **virus Chikungunya**.",
+   "answer": "L'infection par le **virus Chikungunya** peut entraîner des douleurs articulaires chroniques (chevilles, genoux) et parfois une alopécie, persistant des mois après la phase aiguë. Deux hypothèses mécanistiques ont été proposées : **Hypothèse 1 — Activation immunitaire** : les cellules **Th17** produisent de l'**IL-17**, qui active des molécules telles que **MMP (métalloprotéinases matricielles)** et **RANKL**, agissant sur les **ostéoclastes** et le cartilage → lésions articulaires inflammatoires et douloureuses. **Hypothèse 2 — Persistance virale** : l'**ARN viral** pourrait persister dans l'organisme et activer de façon prolongée les **macrophages via le récepteur SLAMF7**, maintenant une inflammation chronique locale avec impact articulaire.",
+   "keyPoints": [
+    "H1 : Th17 → IL-17 → MMP/RANKL → dégradation articulaire (ostéoclastes, cartilage)",
+    "H2 : ARN viral persistant → activation macrophages (SLAMF7) → inflammation chronique"
+   ]
+  }
+ ]
 }

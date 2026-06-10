@@ -1,5 +1,72 @@
 {
  "slug": "fc17",
  "title": "QROC — Anticorps thérapeutiques",
- "questions": []
+ "questions": [
+  {
+   "id": "fc17-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **trois determinants de l'immunogenicite** d'un anticorps therapeutique et indiquez, pour chacun, la region de l'immunoglobuline qui le determine.",
+   "answer": "Les trois determinants sont l'**isotypie**, l'**allotypie** et l'**idiotypie**. L'**isotypie** est determinee par les **regions constantes des chaines lourdes** (caractere commun a l'espece, 5 isotypes G, A, M, E, D). L'**allotypie** correspond a une variation phenotypique intra-espece, determinee par les **regions constantes des chaines lourdes et legeres**. L'**idiotypie** est une variation de la **region variable** permettant la reconnaissance specifique de l'antigene, propre a chaque cellule B.",
+   "keyPoints": [
+    "Isotypie : regions constantes des chaines lourdes",
+    "Allotypie : regions constantes des chaines lourdes et legeres (intra-espece)",
+    "Idiotypie : region variable (reconnaissance specifique de l'Ag)"
+   ],
+   "trap": "L'idiotypie depend de la region VARIABLE, pas constante : meme un anticorps entierement humain reste immunogene par son idiotype."
+  },
+  {
+   "id": "fc17-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Definissez les quatre niveaux d'**humanisation** des anticorps monoclonaux recombinants et associez a chacun son **suffixe (DCI)**.",
+   "answer": "On distingue : les anticorps **murins** (entierement de souris, suffixe **-momab**) ; les anticorps **chimeriques** (domaines variables murins + domaines constants humains, suffixe **-ximab**) ; les anticorps **humanises** (regions hypervariables CDR de souris + reste humain, suffixe **-zumab**) ; les anticorps **humains** (entierement humains mais conservant l'idiotype, suffixe **-mumab**, les plus utilises). L'humanisation reduit l'immunogenicite et ameliore l'efficacite et la tolerance.",
+   "keyPoints": [
+    "Murin = -momab",
+    "Chimerique (V murin + C humain) = -ximab",
+    "Humanise (CDR murins) = -zumab",
+    "Humain = -mumab"
+   ]
+  },
+  {
+   "id": "fc17-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le role du **recepteur FcRn** dans la pharmacocinetique des anticorps therapeutiques. Pourquoi les biotherapies sont-elles administrees par **voie injectable** et non orale ?",
+   "answer": "Lorsque le fragment **Fc** est reconnu par le **FcRn (Fc neonatal receptor)**, present a la surface des **monocytes et cellules endotheliales**, l'anticorps est capte puis **recycle** (plutot que degrade), ce qui **augmente sa demi-vie** et sa duree d'efficacite. Les biotherapies sont administrees en **injectable** car l'**acidite gastrique detruit la structure proteique** des immunoglobulines ; de plus ces molecules **hydrophiles** ne traversent pas la membrane plasmique et agissent au niveau membranaire ou extracellulaire.",
+   "keyPoints": [
+    "FcRn lie le fragment Fc -> recyclage -> augmentation de la demi-vie",
+    "FcRn sur monocytes et cellules endotheliales",
+    "Injectable car l'acidite gastrique detruit la structure proteique",
+    "Hydrophiles : ne traversent pas la membrane, action membranaire/extracellulaire"
+   ],
+   "trap": "Le FcRn AUGMENTE la demi-vie (il la prolonge en recyclant l'Ig, il ne la diminue pas)."
+  },
+  {
+   "id": "fc17-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **trois grands mecanismes d'action** des anticorps therapeutiques. Pour les anticorps **cytolytiques**, detaillez les quatre mecanismes possibles et l'isotype privilegie.",
+   "answer": "Les trois grands mecanismes sont : **neutralisant**, **cytolytique** et **antagoniste**. Les anticorps **cytolytiques** detruisent une cible cellulaire apres liaison a un antigene membranaire, selon quatre mecanismes : 1) **ADCC** (cytotoxicite cellulaire dependante des anticorps, via le Fc), 2) **cytotoxicite dependante du complement** (recrutement du complement), 3) **toxicite directe** par induction de l'**apoptose**, 4) **phagocytose apres opsonisation**. L'isotype privilegie est l'**IgG1**, dont le fragment Fc active tres bien le complement.",
+   "keyPoints": [
+    "3 mecanismes : neutralisant, cytolytique, antagoniste",
+    "Cytolytiques : ADCC, complement (CDC), apoptose directe, phagocytose apres opsonisation",
+    "Isotype privilegie : IgG1 (Fc active bien le complement)"
+   ]
+  },
+  {
+   "id": "fc17-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "A propos des **anti-TNF alpha** : citez leurs principales indications, leurs deux types d'action sur le TNF, et expliquez pourquoi un **depistage de la tuberculose latente** est indispensable avant traitement.",
+   "answer": "Les **anti-TNF alpha** sont indiques dans les **MICI**, les **rhumatismes inflammatoires** et le **psoriasis** (revolution de la prise en charge des maladies inflammatoires chroniques). Ils peuvent tous lier la **forme soluble** du TNF alpha (action **neutralisante**) ; certains (infliximab, adalimumab, golimumab, certolizumab) lient aussi la **forme membranaire** (action **antagoniste**). Le **TNF alpha** joue un role cle dans la **formation et le maintien du granulome** qui contient la tuberculose latente : sous anti-TNF, le granulome n'est plus controle, ce qui provoque une **reactivation tuberculeuse**. Une tuberculose latente est donc une **contre-indication**, d'ou la necessite de la depister avant tout traitement. Ce sont des medicaments tres immunogenes necessitant un **monitoring** (taux residuel et taux d'anticorps anti-medicament).",
+   "keyPoints": [
+    "Indications : MICI, rhumatismes inflammatoires, psoriasis",
+    "Forme soluble = action neutralisante ; forme membranaire = action antagoniste",
+    "TNF alpha indispensable au granulome -> risque de reactivation tuberculeuse",
+    "Tuberculose latente = contre-indication ; monitoring (taux + Ac anti-medicament)"
+   ],
+   "trap": "Les anti-TNF sont TRES immunogenes (risque d'echappement therapeutique par anticorps anti-medicament), d'ou le monitoring."
+  }
+ ]
 }

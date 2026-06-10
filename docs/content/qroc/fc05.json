@@ -76,6 +76,69 @@
     "Allogreffe : hémopathies malignes, déficits génétiques",
     "Autogreffe : hémopathies, MAI/inflammatoires"
    ]
+  },
+  {
+   "id": "fc05-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez les **cellules souches mésenchymateuses** et les **cellules souches adultes/fœtales** (potentiel, accessibilité).",
+   "answer": "Les deux sont **multipotentes**. Les **CS mésenchymateuses** sont des cellules **stromales** issues de tissus **facilement accessibles** (moelle, tissu adipeux, cordon). Les **CS adultes / fœtales** sont prélevées dès la naissance mais sont **rares et difficiles à isoler**. Aucune ne pose de **problème éthique** (contrairement aux CSE).",
+   "keyPoints": [
+    "Les deux sont multipotentes",
+    "Mésenchymateuses : stromales, tissus facilement accessibles (moelle, adipeux, cordon)",
+    "CS adultes/fœtales : rares et difficiles à isoler",
+    "Pas de problème éthique"
+   ]
+  },
+  {
+   "id": "fc05-qroc8",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que le **Sipuleucel-T (PROVENGE)** et dans quelle indication est-il utilisé ?",
+   "answer": "Le **Sipuleucel-T (PROVENGE)** est le **1ᵉʳ vaccin thérapeutique anti-tumoral**. Il repose sur des **cellules dendritiques immunisées** (présentation d'un antigène tumoral) et est utilisé dans le **cancer de la prostate**.",
+   "keyPoints": [
+    "1er vaccin thérapeutique anti-tumoral",
+    "Cellules dendritiques immunisées",
+    "Indication : cancer de la prostate"
+   ]
+  },
+  {
+   "id": "fc05-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez **deux exemples de thérapie génique ou de médecine régénérative** vus dans le cours, en précisant leur indication.",
+   "answer": "Le **Strimvelis** est une **thérapie génique** du **déficit en ADA** : les **CSH sont corrigées ex vivo** avant réinjection. L'**HOLOCLAR** permet la **reconstruction de la cornée**. À cela s'ajoutent les **cellules souches cutanées** utilisées chez les **grands brûlés**.",
+   "keyPoints": [
+    "Strimvelis : thérapie génique du déficit en ADA (CSH corrigées ex vivo)",
+    "HOLOCLAR : reconstruction de la cornée",
+    "CS cutanées : grands brûlés"
+   ]
+  },
+  {
+   "id": "fc05-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Avant une **allogreffe de CSH**, quelles sont les deux exigences principales concernant le **donneur** et la **préparation du receveur** ?",
+   "answer": "L'allogreffe exige une **compatibilité HLA maximale** entre donneur et receveur. Le receveur doit bénéficier d'un **conditionnement** : une **chimiothérapie myéloablative**, éventuellement associée à une **irradiation**, pour préparer la greffe.",
+   "keyPoints": [
+    "Compatibilité HLA maximale",
+    "Conditionnement du receveur",
+    "Chimiothérapie myéloablative ± irradiation"
+   ],
+   "trap": "L'**autogreffe** (cellules du patient) n'impose **ni** compatibilité HLA **ni** ce risque immunologique."
+  },
+  {
+   "id": "fc05-qroc11",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Quelle propriété des **CAR-T cells** explique qu'ils reconnaissent leur cible **indépendamment du CMH**, et quel est l'antigène phare visé ?",
+   "answer": "Les **CAR-T cells** expriment un **récepteur antigénique chimérique (CAR)** qui se lie **directement** à l'antigène tumoral de surface, sans nécessiter de **présentation par le CMH** : c'est tout l'intérêt de la technique. L'antigène phare visé est le **CD19**, exprimé par les **lymphomes et leucémies B**.",
+   "keyPoints": [
+    "Récepteur chimérique (CAR) → liaison directe à l'antigène",
+    "Reconnaissance SANS présentation par le CMH",
+    "Cible phare = CD19 (hémopathies B)"
+   ],
+   "trap": "L'intérêt du CAR-T est justement de s'affranchir du **CMH** (contrairement au TCR classique)."
   }
  ]
 }

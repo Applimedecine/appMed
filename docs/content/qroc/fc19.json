@@ -1,5 +1,76 @@
 {
  "slug": "fc19",
  "title": "QROC — Complément & complexes immuns",
- "questions": []
+ "questions": [
+  {
+   "id": "fc19-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **trois voies d'activation** du complément et precisez la **fonction specifique** attribuee a chacune.",
+   "answer": "Le complement s'active par trois voies aboutissant toutes a une **C3 convertase** puis a une C5 convertase et au complexe d'attaque membranaire. La **voie classique** assure la gestion des **complexes immuns (CI)** (activee par les Ac fixes sur leurs Ag). La **voie des lectines** detecte directement des **motifs bacteriens** (MBL, ficoline). La **voie alterne** est activee **en l'absence d'inhibiteurs** de surface et joue un role d'amplification.",
+   "keyPoints": [
+    "Voie classique = gestion des complexes immuns (activee par les Ac)",
+    "Voie des lectines = detection de motifs bacteriens (MBL, ficoline)",
+    "Voie alterne = activee en l'absence d'inhibiteurs, role d'amplification",
+    "Convergence vers C3 convertase / C5 convertase / MAC"
+   ]
+  },
+  {
+   "id": "fc19-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Dans l'**hemoglobinurie paroxystique nocturne (HPN)**, expliquez le mecanisme menant a l'hemolyse et nommez le traitement des formes severes.",
+   "answer": "L'HPN est liee a une **mutation acquise** du gene **PIG-A** dans les progeniteurs hematopoietiques, entrainant un defaut de production du **GPI**. Or le GPI sert d'ancrage membranaire aux regulateurs de la voie alterne **CD55 (DAF)** et **CD59 (MIRL)** sur les globules rouges. En leur absence, le complement attaque en permanence les hematies, provoquant une **hemolyse intravasculaire**. Le traitement des formes severes est l'**eculizumab**, un anticorps monoclonal **anti-C5** qui bloque le complexe d'attaque membranaire.",
+   "keyPoints": [
+    "Mutation acquise du gene PIG-A -> defaut de GPI",
+    "Perte de l'ancrage de CD55 et CD59 sur les GR",
+    "Activation permanente de la voie alterne -> hemolyse intravasculaire",
+    "Traitement : eculizumab (anticorps anti-C5)"
+   ],
+   "trap": "La mutation de l'HPN est ACQUISE (et non constitutionnelle), et la premiere consequence n'est pas l'insuffisance renale mais les cytopenies ; l'IR est une consequence tardive de l'accumulation d'hemoglobine."
+  },
+  {
+   "id": "fc19-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Definissez un **complexe immun (CI)**, son devenir physiologique, et a quel **type de Gell et Coombs** appartient l'hypersensibilite a complexes immuns.",
+   "answer": "Un complexe immun se forme a chaque fois qu'un **antigene est reconnu par un anticorps** (couple Ac/Ag) ; c'est un phenomene **physiologique** permanent, en faible quantite. Son objectif est de **faciliter l'elimination (clairance) de l'Ag**, notamment par phagocytose. Physiologiquement, les CI sont internalises et detruits par les **cellules phagocytaires via les recepteurs au Fc** des Ac, avec **activation de la voie classique** du complement. L'hypersensibilite a complexes immuns est de **type III** (delai d'environ 3-10h).",
+   "keyPoints": [
+    "CI = couple Ac/Ag, phenomene physiologique permanent",
+    "But : faciliter la clairance de l'Ag (phagocytose)",
+    "Phagocytose via les recepteurs au Fc + voie classique du complement",
+    "Hypersensibilite de type III (delai 3-10h)"
+   ],
+   "trap": "Le delai de l'hypersensibilite de type III est de 3 a 10h, et non 24-48h (qui correspond plutot a l'hypersensibilite retardee de type IV)."
+  },
+  {
+   "id": "fc19-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant les **vascularites a ANCA** : que signifie l'acronyme ANCA, et reliez le resultat de l'**immunofluorescence** (c-ANCA / p-ANCA) a la cible detectee en **ELISA**.",
+   "answer": "ANCA signifie **Anticorps Anti-Cytoplasme des PNN** (polynucleaires neutrophiles). En immunofluorescence indirecte, une fluorescence **diffuse du cytoplasme** correspond a un **c-ANCA**, tandis qu'une fluorescence **perinucleaire** correspond a un **p-ANCA**. En ELISA, la detection d'**anti-proteinase 3 (PR3)** correspond a un **c-ANCA**, et la detection d'**anti-myeloperoxydase (MPO)** correspond a un **p-ANCA**. Ces deux enzymes catalysent la reaction oxydative lors de la degranulation des PNN.",
+   "keyPoints": [
+    "ANCA = Anticorps Anti-Cytoplasme des PNN",
+    "Fluorescence diffuse = c-ANCA ; fluorescence perinucleaire = p-ANCA",
+    "Anti-PR3 (proteinase 3) -> c-ANCA",
+    "Anti-MPO (myeloperoxydase) -> p-ANCA"
+   ],
+   "trap": "Ne pas inverser : anti-PR3 donne un c-ANCA et anti-MPO donne un p-ANCA. L'immunofluorescence seule ne suffit pas au diagnostic, l'ELISA est aussi necessaire."
+  },
+  {
+   "id": "fc19-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "La **maladie de Horton** est une arterite. Precisez le **calibre des vaisseaux** atteints, le vaisseau le plus typiquement touche, le **mediateur immunitaire cle**, les complications redoutables et le moyen diagnostique de reference.",
+   "answer": "La maladie de Horton est une **artérite des gros vaisseaux**, touchant en particulier l'**artere temporale** (branche de la carotide externe) ou l'aorte, avec une inflammation de type **giganto-cellulaire**. Elle releve de l'**immunite cellulaire** mediee par les LT, avec un role central de l'**IFN-gamma** qui favorise la formation du granulome a cellules geantes (cascade IL-6, IL-1, IL-12/17/23). Les complications redoutables sont l'atteinte de la **carotide interne** (risque d'**AVC** et de **NOIA** = nevrite optique ischemique anterieure aigue) et l'atteinte de l'**aorte**. Le diagnostic de reference est la **biopsie** de l'artere temporale montrant des granulomes geants.",
+   "keyPoints": [
+    "Artérite des gros vaisseaux (artere temporale, aorte)",
+    "Inflammation giganto-cellulaire / immunite cellulaire (LT)",
+    "Mediateur cle : IFN-gamma",
+    "Complications : AVC, NOIA (carotide interne), atteinte aortique",
+    "Diagnostic : biopsie de l'artere temporale (granulomes geants)"
+   ],
+   "trap": "La maladie de Horton touche les GROS vaisseaux (et non les petits) ; la complication grave concerne la carotide INTERNE (et non externe)."
+  }
+ ]
 }

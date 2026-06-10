@@ -1,5 +1,75 @@
 {
  "slug": "fc21",
  "title": "QROC — Lupus (LES)",
- "questions": []
+ "questions": [
+  {
+   "id": "fc21-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Definissez le **lupus erythemateux systemique (LES)** : nature de la maladie, organe(s) atteint(s), frequence relative parmi les connectivites, sex-ratio et mode evolutif.",
+   "answer": "Le LES est une **maladie auto-immune systemique** (une connectivite), et non specifique d'organe : de **nombreux organes** peuvent etre touches (atteinte proteiforme : articulaire, cutanee, renale, hematologique, neurologique, digestive). C'est la **3eme connectivite la plus frequente** (apres la polyarthrite rhumatoide), mais elle reste **rare** (environ 0,04 %). Elle touche surtout les **femmes jeunes** (**9 femmes pour 1 homme**). Son evolution est **chronique, par poussees**, imprevisible et de gravite variable.",
+   "keyPoints": [
+    "Maladie auto-immune systemique (connectivite), atteinte multi-organes",
+    "3eme connectivite la plus frequente, mais rare (~0,04 %)",
+    "Predominance feminine nette (9F/1H), femmes jeunes",
+    "Evolution chronique par poussees, imprevisible"
+   ],
+   "trap": "Le lupus n'est PAS une maladie auto-immune specifique d'organe : c'est une connectivite ou plusieurs organes peuvent etre impliques."
+  },
+  {
+   "id": "fc21-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant les **auto-anticorps du LES** : lequel est le **plus specifique** de la maladie, et que peut-on dire de la presence des anticorps **anti-ADN natif (anti-ADNn)** ?",
+   "answer": "L'anticorps le **plus specifique** du LES est l'**anti-Sm**. Les anticorps **anti-ADN natif (anti-ADNn)** ne sont **pas systematiquement** retrouves mais sont **frequemment** presents dans le LES. Il faut noter qu'on peut avoir ces anticorps **sans avoir de symptomes** (la maladie peut survenir plus tard) ; le titre anormal d'anticorps anti-ADN natif et la presence d'anti-Sm figurent parmi les criteres immunologiques de classification.",
+   "keyPoints": [
+    "Anti-Sm = anticorps le plus specifique du LES",
+    "Anti-ADNn = frequemment (et non systematiquement) retrouves",
+    "Possibilite d'avoir les anticorps sans symptomes"
+   ],
+   "trap": "Les anti-ADNn sont FREQUEMMENT retrouves, et non systematiquement. C'est l'anti-Sm (et non l'anti-ADNn) qui est le plus specifique."
+  },
+  {
+   "id": "fc21-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "La physiopathologie du LES est multifactorielle. Citez les **trois grandes categories de facteurs** impliquees et donnez un argument en faveur du role des **facteurs hormonaux**.",
+   "answer": "La physiopathologie du LES est **complexe et multifactorielle**, associant des **facteurs genetiques**, des **facteurs environnementaux** et des **facteurs hormonaux**. En faveur du role hormonal : le **sex-ratio largement feminin**, un debut **rare avant la puberte et apres la menopause** (donc pendant la periode d'activite hormonale, surtout entre 20 et 30 ans), une frequence accrue dans le **syndrome de Klinefelter (47 XXY)**, et une variation de l'activite du LES selon les variations hormonales feminines (contraception, grossesse, menopause). On suspecte un role des **oestrogenes**, ce qui contre-indique les contraceptions oestro-progestatives.",
+   "keyPoints": [
+    "Facteurs genetiques, environnementaux et hormonaux",
+    "Sex-ratio feminin, debut entre puberte et menopause",
+    "Plus de LES dans le syndrome de Klinefelter (47 XXY)",
+    "Suspicion du role des oestrogenes (contraception oestro-progestative contre-indiquee)"
+   ]
+  },
+  {
+   "id": "fc21-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le role des **deficits en proteines de la voie classique du complement** dans la survenue du LES, et precisez la hierarchie de gravite selon la proteine deficitaire.",
+   "answer": "Les deficits homozygotes en proteines de la **voie classique du complement** predisposent au LES : environ **90 % des deficits en C1q**, **75 % des deficits en C4** et **10-30 % des deficits en C2** developpent un lupus. Il existe une **severite croissante selon la precocite du deficit** dans la cascade : **C1q > C4 >> C2** (plus la mutation est precoce, plus le lupus est rare et severe). Le mecanisme est un **defaut de clairance des complexes immuns (CIC) et des corps apoptotiques** : C1q, C4b et C3b favorisent normalement l'elimination des CIC (fixation sur le recepteur CR1) et C1q se lie aux keratinocytes apoptotiques.",
+   "keyPoints": [
+    "Deficits de la voie classique (C1q ~90 %, C4 ~75 %, C2 ~10-30 %)",
+    "Severite croissante selon precocite : C1q > C4 >> C2",
+    "Defaut de clairance des complexes immuns et des corps apoptotiques",
+    "Role de C1q, C4b, C3b (recepteur CR1) dans l'elimination des CIC"
+   ],
+   "trap": "Plus le deficit est PRECOCE dans la cascade (C1q), plus le lupus est severe ; ce sont les deficits de la voie CLASSIQUE (et non alterne) qui sont en cause."
+  },
+  {
+   "id": "fc21-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Le LES fait partie des **interferonopathies de type 1**. Expliquez ce concept a travers l'exemple de l'exonuclease **TREX1** (syndrome d'Aicardi-Goutieres) et precisez le sens de variation de l'**IFN alpha** et le statut de l'**IL-10** dans le LES.",
+   "answer": "Le LES est une **interferonopathie de type 1** caracterisee par une production **tres importante d'IFN alpha** (augmentation, et non diminution). L'exemple de **TREX1** (3' repair exonuclease 1), exonuclease cytosolique 3'->5' impliquee dans la **digestion de l'ADN**, l'illustre : une **mutation** entraine une **accumulation de fragments d'ADN** captes par les **TLR** et stimulant l'**immunite innee** via des DNA sensors (TLR9, DAI, NLR), d'ou une production majeure d'IFN alpha. Cette mutation est en cause dans le **syndrome d'Aicardi-Goutieres** (encephalopathie + fievre + auto-immunite : lupus, SAPL, cytopenies). L'**IL-10** est ici une **cytokine anti-inflammatoire** (et le LES s'accompagne plutot d'une activation lymphocytaire B/Th2).",
+   "keyPoints": [
+    "LES = interferonopathie de type 1 -> AUGMENTATION de l'IFN alpha",
+    "TREX1 = exonuclease cytosolique de digestion de l'ADN",
+    "Mutation -> accumulation d'ADN captee par les TLR (TLR9, DAI, NLR) -> IFN alpha",
+    "Syndrome d'Aicardi-Goutieres (encephalopathie + fievre + auto-immunite)",
+    "IL-10 = cytokine anti-inflammatoire"
+   ],
+   "trap": "Dans le LES, l'IFN alpha AUGMENTE (et non diminue). L'accumulation d'ADN stimule l'immunite INNEE (DNA sensors), pas directement l'immunite adaptative."
+  }
+ ]
 }

@@ -1,5 +1,75 @@
 {
  "slug": "fc12",
  "title": "QROC — Immunosuppresseurs",
- "questions": []
+ "questions": [
+  {
+   "id": "fc12-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **quatre grandes classes d'immunosuppresseurs** à retenir.",
+   "answer": "Les quatre classes sont : les **glucocorticoïdes**, les **inhibiteurs de l'activation des lymphocytes T** (qui empêchent les LT d'agir), les **inhibiteurs de la prolifération des lymphocytes T (antiprolifératifs)** et les **anticorps déplétants** (qui provoquent la destruction cellulaire).",
+   "keyPoints": [
+    "Glucocorticoïdes",
+    "Inhibiteurs de l'activation des LT",
+    "Inhibiteurs de la prolifération des LT (antiprolifératifs)",
+    "Anticorps déplétants"
+   ]
+  },
+  {
+   "id": "fc12-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le **mécanisme d'action des inhibiteurs de la calcineurine** (ciclosporine, tacrolimus) et sur quel **signal d'activation** du lymphocyte T agissent-ils ?",
+   "answer": "Ils agissent sur le **signal 1** (stimulation du TCR). Après fixation à une immunophiline (la **cyclophilline** pour la ciclosporine, la **FKBP12** pour le tacrolimus), le complexe formé **bloque la calcineurine**. La calcineurine ne peut plus déphosphoryler le facteur de transcription **NFAT**, ce qui empêche la **production d'IL-2** et donc l'**activation du lymphocyte T**.",
+   "keyPoints": [
+    "Inhibition du signal 1 (TCR)",
+    "Liaison à une immunophiline (cyclophilline / FKBP12) puis blocage de la calcineurine",
+    "Pas de déphosphorylation de NFAT -> pas d'IL-2 -> pas d'activation du LT"
+   ],
+   "trap": "Ne pas confondre le tacrolimus (inhibiteur de la calcineurine, signal 1) avec le sirolimus/évérolimus (inhibiteurs de mTOR, signal 3), bien qu'ils soient tous des macrolides."
+  },
+  {
+   "id": "fc12-qroc3",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Concernant l'**abatacept** et le **bélatacept** : quelle est leur nature, leur mécanisme d'action et l'indication propre du **bélatacept** ?",
+   "answer": "Ce sont des **protéines de fusion (chimériques)** associant un **fragment Fc d'IgG1** (allongeant la demi-vie) à la protéine **CTLA-4**. Elles agissent sur le **signal 2 (co-stimulation)** : par compétition, le CTLA-4 du médicament se fixe sur **CD80/CD86 (B7)** des cellules présentatrices d'antigène et **empêche la liaison avec le CD28** du lymphocyte T, bloquant ainsi le signal de co-stimulation et donc l'activation du LT. Le **bélatacept** est indiqué dans la **prévention du rejet de greffe rénale** (l'abatacept étant utilisé dans les rhumatismes inflammatoires / maladies auto-immunes).",
+   "keyPoints": [
+    "Protéines de fusion Fc-IgG1 + CTLA-4",
+    "Inhibiteurs de la co-stimulation (signal 2)",
+    "Saturent CD80/86 (B7) -> bloquent la liaison B7-CD28",
+    "Bélatacept = prévention du rejet de greffe rénale"
+   ],
+   "trap": "L'abatacept N'EST PAS un inhibiteur de la calcineurine : c'est un inhibiteur de la co-stimulation (2e signal)."
+  },
+  {
+   "id": "fc12-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Citez les **quatre mécanismes d'action du rituximab** et précisez sa cible.",
+   "answer": "Le rituximab est un **anticorps monoclonal chimérique anti-CD20**, molécule présente sur le **lymphocyte B**, entraînant une **déplétion B profonde et durable (5-6 mois)**. Ses quatre mécanismes sont : l'**ADCC** (cytotoxicité dépendante des anticorps, recrutement de cellules effectrices comme les NK via le Fc), la **CDC** (cytotoxicité dépendante du complément), l'**apoptose** (cascade intracellulaire après fixation sur le CD20) et l'**ADP** (phagocytose médiée par les anticorps, recrutement de macrophages via le Fc).",
+   "keyPoints": [
+    "Anticorps monoclonal chimérique anti-CD20 (LB)",
+    "ADCC (cytotoxicité dépendante des Ac, NK)",
+    "CDC (dépendante du complément)",
+    "Apoptose",
+    "ADP (phagocytose médiée par les Ac, macrophages)"
+   ],
+   "trap": "Le CD20 est porté par le lymphocyte B (et non le LT) : le rituximab déplète les LB, pas les LT."
+  },
+  {
+   "id": "fc12-qroc5",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "En transplantation d'organes, justifiez la **stratégie d'association** des immunosuppresseurs et l'organisation en **plusieurs phases** du traitement.",
+   "answer": "Les associations sont systématiques pour obtenir des **effets additifs ou synergiques** (par exemple blocage simultané de l'activation et de la prolifération des LT), ce qui permet de **diminuer les posologies** et de **limiter les effets secondaires**. On n'associe **pas de molécules de même mécanisme d'action ou de mêmes effets indésirables** (ex : pas de ciclosporine avec du tacrolimus : majoration des effets indésirables sans gain d'efficacité). Le traitement comporte **3 phases** : une **phase d'induction** (immunosuppression forte les premiers jours), une **phase de maintenance pré-adaptative** (3-6 mois) et une **phase de maintenance post-adaptative** (6 mois à toute la vie). Le but est d'atteindre rapidement la **dose minimale efficace** pour prévenir le rejet tout en limitant infections et cancers ; en transplantation d'organes, le traitement est **à vie**.",
+   "keyPoints": [
+    "Associations = effets additifs/synergiques -> baisse des posologies + limitation des effets secondaires",
+    "Ne pas associer des molécules de même mécanisme (ex : ciclosporine + tacrolimus)",
+    "3 phases : induction -> maintenance pré-adaptative (3-6 mois) -> post-adaptative (>6 mois)",
+    "Dose minimale efficace ; immunosuppression à vie en transplantation d'organes"
+   ],
+   "trap": "On n'associe JAMAIS des immunosuppresseurs de même classe (majoration des effets indésirables sans gain d'efficacité), contrairement à une idée reçue."
+  }
+ ]
 }

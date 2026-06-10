@@ -1,5 +1,76 @@
 {
  "slug": "fc07",
  "title": "QROC — Hypersensibilité immédiate",
- "questions": []
+ "questions": [
+  {
+   "id": "fc07-qroc1",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Présentez la **classification de Gell et Coombs** des hypersensibilités : pour chacun des 4 types, indiquez le **mécanisme** et la **dépendance ou non aux IgE**.",
+   "answer": "**Type I** : hypersensibilité **immédiate médiée par les IgE** (allergies alimentaires, asthme allergique). **Type II** : hypersensibilité **cytotoxique**, **non IgE-dépendante**, médiée par des **anticorps (IgG ou IgM)** dirigés contre une cible cellulaire (anémie/thrombopénie immuno-allergiques, pemphigus). **Type III** : hypersensibilité **à complexes immuns** (IgG/IgM), **non IgE-dépendante**, avec dépôt tissulaire des complexes (maladie sérique, vascularites). **Type IV** : hypersensibilité **retardée à médiation cellulaire (lymphocytes T)**, **non IgE-dépendante** (eczéma de contact, toxidermies).",
+   "keyPoints": [
+    "Type I : immédiate, IgE-dépendante",
+    "Type II : cytotoxique, anticorps IgG/IgM",
+    "Type III : complexes immuns, IgG/IgM",
+    "Type IV : retardée, lymphocytes T"
+   ],
+   "trap": "Seul le type I est IgE-dépendant ; les types II, III et IV ne le sont pas. Le type IV est cellulaire (LT), pas anticorps."
+  },
+  {
+   "id": "fc07-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les **deux phases** de l'hypersensibilité immédiate de type I (HSI), en précisant pour chacune si elle est symptomatique.",
+   "answer": "La **phase de sensibilisation** survient lors de la **première exposition** à l'allergène et est **asymptomatique** (cliniquement muette) : l'allergène est pris en charge par les **cellules dendritiques**, présenté aux lymphocytes naïfs qui se **polarisent en profil Th2** et sécrètent des interleukines de type 2 (**IL-4, IL-5, IL-13**) ; les lymphocytes B subissent une commutation isotypique et se différencient en **plasmocytes sécréteurs d'IgE**, lesquelles se fixent fortement au **récepteur FcεRI** des mastocytes et basophiles. La **phase effectrice** survient lors de la **deuxième exposition** et est **symptomatique** : l'allergène se fixe sur les IgE et déclenche la **dégranulation mastocytaire** avec libération de médiateurs (histamine, prostaglandines, leucotriènes).",
+   "keyPoints": [
+    "Sensibilisation = 1re exposition, asymptomatique",
+    "Polarisation Th2, IL-4/IL-5/IL-13, plasmocytes à IgE",
+    "Fixation des IgE sur le FcεRI des mastocytes/basophiles",
+    "Phase effectrice = 2e exposition, symptomatique, dégranulation"
+   ],
+   "trap": "La phase de sensibilisation est cliniquement muette : il faut un premier contact pour produire les IgE ; les symptômes n'apparaissent qu'à la réexposition."
+  },
+  {
+   "id": "fc07-qroc3",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quel est le **point de départ** de l'HSI de type I et quels sont les **trois médiateurs** libérés ainsi que leurs effets principaux ?",
+   "answer": "Le point de départ est la **dégranulation mastocytaire**, déclenchée par les IgE fixées sur leur récepteur. Les médiateurs libérés sont : l'**histamine** (prurit, vasodilatation, urticaire), les **prostaglandines et leucotriènes** (bronchospasme, hyperperméabilité vasculaire) et les **cytokines** (inflammation). La traduction cutanée la plus fréquente est l'**urticaire**, parfois associée à un angioedème, très évocatrice d'une hypersensibilité immédiate.",
+   "keyPoints": [
+    "Point de départ : dégranulation mastocytaire",
+    "Histamine : prurit, vasodilatation, urticaire",
+    "Prostaglandines/leucotriènes : bronchospasme, perméabilité vasculaire",
+    "Cytokines : inflammation"
+   ]
+  },
+  {
+   "id": "fc07-qroc4",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Définissez l'**anaphylaxie** et détaillez la **classification de Ring et Messmer** (les 4 grades). Précisez le traitement de première intention d'un grade III.",
+   "answer": "L'anaphylaxie est une **réaction systémique et potentiellement fatale**, dont le **diagnostic est toujours clinique**. Classification de **Ring et Messmer** : **Grade I** = atteinte cutanéo-muqueuse isolée (urticaire, angioedème) ; **Grade II** = atteinte multiviscérale modérée (signes cutanéo-muqueux, tachycardie, toux, dyspnée, douleurs abdominales) ; **Grade III** = atteinte mono ou multiviscérale sévère (hypotension avec perte de 20 mmHg en PAS, bradycardie, troubles du rythme) ; **Grade IV** = arrêt cardio-respiratoire. Pour un grade III : **2 voies veineuses périphériques**, **remplissage par cristalloïdes**, polaramine, corticoïdes (1 mg/kg), salbutamol si bronchospasme, et **bolus d'adrénaline** (IV 0,1 mg, ou IM 0,3 à 0,5 mg si > 50 kg). Il faut toujours **stopper l'exposition à l'allergène**.",
+   "keyPoints": [
+    "Anaphylaxie = réaction systémique potentiellement fatale, diagnostic clinique",
+    "Grade I cutané ; II multiviscéral modéré ; III sévère (hypotension) ; IV ACR",
+    "Grade III : 2 VVP + remplissage cristalloïdes + adrénaline",
+    "Adrénaline grade III : 0,1 mg IV (ou 0,3-0,5 mg IM)",
+    "Stopper l'exposition à l'allergène"
+   ]
+  },
+  {
+   "id": "fc07-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est l'intérêt du dosage de la **tryptase** dans le bilan d'une HSI ? Pourquoi est-elle préférée à l'**histamine** ?",
+   "answer": "Le dosage des médiateurs vise à démontrer l'**activation mastocytaire** qui sous-tend la physiopathologie. La **tryptase** est un médiateur **préformé** dans les granules sécrétoires, **libéré uniquement par les mastocytes** ; c'est le marqueur **le plus dosé en routine** car il est **stable dans le temps** et automatisé. On dose toujours une **tryptase basale à plus de 24 h** de la réaction, et la tryptase est considérée comme élevée si **tryptase > tryptase basale x 1,2 + 2 μg/L**. L'**histamine** est moins utile car elle est **rapidement métabolisée**, de **dosage difficile**, et elle est libérée à la fois par les mastocytes et les **basophiles**.",
+   "keyPoints": [
+    "But : démontrer l'activation mastocytaire",
+    "Tryptase = médiateur préformé, libéré uniquement par les mastocytes",
+    "Stable, automatisée, dosée en routine ; tryptase basale à > 24 h",
+    "Seuil : > tryptase basale x 1,2 + 2 μg/L",
+    "Histamine rapidement métabolisée, dosage difficile"
+   ],
+   "trap": "L'histamine est aussi libérée par les basophiles, alors que la tryptase est spécifique des mastocytes."
+  }
+ ]
 }

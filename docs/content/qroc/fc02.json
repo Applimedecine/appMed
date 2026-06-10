@@ -75,6 +75,70 @@
     "Même cible (récepteur) mais effets opposés (stimule vs bloque)"
    ],
    "trap": "Ne pas inverser agoniste/antagoniste : Basedow **stimule**, myasthénie **bloque**."
+  },
+  {
+   "id": "fc02-qroc7",
+   "difficulty": "moyen",
+   "points": 4,
+   "question": "Classez les **facteurs favorisants** des MAI en grandes catégories, avec un exemple par catégorie.",
+   "answer": "Quatre grandes catégories : **génétiques** (surtout le **HLA** : B27 → spondylarthrite axiale, DRB1 → polyarthrite rhumatoïde ; mais aussi **AIRE** → APS-1, Fas/FasL, déficit en **C2** → lupus, FcγRIIB) ; **hormonaux** (nette **prédominance féminine**, surtout pour les connectivites) ; **infectieux** (**Coxsackie B4 → diabète de type 1** par mimétisme avec la GAD) ; **physico-chimiques** (**UV → lupus**, médicaments comme la D-pénicillamine ou la quinine, **IFN-α → thyroïdite**).",
+   "keyPoints": [
+    "Génétiques : HLA (B27/SpA, DRB1/PR), AIRE, C2, Fas/FasL",
+    "Hormonaux : prédominance féminine (connectivites)",
+    "Infectieux : Coxsackie B4 → DT1",
+    "Physico-chimiques : UV → lupus, médicaments, IFN-α → thyroïdite"
+   ]
+  },
+  {
+   "id": "fc02-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les mécanismes de **tolérance des lymphocytes B**, centrale et périphérique.",
+   "answer": "**Tolérance centrale** : dans la **moelle osseuse**, un LB auto-réactif peut remanier son récepteur par **receptor editing** (réédition du BCR) pour ne plus reconnaître le soi. **Tolérance périphérique** : **anergie** (les LB ont besoin du signal **CD40** des LT auxiliaires pour être pleinement activés), **délétion clonale**, **ignorance**, et action des **LBreg**. Ces mécanismes éliminent ou neutralisent les LB auto-réactifs ayant échappé au contrôle médullaire.",
+   "keyPoints": [
+    "Centrale : moelle, receptor editing (réédition du BCR)",
+    "Périphérique : anergie (besoin du CD40), délétion, ignorance",
+    "LBreg"
+   ],
+   "trap": "Pour le LB c'est le **receptor editing** (réédition du BCR) qui caractérise la tolérance centrale, à ne pas confondre avec la sélection négative thymique du LT."
+  },
+  {
+   "id": "fc02-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Pour le **lupus**, le **syndrome de Guillain-Barré** et le **diabète de type 1**, précisez le mécanisme lésionnel.",
+   "answer": "**Lupus** : auto-anticorps **anti-ADN natif** formant des **complexes immuns** qui activent le **complément** et lèsent les organes (rein, cœur…). **Guillain-Barré** : auto-anticorps **anti-gangliosides** (par **mimétisme moléculaire avec *Campylobacter***) attaquant les **nœuds de Ranvier**. **Diabète de type 1** : destruction des **cellules β** par les **LT CD8** (mimétisme **Coxsackie / GAD**). On illustre ainsi des lésions par complexes immuns, par auto-Ac de mimétisme et par cytotoxicité T.",
+   "keyPoints": [
+    "Lupus : anti-ADN natif → complexes immuns + complément",
+    "Guillain-Barré : anti-gangliosides (mimétisme Campylobacter) → nœuds de Ranvier",
+    "DT1 : LT CD8 → destruction des cellules β (Coxsackie/GAD)"
+   ]
+  },
+  {
+   "id": "fc02-qroc10",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Sur quoi repose le **diagnostic** d'une MAI et quelles sont les grandes options **thérapeutiques** ?",
+   "answer": "Le diagnostic repose avant tout sur la **détection des auto-anticorps** (complétée si besoin par le **typage HLA** et la **biopsie**). Le traitement associe des **immunosuppresseurs / corticoïdes**, des **biothérapies** (anti-TNF, anti-CD20…), la **plasmaphérèse** en phase aiguë, et des **thérapies cellulaires** en développement (Treg, CAR-T).",
+   "keyPoints": [
+    "Diagnostic = détection des auto-anticorps (± HLA, biopsie)",
+    "Immunosuppresseurs / corticoïdes",
+    "Biothérapies (anti-TNF, anti-CD20)",
+    "Plasmaphérèse en aigu ; thérapies cellulaires (Treg, CAR-T)"
+   ]
+  },
+  {
+   "id": "fc02-qroc11",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Distinguez l'**auto-immunité physiologique** de l'**auto-immunité pathologique**.",
+   "answer": "L'**auto-immunité physiologique** correspond à la présence d'**auto-anticorps naturels** (IgM polyréactifs de faible affinité, issus des LB1a CD5+) **sans maladie** : c'est un phénomène normal. L'**auto-immunité pathologique** est une **réponse immunitaire dirigée contre les antigènes du soi entraînant des lésions tissulaires** ; elle correspond à la maladie auto-immune proprement dite. La frontière tient à la **pathogénicité** et aux lésions, pas à la simple présence d'auto-Ac.",
+   "keyPoints": [
+    "Physiologique : auto-Ac naturels, sans maladie (normal)",
+    "Pathologique : réponse anti-soi avec lésions tissulaires",
+    "La différence = présence de lésions / pathogénicité"
+   ],
+   "trap": "La seule présence d'**auto-anticorps** ne définit pas une MAI : les auto-Ac naturels existent à l'état physiologique sans pathologie."
   }
  ]
 }

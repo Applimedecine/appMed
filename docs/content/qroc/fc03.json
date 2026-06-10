@@ -75,6 +75,69 @@
     "Défaut d'invasion trophoblastique → hypoxie placentaire",
     "Déficit en LTreg"
    ]
+  },
+  {
+   "id": "fc03-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les **deux interfaces materno-fœtales** et précisez laquelle prédomine jusqu'au terme.",
+   "answer": "L'**interface 1** est formée par le **cytotrophoblaste extra-villeux** : elle est **précoce** (1ᵉʳ trimestre) puis disparaît, et assure les premiers échanges gazeux et trophiques. L'**interface 2** est formée par le **syncytiotrophoblaste** : elle est **dominante jusqu'au terme** et constitue le **contact majeur avec le système immunitaire maternel** tout en assurant les apports trophiques. C'est donc le **syncytiotrophoblaste** qui prédomine en fin de grossesse.",
+   "keyPoints": [
+    "Interface 1 : cytotrophoblaste extra-villeux, précoce puis disparaît",
+    "Interface 2 : syncytiotrophoblaste, dominante jusqu'au terme",
+    "Syncytiotrophoblaste = contact majeur avec le SI maternel"
+   ]
+  },
+  {
+   "id": "fc03-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez l'immaturité de l'**immunité innée du nouveau-né** (au moins 3 éléments).",
+   "answer": "Plusieurs effecteurs innés sont immatures : les **PNN** sont moins performants (une **chute du cordon > 21 jours** évoque un **déficit en CD18**), avec une baisse de **TLR4 / CD14** ; les **cellules dendritiques** expriment moins de **HLA-II et d'IL-12** ; les **pDC** produisent **moins d'IFN α/β**, ce qui expose aux infections à **VRS, CMV, HSV** ; les **NK** ne sont qu'à environ **50 %** de leur capacité. L'immunité innée néonatale est donc globalement déficiente, surtout sur le plan fonctionnel.",
+   "keyPoints": [
+    "PNN moins performants (chute du cordon > 21 j = déficit CD18), ↓ TLR4/CD14",
+    "DC : ↓ HLA-II et ↓ IL-12",
+    "pDC : ↓ IFN α/β → VRS, CMV, HSV",
+    "NK ~50 %"
+   ]
+  },
+  {
+   "id": "fc03-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **profil Th2** du nouveau-né et que dit la **théorie hygiéniste** ?",
+   "answer": "Les réponses fœtales et néonatales sont orientées **Th2 « tolérogènes »**, et les **LTreg** migrent vers le tube digestif (jusqu'à ~18 mois) pour établir la **tolérance alimentaire**. La **théorie hygiéniste** propose qu'une **moindre exposition microbienne** favorise les **allergies et les maladies auto-immunes**, tandis qu'un profil **Th1** protège de l'**atopie**. En pratique, protéger l'enfant repose sur la **vaccination (dès 2 mois)**, le **cocooning** et l'**allaitement**.",
+   "keyPoints": [
+    "Réponses néonatales Th2 tolérogènes",
+    "LTreg → tube digestif (~18 mois) → tolérance alimentaire",
+    "Théorie hygiéniste : moins de microbes → plus d'allergies/MAI ; Th1 protège de l'atopie",
+    "Protection : vaccination (2 mois), cocooning, allaitement"
+   ],
+   "trap": "C'est un profil **Th2** (et non Th1) qui domine chez le nouveau-né ; le profil **Th1** est protecteur vis-à-vis de l'atopie."
+  },
+  {
+   "id": "fc03-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le mécanisme de l'**iso-immunisation Rhésus** et précisez à quelle grossesse l'anémie fœtale est la plus marquée.",
+   "answer": "L'iso-immunisation Rhésus survient quand la **mère est Rh⁻ et le père Rh⁺** (fœtus potentiellement Rh⁺). Au contact des hématies fœtales, la mère s'immunise et produit des **anticorps anti-Rh**. L'**anémie fœtale** est surtout marquée à la **2ᵉ grossesse** (la 1ʳᵉ servant surtout à sensibiliser la mère), les IgG anti-Rh traversant alors le placenta et détruisant les hématies fœtales.",
+   "keyPoints": [
+    "Mère Rh⁻ / père Rh⁺",
+    "Immunisation maternelle → anticorps anti-Rh",
+    "Anémie fœtale surtout à la 2ᵉ grossesse"
+   ],
+   "trap": "L'atteinte est typiquement plus grave à la **2ᵉ grossesse** : la 1ʳᵉ grossesse sert surtout à sensibiliser la mère."
+  },
+  {
+   "id": "fc03-qroc11",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que le **lupus néonatal** et quelle est sa complication cardiaque caractéristique ?",
+   "answer": "Le lupus néonatal est lié au **passage transplacentaire d'IgG maternelles anti-SSA / anti-SSB**. Sa complication cardiaque caractéristique est le **bloc auriculo-ventriculaire (BAV)**, secondaire à l'atteinte du tissu de conduction fœtal par ces auto-anticorps.",
+   "keyPoints": [
+    "IgG maternelles anti-SSA/SSB transplacentaires",
+    "Complication caractéristique : bloc auriculo-ventriculaire (BAV)"
+   ]
   }
  ]
 }

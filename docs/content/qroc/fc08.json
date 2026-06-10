@@ -1,5 +1,76 @@
 {
  "slug": "fc08",
  "title": "QROC — Eczémas",
- "questions": []
+ "questions": [
+  {
+   "id": "fc08-qroc1",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Citez les **4 phases cliniques** de l'eczéma. Quel signe est **constant** quelle que soit la phase, et la phase desquamative laisse-t-elle une cicatrice ?",
+   "answer": "Les 4 phases cliniques de l'eczéma sont : la phase **érythémateuse**, la phase **vésiculeuse**, la phase **suintante** et la phase **desquamative**. Le **prurit est constant** dans toutes les phases. La phase desquamative correspond à la **guérison sans cicatrice**.",
+   "keyPoints": [
+    "Phases : érythémateuse, vésiculeuse, suintante, desquamative",
+    "Prurit constant",
+    "Phase desquamative : guérison sans cicatrice"
+   ],
+   "trap": "La phase desquamative guérit SANS cicatrice."
+  },
+  {
+   "id": "fc08-qroc2",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Sur quelle **triade clinique** repose le diagnostic de la **dermatite atopique (DA)** ? Précisez l'âge de début habituel et l'évolution de la prévalence avec l'âge.",
+   "answer": "Le diagnostic de la DA est **clinique** et repose sur une triade : les **lésions d'eczéma**, le **grattage / prurit** et la **xérose** (sécheresse cutanée, souvent en dehors des poussées). Le début est le plus souvent **précoce, dans l'enfance**, avec une évolution **chronique** et des comorbidités atopiques. La **prévalence varie de 10 à 30 % chez l'enfant** puis **diminue à environ 2 % chez l'adulte**.",
+   "keyPoints": [
+    "Diagnostic clinique",
+    "Triade : eczéma + prurit/grattage + xérose",
+    "Début précoce dans l'enfance, évolution chronique",
+    "Prévalence : 10-30 % enfant vs ~2 % adulte"
+   ]
+  },
+  {
+   "id": "fc08-qroc3",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le rôle de l'**altération de la barrière cutanée** dans l'initiation de la dermatite atopique. Précisez le statut de la **mutation de la filaggrine** et le rôle de **Staphylococcus aureus**.",
+   "answer": "La barrière cutanée altérée est souvent le **point de départ** de la DA : elle laisse pénétrer allergènes et irritants, déclenchant une **inflammation de type 2**. L'augmentation du pH active des enzymes qui dégradent des composants essentiels comme la **filaggrine** ; sa mutation **augmente le risque** de DA mais constitue un **facteur de susceptibilité non nécessaire et non suffisant** (tous les patients ne l'ont pas, et la porter ne suffit pas à induire la maladie). Cette altération favorise la **colonisation par S. aureus**, qui **prolifère lors des poussées** : il produit des **superantigènes** (stimulant les LT) et des **toxines cytotoxiques** (détruisant les kératinocytes), entraînant la libération des cytokines clés (**IL-5, IL-13, IL-31**), le recrutement de LT type 2, l'éosinophilie et l'élévation des IgE. Entre les poussées, **S. epidermidis** prédomine et joue un rôle **immunorégulateur**.",
+   "keyPoints": [
+    "Barrière altérée = porte d'entrée des allergènes → inflammation type 2",
+    "Mutation filaggrine : facteur de susceptibilité non nécessaire ni suffisant",
+    "S. aureus prolifère lors des poussées (superantigènes + toxines)",
+    "Cytokines : IL-5, IL-13, IL-31 (prurit)",
+    "S. epidermidis (intercrise) = immunorégulateur"
+   ],
+   "trap": "La mutation de la filaggrine n'est ni nécessaire ni suffisante pour développer une DA : c'est un simple facteur de susceptibilité."
+  },
+  {
+   "id": "fc08-qroc4",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez le mécanisme d'action du **dupilumab** et celui des **inhibiteurs de JAK** dans la dermatite atopique. Distinguez aussi le dupilumab du tralokinumab/lebrikizumab.",
+   "answer": "Le **dupilumab** est un **anticorps monoclonal humanisé** qui cible le **récepteur commun à l'IL-4 et l'IL-13**, bloquant la voie de signalisation de ces deux cytokines centrales de la DA ; à la différence, le **tralokinumab et le lebrikizumab** ciblent **directement l'IL-13 circulante**. Les **inhibiteurs de JAK** sont de **petites molécules** intracellulaires qui bloquent la **voie JAK-STAT** : ils inhibent la signalisation de nombreuses cytokines et bloquent directement la **programmation/polarisation des lymphocytes T** (Th1, Th2, Th17, Th22), agissant donc plus en amont et plus largement que les biomédicaments. Comme l'IL-4 et l'IL-13 passent par **JAK1**, on utilise des inhibiteurs sélectifs de JAK1 (upadacitinib, abrocitinib).",
+   "keyPoints": [
+    "Dupilumab = Ac monoclonal anti-récepteur commun IL-4/IL-13",
+    "Tralokinumab/lebrikizumab = anti-IL-13 circulante directe",
+    "Inhibiteurs de JAK = petites molécules, voie JAK-STAT",
+    "JAK bloque la programmation des LT (action plus large/amont)",
+    "IL-4/IL-13 via JAK1 → inhibiteurs sélectifs JAK1"
+   ],
+   "trap": "Le dupilumab ne cible pas directement l'IL-13 circulante (c'est le tralokinumab/lebrikizumab) mais le récepteur commun IL-4/IL-13."
+  },
+  {
+   "id": "fc08-qroc5",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Opposez l'**eczéma de contact allergique (ECA)** et l'**eczéma de contact irritatif (ECI)** : type d'immunité mise en jeu, type d'hypersensibilité et lymphocytes impliqués. Quel est l'examen de référence pour diagnostiquer l'ECA ?",
+   "answer": "L'**ECI** correspond à une activation de l'**immunité innée** seulement : les substances cytotoxiques détruisent directement la barrière, sans présentation antigénique ganglionnaire ni immunité adaptative ; il représente **80 % des eczémas de contact**. L'**ECA** est une **hypersensibilité retardée de type IV** qui met en jeu l'**immunité adaptative** via des **lymphocytes T spécifiques de l'allergène** : il évolue en une phase de **sensibilisation** (asymptomatique, génération de LT spécifiques) puis une phase de **challenge** lors de la réexposition ; les **LT CD8** sont les principales cellules effectrices (cytotoxicité, apoptose kératinocytaire) et les **LT CD4 régulateurs (FOXP3, IL-10)** assurent la tolérance. Ce qui discrimine l'ECA de l'ECI est donc l'**activation de l'immunité adaptative**. L'examen de référence (gold standard) de l'ECA est le **patch-test** (allergènes standardisés appliqués 48 h, lectures à 48-72-96 h).",
+   "keyPoints": [
+    "ECI : immunité innée seule, 80 % des EC",
+    "ECA : hypersensibilité retardée de type IV, immunité adaptative",
+    "ECA effecteur = LT CD8 ; LT CD4 régulateurs (FOXP3, IL-10)",
+    "Discrimination = activation de l'immunité adaptative dans l'ECA",
+    "Diagnostic ECA : patch-test (gold standard)"
+   ]
+  }
+ ]
 }
