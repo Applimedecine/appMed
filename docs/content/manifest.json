@@ -14,7 +14,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc02",
@@ -28,7 +28,7 @@
    "hasQuiz": true,
    "quizCount": 13,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc03",
@@ -42,7 +42,7 @@
    "hasQuiz": true,
    "quizCount": 13,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc04a",
@@ -56,7 +56,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc04b",
@@ -70,7 +70,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc05",
@@ -84,7 +84,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc06",
@@ -98,7 +98,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 11
   },
   {
    "slug": "fc07",
@@ -111,8 +111,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc08",
@@ -125,8 +125,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc09",
@@ -139,8 +139,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc10",
@@ -153,8 +153,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc11",
@@ -167,8 +167,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc12",
@@ -181,8 +181,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc13",
@@ -195,8 +195,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc14",
@@ -209,8 +209,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc15",
@@ -223,8 +223,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc16",
@@ -237,8 +237,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc17",
@@ -251,8 +251,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc18",
@@ -265,8 +265,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc19",
@@ -279,8 +279,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc20",
@@ -293,8 +293,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc21",
@@ -307,8 +307,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc22",
@@ -321,8 +321,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc23",
@@ -335,8 +335,8 @@
    "hasFiche": false,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   }
  ],
  "annales": [
