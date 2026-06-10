@@ -2,10 +2,204 @@
  "slug": "fc09",
  "code": "FC09",
  "title": "Immunité antitumorale et immunothérapie",
+ "shortTitle": "Immunothérapie antitumorale",
  "prof": "Pr. Paul",
- "sourceFile": "FC9-PAUL-Immunité_Antitumorale_et_Immunothérapie-05.02(2).pdf",
- "generatedAt": "2026-06-10",
- "extractionStatus": "garbled",
- "toc": [],
- "blocks": []
+ "curated": true,
+ "updated": "2026-06-10",
+ "summary": "Le système immunitaire (**inné et adaptatif**) surveille en permanence les cellules tumorales : c'est l'**immunosurveillance**, formalisée par la **théorie des 3 E** — **Élimination, Équilibre, Échappement** (= **immunoediting**). Les tumeurs finissent par échapper en perdant leurs antigènes, en altérant la présentation **HLA-I** et en créant un microenvironnement **immunosuppresseur** (Treg, TGF-β, IL-10, IDO, points de contrôle). Les **immunothérapies** visent à réactiver cette réponse : **Ac monoclonaux**, **inhibiteurs de checkpoint** (anti-CTLA-4, anti-PD-1/PD-L1), **CAR-T / TILs**, **vaccins** et approches non spécifiques (**BCG**, virus oncolytiques).",
+ "sections": [
+  {
+   "id": "proprietes-tumorales",
+   "icon": "🧬",
+   "heading": "Propriétés des cellules tumorales",
+   "accent": "teal",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Propriété", "Traduction"],
+     "rows": [
+      ["**Croissance indéfinie**", "Multiplication régulière, pas de mort cellulaire"],
+      ["**Arrêt de différenciation**", "Stade ultime de différenciation"],
+      ["**Perte de l'inhibition de contact**", "Transport dans l'organisme → **métastases**"],
+      ["**Phénotype invasif / agressif**", "Migration importante"],
+      ["**Échappement à la surveillance immunologique**", "La cellule devient invisible / résistante au SI"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "info",
+     "html": "**Histoire (Coley, 1880)** : régression de sarcomes après une **infection bactérienne** (érysipèle à streptocoque). Première mise en évidence que le cancer peut être combattu par l'**immunité innée** → usage de **toxines de Coley** (LPS, flagelline, ligands **TLR**)."
+    }
+   ]
+  },
+  {
+   "id": "immunosurveillance",
+   "icon": "👁️",
+   "heading": "Immunosurveillance & théorie des 3 E",
+   "accent": "indigo",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "**Immunosurveillance** : le système immunitaire reconnaît et élimine en continu les cellules tumorales. Sans elle, on développerait un cancer en permanence."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Arguments** : ↑ cancers chez les **immunodéprimés** ; infiltrats lymphocytaires (**TIL**) = bon pronostic ; régressions spontanées de **mélanome** (TILs cytotoxiques précoces).",
+      "Des **antigènes associés aux tumeurs (TAA)** ont été identifiés dans de nombreux cancers."
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Les 3 E (immunoediting)", "Description"],
+     "rows": [
+      ["**Élimination**", "Le SI détecte et détruit les cellules transformées (phase d'immunosurveillance classique)"],
+      ["**Équilibre**", "La tumeur reprend le dessus mais reste contrôlée ; pression de sélection qui modèle (édite) la tumeur"],
+      ["**Échappement**", "Variants peu immunogènes sélectionnés ; immunosuppression → la tumeur prolifère et devient cliniquement visible"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "mnemo",
+     "html": "**3 E = Élimination → Équilibre → Échappement.** L'**immunoediting** sculpte la tumeur : ce qui survit à la pression du SI est de moins en moins immunogène."
+    }
+   ]
+  },
+  {
+   "id": "acteurs",
+   "icon": "🛡️",
+   "heading": "Acteurs de la réponse antitumorale",
+   "accent": "green",
+   "blocks": [
+    {
+     "type": "bullets",
+     "items": [
+      "**Cellules NK** (acteur majeur de l'innée) : reconnaissent les cellules tumorales via la balance **KIR/KAR**. Si le CMH-I est perdu (« **missing self** »), la NK lyse la cible par **perforine/granzyme**. Agissent aussi sur les cellules ne portant pas de peptide du soi.",
+      "**Macrophages & cellules dendritiques** : phagocytose et présentation des Ag tumoraux."
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Macrophages associés à la tumeur (TAM)", "Effet"],
+     "rows": [
+      ["**TAM M1**", "Pro-inflammatoires, réponse **Th1**, **inhibent** la croissance tumorale → **bon pronostic**"],
+      ["**TAM M2**", "Anti-inflammatoires, **favorisent** la croissance tumorale (tumeurs froides) → mauvais pronostic"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "**Immunité adaptative** : la tumeur libère des Ag captés par les CPA → réponse spécifique **Th1**. Les **LT CD8 cytotoxiques (CTL)**, restreints au **CMH-I**, lysent la cellule tumorale par **perforine/granzyme** (comme les NK). La réponse humorale (Ac anti-AAT) reflète surtout la présence d'une tumeur."
+    }
+   ]
+  },
+  {
+   "id": "antigenes",
+   "icon": "🎯",
+   "heading": "Antigènes associés aux tumeurs (TAA / TSA)",
+   "accent": "amber",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Catégorie", "Exemples", "Tumeurs"],
+     "rows": [
+      ["**TSA** — spécifique de tumeur (néo-antigène)", "Mutant p21/ras, p53 muté, β-caténine, EGFRvIII, CEA", "Colorectal, pancréatique, mélanome, glioblastome"],
+      ["**TAA** — associé (partagé, surexprimé)", "MUC-1, **HER-2/neu**, idiotype d'Ig", "Sein, colorectal, poumon, lymphome B"],
+      ["**Ag tumoral partagé**", "Famille **MAGE**", "Mélanomes"],
+      ["**Ag viraux**", "**HPV**, **EBV**, **HBV**", "Col utérin, lymphome de Burkitt, hépatocarcinome"]
+     ]
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Identification** : purification du CMH puis séquençage des peptides, ou séquençage de la tumeur entière (épitopes différents → cibles tumorales).",
+      "On cible ensuite ces peptides pour stimuler les **LT** spécifiques."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "echappement",
+   "icon": "🚪",
+   "heading": "Mécanismes d'échappement tumoral",
+   "accent": "rose",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "L'**échappement tumoral** = perte d'efficacité de la réponse immunitaire ; le SI devient **incapable de contrôler** la progression. Il survient progressivement (la tumeur évolue vers un stade d'échappement)."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Mauvaise présentation des Ag** : ↓ ou perte d'expression du **CMH-I** (β2m), défaut d'apprêtement (**LMP-2, LMP-7**) et de transport (**TAP-1, TAP-2**), perte d'Ag tumoraux (immunoediting).",
+      "**Défaut de costimulation** : inhibition **B7.1/B7.2** et **CD40** → anergie lymphocytaire.",
+      "**Dysfonction des lymphocytes** : signal T aberrant (↑ CTLA-4, ↑ PD-1, surexpression de CD70), résistance à l'apoptose (Fas/FasL), **anergie des NK**."
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Immunosuppression tumorale", "Médiateurs"],
+     "rows": [
+      ["**Cellules**", "**Treg**, MDSC, cellules myéloïdes immatures, NKT"],
+      ["**Cytokines**", "**TGF-β**, **IL-10** (bloquent la différenciation des CD8, favorisent l'angiogenèse et la fibrose)"],
+      ["**Enzymes / métabolisme**", "**IDO** (indoléamine 2,3-dioxygénase) → dégrade le tryptophane ; **COX-2**, **iNOS** (NO) → croissance et métastases"],
+      ["**Checkpoints**", "**CTLA-4**, **PD-1/PD-L1**, **Tim-3** (avec galectine-9) → anergie / épuisement des LT"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "mnemo",
+     "html": "Trois portes de sortie : **effet fantôme** (perte du CMH-I, plus reconnue), **anergie** (variants suppresseurs résistants), **épuisement** (LT trop stimulés → apoptose, ↑ Treg)."
+    }
+   ]
+  },
+  {
+   "id": "immunotherapie",
+   "icon": "💉",
+   "heading": "Stratégies d'immunothérapie du cancer",
+   "accent": "teal",
+   "blocks": [
+    {
+     "type": "bullets",
+     "items": [
+      "**Conventionnel (radio/chimio)** : au-delà de l'effet cytotoxique direct, induisent une **mort immunogène** facilitant la cross-présentation. Certaines chimio (cisplatine, doxorubicine) activent les **TAM M1** ; d'autres ciblent les **Treg**.",
+      "**Immunothérapie non spécifique** : restaure / booste le SI — **BCG** (cancer de vessie non opérable), **virus oncolytiques**, cytokines (IL-2, IL-7, IFN)."
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Immunothérapie spécifique", "Principe", "Exemples"],
+     "rows": [
+      ["**Ac ciblant la croissance**", "Bloquent un récepteur de croissance", "**Trastuzumab** (anti-HER2), **Cetuximab** (anti-EGFR)"],
+      ["**Ac anti-angiogenèse**", "Bloquent la vascularisation (VEGF)", "**Bevacizumab** (colorectal)"],
+      ["**Ac cytotoxiques (ADCC)**", "Recrutent NK/macrophages → lyse, complément", "**Rituximab** (anti-CD20, lymphome B)"],
+      ["**Inhibiteurs de checkpoint**", "Lèvent l'inhibition des LT", "**Ipilimumab** (anti-CTLA-4), **Pembrolizumab/Nivolumab** (anti-PD-1)"]
+     ]
+    },
+    {
+     "type": "table",
+     "columns": ["Anti-checkpoint", "Cible", "Mécanisme"],
+     "rows": [
+      ["**Ipilimumab**", "**CTLA-4**", "Lève l'inhibition à l'amorçage (dans les ganglions) → les LT bloqués prolifèrent"],
+      ["**Pembrolizumab**", "**PD-1 / PD-L1**", "Bloque l'inhibition au contact de la tumeur ; **PD-1 = marqueur d'épuisement** des LT"]
+     ]
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "**Thérapie cellulaire adoptive — CAR-T** : LT du patient modifiés génétiquement avec un **récepteur chimérique** (TCR spécifique de la tumeur), amplifiés *in vitro* puis réinjectés.",
+      "**TILs (Rosenberg)** : lymphocytes infiltrant la tumeur, prélevés, amplifiés *in vitro* et réinjectés (efficacité ~90 % dans certains mélanomes).",
+      "**Vaccination thérapeutique** : lysats tumoraux, peptides purifiés, Ag viraux (HPV) → réponse spécifique, mais souvent faiblement immunogène (adjuvants indispensables)."
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "L'immunothérapie est **toxique** : phénomènes **auto-immuns**, diabète, colites, hépatites, atteintes neurologiques. Toujours raisonner en **bénéfices / risques** avec un suivi rapproché."
+    }
+   ]
+  }
+ ]
 }
