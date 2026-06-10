@@ -67,6 +67,74 @@
     "Tuberculose latente = contre-indication ; monitoring (taux + Ac anti-medicament)"
    ],
    "trap": "Les anti-TNF sont TRES immunogenes (risque d'echappement therapeutique par anticorps anti-medicament), d'ou le monitoring."
+  },
+  {
+   "id": "fc17-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Decrivez la **structure de base** d'un anticorps (immunoglobuline) en nommant ses principales regions et leurs fonctions respectives.",
+   "answer": "Un anticorps est une **glycoproteine** de structure en forme de **Y**, formee de **deux chaines lourdes** et **deux chaines legeres**. On distingue : les **paratopes** (regions **CDR** des chaines lourdes et legeres), qui sont **specifiques d'un antigene** et variables d'un Ac a l'autre ; la **region Fc** (constante), qui porte les **fonctions effectrices** (recrutement du complement, des phagocytes et des cellules cytotoxiques) ; la **region Fab**, qui sert a la **reconnaissance de l'antigene**. La reaction Ag/Ac est une interaction entre l'**epitope** (sur l'Ag) et le **paratope** (sur l'Ac), necessitant une bonne complementarite sterique.",
+   "keyPoints": [
+    "Structure en Y : 2 chaines lourdes + 2 chaines legeres",
+    "Paratopes (CDR) : specifiques de l'Ag, variables",
+    "Region Fc (constante) : fonctions effectrices (complement, phagocytes, cytotoxicite)",
+    "Region Fab : reconnaissance de l'antigene"
+   ],
+   "trap": "L'epitope est sur l'ANTIGENE ; le paratope est sur l'ANTICORPS. Ne pas les inverser."
+  },
+  {
+   "id": "fc17-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **anticorps bispecifique** ? Donnez un exemple avec son indication et expliquez son mecanisme d'action.",
+   "answer": "Un **anticorps bispecifique** est un anticorps modifie capable de lier **simultanement deux cibles distinctes**, ce qui lui confere des proprietes que les anticorps classiques ne possedent pas. Un exemple est le **Blinatumomab (BLINCYTO®)**, indique dans la **leucemie aigue lymphoide B**. Il lie simultanement le **CD19** sur les lymphocytes B tumoraux et le **CD3** sur les lymphocytes T cytotoxiques, rapprochant ainsi le LT du LB tumoral et induisant la **lyse de la cellule cible** par le LT. Ces anticorps bispecifiques sont de plus en plus utilises en **cancerologie hematologique**.",
+   "keyPoints": [
+    "Bispecifique : lie deux cibles distinctes simultanement",
+    "Blinatumomab (BLINCYTO) : anti-CD19 x anti-CD3",
+    "Mecanisme : rapproche le LT cytotoxique du LB tumoral -> lyse tumorale",
+    "Indication : leucemie aigue lymphoide B"
+   ]
+  },
+  {
+   "id": "fc17-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **anticorps conjugue (ADC, antibody-drug conjugate)** ? Donnez un exemple avec sa composition et son indication.",
+   "answer": "Un **anticorps conjugue (ADC)** est un anticorps couple a un **agent cytotoxique** (radio-isotope ou molecule cytotoxique), permettant un **ciblage specifique** de la cellule tumorale tout en lui delivrant le produit toxique. Exemple 1 : **Ibritumomab tiuxetan (ZEVALIN®)** : IgG1 murine anti-CD20 couplee a de l'**yttrium 90** (therapeutique) ou de l'**indium 111** (imagerie), via le tiuxetan ; indiquee dans les **lymphomes B**. Exemple 2 : **Brentuximab** : IgG1 chimerique anti-CD30 couplee a un **antimitotique (vedotine)** ; indiquee dans les **lymphomes**. L'interet est de concentrer la toxicite au niveau de la tumeur et de reduire les effets systemiques.",
+   "keyPoints": [
+    "ADC = anticorps couple a un agent cytotoxique (radio-isotope ou cytotoxique)",
+    "Ibritumomab tiuxetan (ZEVALIN) : anti-CD20 + yttrium 90 ou indium 111 -> lymphomes B",
+    "Brentuximab : anti-CD30 + vedotine (antimitotique) -> lymphomes",
+    "But : ciblage specifique de la tumeur, reduction de la toxicite systemique"
+   ]
+  },
+  {
+   "id": "fc17-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le principe des **anticorps anti-checkpoints inhibiteurs** (anti-PD-1 et anti-CTLA-4) : quel est leur mecanisme d'action et citez deux exemples avec leurs indications.",
+   "answer": "Les anticorps **anti-checkpoints inhibiteurs** bloquent des molecules qui freinent normalement la reponse immunitaire contre les tumeurs, realisant ainsi une action **immunostimulante**. **Anti-PD-1** (Nivolumab OPDIVO®, Pembrolizumab KEYTRUDA®) : IgG4 bloquant **PD-1** (recepteur inhibiteur exprime sur les LT) -> leve le frein sur les LT -> destruction de la tumeur. Indications : melanome, cancer bronchique, lymphome de Hodgkin. **Anti-CTLA-4** (Ipilimumab YERVOY®) : IgG1 bloquant **CTLA-4** (molecule inhibitrice de la synapse immunologique) -> levee du frein -> activation des LT antitumoraux. Indications : melanome avance, carcinome renal avance. Ces medicaments font partie de la grande famille des **immunotherapies** et ont revolutionne la prise en charge de certains cancers.",
+   "keyPoints": [
+    "Mecanisme : bloquent des inhibiteurs de la reponse immunitaire -> action immunostimulante",
+    "Anti-PD-1 : Nivolumab, Pembrolizumab -> bloque PD-1 -> activation LT antitumoraux",
+    "Anti-CTLA-4 : Ipilimumab -> bloque CTLA-4 -> activation LT",
+    "Risque : manifestations auto-immunes (car immunostimulants)"
+   ],
+   "trap": "Ces anticorps sont IMMUNOSTIMULANTS (contrairement a la majorite des biotherapies qui sont immunosuppressives) : ils risquent d'induire des manifestations auto-immunes."
+  },
+  {
+   "id": "fc17-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Qu'est-ce qu'une **proteine de fusion** en therapeutique ? Expliquez sa structure, son suffixe DCI, et donnez deux exemples avec leurs mecanismes et indications.",
+   "answer": "Une **proteine de fusion** est construite en enlevant la **partie Fab** de l'immunoglobuline et en gardant la **partie constante Fc**, que l'on fusionne a une **proteine d'interet** possedant une activite biologique souhaitee. Le suffixe DCI est **-ercept**. Exemple 1 : **Abatacept (ORENCIA®)** et **Belatacept (NULOJIX®)** : fusion IgG1 + **CTLA-4** -> se lie a **CD80/CD86** -> empeche l'activation des LT ; indiques dans le rhumatisme inflammatoire (abatacept) et la prevention du rejet de greffe renale (belatacept). Exemple 2 : **Etanercept** : fusion IgG1 + **recepteur soluble du TNF** -> neutralise le TNF alpha ; indique dans les rhumatismes inflammatoires et le psoriasis. La portion Fc confere une demi-vie prolongee grace au FcRn.",
+   "keyPoints": [
+    "Proteine de fusion : partie Fc d'Ig + proteine d'interet ; suffixe -ercept",
+    "Abatacept/Belatacept : Fc + CTLA-4 -> bloque CD80/CD86 -> inhibe activation LT",
+    "Etanercept : Fc + recepteur soluble du TNF -> neutralise TNF alpha",
+    "Fc confere longue demi-vie via FcRn"
+   ],
+   "trap": "L'etanercept est une PROTEINE DE FUSION (pas un anticorps) : son suffixe est -ercept et non -mumab/-zumab/-ximab."
   }
  ]
 }

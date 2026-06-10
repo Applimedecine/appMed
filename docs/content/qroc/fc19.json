@@ -71,6 +71,76 @@
     "Diagnostic : biopsie de l'artere temporale (granulomes geants)"
    ],
    "trap": "La maladie de Horton touche les GROS vaisseaux (et non les petits) ; la complication grave concerne la carotide INTERNE (et non externe)."
+  },
+  {
+   "id": "fc19-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quel est le **role de la regulation du complement** et quels sont les deux types de proteines regulatrices ? Donnez deux exemples de chaque type.",
+   "answer": "Le complement etant une cascade enzymatique potentiellement autodestructrice, sa **regulation est indispensable** pour eviter une activation excessive qui pourrait generer des maladies auto-immunes. Il existe deux types de proteines regulatrices : 1) les **proteines membranaires** presentes a la surface des cellules eucaryotes (qui protegent les cellules propres de l'organisme contre l'activation du complement) : **CD55 (DAF)** et **CD59 (MIRL)** ; 2) les **proteines circulantes** (plasmatiques) : **facteur H** et **facteur I** (les plus importants). Les bacteries ne possedent pas ces systemes de regulation, ce qui permet au complement de les attaquer.",
+   "keyPoints": [
+    "Regulation indispensable : eviter l'autodestruction et les maladies auto-immunes",
+    "Proteines membranaires : CD55 (DAF) et CD59 (MIRL)",
+    "Proteines circulantes : facteur H et facteur I (+++)",
+    "Les bacteries n'ont pas ces inhibiteurs -> le complement peut les attaquer"
+   ],
+   "trap": "Les proteines de regulation protegent les CELLULES DE L'ORGANISME (eucaryotes) : les cellules bacteriennes n'en possedent pas, ce qui permet la lyse bacterienne."
+  },
+  {
+   "id": "fc19-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez la **physiopathologie de la maladie serique** en listant ses etapes chronologiques, le type d'hypersensibilite implique et les principaux signes cliniques.",
+   "answer": "La **maladie serique** est une forme generalisee d'**hypersensibilite de type III** (complexes immuns). Sa physiopathologie se deroule en plusieurs etapes : 1) **injection d'un antigene etranger** (proteine, Ig etrangere) ; 2) **reponse anticorps** qui prend 10 a 15 jours a se constituer ; 3) **croisement des courbes Ag/Ac** : la stochiometrie entre les deux permet la **formation de complexes immuns**, avec un pic aigu de CI et une **vascularite generalisee** ; 4) **activation et consommation de la voie classique** du complement par les CI : chute du taux de **C4** ; 5) **recrutement des PNN**. Cliniquement : **fievre, alteration de l'etat general, poly-adenopathies, eruption cutanee (purpura), atteinte articulaire, atteinte renale**, 10 jours apres la premiere administration (ou en quelques heures lors d'une re-exposition).",
+   "keyPoints": [
+    "Hypersensibilite de type III (CI Ag-Ac + complement + PNN)",
+    "Etapes : injection Ag -> reponse Ac (10-15j) -> formation CI -> activation complement (chute C4) -> recrutement PNN",
+    "Clinique : fievre, AEG, adenopathies, purpura, arthrites, atteinte renale",
+    "Survient 10j apres 1ere administration ou en quelques heures si re-exposition"
+   ],
+   "trap": "La chute du taux de C4 (et non C3) est le marqueur biologique de l'activation de la VOIE CLASSIQUE par les complexes immuns dans la maladie serique."
+  },
+  {
+   "id": "fc19-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **nephropathie a IgA (maladie de Berger)** ? Precisez sa physiopathologie, le signe clinique cardinal et son pronostic renal.",
+   "answer": "La **nephropathie a IgA** (maladie de Berger) est la **glomérulonephrite la plus frequente dans le monde**. Elle touche preferentiellement l'**adulte jeune**, surtout les hommes. La physiopathologie implique une atteinte inflammatoire des muqueuses productrices d'IgA, qui forment des **complexes immuns se deposant dans le mesangium renal** (depots mésangiaux d'IgA), declenchant des **hematurics** lors des infections ORL. Le signe clinique cardinal est l'**hematurie glomérulaire** (visible dans 30 % des cas par le patient), associee a une **protéinurie glomérulaire** et parfois une HTA ou une insuffisance renale. Le pronostic est reserve : **30 a 50 % des patients** evoluent vers l'**insuffisance renale terminale** (dialyse ou greffe renale).",
+   "keyPoints": [
+    "GN la plus frequente dans le monde ; adulte jeune (hommes++)",
+    "Physiopathologie : CI IgA -> depots mesangiaux -> hematurie lors des infections ORL",
+    "Signe cardinal : hematurie glomérulaire (+/- proteinurie, HTA, IR)",
+    "Pronostic : 30-50% evoluent vers l'insuffisance renale terminale"
+   ],
+   "trap": "L'hematurie de la maladie de Berger est typiquement declenchee par les INFECTIONS ORL (et non par l'effort ou un traumatisme, contrairement a l'hematurie d'effort de l'athlete)."
+  },
+  {
+   "id": "fc19-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez les **trois conditions pathologiques** pouvant perturber la formation ou l'elimination des complexes immuns et conduire a des maladies a CI.",
+   "answer": "Les pathologies a complexes immuns peuvent etre secondaires a trois types d'anomalies (pouvant coexister) : 1) **Anomalies de formation des CI** (trop grand nombre) : l'auto-immunite entraine une production excessive de CI, submergeant les mecanismes d'elimination. 2) **Anomalies du complement** : le complement participe normalement a la solubilisation et a l'elimination des CI ; un deficit du complement (ex. dans le lupus) **empeche la clairance des complexes immuns**, favorisant leur accumulation et leurs depots tissulaires. 3) **Anomalies des cellules responsables de la clairance** des CI (GR, cellules mononuclees du foie et de la rate) : les cellules normalement chargees d'eliminer les CI sont **defaillantes**, entrainant leur persistance et leur depot.",
+   "keyPoints": [
+    "1) Exces de formation des CI (auto-immunite, antigénemie persistante)",
+    "2) Deficit du complement -> incapacite a solubiliser et eliminer les CI (ex. lupus)",
+    "3) Defaillance des cellules de la clairance (GR, cellules mononuclees foie/rate)",
+    "Ces 3 anomalies peuvent coexister dans une meme maladie"
+   ],
+   "trap": "Le complement joue un role PROTECTEUR en solubilisant les CI : un deficit du complement (ex. deficit en C4 ou C2) FAVORISE les maladies a CI comme le lupus, contrairement a ce que l'on pourrait intuiter."
+  },
+  {
+   "id": "fc19-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Qu'est-ce que la **cryoglobulinemie** ? Decrivez la physiopathologie, les trois types, les principales manifestations cliniques et l'etiologie predominante.",
+   "answer": "La **cryoglobulinemie** est caracterisee par la presence dans le serum de **cryoglobulines**, proteines (immunoglobulines) qui **precipitent au froid** (< 37 °C) et se resolubilisent a la chaleur. Ces Ig insolubilisees activent la **voie classique du complement** (consommation de **C4** effondre) et forment des **complexes immuns** generateurs de vascularite. On distingue **3 types** : **type 1** (Ig monoclonale seule, ex. IgM), associe a une hémopathie (myelome) ; **type 2** (IgM monoclonale + IgG polyclonale), souvent lie a l'**hepatite C** (+++) ou au VHB/lupus ; **type 3** (toutes polyclonales : IgM + IgG +/- IgA), lie a l'hepatite C, maladies auto-immunes. Manifestations cliniques : **purpura vasculaire** (signe le plus frequent), syndrome de Raynaud, arthralgies, polynévrites, **glomérulonephrite membranoproliferative** (avec proteinurie massive, syndrome nephrotique, IR).",
+   "keyPoints": [
+    "Cryoglobulines : Ig precipitant au froid -> activation complement (chute C4) + CI -> vascularite",
+    "Type 1 : Ig monoclonale -> hemopathie (myelome)",
+    "Type 2 : IgM monoclonale + IgG polyclonale -> hepatite C +++, VHB, lupus",
+    "Type 3 : polyclonale -> hepatite C, MAI ; Clinique : purpura, Raynaud, polynévrites, GN"
+   ],
+   "trap": "La chute du taux de C4 (et non C3) est le reflet de l'activation de la VOIE CLASSIQUE par les CI dans la cryoglobulinemie. Un C4 effondre avec C3 normal doit faire evoquer ce diagnostic."
   }
  ]
 }

@@ -201,6 +201,69 @@
     "Diminue la réponse aux traitements",
     "Sevrage tabagique impératif"
    ]
+  },
+  {
+   "id": "fc04a-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le mécanisme de la **NETose** et son rôle dans la genèse des **ACPA**.",
+   "answer": "La **NETose** est un mécanisme de mort des **polynucléaires neutrophiles (PNN)** qui libèrent des **pièges extracellulaires** (NETs : *Neutrophil Extracellular Traps*), constitués de chromatine et de protéines granulaires. Dans ces NETs, les protéines sont **fortement citrullinées** (par l'enzyme **PAD** activée lors de la NETose). Ces peptides citrullinés constituent des **néo-antigènes** reconnus par le système immunitaire, déclenchant la synthèse d'**ACPA** chez les individus génétiquement prédisposés (HLA-DRB1+).",
+   "keyPoints": [
+    "NETose = mort des PNN → libération de NETs (chromatine + protéines)",
+    "NETs = source d'hypercitrullination (PAD activée)",
+    "Peptides citrullinés → néo-antigènes → ACPA"
+   ]
+  },
+  {
+   "id": "fc04a-qroc18",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel micro-organisme lié à la **parodontite** est impliqué dans la physiopathologie de la PR, et par quel mécanisme ?",
+   "answer": "Il s'agit de ***Porphyromonas gingivalis***, une bactérie responsable de **parodontite**. Elle exprime une enzyme propre (**PPAD**, *Porphyromonas PAD*) capable de **citrulliner** des protéines bactériennes et des protéines de l'hôte. Cette **hypercitrullination** locale induit une production d'**ACPA** chez les individus prédisposés, reliant la santé buccale à la physiopathologie de la PR.",
+   "keyPoints": [
+    "Porphyromonas gingivalis (parodontite)",
+    "Exprime une PAD bactérienne (PPAD) → citrullination",
+    "Hypercitrullination → ACPA chez les prédisposés"
+   ],
+   "trap": "C'est la **seule bactérie** qui exprime une PAD propre : lien direct parodontite → PR via citrullination."
+  },
+  {
+   "id": "fc04a-qroc19",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "La PR est-elle une maladie **auto-immune** ou **auto-inflammatoire** ? Justifiez en citant deux éléments caractéristiques.",
+   "answer": "La PR est une maladie **auto-immune** (et non auto-inflammatoire). Les deux éléments qui le confirment sont : (1) la présence d'**auto-anticorps spécifiques** (**ACPA** très spécifiques et **facteur rhumatoïde**), et (2) l'implication du **CMH de classe II** (HLA-DRB1, épitope partagé) dans la présentation des peptides citrullinés — ce qui est la signature d'une réponse **adaptative**.",
+   "keyPoints": [
+    "PR = auto-immune (≠ auto-inflammatoire)",
+    "Auto-anticorps : ACPA + facteur rhumatoïde",
+    "CMH classe II (HLA-DRB1) → réponse adaptative"
+   ],
+   "trap": "Ne pas confondre avec les **spondylarthrites** qui sont **auto-inflammatoires** (pas d'auto-anticorps spécifiques)."
+  },
+  {
+   "id": "fc04a-qroc20",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Décrivez la **séquence chronologique** de la PR, depuis la phase pré-clinique jusqu'à la destruction articulaire.",
+   "answer": "La PR se développe en plusieurs étapes. (1) **Phase pré-PR** : hypercitrullination (tabac, NETose, *P. gingivalis*) chez un sujet HLA-DRB1+ → production d'**ACPA détectables jusqu'à 10 ans avant** les symptômes. (2) **Phase d'état** : synovite clinique avec activation des **synoviocytes B** → formation du **pannus**. (3) **Destruction articulaire** : le pannus produit **RANKL** (→ ostéoclastes → **érosions**) et **MMP** (→ destruction du cartilage → **pincement**). Les ACPA eux-mêmes contribuent aux érosions en activant les ostéoclastes.",
+   "keyPoints": [
+    "Pré-PR : hypercitrullination → ACPA (dès -10 ans)",
+    "Phase d'état : synovite → pannus (synoviocytes B)",
+    "Destruction : RANKL → érosions ; MMP → pincements"
+   ]
+  },
+  {
+   "id": "fc04a-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le mécanisme d'action des **inhibiteurs de JAK** dans la PR, et à quel stade de la prise en charge sont-ils utilisés ?",
+   "answer": "Les **inhibiteurs de JAK** (tofacitinib, baricitinib, etc.) bloquent les **JAK kinases** impliquées dans la **voie de signalisation intracellulaire** des cytokines pro-inflammatoires (notamment IL-6, IL-2, GM-CSF). Ils s'administrent **par voie orale**, ce qui les distingue des biothérapies injectables. Ils sont utilisés en cas d'**échec du méthotrexate**, au même titre que les biothérapies ciblant TNF-α, IL-6, etc.",
+   "keyPoints": [
+    "Inhibiteurs des JAK kinases (voie de signalisation des cytokines)",
+    "Prise orale (≠ biothérapies injectables)",
+    "Indiqués en cas d'échec du méthotrexate"
+   ],
+   "trap": "Les inhibiteurs de JAK sont des **petites molécules orales** : ne pas les confondre avec les biothérapies (anticorps monoclonaux injectables)."
   }
  ]
 }

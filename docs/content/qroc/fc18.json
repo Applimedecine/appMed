@@ -70,6 +70,75 @@
     "Diagnostic : test au NBT (virage au bleu) et cytometrie a la DHR (fluorescence)"
    ],
    "trap": "Le bilan immunitaire de base (NFS, Ig, phenotype lymphocytaire) est NORMAL : c'est une anomalie de FONCTION des phagocytes, a evoquer notamment devant une infection a Staphylocoque dore (ex. abces hepatique)."
+  },
+  {
+   "id": "fc18-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelle est la difference entre un **deficit immunitaire hereditaire (DIH)** et un **deficit immunitaire acquis** ? Donnez un exemple de chaque et precisez combien d'enfants naissent avec un DIP en France par an.",
+   "answer": "Un **deficit immunitaire hereditaire (DIH)** est une **erreur innee du systeme immunitaire**, transmise selon les lois mendeliennes, qui affecte des genes specifiques et se manifeste **tres tot dans la vie**. Il est constitutionnel et peut servir de modele d'etude du systeme immunitaire. Exemple : le SCID, la maladie de Bruton. Un **deficit immunitaire acquis** survient secondairement a un traitement (immunosuppresseurs, corticoides, chimiotherapie) ou une maladie (ex : VIH). Il n'est pas transmissible. En France, **environ 400 enfants par an** naissent avec un DIP, et 7 000 a 8 000 personnes vivent avec ces pathologies.",
+   "keyPoints": [
+    "DIH = erreur innee, constitutionnelle, mendeline, se manifeste tot (ex : SCID, Bruton)",
+    "Deficit acquis = secondaire a un traitement ou une maladie (ex : VIH, chimio)",
+    "France : ~400 naissances/an avec un DIP ; 7 000-8 000 personnes affectees",
+    "Plus de 460 genes responsables et 430 maladies recensees"
+   ]
+  },
+  {
+   "id": "fc18-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Decrivez la **maladie de Bruton** : mode de transmission, consequence moleculaire, phenotype immunologique et prise en charge.",
+   "answer": "La **maladie de Bruton** est une immunodeficience primitive **liee a l'X** (touche donc les garcons), causee par la **mutation du gene BTK** (Bruton Tyrosine Kinase). En l'absence de signalisation BTK, il n'y a **pas de differenciation ni de survie des lymphocytes B** : on observe une **absence de lymphocytes B matures** et un **deficit profond en immunoglobulines** (agammaglobulinemie). Cliniquement, cela se traduit par des **infections bacteriennes repetees**. A l'examen, il n'y a pas d'amygdales (absence de tissu lymphoide B). Le traitement repose sur un **traitement substitutif par immunoglobulines polyvalentes** (une perfusion par mois ou auto-injection hebdomadaire en sous-cutane).",
+   "keyPoints": [
+    "Liee a l'X (garcons), mutation du gene BTK (Bruton Tyrosine Kinase)",
+    "Absence de LB matures et deficit profond en Ig (agammaglobulinemie)",
+    "Clinique : infections bacteriennes repetees, pas d'amygdales",
+    "Traitement : substitution par Ig polyvalentes (mensuelle IV ou hebdomadaire SC)"
+   ],
+   "trap": "La maladie de Bruton est une immunodeficience HUMORALE PURE (absence de LB matures). Contrairement au SCID, les lymphocytes T sont normaux."
+  },
+  {
+   "id": "fc18-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **deficit immunitaire commun variable (DICV)** ? Precisez sa definition biologique, sa prevalence, l'age de revelation et les complications associees.",
+   "answer": "Le **deficit immunitaire commun variable (DICV)** est le deficit immunitaire hereditaire humoral predominant le **plus frequent** chez l'adulte (prevalence : **1/30 000**), se revelant le plus souvent a l'**adolescence ou chez le jeune adulte**. Il est defini par une **hypogammaglobulinemie** globale : **IgG < 5 g/L**, souvent associee a un deficit en IgA (50 % des cas) et en IgM (20 % des cas). Les lymphocytes B sont **presents en nombre normal** mais ont un **defaut de secretion d'immunoglobulines** (defaut de cooperation LT/LB et de cellules B memoires). Complications : infections bacteriennes repetees (ORL et pulmonaires), **syndrome tumoral** (adenopathies, splenomegalie) dans 40 % des cas, et **maladie auto-immune** dans 20 % des cas.",
+   "keyPoints": [
+    "DICV : DI humoral le plus frequent (1/30 000), revelation a l'adolescence/adulte jeune",
+    "IgG < 5 g/L, souvent deficit en IgA et IgM ; LB presents mais non fonctionnels",
+    "Defaut de cooperation LT/LB et de cellules B memoires",
+    "Complications : infections repetees, syndrome tumoral (40%), maladie auto-immune (20%)"
+   ],
+   "trap": "Dans le DICV, les LB sont PRESENTS (contrairement a la maladie de Bruton ou ils sont absents) mais ils sont non fonctionnels."
+  },
+  {
+   "id": "fc18-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **deficit immunitaire syndromique** ? Illustrez par le **syndrome de DiGeorge** : anomalie genetique, organes atteints et consequence immunologique.",
+   "answer": "Un **deficit immunitaire syndromique** survient lorsqu'une mutation d'un gene **pleiotropique** (a plusieurs fonctions) entraine a la fois un deficit immunitaire ET d'autres anomalies organiques. Le **syndrome de DiGeorge** est du a une **micro-deletion du bras long du chromosome 22 (22q11)**. Les structures derivant du 3e et 4e arcs branchiaux sont touchees : **aplasie ou hypoplasie du thymus** (=> deficit T surtout quantitatif), **agnesie des parathyroides** (hypocalcemie), **cardiopathies congenitales** (gros vaisseaux) et un **syndrome dysmorphique** discret. La consequence immunologique principale est une **reduction quantitative des populations lymphocytaires** T en lien avec l'atteinte thymique.",
+   "keyPoints": [
+    "Syndromique : gene pleiotropique -> DI + autres anomalies",
+    "DiGeorge : micro-deletion 22q11",
+    "Aplasie/hypoplasie du thymus, agenese des parathyroides, cardiopathies congenitales, dysmorphie",
+    "Consequence immuno : deficit T quantitatif (reduction des LT)"
+   ],
+   "trap": "Le syndrome de DiGeorge est aussi frequent que la trisomie 21 : ne pas le negliger devant un tableau de malformations cardiaques + hypocalcemie chez le nouveau-ne."
+  },
+  {
+   "id": "fc18-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le role du **lymphocyte T CD4** dans la cooperation immunitaire. Quelles sont les consequences d'un deficit en CD4 sur l'immunite humorale et cellulaire ? Citez l'exemple pathologique le plus connu.",
+   "answer": "Le **lymphocyte T CD4 (helper)** est l'intermediaire central de la reponse immunitaire : il active d'autres cellules via la **synthese de cytokines/interleukines**, stimule l'**immunite innee** (macrophages), permet la **commutation de classe** des immunoglobulines (IgM -> IgG), et amplifie l'activation et la proliferation des LT et LB. Il renforce egalement la phagocytose. Un **deficit en CD4** entraine donc : 1) une **reduction de la commutation de classe** (persistance des IgM, peu d'IgG) ; 2) une **reduction de la phagocytose** ; 3) un **deficit immunitaire combine humoral et cellulaire**, avec risque accru d'**infections bacteriennes** (par defaut humoral) et **opportunistes**. L'exemple le plus connu est le **VIH/SIDA**, qui detruit progressivement les lymphocytes CD4, exposant le patient aux infections opportunistes.",
+   "keyPoints": [
+    "CD4 (helper) : synthese cytokines, commutation de classe (IgM->IgG), activation LT/LB/macrophages",
+    "Deficit CD4 -> reduction commutation de classe, reduction phagocytose",
+    "Deficit combine : infections bacteriennes + opportunistes",
+    "Exemple : VIH (destruction des CD4 -> SIDA)"
+   ],
+   "trap": "Un deficit en CD4 entraine un deficit a la FOIS humoral ET cellulaire car les LB dependent de l'aide des LT CD4 pour produire des IgG : c'est un deficit COMBINE et non purement cellulaire."
   }
  ]
 }

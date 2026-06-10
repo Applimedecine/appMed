@@ -199,6 +199,68 @@
     "Maladies auto-inflammatoires (pas auto-immunes), pas d'auto-Ac spécifiques"
    ],
    "trap": "Maladie auto-**inflammatoire** (et non auto-immune) : la **formation osseuse** la distingue de la PR."
+  },
+  {
+   "id": "fc04b-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de la protéine **ERAP1** dans les spondylarthrites, et pourquoi son interaction avec l'**HLA-B27** est-elle particulièrement pertinente ?",
+   "answer": "**ERAP1** (*Endoplasmic Reticulum Aminopeptidase 1*) est une aminopeptidase du réticulum endoplasmique impliquée dans le **traitement des peptides** destinés à être présentés par les molécules **HLA de classe I**, dont l'**HLA-B27**. Des variants de **ERAP1** modifient le **répertoire peptidique** présenté par B27, ce qui influence la reconnaissance par les lymphocytes T et contribue à la susceptibilité aux spondylarthrites. Son association avec la SpA n'est retrouvée que chez les individus **B27+**, illustrant une interaction gène-gène.",
+   "keyPoints": [
+    "ERAP1 = aminopeptidase du RE → traitement des peptides pour CMH classe I",
+    "Modifie le répertoire peptidique présenté par HLA-B27",
+    "Association ERAP1-SpA uniquement chez les sujets B27+"
+   ],
+   "trap": "ERAP1 interagit spécifiquement avec **B27** (classe I) : son rôle est épistasique, pas indépendant."
+  },
+  {
+   "id": "fc04b-qroc18",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Qu'est-ce que la **sacro-iliite** et comment la distingue-t-on à l'imagerie entre la forme **non radiographique** et la forme **radiographique** ?",
+   "answer": "La **sacro-iliite** est l'inflammation des **articulations sacro-iliaques**, manifestation axiale centrale des spondylarthrites. Dans la forme **non radiographique**, la radiographie standard est normale : seule l'**IRM** met en évidence un **œdème sous-chondral** (signe précoce). Dans la forme **radiographique**, la radiographie conventionnelle révèle des **érosions, une sclérose et une fusion** des articulations sacro-iliaques.",
+   "keyPoints": [
+    "Sacro-iliite = inflammation des articulations sacro-iliaques",
+    "Forme non radiographique : IRM (œdème sous-chondral), radio normale",
+    "Forme radiographique : érosions, sclérose, fusion visible à la radio"
+   ]
+  },
+  {
+   "id": "fc04b-qroc19",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Que signifie le score **mSASSS** et quels éléments radiographiques évalue-t-il dans la spondylarthrite axiale ?",
+   "answer": "Le **mSASSS** (*modified Stokes Ankylosing Spondylitis Spinal Score*) est un score radiographique qui évalue la **progression structurale** de la spondylarthrite axiale. Il quantifie les **syndesmophytes** et les **érosions/sclérose/fusion** des coins vertébraux sur les vertèbres **cervicales et lombaires** (de C2 à D2 et de D12 à S1). Chaque coin vertébral est coté de 0 à 3 : 0 = normal, 1 = érosion/sclérose, 2 = syndesmophyte, 3 = pont osseux (fusion).",
+   "keyPoints": [
+    "mSASSS = score de progression structurale radiographique",
+    "Évalue coins vertébraux cervicaux et lombaires",
+    "Cotation 0-3 par coin : normal → érosion → syndesmophyte → fusion"
+   ]
+  },
+  {
+   "id": "fc04b-qroc20",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Différenciez **spondylite** et **sacro-iliite** comme manifestations axiales de la spondylarthrite, en précisant leur localisation respective.",
+   "answer": "La **sacro-iliite** désigne l'inflammation des **articulations sacro-iliaques** (jonction entre le sacrum et les os iliaques), souvent bilatérale, qui constitue le signe d'appel le plus précoce des spondylarthrites axiales. La **spondylite** désigne l'inflammation du **rachis** (vertèbres, disques intervertébraux, ligaments), se traduisant par des **enthésites vertébrales** et conduisant à la formation de **syndesmophytes** puis à l'ankylose rachidienne.",
+   "keyPoints": [
+    "Sacro-iliite : articulations sacro-iliaques, signe précoce",
+    "Spondylite : rachis, enthésites vertébrales → syndesmophytes",
+    "Les deux sont des manifestations axiales de la SpA"
+   ],
+   "trap": "La **sacro-iliite** est souvent le **premier signe** : ne pas attendre la spondylite pour évoquer le diagnostic."
+  },
+  {
+   "id": "fc04b-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de l'**enthèse** dans la formation des **syndesmophytes**, et pourquoi les zones soumises à contrainte mécanique sont-elles préférentiellement touchées ?",
+   "answer": "L'**enthèse** est le site d'insertion des **tendons et ligaments** sur l'os, soumis à des **contraintes mécaniques** importantes. Dans la spondylarthrite, le **stress mécanique** active le mécanosenseur **PIEZO1**, déclenchant une réponse inflammatoire locale (enthésite). Après la **résolution de l'enthésite**, il se produit une **ossification réactionnelle** qui forme un **syndesmophyte**. Les zones à forte contrainte mécanique (rachis, articulations sacro-iliaques) sont donc préférentiellement touchées car elles concentrent le signal déclencheur.",
+   "keyPoints": [
+    "Enthèse = insertion tendons/ligaments, soumise à stress mécanique",
+    "Stress → PIEZO1 → enthésite → ossification réactionnelle",
+    "Zones à forte contrainte (rachis, sacro-iliaques) préférentiellement atteintes"
+   ]
   }
  ]
 }

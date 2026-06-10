@@ -70,6 +70,75 @@
     "IL-10 = cytokine anti-inflammatoire"
    ],
    "trap": "Dans le LES, l'IFN alpha AUGMENTE (et non diminue). L'accumulation d'ADN stimule l'immunite INNEE (DNA sensors), pas directement l'immunite adaptative."
+  },
+  {
+   "id": "fc21-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Decrivez le **rash malaire** (erytheme en papillon) du LES : localisation caracteristique, sensibilite et aspect au cours du temps.",
+   "answer": "Le rash malaire (ou erytheme en papillon) est une eruption cutanee qui touche preferentiellement les **joues et le nez** (d'ou le terme 'lupus' faisant reference au masque de loup). Il est caracteristique du LES par sa **sensibilite au soleil** (photosensibilite), s'aggravant lors de l'exposition aux ultraviolets (critere de classification). Il apparait preferentiellement lors des **poussees** puis **disparait en dehors des crises** (il ne persiste pas). Le lupus touche **majoritairement les regions photo-exposees** mais **epargne les surfaces articulaires au niveau des IPP**, ce qui le distingue notamment de la dermatomyosite.",
+   "keyPoints": [
+    "Localisation : joues et nez (masque de loup)",
+    "Photosensible (critere de classification)",
+    "Apparait lors des poussees et disparait ensuite",
+    "Regions photo-exposees, epargne les surfaces articulaires des IPP"
+   ],
+   "trap": "Le rash lupique DISPARAIT entre les poussees (il n'est pas permanent). A distinguer du lupus discoide, cicatriciel, qui laisse des sequelles permanentes."
+  },
+  {
+   "id": "fc21-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **facteurs environnementaux** impliques dans le declenchement ou les poussees du LES ? Expliquez le mecanisme par lequel les **UV** induisent une reponse immune.",
+   "answer": "Les principaux facteurs environnementaux du LES sont : les **agents infectieux** (notamment l'EBV), les **medicaments** (via leurs metabolites oxides) et les **rayons UV** (UVB 295-320 nm et UVA). Ces facteurs sont **necessaires mais non suffisants** (24-69% de concordance chez les jumeaux homozygotes, donc la genetique ne suffit pas). Le mecanisme des UV : ils **induisent l'apoptose des keratinocytes** dont les **corps apoptotiques contiennent des auto-antigenes** (ADN double brin, Ro/SSA, RNP) qui deviennent plus **immunogenes**. Ces corps apoptotiques sont a l'origine d'une **reponse immune** : l'exposition aux UV n'entraine pas seulement des lesions cutanees mais aussi des manifestations systemiques (articulaires, renales).",
+   "keyPoints": [
+    "Agents infectieux (EBV ++), medicaments, UV",
+    "UV → apoptose des keratinocytes → liberation de corps apoptotiques contenant des auto-Ag",
+    "Ro/SSA, ADN double brin, RNP deviennent plus immunogenes",
+    "Manifestations systemiques (articulaires, renales) et pas seulement cutanees"
+   ],
+   "trap": "L'exposition aux UV peut provoquer des manifestations SYSTEMIQUES (et pas uniquement cutanees). Les patients lupiques doivent se proteger du soleil."
+  },
+  {
+   "id": "fc21-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le role de l'**EBV (virus d'Epstein-Barr)** dans la genese ou les poussees du LES, en citant au moins trois mecanismes.",
+   "answer": "L'EBV est suspecte de jouer un role dans le LES du fait de plusieurs observations epidemiologiques (plus de seropositifs EBV, elevation des Ac anti-EBV avant les symptomes, charge virale sanguine plus importante chez les patients LES). Ses mecanismes d'action potentiels sont : (1) le **mimetisme moleculaire** entre les antigenes Sm du LES et la proteine **EBNA-1** de l'EBV ; (2) l'**effet bystander** = activation aspécifique de cellules voisines par l'inflammation ; (3) l'**epitope spreading** = liberation d'auto-antigenes du fait de la destruction cellulaire liee a l'infection, amplifiant la reponse immune ; (4) l'**activation lymphocytaire B** (conversion de LB naifs en LB memoires, y compris auto-reactifs, via LMP-1 qui mime le signal CD40) avec resistance a l'apoptose ; (5) l'**activation des pDC** et production d'IFN alpha. Malgre ces liens, un **terrain genetique de base** est necessaire pour developper le LES.",
+   "keyPoints": [
+    "Mimetisme moleculaire : Ag Sm du LES ≈ EBNA-1 de l'EBV",
+    "Effet bystander et epitope spreading",
+    "Activation des LB (via LMP-1 imitant CD40) → LB auto-reactifs",
+    "Activation des pDC → IFN alpha"
+   ]
+  },
+  {
+   "id": "fc21-qroc9",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelles sont les **atteintes organiques** pouvant entrer dans les criteres de classification du LES ? Citez au moins cinq systemes et un exemple pour chacun.",
+   "answer": "Les criteres de classification du LES (ACR) couvrent de nombreux systemes : (1) **Peau** : rash malaire, lupus discoide, photosensibilite, ulcerations buccales/nasopharyngees ; (2) **Articulations** : arthrites non erosives touchant ≥ 2 articulations peripheriques ; (3) **Seroses** : pleurisie ou pericardite ; (4) **Rein** : proteinurie persistante > 0,5 g/j ou cylindrurie ; (5) **Systeme nerveux** : convulsions ou psychoses ; (6) **Hematologie** : anemie hemolytique, leucopenie < 4000/μL, lymphopenie < 1500/μL, thrombopenie < 100 000/μL ; (7) **Immunologie** : facteurs antinucleaires, anti-ADNn, anti-Sm, anti-phospholipides. **Quatre criteres simultanes ou successifs** sont necessaires pour classer la maladie comme LES. Ce sont des criteres de **classification** et non de diagnostic.",
+   "keyPoints": [
+    "Peau (rash, photosensibilite, ulcerations), Articulations (arthrites non erosives)",
+    "Seroses (pleuresie, pericardite), Rein (proteinurie, cylindrurie)",
+    "Neuro (convulsions, psychoses), Hemato (anemie, leucopenie, thrombopenie)",
+    "4 criteres necessaires pour la classification ; ce sont des criteres de CLASSIFICATION, pas de diagnostic"
+   ],
+   "trap": "Ce sont des criteres de CLASSIFICATION (et non de diagnostic) ; on peut avoir le LES sans remplir 4 criteres, et inversement. L'atteinte renale est un marqueur de gravite."
+  },
+  {
+   "id": "fc21-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Decrivez le mecanisme par lequel l'**accumulation de corps apoptotiques** et des **complexes immuns circulants (CIC)** contribue aux lesions renales dans le LES.",
+   "answer": "Dans le LES, deux mecanismes convergent vers les **lesions renales** : (1) **Corps apoptotiques non elimines** : en cas de deficit en C1q ou de deficit en DNases (comme TREX1), les corps apoptotiques des keratinocytes et d'autres cellules s'accumulent et liberent des **auto-antigenes** (ADN double brin, Ro/SSA, RNP, histones) qui deviennent immunogenes et cibles des lymphocytes B auto-reactifs. (2) **Complexes immuns circulants (CIC)** : les auto-anticorps (anti-ADNn +++) se lient aux auto-antigenes pour former des **CIC**. Normalement, C1q, C4b et C3b favorisent leur elimination dans le foie et la rate via le **recepteur CR1** des globules rouges et des cellules mono-nucleees. En cas de deficit du complement, les CIC **s'accumulent dans les glomerules renaux**, activent le complement residuel, recrutent des cellules inflammatoires et engendrent une **nephrite lupique** (caracterisee par une proteinurie persistante > 0,5 g/j et/ou une cylindrurie).",
+   "keyPoints": [
+    "Corps apoptotiques non elimines → liberation d'auto-Ag → LB auto-reactifs → auto-Ac",
+    "Auto-Ac + auto-Ag → CIC",
+    "Deficit du complement → CIC non elimines via CR1",
+    "Depot des CIC dans les glomerules → nephrite lupique (proteinurie, cylindrurie)"
+   ],
+   "trap": "La nephrite lupique est due au DEPOT des CIC dans les glomerules (et non a des auto-Ac directement nephrotoxiques). Le deficit en voie CLASSIQUE (et non alterne) est en cause."
   }
  ]
 }

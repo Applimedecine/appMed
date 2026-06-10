@@ -203,6 +203,75 @@
     "Pistes : restriction calorique, télomérase, IL-7",
     "Contrôle des infections chroniques (CMV)"
    ]
+  },
+  {
+   "id": "fc01-qroc17",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le phénotype des **LT CD8 sénescents** (CD8+CD28−) et expliquez pourquoi leur accumulation est délétère.",
+   "answer": "Les **LT CD8 sénescents** (CD8+CD28−) sont des cellules **très différenciées** qui ont perdu la molécule de co-stimulation CD28. Ils sont particulièrement **induits par les stimulations virales chroniques**, notamment le **CMV** (++ important), et s'accumulent progressivement avec l'âge en occupant l'espace périphérique au détriment des cellules naïves. Leur accumulation est délétère à plusieurs niveaux : (1) ils **appauvrissent le répertoire T** en monopolisant l'espace de prolifération homéostatique ; (2) ils contribuent à l'**inflammaging** par sécrétion de cytokines pro-inflammatoires ; (3) leur prolifération est limitée par le **raccourcissement des télomères**, rendant la réponse immunitaire quantitativement et qualitativement insuffisante. Ils participent au profil de risque immunologique du sujet âgé avec l'**inversion du ratio CD4/CD8**.",
+   "keyPoints": [
+    "CD8+CD28− : très différenciés, induits par le CMV++",
+    "Appauvrissent le répertoire T (occupent l'espace périphérique)",
+    "Contribuent à l'inflammaging (cytokines pro-inflammatoires)",
+    "Télomères raccourcis → prolifération limitée",
+    "Participation à l'inversion du ratio CD4/CD8"
+   ],
+   "trap": "La perte de CD28 ne signifie PAS que ces cellules sont inactives : elles sécrètent des cytokines pro-inflammatoires et aggravent l'inflammaging."
+  },
+  {
+   "id": "fc01-qroc18",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelle est la **relation entre CMV et immunosénescence** ? Pourquoi le contrôle du CMV est-il une piste thérapeutique ?",
+   "answer": "La **séropositivité au CMV** est un **marqueur du profil de risque immunologique** du sujet âgé. Le CMV, virus latent non éliminable, génère des **stimulations antigéniques chroniques** qui induisent des **expansions oligoclonales de LT CD8** (CD8+CD28−) : ces clones anti-CMV occupent l'espace périphérique, réduisent la diversité du répertoire T et contribuent à l'**inflammaging**. Le contrôle du CMV est donc une piste pour **limiter l'usure prématurée du système immunitaire** : des stratégies antivirales ou vaccinales contre le CMV pourraient ralentir l'immunosénescence en libérant de l'espace pour des cellules naïves et en réduisant la charge inflammatoire chronique.",
+   "keyPoints": [
+    "CMV séropositif = marqueur du profil de risque immunologique",
+    "CMV → expansions oligoclonales de CD8 → appauvrissement du répertoire",
+    "Contrôle du CMV = piste pour limiter l'immunosénescence"
+   ]
+  },
+  {
+   "id": "fc01-qroc19",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez comment le **biais myéloïde des cellules souches hématopoïétiques (CSH)** s'installe avec l'âge et quelles en sont les conséquences sur la production lymphocytaire.",
+   "answer": "Avec l'âge, les **cellules souches hématopoïétiques (CSH)** s'orientent préférentiellement vers la **lignée myéloïde** au détriment de la **lignée lymphoïde** : c'est le **biais myéloïde**. Ce phénomène résulte d'une combinaison de causes intrinsèques (modifications épigénétiques et mutations acquises dans les CSH) et extrinsèques (modifications du microenvironnement médullaire, notamment ↓ IL-7 stromale). Les conséquences sont : (1) une **réduction de la production de progéniteurs lymphoïdes** (↓ LB naïfs, ↓ production thymique de LT naïfs) ; (2) une **augmentation relative de la production myéloïde** qui contribue à l'inflammaging (macrophages, monocytes pro-inflammatoires). Ce biais accentue la défaillance de l'immunité adaptative sans compenser le déclin fonctionnel de l'innée.",
+   "keyPoints": [
+    "Biais myéloïde des CSH avec l'âge : orientation vers la lignée myéloïde",
+    "Causes intrinsèques (épigénétique, mutations) et extrinsèques (↓ IL-7)",
+    "Conséquences : ↓ progéniteurs lymphoïdes, ↓ LB et LT naïfs",
+    "↑ production myéloïde → inflammaging"
+   ],
+   "trap": "Le biais myéloïde n'améliore PAS l'immunité innée : les cellules myéloïdes produites en excès restent fonctionnellement altérées et contribuent surtout à l'inflammaging."
+  },
+  {
+   "id": "fc01-qroc20",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Comparez les **conséquences de l'immunosénescence sur les lymphocytes B** (production, isotypie, auto-anticorps) et expliquez le lien avec le risque de **MGUS**.",
+   "answer": "Dans l'immunosénescence, les **lymphocytes B naïfs diminuent** du fait de la baisse de l'**IL-7 stromale** et de la réduction des enzymes **RAG et AID**. Ces modifications aboutissent à : (1) un **switch d'isotype régressif IgG → IgM** (anticorps de faible affinité, peu protecteurs malgré leur présence quantitative) ; (2) une **augmentation des auto-anticorps** (défaut de tolérance humorale) contribuant aux MAI du sujet âgé ; (3) l'émergence de **clones lymphocytaires B** pouvant produire une **immunoglobuline monoclonale**. Cette clonalité progressive définit la **MGUS** (Monoclonal Gammopathy of Undetermined Significance), marqueur de risque d'évolution vers un myélome multiple ou une lymphoprolifération maligne. La MGUS est ainsi une **conséquence directe de la dérégulation de la balance lymphocytaire B** dans l'immunosénescence.",
+   "keyPoints": [
+    "↓ LB naïfs (↓ IL-7, ↓ RAG/AID)",
+    "Switch IgG → IgM : Ac de faible affinité",
+    "↑ auto-anticorps → risque de MAI",
+    "Émergence de clones B → Ig monoclonale → MGUS → risque myélome"
+   ],
+   "trap": "Le switch dans le sens IgG → IgM signifie une RÉGRESSION vers des anticorps moins évolués (faible affinité), pas une amélioration. La MGUS est une gammapathie monoclonale à surveiller (risque d'hémopathie maligne)."
+  },
+  {
+   "id": "fc01-qroc21",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle de l'**IL-7** dans le maintien du compartiment T naïf, et pourquoi sa diminution avec l'âge aggrave-t-elle l'immunosénescence ?",
+   "answer": "L'**IL-7** est une cytokine stromale produite par les cellules épithéliales thymiques et les cellules stromales de la moelle osseuse. Elle joue un rôle essentiel dans la **survie et la prolifération homéostatique des LT naïfs** en périphérie (signal de survie) et dans la **thymopoïèse** (différenciation des progéniteurs T dans le thymus). Avec l'âge, la **diminution de la production d'IL-7** (cause extrinsèque du vieillissement adaptatif) contribue à : (1) la **réduction du pool de LT naïfs** (moins de survie périphérique) ; (2) l'**aggravation de l'involution thymique** (moins de soutien à la thymopoïèse résiduelle) ; (3) le **biais myéloïde des CSH** par perte du signal lymphopoïétique. La **supplémentation en IL-7 recombinante** est ainsi l'une des pistes thérapeutiques envisagées pour « relancer » la production de cellules naïves chez le sujet âgé.",
+   "keyPoints": [
+    "IL-7 = signal de survie des LT naïfs + soutien à la thymopoïèse",
+    "Cause extrinsèque du vieillissement (produite par le microenvironnement)",
+    "↓ IL-7 → ↓ LT naïfs + aggravation involution thymique + biais myéloïde",
+    "IL-7 recombinante = piste thérapeutique"
+   ],
+   "trap": "La baisse d'IL-7 est une cause **EXTRINSÈQUE** (microenvironnement), pas intrinsèque à la cellule T elle-même."
   }
  ]
 }

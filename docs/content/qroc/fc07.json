@@ -71,6 +71,75 @@
     "Histamine rapidement métabolisée, dosage difficile"
    ],
    "trap": "L'histamine est aussi libérée par les basophiles, alors que la tryptase est spécifique des mastocytes."
+  },
+  {
+   "id": "fc07-qroc6",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le **mécanisme de la désensibilisation (immunothérapie allergénique)**. Quelles sont ses **principales contre-indications** ?",
+   "answer": "La **désensibilisation** (ou immunothérapie allergénique spécifique, ITA) consiste en l'**administration répétée et progressive de doses croissantes d'allergène**, par voie sous-cutanée (SCIT) ou sublinguale (SLIT), dans le but de **modifier durablement la réponse immunitaire**. Les mécanismes sont multiples : (1) **induction de lymphocytes T régulateurs (Treg)** produisant **IL-10 et TGF-β** → suppression de la réponse Th2 ; (2) **déviation de la réponse Th2 vers Th1** (↑ IFN-γ) ; (3) **commutation isotypique des LB** vers la production d'**IgG4 bloquants** (compétition avec les IgE pour l'allergène) et d'**IgA** ; (4) **réduction du nombre et de la sensibilité des mastocytes et basophiles** à l'allergène. L'efficacité est cliniquement démontrée (↓ symptômes, ↓ consommation de médicaments). **Contre-indications** : **asthme sévère non contrôlé** (risque d'anaphylaxie grave), **maladie auto-immune évolutive**, **traitement par bêtabloquants** (bloquent l'effet de l'adrénaline en cas de réaction grave), **grossesse** (contre-indication à l'initiation, mais pas à la poursuite), et **déficit immunitaire sévère**.",
+   "keyPoints": [
+    "Administration progressive d'allergène → modification durable de la réponse immune",
+    "Induction de Treg (IL-10, TGF-β), déviation Th2→Th1",
+    "Production d'IgG4 bloquants (compétiteurs des IgE) et d'IgA",
+    "↓ sensibilité des mastocytes/basophiles",
+    "CI : asthme sévère non contrôlé, bêtabloquants, maladie auto-immune évolutive"
+   ],
+   "trap": "Les bêtabloquants sont une contre-indication car ils rendent l'adrénaline inefficace en cas de réaction anaphylactique lors de la désensibilisation."
+  },
+  {
+   "id": "fc07-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **bilan allergologique** de première intention : quels dosages biologiques et quels tests cutanés réalise-t-on, et que recherche-t-on dans chaque cas ?",
+   "answer": "Le bilan allergologique de première intention comprend : **(1) Le dosage des IgE totales sériques** : reflet global de la production d'IgE, mais peu spécifique (peut être élevé en dehors de toute allergie, ex. lors d'un syndrome d'Omenn ou d'une infection parasitaire) ; un taux normal n'exclut pas une allergie. **(2) Le dosage des IgE spécifiques (IgEs)** : anticorps IgE dirigés contre un allergène précis (ex. arachide, latex, acariens) ; leur présence signe une **sensibilisation** à cet allergène ; leur positivité ne correspond pas toujours à une allergie clinique (sensibilisation asymptomatique possible). **(3) Les prick-tests** : tests cutanés réalisés en déposant une goutte d'extrait allergénique sur la peau avant de la piquer avec une lancette → la dégranulation des mastocytes cutanés préalablement sensibilisés produit une **papule et un érythème** (réponse positive) ; ils explorent la sensibilisation **in vivo** et sont considérés comme la référence pour les allergies IgE-médiées immédiates.",
+   "keyPoints": [
+    "IgE totales : reflet global, peu spécifique",
+    "IgE spécifiques : sensibilisation à un allergène précis (≠ allergie clinique certaine)",
+    "Prick-tests : sensibilisation cutanée in vivo, papule/érythème = positif",
+    "Sensibilisation ≠ allergie (clinique)"
+   ],
+   "trap": "Un dosage d'IgE spécifiques positif signe une sensibilisation mais pas nécessairement une allergie clinique : la corrélation avec la clinique est indispensable."
+  },
+  {
+   "id": "fc07-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le **rôle des éosinophiles** dans l'hypersensibilité de type I ? Précisez leur recrutement et leurs effets tissulaires.",
+   "answer": "Les **éosinophiles** sont des cellules de l'immunité innée qui jouent un rôle clé dans la **phase tardive** (ou phase prolongée) de l'HSI, survenant **6 à 12 h** après la réaction immédiate. Leur **recrutement** est principalement orchestré par **l'IL-5** (produite par les LT Th2 et les ILC2) qui favorise leur différenciation médullaire et leur mobilisation dans la circulation. L'**éotaxine (CCL11)** et l'**IL-5** assurent leur chimiotactisme vers les tissus cibles. Une fois sur place, les éosinophiles **dégranulent** et libèrent des **protéines cytotoxiques** (MBP, ECP, EDN, EPO) qui endommagent les épithéliums bronchiques, nasaux et cutanés → bronchospasme, hyperréactivité bronchique, remodelage tissulaire. L'éosinophilie sanguine et tissulaire est un marqueur de sévérité de l'asthme allergique et de la dermatite atopique.",
+   "keyPoints": [
+    "Rôle dans la phase tardive de l'HSI (6-12 h)",
+    "Recrutement par IL-5 (Th2, ILC2) et éotaxine (CCL11)",
+    "Dégranulation : MBP, ECP, EDN, EPO → cytotoxicité épithéliale",
+    "Conséquences : bronchospasme, hyperréactivité, remodelage tissulaire"
+   ]
+  },
+  {
+   "id": "fc07-qroc9",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Distinguez l'**urticaire** de l'**angioedème** (siège, profondeur, symptôme principal, risque vital).",
+   "answer": "L'**urticaire** est une réaction cutanée superficielle siégeant dans le **derme superficiel** : elle se manifeste par des **plaques érythémateuses, prurigineuses, fugaces et migratrices** (chaque élément dure < 24 h et disparaît sans trace). L'**angioedème** (ancien œdème de Quincke) est une réaction **plus profonde**, atteignant le **derme profond et l'hypoderme**, voire les muqueuses ; il se manifeste par un **gonflement ferme, peu ou non prurigineux, mais parfois douloureux ou avec une sensation de tension** ; sa localisation peut être faciale, linguale, laryngée ou digestive. L'angioedème **laryngé** est une **urgence vitale** par risque d'**asphyxie**. Les deux peuvent coexister lors d'une réaction anaphylactique de type HSI.",
+   "keyPoints": [
+    "Urticaire : derme superficiel, prurit, plaques fugaces < 24 h",
+    "Angioedème : derme profond/hypoderme, gonflement ferme, peu ou non prurigineux",
+    "Angioedème laryngé = urgence vitale (asphyxie)"
+   ],
+   "trap": "L'angioedème laryngé est une urgence vitale ; ne pas confondre avec l'urticaire qui est superficielle et non menaçante en elle-même."
+  },
+  {
+   "id": "fc07-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Comparez le **mastocyte** et le **basophile** : origine, localisation, durée de vie, récepteur aux IgE et rôle respectif dans l'HSI.",
+   "answer": "Le **mastocyte** et le **basophile** partagent l'expression du **récepteur de haute affinité FcεRI** et la capacité à dégranuler en réponse aux IgE. Différences : **Mastocyte** : issu d'un **précurseur médullaire** qui achève sa maturation **dans les tissus** (peau, muqueuses, poumons) ; **réside en permanence dans les tissus** ; durée de vie **longue (semaines à mois)** ; contient de la **tryptase** (marqueur spécifique) et de l'**histamine** ; joue le rôle principal dans la **phase effectrice immédiate** au site de contact avec l'allergène. **Basophile** : issu de la lignée granulocytaire, mature dans la **moelle osseuse** et circule dans le **sang** ; durée de vie courte (quelques jours) ; faible proportion des leucocytes circulants (< 1 %) ; libère de l'**histamine** et des **leucotriènes** mais pas de tryptase ; mobilisable lors de réactions systémiques. La **tryptase** est donc un marqueur spécifique des mastocytes, absent des basophiles.",
+   "keyPoints": [
+    "Mastocyte : maturation tissulaire, résident permanent, longue durée de vie, tryptase+",
+    "Basophile : maturation médullaire, circulant, courte durée de vie, tryptase−",
+    "Les deux expriment FcεRI et libèrent histamine/leucotriènes",
+    "Tryptase = marqueur spécifique des mastocytes (pas des basophiles)"
+   ],
+   "trap": "La tryptase est uniquement libérée par les mastocytes, pas par les basophiles ; c'est ce qui lui donne sa valeur diagnostique dans les réactions systémiques."
   }
  ]
 }

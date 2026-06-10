@@ -71,6 +71,72 @@
     "Discrimination = activation de l'immunité adaptative dans l'ECA",
     "Diagnostic ECA : patch-test (gold standard)"
    ]
+  },
+  {
+   "id": "fc08-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle des **cellules de Langerhans** dans la physiopathologie de l'eczéma de contact allergique ? Précisez leur localisation et leur fonction dans la phase de sensibilisation.",
+   "answer": "Les **cellules de Langerhans (CL)** sont des **cellules dendritiques résidentes de l'épiderme**, situées dans les couches supra-basales de la peau. Elles expriment le **CD1a**, le **langerine (CD207)** et les molécules du **CMH de classe II**, ce qui leur confère une capacité de présentation antigénique professionnelle. Dans la **phase de sensibilisation** de l'eczéma de contact allergique : (1) les CL **captent et internalisent l'haptène** (substance chimique de faible poids moléculaire) qui s'est fixé à une protéine porteuse cutanée ; (2) elles **migrent vers les ganglions lymphatiques drainants** où elles présentent le complexe haptène-protéine aux **lymphocytes T naïfs** via le CMH II (LT CD4) et le CMH I (LT CD8) ; (3) cette présentation entraîne la **clonale expansion** des LT spécifiques de l'haptène et la génération de **lymphocytes T mémoires** ; (4) lors d'une réexposition, ces LT mémoires migrent vers la peau et déclenchent la réaction d'eczéma. Les CL sont donc **essentielles à l'initiation** de la réponse adaptative dans l'ECA.",
+   "keyPoints": [
+    "CL = cellules dendritiques résidentes de l'épiderme (CD1a+, langerine+, CMH II+)",
+    "Phase de sensibilisation : capture de l'haptène → migration ganglionnaire → présentation aux LT",
+    "Expansion clonale des LT CD4 et CD8 spécifiques + génération de LT mémoires",
+    "Lors de la réexposition : LT mémoires → déclenchement de l'eczéma"
+   ]
+  },
+  {
+   "id": "fc08-qroc7",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Quelles sont les **cytokines de type 2** impliquées dans la dermatite atopique ? Décrivez le rôle spécifique de l'**IL-4**, de l'**IL-13** et de l'**IL-31**.",
+   "answer": "Dans la dermatite atopique, la réponse **Th2 (type 2)** domine et s'appuie sur trois cytokines clés : **IL-4** : cytokine pivotale qui (1) induit la **commutation isotypique des LB vers IgE** (voie IgE-médiée de l'allergie) et (2) favorise la **polarisation des LT naïfs en Th2** ; elle amplifie ainsi la boucle auto-entretenue de l'atopie. **IL-13** : cytokine produite par les Th2 et les **ILC2** (cellules lymphoïdes innées de type 2) ; elle agit directement sur les **kératinocytes** en réduisant l'expression de la **filaggrine**, de la **loricrine** et des **lipides lamellaires** → altération de la barrière cutanée ; elle participe aussi à la **fibrose et au remodelage** tissulaire. **IL-31** : principale cytokine du **prurit** (ou « cytokine des démangeaisons ») ; produite par les LT Th2, elle agit sur les **fibres nerveuses sensitives** de la peau en se liant au récepteur IL-31RA, déclenchant le signal de prurit. C'est la cible du némoliuzumab (anticorps anti-IL-31RA).",
+   "keyPoints": [
+    "IL-4 : commutation isotypique vers IgE + polarisation Th2",
+    "IL-13 : altération de la barrière (↓ filaggrine, loricrine, lipides) + remodelage",
+    "IL-31 : cytokine du prurit, agit sur les fibres nerveuses sensitives"
+   ]
+  },
+  {
+   "id": "fc08-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le **phénomène de sensibilisation cutanée** de l'eczéma atopique. Comment la **voie transcutanée** contribue-t-elle au développement de la **marche atopique** ?",
+   "answer": "La **sensibilisation cutanée** désigne l'acquisition d'une réponse IgE spécifique d'un allergène via la peau, par opposition à la voie orale ou respiratoire. Dans la DA, la **barrière cutanée altérée** (déficit en filaggrine, lipides, peptides antimicrobiens) permet le **passage transcutané d'allergènes** (acariens, pollens, aliments comme l'arachide) qui, en conditions physiologiques, resteraient au dehors. Ces allergènes sont captés par les **cellules dendritiques épidermiques** (cellules de Langerhans) dans un microenvironnement **pro-Th2** (keratinocytes activés libérant **TSLP, IL-25 et IL-33** → activation des ILC2 et polarisation Th2) → production d'**IgE spécifiques**. Ce phénomène s'inscrit dans la **marche atopique** : la sensibilisation cutanée précoce (ex. arachide par la peau lésée) précède le développement d'une **allergie alimentaire**, puis d'un **asthme allergique** et d'une **rhinoconjonctivite** plus tard. L'hypothèse de la **double voie d'exposition** (Lack) stipule que l'exposition cutanée conduit à la sensibilisation, tandis que l'exposition orale précoce favorise la **tolérance**.",
+   "keyPoints": [
+    "Barrière altérée → passage transcutané d'allergènes → sensibilisation IgE",
+    "Microenvironnement pro-Th2 : kératinocytes → TSLP, IL-25, IL-33 → ILC2 → Th2",
+    "Marche atopique : sensibilisation cutanée → allergie alimentaire → asthme → rhinite",
+    "Hypothèse double voie (Lack) : voie cutanée = sensibilisation ; voie orale précoce = tolérance"
+   ],
+   "trap": "La sensibilisation à l'arachide peut se faire par voie cutanée (via la peau lésée) bien avant tout contact oral ; l'introduction orale précoce favorise au contraire la tolérance."
+  },
+  {
+   "id": "fc08-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que la **filaggrine** ? Quel est son rôle dans la barrière cutanée et quelles sont les conséquences de sa perte de fonction ?",
+   "answer": "La **filaggrine** (FLG, *filament aggregating protein*) est une **protéine structurale** exprimée dans les couches superficielles de l'épiderme (granuleuse et cornée). Son rôle est double : (1) elle **agrège les filaments de kératine** pour former les **cornéocytes aplatis** de la couche cornée, assurant la solidité mécanique de la barrière ; (2) sa **dégradation** génère des **acides aminés hygroscopiques** (facteur naturel d'hydratation, NMF : acide pyrrolidone-carboxylique, acide urocanique…) qui maintiennent l'**hydratation** de la peau et contribuent à l'**acidité du pH** cutané (pH ~5,5), inhibant certaines protéases. En cas de **perte de fonction** (mutation *FLG*, présente chez 20-30 % des patients DA) : ↑ pH cutané → activation des sérine-protéases → dégradation des cornéodesmosines et des lipides lamellaires → **altération de la perméabilité** → pénétration des allergènes et irritants → déclenchement de l'inflammation type 2. La filaggrine est le **principal facteur génétique** de susceptibilité à la DA.",
+   "keyPoints": [
+    "Filaggrine : protéine de la couche granuleuse/cornée, agrège les filaments de kératine",
+    "Dégradation → NMF → hydratation cutanée + pH acide (~5,5)",
+    "Perte de fonction : ↑ pH → sérine-protéases → altération barrière → inflammation type 2",
+    "Mutation FLG : principal facteur génétique de susceptibilité à la DA (20-30 % des patients)"
+   ]
+  },
+  {
+   "id": "fc08-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez pourquoi l'**hypersensibilité retardée de type IV** est dite « **retardée** ». Décrivez la chronologie de la réaction lors de la phase de **challenge** dans l'eczéma de contact allergique.",
+   "answer": "L'hypersensibilité de **type IV** est dite **retardée** car les symptômes surviennent **48 à 72 heures** après le contact avec l'allergène, contrairement au type I (immédiat, < 1 heure). Ce délai s'explique par le fait qu'elle est **médiée par des lymphocytes T**, et non par des anticorps préformés. Lors de la **phase de challenge** (réexposition à l'allergène chez un sujet déjà sensibilisé) : (1) l'allergène est capturé par les **cellules dendritiques cutanées résidentes** et présenté aux **LT CD8 et CD4 mémoires** circulants ; (2) ces LT mémoires reconnaissent l'antigène et s'**activent** (secrétion d'IFN-γ, IL-17, TNF-α) → activation des kératinocytes → libération de chimiokines (CXCL9, CXCL10) ; (3) recrutement massif de **LT cytotoxiques CD8** qui induisent l'**apoptose des kératinocytes** → formation des vésicules ; (4) la réaction est maximale à **48-72 h** et régulée par les **LT CD4 régulateurs (FOXP3+, IL-10)**.",
+   "keyPoints": [
+    "Retardée = 48-72 h après contact (car médiée par LT, pas par Ac préformés)",
+    "Phase challenge : présentation aux LT mémoires → activation (IFN-γ, IL-17)",
+    "Recrutement des LT CD8 → apoptose des kératinocytes → vésicules",
+    "Régulation par LT CD4 FOXP3+ (IL-10)"
+   ],
+   "trap": "Le délai de 48-72 h distingue l'HSR de type IV du type I (< 1 h) ; ce délai est dû au temps de recrutement et d'activation des lymphocytes T mémoires."
   }
  ]
 }
