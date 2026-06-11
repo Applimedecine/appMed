@@ -48,6 +48,11 @@ export function applyEdits(root) {
 // ----------------------------------------------------------------------- //
 let modal, ta, current = null, currentRoot = null;
 
+// Pile d'annulation de la saisie en cours (« Ctrl+Z » du champ d'édition),
+// regroupée par courtes pauses de frappe ; remise à zéro à chaque ouverture.
+const UNDO_GROUP_MS = 400;
+let undoStack = [], undoPrev = '', undoOpen = '', undoTimer = null;
+
 function buildChrome() {
   if (document.getElementById('ed-fab')) return;
 
@@ -82,11 +87,12 @@ function buildChrome() {
     <div class="ed-panel" role="dialog" aria-modal="true" aria-label="Modifier le texte">
       <div class="ed-panel-head">Modifier le texte</div>
       <textarea class="ed-ta" rows="5" aria-label="Texte à modifier"></textarea>
-      <p class="ed-tip">Mise en forme&nbsp;: <code>**gras**</code>, <code>*italique*</code>. <kbd>Ctrl</kbd>+<kbd>Entrée</kbd> pour enregistrer, <kbd>Échap</kbd> pour annuler.</p>
+      <p class="ed-tip">Mise en forme&nbsp;: <code>**gras**</code>, <code>*italique*</code>. <kbd>Ctrl</kbd>+<kbd>Entrée</kbd> pour enregistrer, <kbd>Échap</kbd> pour fermer.</p>
       <div class="ed-actions">
+        <button type="button" class="btn btn-ghost ed-undo" disabled>↶ Annuler la saisie</button>
         <button type="button" class="btn btn-ghost ed-reset">↺ Texte d'origine</button>
         <span class="ed-spacer"></span>
-        <button type="button" class="btn btn-ghost" data-close="1">Annuler</button>
+        <button type="button" class="btn btn-ghost" data-close="1">Fermer</button>
         <button type="button" class="btn btn-primary ed-save">Enregistrer</button>
       </div>
     </div>`;
@@ -95,7 +101,13 @@ function buildChrome() {
   ta = modal.querySelector('.ed-ta');
   modal.querySelector('.ed-save').addEventListener('click', save);
   modal.querySelector('.ed-reset').addEventListener('click', resetOne);
+  modal.querySelector('.ed-undo').addEventListener('click', undoTyping);
   modal.querySelectorAll('[data-close]').forEach((b) => b.addEventListener('click', close));
+  ta.addEventListener('input', () => {
+    clearTimeout(undoTimer);
+    undoTimer = setTimeout(snapshotUndo, UNDO_GROUP_MS);
+    updateUndoBtn();
+  });
   ta.addEventListener('keydown', (e) => {
     // Isole la saisie des raccourcis clavier des pages (ex. 1–6 / Entrée du QCM).
     e.stopPropagation();
@@ -128,12 +140,44 @@ function resetAllEdits() {
   updateTools();
 }
 
+// Fige la frappe en cours comme une étape annulable (regroupée par pauses).
+function snapshotUndo() {
+  if (ta.value !== undoPrev) {
+    undoStack.push(undoPrev);
+    if (undoStack.length > 100) undoStack.shift();
+    undoPrev = ta.value;
+  }
+}
+
+// Recule d'un cran dans la saisie, sans fermer la fenêtre (« Ctrl+Z »).
+function undoTyping() {
+  clearTimeout(undoTimer);
+  snapshotUndo();
+  if (undoStack.length) {
+    const target = undoStack.pop();
+    ta.value = target;
+    undoPrev = target;
+  }
+  updateUndoBtn();
+  ta.focus();
+}
+
+// Désactivé tant que la saisie n'a pas bougé depuis l'ouverture de la fenêtre.
+function updateUndoBtn() {
+  const btn = modal && modal.querySelector('.ed-undo');
+  if (btn) btn.disabled = (ta.value === undoOpen);
+}
+
 function openModal(el) {
   const sc = scopeOf(el);
   if (!sc) return;
   current = el;
   const stored = Edits.get(sc.type, sc.slug, el.dataset.eid);
   ta.value = stored != null ? stored : (el.dataset.raw || '');
+  undoStack = [];
+  undoPrev = ta.value;
+  undoOpen = ta.value;
+  updateUndoBtn();
   modal.querySelector('.ed-reset').style.display = stored != null ? '' : 'none';
   modal.hidden = false;
   requestAnimationFrame(() => { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); });
@@ -161,6 +205,7 @@ function resetOne() {
 function close() {
   if (modal) modal.hidden = true;
   current = null;
+  clearTimeout(undoTimer);
   updateTools(); // une retouche vient peut-être d'apparaître ou de disparaître
 }
 
