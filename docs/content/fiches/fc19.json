@@ -1,7 +1,62 @@
 {
  "slug": "fc19",
- "title": "Fiche — Complément & complexes immuns",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "title": "Fiche — Complement & complexes immuns",
+ "updated": "2026-06-11",
+ "summary": "Le **système du complément** comprend ~30 protéines plasmatiques activées en cascade. Trois voies convergent vers **C3** (pivot central) puis forment le **complexe d'attaque membranaire (MAC)**. Ses fonctions : **opsonisation** (C3b), **chimiotaxie** (C3a, C5a) et **lyse** (MAC). Un déficit entraîne des infections récidivantes ou des maladies à **complexes immuns**.",
+ "sections": [
+  {
+   "heading": "Les 3 voies d'activation",
+   "type": "table",
+   "columns": ["Voie", "Signal déclencheur", "Protéines clés"],
+   "rows": [
+    ["**Classique**", "Complexes Ag-Ac (IgM ou IgG) → fixation C1q", "C1q, C1r, C1s → C4 → C2 → **C3 convertase** (C4b2a)"],
+    ["**Lectine (MBL)**", "Mannose sur surface microbienne → fixation MBL/ficoline", "MBL → MASP1/2 → même chemin que classique → C3 convertase"],
+    ["**Alterne**", "Activation spontanée de C3 en surface étrangère (absence de protéines régulatrices)", "Facteur B, facteur D, properdine → C3 convertase (C3bBb)"]
+   ]
+  },
+  {
+   "heading": "Rôles des fragments actifs",
+   "type": "bullets",
+   "items": [
+    "**C3b** : opsonine majeure → fixation sur la surface microbienne → phagocytose via récepteur CR1 (CD35) des macrophages",
+    "**C3a et C5a** (anaphylatoxines) : chimiotaxie et activation des PNN, mastocytes (dégranulation), augmentation de la perméabilité vasculaire",
+    "**C5b-9 (MAC)** : complexe d'attaque membranaire → perforation de la membrane bactérienne → lyse osmotique",
+    "**Opsonisation des complexes immuns (CI)** : C3b sur les CI → clearance par macrophages spléniques → prévient le dépôt dans les tissus",
+    "C1q fixe également les **corps apoptotiques** → clearance ; déficit C1q → accumulation → lupus-like"
+   ]
+  },
+  {
+   "heading": "Régulation du complément",
+   "type": "definition",
+   "items": [
+    {"t": "C1-INH (C1-inhibiteur)", "d": "Inhibe C1r, C1s, MASP2. Déficit → **angio-oedème héréditaire (AOH)** → accumulation de bradykinine → oedème cutanéo-muqueux. Traitement : C1-INH concentré, icatibant (anti-bradykinine)."},
+    {"t": "DAF / CD55", "d": "Decay Accelerating Factor : accélère la dissociation des C3 convertases sur les cellules du soi."},
+    {"t": "CD59 (protectine)", "d": "Inhibe le MAC sur les cellules du soi. Déficit CD55+CD59 (mutation PIG-A) → **HPN** (hémoglobinurie paroxystique nocturne) → hémolyse intravasculaire. Traitement : éculizumab (anti-C5)."},
+    {"t": "Facteur H", "d": "Régulateur de la voie alterne. Déficit → activation incontrôlée → ↓↓ C3 → susceptibilité aux infections à Neisseria + syndrome hémolytique et urémique atypique (SHUa)."}
+   ]
+  },
+  {
+   "heading": "Maladies à complexes immuns",
+   "type": "bullets",
+   "items": [
+    "**Complexes immuns (CI)** = Ag + Ac → normalement éliminés par complément + macrophages spléniques",
+    "**Si CI en excès** → dépôt dans les parois vasculaires et glomérulaires → activation du complément → inflammation locale → vascularites, glomérulonéphrites",
+    "**Lupus (LES)** : CI anti-ADN ↔ dépôt mésangial et sous-endothélial → ↓↓ C3, C4, CH50 (consommation) → néphrite lupique",
+    "**Type III Gell-Coombs** : maladie sérique, glomérulonéphrite post-infectieuse, polyarthrite à CI",
+    "**Diagnostic** : ↓ CH50 (activation globale) + ↓ C3 ou C4 selon la voie touchée + détection CI (cryoglobulines, ELISA)"
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "3 voies → C3 (pivot) → C3b (opsonine) + C3a/C5a (anaphylatoxines) + MAC (C5b-9). Voie classique = Ag-Ac → C1q. Voie alterne = spontanée sur surface étrangère. Déficit C5-C9 → Neisseria. Déficit C3 → toutes bactéries encapsulées. Déficit C1q → lupus-like. C1-INH déficit → angio-oedème héréditaire. CD59 déficit (PIG-A) → HPN → éculizumab. ↓ C3 + C4 + CH50 dans LES (consommation par CI)."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>CH50 = voie classique + alterne</strong> : si CH50 effondré avec C3 et C4 normaux → penser déficit d'un composant terminal (C5-C9). <strong>Angio-oedème héréditaire</strong> : ne répond PAS aux antihistaminiques ni à l'adrénaline (mécanisme bradykinique, non histaminique) → C1-INH concentré ou icatibant. <strong>HPN</strong> : hémolyse nocturne, thrombose veineuse, pancytopénie → test de Ham ou cytométrie (CD55/CD59 absents sur GR). <strong>Ne pas confondre</strong> : ↓ C4 isolée → déficit C4 constitutionnel (fréquent) ≠ consommation."
+  }
+ ]
 }

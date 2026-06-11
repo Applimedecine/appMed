@@ -1,7 +1,67 @@
 {
  "slug": "fc21",
  "title": "Fiche — Lupus (LES)",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le **lupus érythémateux systémique (LES)** est la maladie auto-immune systémique prototype : **auto-anticorps** anti-ADN natif, **complexes immuns** et dépôts d'**IFN de type I**. Il touche surtout les **femmes en âge de procréer** (ratio F/H = 9:1). Le rein est l'organe le plus sévèrement atteint (**néphrite lupique**). Le traitement repose sur l'**hydroxychloroquine** et les immunosuppresseurs.",
+ "sections": [
+  {
+   "heading": "Physiopathologie — boucle de l'IFN de type I",
+   "type": "bullets",
+   "items": [
+    "**Corps apoptotiques mal éliminés** (déficit C1q, DNase I) → libération d'ADN et de nucléoprotéines dans la circulation",
+    "**pDC** (cellules dendritiques plasmacytoïdes) activées par l'ADN via **TLR7/TLR9** → production massive d'**IFN-α (IFN de type I)**",
+    "IFN-α → maturation DC myéloïdes → présentation des auto-antigènes → activation des **LT auto-réactifs**",
+    "**LB auto-réactifs** → plasmocytes → auto-anticorps : **anti-ADN natif** (spécifique), anti-Smith, anti-nucléosomes, anti-Ro/La",
+    "**Complexes immuns** (ADN + anti-ADN) → dépôt dans les glomérules, la peau, les vaisseaux → activation C' → inflammation → ↓ C3, C4, CH50"
+   ]
+  },
+  {
+   "heading": "Facteurs déclenchants et prédisposants",
+   "type": "table",
+   "columns": ["Facteur", "Mécanisme"],
+   "rows": [
+    ["**UV** (soleil)", "↑ apoptose kératinocytes → ↑ corps apoptotiques → activation pDC → IFN-α"],
+    ["**EBV**", "Mimétisme moléculaire (EBV EBNA-1 ~ nucléoprotéines) → bris de tolérance"],
+    ["**Estrogènes**", "Stimulent LB auto-réactifs → explication du ratio F/H = 9:1 ; poussées pendant grossesse"],
+    ["**Médicaments** (lupus induit)", "Hydralazine, procaïnamide, isoniazide → anti-histone Ac. Cèdent à l'arrêt du médicament."],
+    ["**Génétique**", "HLA-DR2/DR3, déficits C1q/C4 (gènes dans le CMH), mutation TREX1 (DNase)"]
+   ]
+  },
+  {
+   "heading": "Critères diagnostiques et auto-anticorps",
+   "type": "definition",
+   "items": [
+    {"t": "ANA (anti-noyaux)", "d": "Très sensibles (~99 %) mais peu spécifiques — screening. Un ANA négatif exclut le LES."},
+    {"t": "Anti-ADN natif (anti-dsDNA)", "d": "**Spécifique du LES** (critère diagnostique). Titre corrélé à l'activité — surtout à la néphrite lupique."},
+    {"t": "Anti-Smith (anti-Sm)", "d": "Très spécifique du LES (30 % des cas). Non corrélé à l'activité."},
+    {"t": "Anti-SSA (Ro)", "d": "LES + Sjögren. Risque de **BAV congénital** et lupus néonatal (passage transplacentaire)."},
+    {"t": "Anticorps antiphospholipides (APL)", "d": "Anticoagulant lupique, anti-β2GPI, anticardiolipine → SAPL associé : thromboses, fausses couches à répétition."}
+   ]
+  },
+  {
+   "heading": "Atteintes d'organes et traitement",
+   "type": "table",
+   "columns": ["Manifestation", "Traitement spécifique"],
+   "rows": [
+    ["Cutanée (lupus discoïde, rash malaire)", "Photoprotection, hydroxychloroquine, dermocorticoïdes"],
+    ["Articulaire (arthrites non érosives)", "AINS, hydroxychloroquine, méthotrexate"],
+    ["**Néphrite lupique** (classes I-V OMS)", "Corticoïdes + mycophénolate mofétil (ou cyclophosphamide si sévère)"],
+    ["Neuropsychiatrique (convulsions, psychose)", "Corticoïdes IV + immunosuppresseurs"],
+    ["Hématologique (cytopénie autoimmune)", "Corticoïdes, rituximab si réfractaire"],
+    ["SAPL associé", "Anticoagulation au long cours (warfarine)"]
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "LES = F/H 9:1, boucle IFN-α/pDC/corps apoptotiques. ANA screening → si positif : anti-dsDNA (spécifique, corrélé activité). Complément ↓ (C3, C4, CH50) = activité de la maladie. Néphrite lupique = complication rénale grave (biopsie + MMF). Hydroxychloroquine = traitement de fond universel (anti-paludéen, anti-thrombotique, protecteur rénal). Belimumab (anti-BAFF) et anifrolumab (anti-IFN-αR) = biothérapies récentes."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Grossesse et LES</strong> : poussée fréquente, risque de pré-éclampsie, RCIU, BAV fœtal (anti-SSA) → suivi multidisciplinaire. <strong>Hydroxychloroquine</strong> : ne jamais arrêter (même si maladie silencieuse) + surveillance ophtalmologique annuelle (toxicité maculaire). <strong>Lupus induit</strong> : anti-histone Ac (pas d'anti-dsDNA ni de néphrite) → cède à l'arrêt du médicament. <strong>Antiphospholipides</strong> : risque de thrombose artérielle et veineuse + fausses couches → anticoagulation préventive. Ne pas confondre ↓ C3/C4/CH50 (activité LES par consommation) et ↓ C4 isolée constitutionnelle (variant fréquent sans signification)."
+  }
+ ]
 }

@@ -1,7 +1,64 @@
 {
  "slug": "fc09",
  "title": "Fiche — Immunothérapie antitumorale",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le SI surveille en permanence les cellules tumorales (**immunosurveillance**), formalisée par la théorie des **3 E** (Élimination → Équilibre → Échappement). Les tumeurs finissent par échapper en perdant leur CMH-I, en créant un microenvironnement immunosuppresseur (Treg, IDO, checkpoints). Les **immunothérapies** réactivent cette réponse : inhibiteurs de checkpoint, CAR-T, TILs.",
+ "sections": [
+  {
+   "heading": "Les 3 E de l'immunoediting",
+   "type": "table",
+   "columns": ["Phase", "Résumé", "État clinique"],
+   "rows": [
+    ["**Élimination**", "SI détecte et détruit les cellules transformées (immunosurveillance)", "Tumeur invisible"],
+    ["**Équilibre**", "Tumeur résiste mais reste contrôlée ; SI sculpte (sélection de variants peu immunogènes)", "Tumeur latente"],
+    ["**Échappement**", "Variants résistants prolifèrent, SI dépassé → maladie clinique", "Cancer déclaré"]
+   ]
+  },
+  {
+   "heading": "Acteurs de la réponse antitumorale",
+   "type": "bullets",
+   "items": [
+    "**NK (innée)** : balance KIR (inhib., reconnaît CMH-I) / KAR (activ.). Si CMH-I perdu = **missing self** → NK active → lyse par **perforine/granzyme**",
+    "**LT CD8 cytotoxiques (CTL)** : restreints au CMH-I → lyse par perforine/granzyme. Activés via CPA (présentation antigénique)",
+    "**TAM M1** : pro-inflammatoires (IFN-γ, IL-12), inhibent la tumeur → **bon pronostic**",
+    "**TAM M2** : anti-inflammatoires (IL-10, TGF-β, VEGF), favorisent la tumeur → **mauvais pronostic**"
+   ]
+  },
+  {
+   "heading": "Mécanismes d'échappement tumoral",
+   "type": "bullets",
+   "items": [
+    "**Perte du CMH-I** (mutation β2m, défaut TAP/LMP) → LT CD8 aveugles",
+    "**Absence de costimulation** (↓ B7.1/B7.2, CD40) → anergie des LT",
+    "**Immunosuppression** : Treg (TGF-β, IL-10), MDSC, **IDO** (dégrade le tryptophane → ↓ prolifération T)",
+    "**Checkpoints surexprimés** : PD-L1 sur tumeur → PD-1 sur LT → **épuisement** ; CTLA-4 → co-inhibition T"
+   ]
+  },
+  {
+   "heading": "Inhibiteurs de checkpoint — les 2 cibles clés",
+   "type": "table",
+   "columns": ["Anticorps", "Cible", "Lieu d'action", "Mécanisme"],
+   "rows": [
+    ["**Ipilimumab**", "**CTLA-4**", "Ganglions (amorçage)", "Lève l'inhibition des LT naïfs → ↑ recrutement T effecteurs"],
+    ["**Pembrolizumab / Nivolumab**", "**PD-1** (marqueur d'épuisement)", "Microenvironnement tumoral", "Restaure la cytotoxicité des LT infiltrés déjà dans la tumeur"]
+   ]
+  },
+  {
+   "heading": "Autres stratégies d'immunothérapie",
+   "type": "bullets",
+   "items": [
+    "**BCG** (non spécifique) : cancer de la vessie, active l'immunité innée via TLR",
+    "**Trastuzumab** (anti-HER2), **Rituximab** (anti-CD20) : ADCC (recrutement NK) + activation du complément",
+    "**CAR-T** : LT du patient modifiés génétiquement (récepteur chimérique anti-tumoral), amplifiés puis réinjectés",
+    "**TILs** (Rosenberg) : lymphocytes infiltrant la tumeur prélevés, amplifiés in vitro, réinjectés (efficacité ~90 % dans certains mélanomes)",
+    "**Toxicité** : phénomènes auto-immuns (colites, hépatites, diabète, atteintes neurologiques)"
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "Missing self = perte CMH-I → seules les NK peuvent tuer (pas les CTL). 3 E : Élimination → Équilibre → Échappement. <strong>Anti-CTLA-4</strong> = amorçage ganglionnaire ; <strong>anti-PD-1</strong> = épuisement dans la tumeur. IDO = immunosuppression par carence en tryptophane. L'immunothérapie est toxique (auto-immunité)."
+  }
+ ]
 }

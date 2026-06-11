@@ -1,7 +1,80 @@
 {
- "slug": "fc08",
- "title": "Fiche — Eczémas",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+  "slug": "fc08",
+  "title": "Fiche — Physiopathologie des eczémas",
+  "updated": "2026-06-10",
+  "summary": "Les eczémas regroupent la **dermatite atopique (DA)**, liée à une barrière cutanée altérée (filaggrine) et une **inflammation de type 2** (IL-4, IL-5, IL-13, IL-31), et les **eczémas de contact** (ECA = hypersensibilité retardée de type IV médiée par LT CD8 ; ECI = immunité innée seule). Le diagnostic de l'ECA repose sur le **patch-test** et la prise en charge cible les cytokines Th2 (dupilumab, inhibiteurs de JAK).",
+  "sections": [
+    {
+      "heading": "Les 3 types d'eczéma",
+      "type": "table",
+      "columns": ["Type", "Facteurs", "Immunité", "Mécanisme clé"],
+      "rows": [
+        ["Dermatite atopique (DA)", "Internes : génétique, barrière, immunité", "Innée + adaptative (type 2)", "Barrière altérée → allergènes → polarisation Th2, IgE, IL-4/5/13/31"],
+        ["Eczéma de contact allergique (ECA)", "Externes : haptènes (~4 000 substances)", "Adaptative (type IV retardée)", "Sensibilisation → LT CD8 spécifiques → apoptose kératinocytaire"],
+        ["Eczéma de contact irritatif (ECI)", "Externes : irritants cytotoxiques", "Innée seule", "Cytotoxicité directe → lésion barrière sans immunité adaptative — 80 % des EC"]
+      ]
+    },
+    {
+      "heading": "Dermatite atopique — barrière cutanée et inflammation",
+      "type": "bullets",
+      "items": [
+        "Triade diagnostique (clinique) : **eczéma + prurit + xérose** (sécheresse cutanée)",
+        "Début précoce (enfance) ; prévalence 10–30 % enfant → 2 % adulte",
+        "**Filaggrine (FLG)** : protéine de la couche cornée assurant solidité + hydratation (NMF) + pH acide (~5,5)",
+        "Mutation FLG = facteur de susceptibilité majeur (**ni nécessaire ni suffisant**)",
+        "Altération barrière → ↑ pH → activation sérine-protéases → pénétration d'allergènes",
+        "Kératinocytes activés libèrent **TSLP, IL-25, IL-33** → activation ILC2 → polarisation Th2",
+        "Cytokines Th2 : **IL-4** (commutation IgE, polarisation Th2), **IL-13** (altère barrière/remodelage), **IL-5** (éosinophiles), **IL-31** (prurit)",
+        "**S. aureus** prolifère lors des poussées (superantigènes + toxines cytotoxiques) → boucle inflammatoire",
+        "**S. epidermidis** prédomine en intercrise → rôle immunorégulateur"
+      ]
+    },
+    {
+      "heading": "ECA — Phases de sensibilisation et de déclenchement",
+      "type": "bullets",
+      "items": [
+        "**Phase de sensibilisation** (asymptomatique) : haptène pénètre → complexe haptène/protéine capté par **cellules de Langerhans** (CD1a+, langerine+, CMH II+)",
+        "Cellules de Langerhans migrent vers **ganglion** → présentation aux LT naïfs → génération de LT spécifiques + mémoires",
+        "Cellules effectrices : **LT CD8** (principale cytotoxicité) ; régulateurs : **LT CD4 (FOXP3+, IL-10)**",
+        "**Phase de challenge** (réexposition, symptomatique, 48–72 h) : LT mémoires → activation → IFN-γ, IL-17",
+        "Recrutement LT CD8 → **apoptose des kératinocytes** → vésicules d'eczéma",
+        "Résolution : élimination allergène, immunorégulation par LT CD4 FOXP3+ (IL-10)",
+        "**Patch-test = gold standard** du diagnostic (48 h d'application + lectures à 48-72-96 h)"
+      ]
+    },
+    {
+      "heading": "Thérapeutiques ciblées de la DA",
+      "type": "definition",
+      "items": [
+        {
+          "t": "Dupilumab",
+          "d": "Anticorps monoclonal humanisé anti-**récepteur commun IL-4/IL-13** (bloque les deux cytokines). AMM dès 6 mois. ≠ tralokinumab/lebrikizumab qui ciblent directement l'IL-13 circulante."
+        },
+        {
+          "t": "Inhibiteurs de JAK (upadacitinib, abrocitinib)",
+          "d": "Petites molécules intracellulaires bloquant la voie **JAK-STAT**. Action plus large (programmation des LT Th1/Th2/Th17/Th22). IL-4 et IL-13 signalisent via **JAK1** → inhibiteurs sélectifs de JAK1."
+        },
+        {
+          "t": "Corticoïdes topiques / inhibiteurs de calcineurine",
+          "d": "1re ligne des poussées. Traitement topique anti-inflammatoire."
+        },
+        {
+          "t": "Émollients",
+          "d": "Base du traitement : restauration de la barrière cutanée."
+        }
+      ]
+    },
+    {
+      "heading": "À retenir pour l'examen",
+      "type": "callout",
+      "tone": "tip",
+      "html": "<ul><li>ECI = immunité innée seule (80 % des EC) ; ECA = hypersensibilité retardée type IV, LT CD8.</li><li>Ce qui discrimine ECA de ECI = <strong>activation de l'immunité adaptative</strong>.</li><li>Filaggrine : ni nécessaire ni suffisante pour la DA — simple facteur de susceptibilité.</li><li>IL-4 = commutation IgE + polarisation Th2 ; IL-13 = altération barrière ; IL-31 = prurit.</li><li>Dupilumab cible le <strong>récepteur commun IL-4/IL-13</strong>, pas directement l'IL-13 circulante.</li><li>Phase desquamative de l'eczéma = guérison <strong>sans cicatrice</strong>.</li></ul>"
+    },
+    {
+      "heading": "Pièges / Sécurité",
+      "type": "callout",
+      "tone": "important",
+      "html": "<ul><li>Mutation FLG n'est <strong>ni nécessaire ni suffisante</strong> pour développer une DA.</li><li>Un patch-test positif signe une <strong>sensibilisation</strong>, pas forcément une allergie clinique : la pertinence clinique doit être prouvée.</li><li>Hypersensibilité de type IV est <strong>retardée (48-72 h)</strong>, médiée par LT (pas par Ac préformés) — ≠ type I (< 1 h).</li><li>Le dupilumab ne cible PAS directement l'IL-13 circulante (c'est le tralokinumab/lebrikizumab).</li><li>S. aureus est un marqueur d'activité de la maladie (poussées) ; S. epidermidis est protecteur (intercrise).</li></ul>"
+    }
+  ]
 }

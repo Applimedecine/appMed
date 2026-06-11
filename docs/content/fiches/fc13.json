@@ -1,7 +1,48 @@
 {
  "slug": "fc13",
  "title": "Fiche — Bilan immunologique",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le bilan immunologique explore les **effecteurs** (cellules, anticorps, complément) et leur **fonctionnement**. Il oriente vers un déficit immunitaire, une maladie auto-immune ou un état d'hyperactivation. Les examens clés : **NFS** (formule leucocytaire), **immunoglobulines**, **typage lymphocytaire**, **complément** (CH50, C3, C4), **auto-anticorps**.",
+ "sections": [
+  {
+   "heading": "Bilan de première intention",
+   "type": "table",
+   "columns": ["Examen", "Ce qu'il explore", "Interprétation clé"],
+   "rows": [
+    ["**NFS + formule**", "Numération des leucocytes (PNN, lymphocytes, monocytes, éosinophiles)", "Lymphopénie < 1 G/L = évocateur de déficit cellulaire ou VIH"],
+    ["**Électrophorèse des protéines sériques (EPP)**", "Bandes d'immunoglobulines globales", "↓ bande gamma = hypogammaglobulinémie ; pic monoclonal = myélome/MGUS"],
+    ["**Dosage pondéral des Ig** (IgG, IgA, IgM)", "Taux précis de chaque isotype", "↓ IgG < 6 g/L + IgA/IgM bas = déficit humoral primitif ou acquis"],
+    ["**Typage lymphocytaire**", "Phénotypage CD3, CD4, CD8, CD19, CD16/56 par cytométrie de flux", "CD4 < 200/mm³ = SIDA ; ↓ CD19 = agammaglobulinémie de Bruton"],
+    ["**Complément** : CH50, C3, C4", "Voies d'activation du complément", "↓ CH50 = déficit global ; ↓ C4 + CH50 normal = DICV non lié au complément"]
+   ]
+  },
+  {
+   "heading": "Auto-anticorps — principaux marqueurs",
+   "type": "table",
+   "columns": ["Auto-anticorps", "Pathologie associée", "Particularité"],
+   "rows": [
+    ["**ANA** (anti-noyaux)", "Screening LES, connectivites", "Très sensible (peu spécifique) → toujours compléter"],
+    ["**Anti-ADN natif** (anti-dsDNA)", "**Lupus (LES)** +++", "Spécifique, corrélé à l'activité de la maladie (néphrite lupique)"],
+    ["**ANCA** (anti-cytoplasme des PNN)", "**Vascularites** (granulomatose de Wegener : c-ANCA/anti-PR3 ; PAM : p-ANCA/anti-MPO)", "Titre corrélé à l'activité"],
+    ["**Anti-CCP / ACPA**", "**Polyarthrite rhumatoïde**", "Très spécifiques de la PR"],
+    ["**Anti-SSA / SSB**", "**Sjögren**, lupus néonatal", "Anti-SSA → BAV chez le fœtus (lupus néonatal)"]
+   ]
+  },
+  {
+   "heading": "Tests fonctionnels",
+   "type": "bullets",
+   "items": [
+    "**Test de prolifération lymphocytaire** : stimulation par PHA (mitogène T) ou ConA → ↓ réponse = déficit T",
+    "**Test de burst oxydatif (DHR)** : DHR → fluorescence après activation des PNN → négatif dans la granulomatose septique chronique (déficit en NADPH oxydase)",
+    "**Test cutané à la tuberculine (IDR) / Quantiféron** : mémoire T spécifique (tuberculose)",
+    "**Sérologies vaccinales** : réponse IgG post-vaccin tétanos/pneumocoque = bonne fonction humorale"
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "Typage lymphocytaire par <strong>cytométrie de flux</strong>. Anti-ADN natif = spécifique du LES. ANCA : c-ANCA/anti-PR3 = Wegener ; p-ANCA/anti-MPO = PAM. Anti-CCP = spécifique PR. ↓ CH50 = déficit global du complément. CD4 &lt; 200/mm³ = stade SIDA."
+  }
+ ]
 }

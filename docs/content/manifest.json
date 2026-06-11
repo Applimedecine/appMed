@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-06-10",
+ "generatedAt": "2026-06-11",
  "lessons": [
   {
    "slug": "fc01",
@@ -14,7 +14,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc02",
@@ -28,7 +28,7 @@
    "hasQuiz": true,
    "quizCount": 13,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc03",
@@ -42,7 +42,7 @@
    "hasQuiz": true,
    "quizCount": 13,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc04a",
@@ -56,7 +56,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc04b",
@@ -70,7 +70,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 21
   },
   {
    "slug": "fc05",
@@ -84,7 +84,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 16
   },
   {
    "slug": "fc06",
@@ -98,7 +98,7 @@
    "hasQuiz": true,
    "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 6
+   "qrocCount": 11
   },
   {
    "slug": "fc07",
@@ -108,11 +108,11 @@
    "shortTitle": "Hypersensibilité immédiate",
    "prof": "Pr. Lefebvre",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc08",
@@ -122,11 +122,11 @@
    "shortTitle": "Eczémas",
    "prof": "Pr. Lefèvre",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc09",
@@ -136,11 +136,11 @@
    "shortTitle": "Immunothérapie antitumorale",
    "prof": "Pr. Paul",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc10",
@@ -150,11 +150,11 @@
    "shortTitle": "Vaccins & adjuvants",
    "prof": "Pr. Paul",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc11",
@@ -164,11 +164,11 @@
    "shortTitle": "AINS & AIS",
    "prof": "Pr. Berger",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc12",
@@ -178,11 +178,11 @@
    "shortTitle": "Immunosuppresseurs",
    "prof": "Dr. Waeckel",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc13",
@@ -192,11 +192,11 @@
    "shortTitle": "Bilan immunologique",
    "prof": "Pr. Paul",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc14",
@@ -206,11 +206,11 @@
    "shortTitle": "Immunopathologie VIH",
    "prof": "Pr. Longet",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc15",
@@ -220,11 +220,11 @@
    "shortTitle": "Rejet de greffe",
    "prof": "Pr. Mariat",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc16",
@@ -234,11 +234,11 @@
    "shortTitle": "Cytokines",
    "prof": "Dr. Waeckel",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc17",
@@ -248,11 +248,11 @@
    "shortTitle": "Anticorps thérapeutiques",
    "prof": "Dr. Waeckel",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc18",
@@ -262,11 +262,11 @@
    "shortTitle": "Déficits immunitaires (DIH)",
    "prof": "Pr. Stephan",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc19",
@@ -276,11 +276,11 @@
    "shortTitle": "Complément & complexes immuns",
    "prof": "Pr. Maillard",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc20",
@@ -290,11 +290,11 @@
    "shortTitle": "MICI",
    "prof": "Pr. Berger",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc21",
@@ -304,11 +304,11 @@
    "shortTitle": "Lupus (LES)",
    "prof": "Pr. Killian",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 10
   },
   {
    "slug": "fc22",
@@ -318,11 +318,11 @@
    "shortTitle": "Neuro-immunologie",
    "prof": "Pr. Hean",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   },
   {
    "slug": "fc23",
@@ -332,11 +332,11 @@
    "shortTitle": "Infections longues",
    "prof": "Pr. Longet",
    "hasCours": true,
-   "hasFiche": false,
+   "hasFiche": true,
    "hasQuiz": false,
    "quizCount": 0,
-   "hasQroc": false,
-   "qrocCount": 0
+   "hasQroc": true,
+   "qrocCount": 5
   }
  ],
  "annales": [

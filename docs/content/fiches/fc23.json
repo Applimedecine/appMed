@@ -1,7 +1,52 @@
 {
  "slug": "fc23",
  "title": "Fiche — Infections longues",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **syndromes post-infectieux** persistent après la phase aiguë : fatigue (symptôme le plus fréquent), douleurs, troubles cognitifs. Le **COVID long** = > 2 mois, diagnostic d'exclusion (OMS). Cinq hypothèses mécanistiques : persistance virale, micro-caillots, dysfonction immunitaire, réactivation EBV, auto-anticorps. La vaccination protège (−15 à −24 %).",
+ "sections": [
+  {
+   "heading": "Syndromes post-infectieux — généralités",
+   "type": "bullets",
+   "items": [
+    "Symptômes **persistant après la phase aiguë**, infection terminée",
+    "Symptôme le plus fréquent : **fatigue**, puis douleurs musculaires/articulaires, troubles cognitifs",
+    "Décrits après : SARS-CoV-2, **EBV** (fatigue chronique), **Borrelia** (Lyme), **Chikungunya**, Ebola, grippe (XIXe s.)",
+    "Mécanismes encore mal compris ; plusieurs hypothèses coexistent souvent"
+   ]
+  },
+  {
+   "heading": "COVID long — définition OMS (3 critères)",
+   "type": "callout",
+   "tone": "tip",
+   "html": "<strong>3 critères OMS :</strong> (1) après infection SARS-CoV-2 ; (2) persistant <strong>&gt; 2 mois</strong> ; (3) non expliqué par une autre maladie. → <strong>Diagnostic d'exclusion.</strong> Prévalence : ~6/100 infectés (2025) ; ~4 % de la population française (2023). Symptômes : fatigue, dyspnée, troubles goût/odorat."
+  },
+  {
+   "heading": "Les 5 hypothèses mécanistiques du COVID long",
+   "type": "definition",
+   "items": [
+    {"t": "1. Persistance virale", "d": "ARN/protéines SARS-CoV-2 détectés dans foie, cerveau, poumon, peau des mois après l'infection aiguë → corrélés à un risque accru de COVID long."},
+    {"t": "2. Micro-caillots", "d": "Microthromboses perturbant la circulation et l'oxygénation tissulaire."},
+    {"t": "3. Dysfonction immunitaire", "d": "IgG ↑, cortisol ↓, inflammation persistante. Les IgG de patients COVID long induisent une hypersensibilité sensorielle chez la souris."},
+    {"t": "4. Réactivation EBV", "d": "Réactivation du virus Epstein-Barr latent retrouvée chez certains patients COVID long."},
+    {"t": "5. Auto-anticorps", "d": "Présence d'auto-Ac chez certains patients — résultats encore contradictoires à ce jour."}
+   ]
+  },
+  {
+   "heading": "Facteurs de risque et protecteurs",
+   "type": "table",
+   "columns": ["Facteurs de risque", "Facteur protecteur"],
+   "rows": [
+    ["Être une **femme**", "**Vaccination** avant infection"],
+    ["Comorbidités préexistantes (diabète, AR, migraines)", "1 dose → −15 % de risque"],
+    ["Infection initiale **sévère**", "2 doses → −24 % de risque"],
+    ["Variant **Delta** (risque > Omicron)", "Non vacciné = risque le plus élevé"]
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "important",
+   "html": "COVID long = diagnostic d'<strong>exclusion</strong> (OMS : après SARS-CoV-2, &gt; 2 mois, non expliqué). 5 hypothèses : persistance virale, micro-caillots, dysfonction immunitaire, réactivation EBV, auto-Ac. Vaccination : −15 % (1 dose) à −24 % (2 doses). ~18 % des patients ont encore des symptômes à 2 ans."
+  }
+ ]
 }

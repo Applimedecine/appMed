@@ -1,7 +1,57 @@
 {
  "slug": "fc14",
  "title": "Fiche — Immunopathologie VIH",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le VIH infecte et détruit les **LT CD4**, pièce maîtresse de l'immunité adaptative. Il utilise le **CD4 + co-récepteurs (CCR5 ou CXCR4)** pour pénétrer dans les cellules. La destruction progressive des LT CD4 conduit à l'**immunodépression** et aux **infections opportunistes** définissant le **stade SIDA**. La **trithérapie antirétrovirale (TAR)** reconstitue le système immunitaire.",
+ "sections": [
+  {
+   "heading": "Entrée du VIH et cellules cibles",
+   "type": "bullets",
+   "items": [
+    "**Cellules cibles** : LT CD4 (90 %), macrophages, cellules dendritiques (toutes expriment CD4)",
+    "**Entrée** : gp120 (VIH) → CD4 + co-récepteur **CCR5** (virus R5, tropisme macrophage/précoce) ou **CXCR4** (virus X4, tropisme T/tardif)",
+    "**Mutation CCR5Δ32** (homozygote) : résistance naturelle au VIH",
+    "**Cycle viral** : RT → ADN proviral intégré (réservoir permanent) → transcription → assemblage → maturation (protéase)"
+   ]
+  },
+  {
+   "heading": "Cinétique de l'infection et seuils CD4",
+   "type": "table",
+   "columns": ["Stade", "CD4 (/mm³)", "Infections opportunistes et complications"],
+   "rows": [
+    ["**Primo-infection**", "> 500", "Syndrome mononucléosique (fièvre, adénopathies) ; charges virales très élevées"],
+    ["**Phase asymptomatique**", "200–500", "Infections banales ; baisse progressive des CD4"],
+    ["**Pré-SIDA**", "200–500", "Zona, candidose buccale, tuberculose, pneumocoque"],
+    ["**SIDA**", "**< 200**", "Pneumocystose (PCP), toxoplasmose cérébrale, cryptococcose, CMV, lymphomes"],
+    ["**SIDA avancé**", "**< 100**", "MAC (Mycobacterium avium complex), CMV rétinite, cryptosporidiose"]
+   ]
+  },
+  {
+   "heading": "Mécanismes d'échappement du VIH",
+   "type": "bullets",
+   "items": [
+    "**Variation antigénique** (mutations RT sans correction d'erreur) → LT et Ac ne reconnaissent plus les épitopes",
+    "**Latence virale** : ADN proviral intégré dans les cellules T mémoires → réservoirs non éliminables par la TAR",
+    "**Perturbation de la présentation antigénique** : VIH ↓ expression CMH-I → échappe aux CTL",
+    "**Activation polyclonale** des LB → hypergammaglobulinémie avec anticorps non protecteurs"
+   ]
+  },
+  {
+   "heading": "Trithérapie antirétrovirale (TAR)",
+   "type": "definition",
+   "items": [
+    {"t": "INTI (analogues nucléosidiques)", "d": "Ex : zidovudine (AZT), ténofovir. Inhibent la **transcriptase inverse** par incorporation dans l'ADN en cours de synthèse."},
+    {"t": "INNTI", "d": "Ex : efavirenz, névirapine. Inhibent la **transcriptase inverse** à un site non nucléosidique (allostérique)."},
+    {"t": "Inhibiteurs de protéase (IP)", "d": "Ex : atazanavir. Bloquent la **maturation virale** (clivage du polypeptide gag-pol)."},
+    {"t": "Inhibiteurs d'intégrase (II)", "d": "Ex : raltégravir, dolutégravir. Bloquent l'**intégration** de l'ADN proviral dans le génome de la cellule hôte."},
+    {"t": "Inhibiteurs d'entrée", "d": "Ex : maraviroc (anti-CCR5), enfuvirtide (anti-fusion gp41)."}
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "VIH = CD4 + CCR5 ou CXCR4. SIDA = CD4 &lt; 200/mm³. Principaux IO : pneumocystose (&lt; 200), toxoplasmose (&lt; 100), CMV/MAC (&lt; 100). TAR = 3 antirétroviraux de classes différentes. Mutation CCR5Δ32 = résistance naturelle. La TAR ne guérit pas (réservoirs latents)."
+  }
+ ]
 }

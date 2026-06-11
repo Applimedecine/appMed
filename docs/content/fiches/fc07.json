@@ -1,7 +1,90 @@
 {
- "slug": "fc07",
- "title": "Fiche — Hypersensibilité immédiate",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+  "slug": "fc07",
+  "title": "Fiche — Hypersensibilité immédiate",
+  "updated": "2026-06-10",
+  "summary": "L'**hypersensibilité immédiate (HSI) de type I** est une réaction **IgE-dépendante** en deux phases : sensibilisation (asymptomatique) puis effectrice (dégranulation mastocytaire → histamine, prostaglandines, leucotriènes). L'**anaphylaxie** est classée en 4 grades (Ring & Messmer) et traitée par adrénaline. La **tryptase** (médiateur préformé des mastocytes) est le marqueur biologique de référence.",
+  "sections": [
+    {
+      "heading": "Classification de Gell & Coombs — 4 types",
+      "type": "table",
+      "columns": ["Type", "Nom", "Mécanisme", "IgE ?", "Exemples"],
+      "rows": [
+        ["I", "Immédiate", "IgE → dégranulation mastocytaire", "Oui", "Allergie alimentaire, asthme allergique"],
+        ["II", "Cytotoxique", "IgG/IgM → complément, ADCC", "Non", "Anémie hémolytique, pemphigus"],
+        ["III", "Complexes immuns", "IgG/IgM → dépôt de complexes → complément", "Non", "Maladie sérique, vascularite"],
+        ["IV", "Retardée", "Lymphocytes T → cytokines (48-72 h)", "Non", "Eczéma de contact, toxidermies"]
+      ]
+    },
+    {
+      "heading": "Phases de l'HSI de type I",
+      "type": "bullets",
+      "items": [
+        "**Phase de sensibilisation** (1re exposition) : asymptomatique, silencieuse",
+        "Allergène → cellules dendritiques → polarisation Th2 → IL-4, IL-5, IL-13",
+        "Lymphocytes B → commutation isotypique → **plasmocytes à IgE**",
+        "IgE se fixent sur **FcεRI** des mastocytes et basophiles",
+        "**Phase effectrice** (2e exposition) : symptomatique",
+        "Allergène → pontage des IgE → **dégranulation mastocytaire**",
+        "Libération d'**histamine** (prurit, urticaire, vasodilatation)",
+        "Libération de **prostaglandines/leucotriènes** (bronchospasme, hyperperméabilité)",
+        "Libération de **cytokines** (inflammation, recrutement éosinophiles)"
+      ]
+    },
+    {
+      "heading": "Anaphylaxie — Classification Ring & Messmer + traitement",
+      "type": "table",
+      "columns": ["Grade", "Atteinte", "Symptômes clés", "Traitement principal"],
+      "rows": [
+        ["I", "Cutanéo-muqueuse seule", "Urticaire, angioœdème", "Antihistaminiques"],
+        ["II", "Multiviscérale modérée", "Cutané + tachycardie, toux, dyspnée, douleurs abdominales", "2 VVP, cristalloïdes, polaramine, corticoïdes 1 mg/kg, salbutamol + **adrénaline IV 0,01 mg**"],
+        ["III", "Mono/multiviscérale sévère", "Hypotension (−20 mmHg PAS), bradycardie, troubles du rythme", "Idem grade II + **adrénaline IV 0,1 mg** (ou IM 0,3-0,5 mg si > 50 kg)"],
+        ["IV", "Arrêt cardio-respiratoire", "ACR", "RCP + **adrénaline 1 mg IV**"]
+      ]
+    },
+    {
+      "heading": "Tryptase vs histamine — biomarqueurs de l'HSI",
+      "type": "definition",
+      "items": [
+        {
+          "t": "Tryptase",
+          "d": "Médiateur **préformé** libéré uniquement par les mastocytes. Stable dans le temps, automatisée, dosée en routine. Prélever une **tryptase basale > 24 h** après la réaction. Élevée si : **tryptase > (basale × 1,2) + 2 μg/L**."
+        },
+        {
+          "t": "Histamine",
+          "d": "Libérée par mastocytes **et basophiles**. Rapidement métabolisée → dosage difficile et peu fiable en pratique courante."
+        },
+        {
+          "t": "Prick-test",
+          "d": "Test cutané de référence (1re intention). Positif si papule **> 3 mm** et **≥ 1/2 du témoin positif**. Réalisé ≥ 6 semaines après la réaction."
+        },
+        {
+          "t": "IDR",
+          "d": "Intradermo-réaction (2e intention si prick-test négatif). Plus sensible. Injection 0,02 mL d'allergène. Positive si Ø papule à 20 min ≥ Ø initial + 3 mm + érythème."
+        }
+      ]
+    },
+    {
+      "heading": "Désensibilisation (immunothérapie allergénique — ITA)",
+      "type": "bullets",
+      "items": [
+        "Seul traitement **curatif** validé des HSI de type I (rhinite, asthme, venins)",
+        "Administration progressive d'allergène : voie **sous-cutanée (SCIT)** ou **sublinguale (SLIT)**",
+        "Durée longue : **3 à 5 ans**",
+        "Mécanismes : induction de **Treg** (IL-10, TGF-β), déviation Th2 → Th1, production d'**IgG4 bloquants**, ↓ sensibilité des mastocytes/basophiles",
+        "**Contre-indications** : asthme sévère non contrôlé, β-bloquants, maladie auto-immune évolutive, déficit immunitaire grave, grossesse (initiation), âge < 5 ans"
+      ]
+    },
+    {
+      "heading": "Pièges / Sécurité",
+      "type": "callout",
+      "tone": "important",
+      "html": "<ul><li>Seul le type I est IgE-dépendant. Types II, III, IV ne le sont pas.</li><li>La phase de sensibilisation est <strong>cliniquement muette</strong> : pas de symptômes à la 1re exposition.</li><li>Urticaire ≠ anaphylaxie ; dans les réactions très sévères (grade III), l'urticaire peut être absente.</li><li>La <strong>tryptase est spécifique des mastocytes</strong> (pas des basophiles) — l'histamine est libérée par les deux.</li><li>Les <strong>β-bloquants</strong> contre-indiquent l'ITA : ils rendent l'adrénaline inefficace en cas de réaction anaphylactique.</li><li>Toujours <strong>stopper l'exposition à l'allergène</strong> en cas d'anaphylaxie.</li></ul>"
+    },
+    {
+      "heading": "À retenir pour l'examen",
+      "type": "callout",
+      "tone": "tip",
+      "html": "<ul><li>Type I = IgE + FcεRI + dégranulation mastocytaire.</li><li>Médiateurs préformés : histamine et <strong>tryptase</strong> ; néoformés : prostaglandines, leucotriènes.</li><li>Grade III anaphylaxie → adrénaline <strong>IV 0,1 mg</strong> (ou IM 0,3–0,5 mg).</li><li>Tryptase élevée si &gt; tryptase basale × 1,2 + 2 μg/L.</li><li>ITA = induction Treg (IL-10, TGF-β) + IgG4 bloquants.</li></ul>"
+    }
+  ]
 }

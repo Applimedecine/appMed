@@ -1,7 +1,60 @@
 {
  "slug": "fc18",
  "title": "Fiche — Déficits immunitaires (DIH)",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **déficits immunitaires héréditaires (DIH)** sont des maladies génétiques touchant un ou plusieurs composants du système immunitaire. Ils se révèlent par des **infections répétées, sévères ou opportunistes**. La classification distingue déficits **humoraux** (LB/Ac), **cellulaires** (LT), **combinés** (LT+LB), **phagocytaires** et du **complément**.",
+ "sections": [
+  {
+   "heading": "Classification des DIH — orientations cliniques",
+   "type": "table",
+   "columns": ["Type de déficit", "Infections typiques", "Exemples de maladies"],
+   "rows": [
+    ["**Humoral** (LB / anticorps)", "Bactéries encapsulées (pneumocoque, Haemophilus, méningocoque)", "Bruton (XLA), DICV, déficit IgA"],
+    ["**Cellulaire** (LT)", "Virus, champignons, mycobactéries, Pneumocystis", "Syndrome de DiGeorge (délétion 22q11)"],
+    ["**Combiné** (LT + LB)", "Infections graves dès les 1ers mois (toutes classes)", "DICS (formes ADA-, IL-2Rγ-, RAG-)"],
+    ["**Phagocytaire** (PNN/macrophage)", "Staphylocoques, entérobactéries, Aspergillus", "Granulomatose septique chronique, déficit en LAD"],
+    ["**Complément**", "Neisseria (méningite, gonorrhée) pour C5-C9 ; bactéries encapsulées pour C3", "Déficits C5-C9 → méningocoque ; C1q → lupus-like"]
+   ]
+  },
+  {
+   "heading": "Déficits humoraux",
+   "type": "definition",
+   "items": [
+    {"t": "Agammaglobulinémie de Bruton (XLA)", "d": "Mutation du gène **BTK** (lié à l'X) → blocage au stade pré-B → absence de LB matures et d'Ig. Garçons uniquement. Traitement : IgIV à vie."},
+    {"t": "Déficit Immunitaire Commun Variable (DICV)", "d": "Cause la plus fréquente de déficit humoral sévère chez l'adulte. LB présents mais non fonctionnels → IgG < 4 g/L + IgA + IgM bas. Traitement : IgIV ou IgSC."},
+    {"t": "Déficit en IgA", "d": "Déficit sélectif le plus fréquent (1/500). Souvent asymptomatique. Risque de réaction aux transfusions (Ac anti-IgA). Contre-indication aux IgIV classiques."}
+   ]
+  },
+  {
+   "heading": "Déficits combinés sévères (DICS)",
+   "type": "bullets",
+   "items": [
+    "**DICS** = absence de LT fonctionnels (+/- LB, NK selon la forme) → infections dès les 1ers mois de vie",
+    "**Forme ADA- (adénosine désaminase)** : accumulation d'adénosine → toxicité lymphocytaire sélective. Traitement : enzymothérapie (PEG-ADA), greffe de CSH, thérapie génique",
+    "**Forme IL-2Rγ (lié à l'X)** : mutation du gène γc (commun à IL-2R, IL-4R, IL-7R, IL-9R, IL-15R, IL-21R) → absence LT + NK, LB non fonctionnels. Le plus fréquent des DICS",
+    "**Phénotype `` bubble baby ''** : isolement stérile indispensable avant greffe de CSH (traitement curatif)",
+    "**Dépistage néonatal** en France : dosage des TREC par PCR (cercles d'excision des gènes TCR) sur sang de Guthrie"
+   ]
+  },
+  {
+   "heading": "Déficits phagocytaires",
+   "type": "definition",
+   "items": [
+    {"t": "Granulomatose septique chronique (CGD)", "d": "Mutation de la **NADPH oxydase** (gp91phox, lié à l'X +++) → absence de burst oxydatif → PNN phagocytent mais ne tuent pas. Infections à catalase+ (Staph aureus, Aspergillus). Diagnostic : **test DHR** (dihydrorhodamine) → pas de fluorescence. Traitement : IFN-γ, antifongiques prophylactiques, greffe CSH."},
+    {"t": "Déficit en adhésion leucocytaire (LAD-1)", "d": "Mutation de CD18 (intégrine β2) → LT et PNN ne migrent pas vers les tissus. Ombilic qui ne tombe pas, leucocytose, infections bactériennes sévères sans pus."}
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "Bruton (XLA) = BTK muté → absence LB → garçons → IgIV. DICV = adulte, LB présents non fonctionnels → IgIV. DICS = absence LT (+LB, NK) → nourrisson → greffe CSH. CGD = NADPH oxydase mutée → test DHR négatif → Aspergillus/Staph catalase+. Déficit C5-C9 → Neisseria. Déficit C3 → bactéries encapsulées. Dépistage DICS = TREC (Guthrie)."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Vaccins vivants atténués contre-indiqués</strong> dans tous les déficits cellulaires et combinés (risque de maladie vaccinale). <strong>Déficit en IgA</strong> : risque de choc anaphylactique aux transfusions d'IgIV classiques (présence d'IgA traces) → utiliser des préparations IgIV sans IgA. <strong>Bruton</strong> : les nourrissons protégés par Ac maternels jusqu'à 6 mois → infections tardives. Ne pas confondre DIH (génétique, dès l'enfance) et DIA (acquis, secondaire à VIH, hémopathies, corticoïdes)."
+  }
+ ]
 }
