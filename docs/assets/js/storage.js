@@ -93,4 +93,24 @@ export const Edits = {
   },
   count(type, slug) { return Object.keys(this.all(type, slug)).length; },
   clear(type, slug) { try { localStorage.removeItem(`${NS}.${this._key(type, slug)}`); } catch (e) {} },
+  // Y a-t-il au moins une retouche enregistrée (toutes portées confondues) ?
+  any() {
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        if ((localStorage.key(i) || '').startsWith(`${NS}.edits.`)) return true;
+      }
+    } catch (e) {}
+    return false;
+  },
+  // Efface toutes les retouches, partout : retour complet au texte d'origine.
+  clearAll() {
+    try {
+      const keys = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(`${NS}.edits.`)) keys.push(k);
+      }
+      keys.forEach((k) => localStorage.removeItem(k));
+    } catch (e) {}
+  },
 };

@@ -301,8 +301,12 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
 }
 
 /* ---------- Éditeur de texte local ---------- */
-.ed-fab {
+.ed-tools {
   position: fixed; right: 1rem; bottom: 1rem; z-index: 60;
+  display: flex; flex-direction: column; align-items: flex-end; gap: .5rem;
+}
+.ed-tools[hidden] { display: none; }
+.ed-fab {
   display: inline-flex; align-items: center; gap: .5rem;
   padding: .65rem 1.1rem; border-radius: 999px; cursor: pointer;
   font: inherit; font-weight: 650; font-size: .9rem;
@@ -312,6 +316,15 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
 .ed-fab:hover { background: var(--c-surface-2); }
 .ed-fab.on { background: var(--c-primary); color: #fff; border-color: var(--c-primary); }
 .ed-fab .ed-fab-ico { font-size: 1.05em; line-height: 1; }
+.ed-resetall {
+  display: inline-flex; align-items: center; cursor: pointer;
+  padding: .45rem .9rem; border-radius: 999px;
+  font: inherit; font-weight: 600; font-size: .82rem;
+  background: var(--c-surface); color: var(--c-error);
+  border: 1px solid var(--c-border); box-shadow: var(--shadow-sm);
+}
+.ed-resetall[hidden] { display: none; }
+.ed-resetall:hover { background: var(--c-error-soft); }
 @media (max-width: 640px) { .ed-fab .ed-fab-lbl { display: none; } .ed-fab { padding: .7rem; } }
 
 /* Mode édition : surligne les passages modifiables. */

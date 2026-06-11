@@ -46,20 +46,33 @@ export function applyEdits(root) {
 // ----------------------------------------------------------------------- //
 // Interface : bouton flottant + fenêtre d'édition (construits une seule fois)
 // ----------------------------------------------------------------------- //
-let modal, ta, current = null;
+let modal, ta, current = null, currentRoot = null;
 
 function buildChrome() {
   if (document.getElementById('ed-fab')) return;
+
+  const tools = document.createElement('div');
+  tools.className = 'ed-tools';
+  tools.hidden = true;
+
+  const resetBtn = document.createElement('button');
+  resetBtn.id = 'ed-reset-all';
+  resetBtn.type = 'button';
+  resetBtn.className = 'ed-resetall';
+  resetBtn.hidden = true;
+  resetBtn.textContent = '↺ Tout réinitialiser';
+  resetBtn.addEventListener('click', resetAllEdits);
 
   const fab = document.createElement('button');
   fab.id = 'ed-fab';
   fab.type = 'button';
   fab.className = 'ed-fab';
-  fab.hidden = true;
   fab.setAttribute('aria-pressed', 'false');
   fab.innerHTML = '<span class="ed-fab-ico" aria-hidden="true">✏️</span><span class="ed-fab-lbl">Modifier le texte</span>';
   fab.addEventListener('click', toggleMode);
-  document.body.appendChild(fab);
+
+  tools.append(resetBtn, fab);
+  document.body.appendChild(tools);
 
   modal = document.createElement('div');
   modal.className = 'ed-modal';
@@ -98,6 +111,21 @@ function toggleMode() {
   fab.classList.toggle('on', on);
   fab.querySelector('.ed-fab-ico').textContent = on ? '✓' : '✏️';
   fab.querySelector('.ed-fab-lbl').textContent = on ? 'Terminer' : 'Modifier le texte';
+  updateTools();
+}
+
+// Le bouton « Tout réinitialiser » n'est utile qu'en mode édition, s'il existe
+// au moins une retouche à annuler.
+function updateTools() {
+  const btn = document.getElementById('ed-reset-all');
+  if (btn) btn.hidden = !(document.body.classList.contains('ed-on') && Edits.any());
+}
+
+function resetAllEdits() {
+  if (!confirm("Réinitialiser tous les textes que vous avez modifiés, dans toute l'application ? Cette action est définitive.")) return;
+  Edits.clearAll();
+  if (currentRoot) currentRoot.querySelectorAll('[data-eid]').forEach((el) => setContent(el, el.dataset.raw || ''));
+  updateTools();
 }
 
 function openModal(el) {
@@ -133,12 +161,13 @@ function resetOne() {
 function close() {
   if (modal) modal.hidden = true;
   current = null;
+  updateTools(); // une retouche vient peut-être d'apparaître ou de disparaître
 }
 
-// Le bouton n'apparaît que si la page contient effectivement du texte modifiable.
+// Les boutons n'apparaissent que si la page contient du texte modifiable.
 function refreshFab(root) {
-  const fab = document.getElementById('ed-fab');
-  if (fab) fab.hidden = !root.querySelector('[data-eid]');
+  const tools = document.querySelector('.ed-tools');
+  if (tools) tools.hidden = !root.querySelector('[data-eid]');
 }
 
 // ----------------------------------------------------------------------- //
@@ -147,10 +176,12 @@ function refreshFab(root) {
 export function initEditor(root) {
   if (!root || root.__editInit) return;
   root.__editInit = true;
+  currentRoot = root;
 
   buildChrome();
   applyEdits(root);
   refreshFab(root);
+  updateTools();
 
   // Réapplique aux contenus injectés après coup (changement de question…).
   const obs = new MutationObserver(() => { applyEdits(root); refreshFab(root); });
