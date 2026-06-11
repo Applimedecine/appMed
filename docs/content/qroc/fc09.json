@@ -66,6 +66,74 @@
     "Les deux lèvent l'inhibition des LT à des étapes différentes"
    ],
    "trap": "CTLA-4 agit en phase d'amorçage (avant contact tumoral) ; PD-1 agit au niveau de la tumeur (phase effectrice). Les combiner a une efficacité supérieure mais une toxicité auto-immune accrue."
+  },
+  {
+   "id": "fc09-qroc6",
+   "difficulty": "facile",
+   "points": 2,
+   "question": "Distinguez les **antigènes tumoraux spécifiques (TSA)** des **antigènes tumoraux associés (TAA)**, et donnez un exemple de chacun.",
+   "answer": "Les **TSA (Tumor-Specific Antigens)** sont **exclusivement exprimés par les cellules tumorales**, absents des cellules normales. Ils résultent de **mutations** (néo-antigènes) ou de protéines virales (ex : **E6/E7 du HPV** dans le cancer du col). Très immunogènes, ce sont des cibles idéales. Les **TAA (Tumor-Associated Antigens)** sont **présents aussi sur les cellules normales** mais **surexprimés** ou exprimés de façon aberrante par la tumeur : ex **HER2** (sein), antigènes de différenciation (**MART-1/Melan-A**, mélanome), antigènes onco-fœtaux (**ACE**, **AFP**). Moins spécifiques, ils exposent à un risque de réaction contre les tissus sains.",
+   "keyPoints": [
+    "TSA : exclusifs à la tumeur (néo-antigènes mutés, HPV E6/E7)",
+    "TAA : présents sur cellules normales mais surexprimés (HER2, MART-1, ACE, AFP)",
+    "TSA = plus immunogènes et plus sûrs comme cibles"
+   ],
+   "trap": "Les antigènes onco-fœtaux (ACE, AFP) sont des TAA (exprimés pendant la vie fœtale puis réprimés), pas des TSA."
+  },
+  {
+   "id": "fc09-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les grandes étapes du **cycle de l'immunité anti-tumorale** (cancer-immunity cycle), de la tumeur au ganglion puis le retour des LT effecteurs.",
+   "answer": "Le cycle enchaîne : **(1)** libération d'**antigènes tumoraux** par les cellules cancéreuses (mort cellulaire) ; **(2)** **capture et apprêtement** par les **cellules dendritiques** ; **(3)** migration des DC vers le **ganglion** et **présentation** aux LT naïfs → **amorçage et activation** (avec costimulation) ; **(4)** **migration** des LT effecteurs par le sang vers la tumeur ; **(5)** **infiltration** du microenvironnement tumoral ; **(6)** **reconnaissance** des cellules tumorales via TCR/CMH-I ; **(7)** **destruction** (perforine/granzyme) → libération de nouveaux antigènes → ré-amplification du cycle. Chaque étape peut être bloquée par un mécanisme d'échappement et constitue une cible thérapeutique.",
+   "keyPoints": [
+    "Libération d'Ag → capture par DC → présentation au ganglion → amorçage LT",
+    "Migration + infiltration des LT dans la tumeur",
+    "Reconnaissance (TCR-CMH-I) → destruction → ré-amplification",
+    "Chaque étape = cible thérapeutique potentielle"
+   ]
+  },
+  {
+   "id": "fc09-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Les inhibiteurs de checkpoint exposent à des **effets indésirables immuno-médiés (irAE)**. Expliquez leur mécanisme, les principaux organes atteints et la prise en charge.",
+   "answer": "En levant les freins physiologiques de l'activation lymphocytaire (CTLA-4, PD-1/PD-L1), ces médicaments provoquent une **activation auto-immune** non spécifique de la tumeur → **irAE (immune-related Adverse Events)**. Organes les plus touchés : **peau** (rash, prurit, vitiligo), **tube digestif** (colite, diarrhée), **endocrine** (thyroïdite, hypophysite, diabète), **foie** (hépatite), **poumon** (pneumopathie). Ces toxicités peuvent être **graves voire fatales** (grade 3-4). Prise en charge : **corticothérapie** (immunosuppression), parfois anti-TNF (**infliximab**) pour les colites résistantes, et **arrêt** temporaire ou définitif de l'immunothérapie selon la gravité. La combinaison anti-CTLA-4 + anti-PD-1 majore la fréquence des irAE.",
+   "keyPoints": [
+    "Mécanisme : levée des freins → auto-immunité non ciblée",
+    "Organes : peau, digestif (colite), endocrine (thyroïde), foie, poumon",
+    "Grade 3-4 possible (grave)",
+    "PEC : corticoïdes ± anti-TNF, arrêt de l'immunothérapie"
+   ],
+   "trap": "Un irAE n'est pas un signe d'inefficacité : la survenue de toxicité auto-immune est souvent corrélée à une meilleure réponse antitumorale."
+  },
+  {
+   "id": "fc09-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Expliquez le principe des **CAR-T cells** : construction du récepteur, étapes de fabrication, principale indication et complication majeure.",
+   "answer": "Les **CAR-T cells** (Chimeric Antigen Receptor T cells) sont des **LT du patient génétiquement modifiés** pour exprimer un **récepteur chimérique** combinant un domaine de reconnaissance extracellulaire (**scFv**, fragment d'anticorps anti-antigène tumoral, ex **anti-CD19**) et des domaines de signalisation intracellulaires (**CD3ζ** + costimulation **CD28** ou **4-1BB**). Étapes : **(1)** prélèvement des LT (leucaphérèse) ; **(2)** **transduction** du gène CAR (vecteur viral) ; **(3)** **expansion** in vitro ; **(4)** réinjection. Avantage : reconnaissance de l'antigène **indépendante du CMH** (contourne la perte de CMH-I). Indication principale : **hémopathies B** (LAL, lymphomes B réfractaires) via l'anti-CD19. Complication majeure : le **syndrome de relargage cytokinique (CRS)** — tempête de cytokines (**IL-6** ++) → fièvre, hypotension, défaillance multiviscérale, traité par **tocilizumab** (anti-IL-6R) ; également neurotoxicité (**ICANS**).",
+   "keyPoints": [
+    "CAR = scFv (ex anti-CD19) + CD3ζ + costim (CD28/4-1BB)",
+    "Fabrication : leucaphérèse → transduction virale → expansion → réinjection",
+    "Reconnaissance indépendante du CMH",
+    "Indication : hémopathies B (LAL, lymphome B)",
+    "Complication : CRS (IL-6) → tocilizumab ; neurotoxicité ICANS"
+   ],
+   "trap": "Les CAR-T reconnaissent l'antigène sans présentation par le CMH : c'est leur force contre les tumeurs ayant perdu le CMH-I. La cible anti-CD19 explique l'aplasie B et l'hypogammaglobulinémie."
+  },
+  {
+   "id": "fc09-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Que distingue une tumeur **« chaude »** d'une tumeur **« froide »** sur le plan immunologique, et quelle est la valeur pronostique des **TILs** ?",
+   "answer": "Une tumeur **« chaude » (inflammée)** est **infiltrée par des lymphocytes T** (notamment CD8 cytotoxiques) : les **TILs (Tumor-Infiltrating Lymphocytes)**. Elle répond généralement **mieux à l'immunothérapie** (inhibiteurs de checkpoint) et est de **meilleur pronostic**. Une tumeur **« froide » (non infiltrée)** est **dépourvue d'infiltrat lymphocytaire** (exclusion ou désert immunitaire) → **mauvaise réponse** aux checkpoints et **moins bon pronostic**. La **densité et la localisation des TILs** (concept d'**Immunoscore**) ont une valeur pronostique forte, parfois supérieure à la classification TNM (ex : cancer du côlon). Des stratégies visent à « réchauffer » les tumeurs froides (vaccins, virus oncolytiques, combinaisons).",
+   "keyPoints": [
+    "Chaude = infiltrée de LT CD8 (TILs) → bonne réponse aux checkpoints, bon pronostic",
+    "Froide = pas d'infiltrat → mauvaise réponse, mauvais pronostic",
+    "TILs/Immunoscore : valeur pronostique forte (parfois > TNM)",
+    "Objectif : « réchauffer » les tumeurs froides"
+   ]
   }
  ]
 }

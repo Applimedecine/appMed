@@ -2,5 +2,234 @@
  "slug": "fc13",
  "title": "QCM — Bilan immunologique",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc13-q01",
+   "lesson": "fc13",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Quels examens font partie du **bilan immunologique de première intention** ?",
+   "options": [
+    "La **NFS avec formule leucocytaire**",
+    "Le **dosage pondéral des immunoglobulines** (IgG, IgA, IgM)",
+    "L'**électrophorèse des protéines sériques (EPP)**",
+    "Le **dosage du complément** (CH50, C3, C4)",
+    "La biopsie médullaire systématique"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Numération, immunoglobulines, EPP, complément = la base.",
+   "explanation": "Réponses ABCD. Le bilan de première intention comprend la **NFS** (formule leucocytaire : PNN, lymphocytes...), le **dosage pondéral des Ig**, l'**EPP** et le **complément (CH50, C3, C4)**. E faux : la **biopsie médullaire** n'est pas un examen de première intention et n'est réalisée que dans des indications ciblées (suspicion d'hémopathie). Le bilan biologique ne se conçoit qu'après un examen clinique complet.",
+   "tags": ["bilan", "première intention"],
+   "source": "FC13 — Bilan de première intention"
+  },
+  {
+   "id": "fc13-q02",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle technique permet le **typage lymphocytaire** (CD3, CD4, CD8, CD19, CD16/56) ?",
+   "options": [
+    "La **cytométrie de flux**",
+    "L'**électrophorèse des protéines sériques**",
+    "Le **CH50 hémolytique**",
+    "La **vitesse de sédimentation**",
+    "Le **test à la tuberculine (IDR)**"
+   ],
+   "correct": [0],
+   "hint": "Technique de phénotypage cellulaire par fluorescence.",
+   "explanation": "Le **typage (immunophénotypage) lymphocytaire** se fait par **cytométrie de flux**, qui identifie et compte les sous-populations selon leurs marqueurs membranaires (CD3 = LT, CD4, CD8, CD19 = LB, CD16/56 = NK). B faux : l'EPP étudie les protéines sériques globales, pas les cellules. C faux : le CH50 explore le complément. D faux : la VS est un marqueur d'inflammation. E faux : l'IDR explore la mémoire T spécifique (tuberculose).",
+   "tags": ["typage lymphocytaire", "cytométrie"],
+   "source": "FC13 — Bilan de première intention"
+  },
+  {
+   "id": "fc13-q03",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "À l'**électrophorèse des protéines sériques (EPP)**, que traduit un **pic étroit dans la zone gamma** (pic monoclonal) ?",
+   "options": [
+    "Une **gammapathie monoclonale** (myélome, MGUS)",
+    "Une hypogammaglobulinémie (déficit humoral)",
+    "Un syndrome inflammatoire isolé",
+    "Une lymphopénie CD4",
+    "Un déficit en complément"
+   ],
+   "correct": [0],
+   "hint": "Un pic = une seule immunoglobuline produite en excès par un clone.",
+   "explanation": "Un **pic monoclonal étroit** dans la zone gamma signe la présence d'une **immunoglobuline monoclonale** produite par un clone unique → **gammapathie monoclonale** (myélome multiple, MGUS). B faux : un déficit humoral se traduit au contraire par une **diminution** de la bande gamma (hypogammaglobulinémie). C faux : un syndrome inflammatoire donne plutôt une augmentation **polyclonale** des gamma-globulines et des alpha-globulines, sans pic étroit.",
+   "tags": ["EPP", "pic monoclonal"],
+   "source": "FC13 — Bilan de première intention"
+  },
+  {
+   "id": "fc13-q04",
+   "lesson": "fc13",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant la **CRP** et la **procalcitonine (PCT)** comme marqueurs inflammatoires :",
+   "options": [
+    "La **CRP** augmente surtout dans les **infections bactériennes** (et pas virales)",
+    "La **PCT** est un marqueur **plus précoce** que la CRP et corrélé à la **sévérité** de l'infection",
+    "La CRP est synthétisée par le **foie** sous l'effet de l'**IL-6**",
+    "Dans le **lupus (LES)**, la CRP s'élève typiquement fortement",
+    "La PCT s'élève préférentiellement dans les infections **virales**"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "CRP et PCT = infections bactériennes ; particularité de la CRP dans le lupus.",
+   "explanation": "Réponses ABC. La **CRP** (synthétisée par le foie sous dépendance de l'**IL-6**) augmente dans les **infections bactériennes** (apparition dès la 6e-12e heure). La **PCT** est encore plus **précoce** (2-3 h) et **corrélée à la sévérité**. D faux : dans le **lupus**, la CRP **ne s'élève typiquement pas** (dissociation VS accélérée / CRP normale). E faux : la PCT s'élève dans les infections **bactériennes**, pas virales.",
+   "tags": ["CRP", "procalcitonine"],
+   "source": "FC13 — Marqueurs inflammatoires"
+  },
+  {
+   "id": "fc13-q05",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel auto-anticorps est **spécifique du lupus érythémateux systémique (LES)** et corrélé à son activité (notamment la néphrite) ?",
+   "options": [
+    "Les **anti-ADN natif (anti-dsDNA)**",
+    "Les **anti-CCP / ACPA**",
+    "Les **ANCA anti-PR3 (c-ANCA)**",
+    "Les **anti-SSA / SSB**",
+    "Les **ANA (anticorps antinucléaires)** seuls"
+   ],
+   "correct": [0],
+   "hint": "Spécifique du lupus, suivi de la néphrite lupique.",
+   "explanation": "Les **anti-ADN natif (anti-dsDNA)** sont **spécifiques du LES** et leur titre est **corrélé à l'activité** de la maladie (néphrite lupique). B faux : les **anti-CCP/ACPA** sont spécifiques de la **polyarthrite rhumatoïde**. C faux : les **c-ANCA/anti-PR3** orientent vers une **vascularite** (granulomatose de Wegener). D faux : les anti-SSA/SSB orientent vers un **Sjögren** (lupus néonatal). E faux : les **ANA** sont très **sensibles mais peu spécifiques** (simple test de dépistage à compléter).",
+   "tags": ["auto-anticorps", "lupus", "anti-ADN natif"],
+   "source": "FC13 — Auto-anticorps"
+  },
+  {
+   "id": "fc13-q06",
+   "lesson": "fc13",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Associez correctement **auto-anticorps** et **pathologie** :",
+   "options": [
+    "**Anti-CCP / ACPA** → **polyarthrite rhumatoïde** (très spécifiques)",
+    "**c-ANCA / anti-PR3** → **granulomatose avec polyangéite** (ex-Wegener)",
+    "**p-ANCA / anti-MPO** → **polyangéite microscopique (PAM)**",
+    "**Anti-SSA** → risque de **bloc auriculo-ventriculaire** chez le fœtus (lupus néonatal)",
+    "**Anti-ADN natif** → polyarthrite rhumatoïde"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "ANCA = vascularites ; anti-CCP = PR ; anti-SSA = Sjögren/lupus néonatal.",
+   "explanation": "Réponses ABCD. **Anti-CCP** = PR ; **c-ANCA/anti-PR3** = Wegener ; **p-ANCA/anti-MPO** = PAM ; **anti-SSA** = Sjögren et **lupus néonatal** (risque de BAV fœtal). E faux : les **anti-ADN natif** sont spécifiques du **LES**, pas de la polyarthrite rhumatoïde (dont le marqueur spécifique est l'anti-CCP).",
+   "tags": ["auto-anticorps", "ANCA", "vascularites"],
+   "source": "FC13 — Auto-anticorps"
+  },
+  {
+   "id": "fc13-q07",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel **test fonctionnel** est négatif dans la **granulomatose septique chronique** (déficit en NADPH oxydase des PNN) ?",
+   "options": [
+    "Le **test du burst oxydatif (DHR)**",
+    "Le **test de prolifération lymphocytaire** à la PHA",
+    "Le **dosage pondéral des IgG**",
+    "Le **CH50**",
+    "La sérologie vaccinale antitétanique"
+   ],
+   "correct": [0],
+   "hint": "Explore la capacité des PNN à produire des radicaux oxygénés.",
+   "explanation": "Le **test du burst oxydatif (DHR)** évalue la production de radicaux oxygénés par les PNN après activation : il est **négatif** dans la **granulomatose septique chronique** (déficit en **NADPH oxydase**). B faux : la prolifération à la PHA (mitogène T) explore les **LT** (déficit T si ↓ réponse). C faux : le dosage des IgG explore l'immunité **humorale**. D faux : le CH50 explore le **complément**. E faux : la sérologie vaccinale teste la réponse humorale post-vaccinale.",
+   "tags": ["tests fonctionnels", "burst oxydatif", "DHR"],
+   "source": "FC13 — Tests fonctionnels"
+  },
+  {
+   "id": "fc13-q08",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "L'**immunofluorescence indirecte (IFI)** sur cellules **HEp-2** est utilisée pour rechercher :",
+   "options": [
+    "Les **anticorps antinucléaires (AAN/ANA)** dans les **connectivites**",
+    "Les **ANCA** sur neutrophiles",
+    "Les **anti-CCP** par ELISA",
+    "Le **complément hémolytique CH50**",
+    "Les sous-populations lymphocytaires"
+   ],
+   "correct": [0],
+   "hint": "Les cellules HEp-2 servent de support antigénique nucléaire.",
+   "explanation": "L'**IFI sur cellules HEp-2** (cellules épithéliales humaines riches en noyau) est la technique de dépistage des **anticorps antinucléaires (AAN/ANA)** dans les **connectivites** (lupus...). B faux : les **ANCA** se recherchent par IFI sur **neutrophiles** humains (et non HEp-2). C faux : les anti-CCP se dosent par **ELISA**, pas par IFI sur HEp-2. L'IFI est très **sensible mais peu spécifique** (technique qualitative à compléter par ELISA/Luminex).",
+   "tags": ["immunofluorescence", "HEp-2", "AAN"],
+   "source": "FC13 — Auto-anticorps / IFI"
+  },
+  {
+   "id": "fc13-q09",
+   "lesson": "fc13",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant la technique **ELISA** dans le bilan immunologique :",
+   "options": [
+    "Le complexe Ag/Ac est révélé par un **anticorps couplé à une enzyme** (signal colorimétrique ou lumineux)",
+    "Elle peut être **directe, indirecte, compétitive ou sandwich**",
+    "Elle sert aux **sérologies**, à la recherche d'**auto-anticorps** et au dosage des **anticorps anti-médicaments**",
+    "Les résultats peuvent être **qualitatifs, semi-quantitatifs ou quantitatifs**",
+    "Elle repose sur l'utilisation d'un **radio-isotope** comme traceur"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "ELISA = Enzyme-Linked ImmunoSorbent Assay.",
+   "explanation": "Réponses ABCD. Dans l'**ELISA**, le complexe Ag/Ac est révélé par un **anticorps couplé à une enzyme** (PAL, HRP...) produisant un signal proportionnel ; il existe quatre formats (**directe, indirecte, compétitive, sandwich**), pour des résultats **qualitatifs à quantitatifs**, et de multiples applications (sérologies, auto-Ac, dosage de biothérapies). E faux : le **radio-isotope** caractérise le **RIA** (technique de référence quasi abandonnée), et non l'ELISA qui utilise une **enzyme**.",
+   "tags": ["ELISA", "techniques"],
+   "source": "FC13 — Techniques (ELISA)"
+  },
+  {
+   "id": "fc13-q10",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Une **hypocomplémentémie** par **consommation** de la voie classique (↓ CH50, ↓ C4) oriente principalement vers :",
+   "options": [
+    "Une **maladie auto-immune à complexes immuns** (lupus systémique, vascularites)",
+    "Un syndrome inflammatoire banal (la consommation du complément y est typique)",
+    "Un infarctus du myocarde en phase aiguë",
+    "Une hépatite aiguë",
+    "Un cancer solide en poussée"
+   ],
+   "correct": [0],
+   "hint": "Consommation = activation excessive (complexes immuns).",
+   "explanation": "Une **baisse du CH50 et du C4** traduit une **consommation** par activation de la **voie classique** → **maladies à complexes immuns** : **lupus systémique**, vascularites, maladie sérique. Les propositions B à E correspondent au contraire à des situations d'**hypercomplémentémie** (inflammation non immunologique : cancers, hépatites aiguës, IDM en phase aiguë), où le complément augmente. C'est l'**hypo**-complémentémie (consommation) qui est la plus informative pour une pathologie auto-immune.",
+   "tags": ["complément", "hypocomplémentémie", "lupus"],
+   "source": "FC13 — Bilan du complément"
+  },
+  {
+   "id": "fc13-q11",
+   "lesson": "fc13",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Parmi les **déficits immunitaires primitifs (DIP)**, quel groupe est le **plus fréquent** ?",
+   "options": [
+    "Les **déficits en lymphocytes B** (hypo/agammaglobulinémies) — environ **50 %**",
+    "Les **déficits en lymphocytes T** (DICS) — les plus fréquents",
+    "Les **déficits en phagocytes**",
+    "Les **déficits du complément**",
+    "Les déficits immunitaires communs variables (DICV)"
+   ],
+   "correct": [0],
+   "hint": "Les plus fréquents ≠ les plus sévères.",
+   "explanation": "Les **déficits en lymphocytes B** (agammaglobulinémie de Bruton, déficit sélectif en IgA, etc.) représentent environ **50 %** des DIP : ce sont les **plus fréquents**. B faux : les déficits en **LT (DICS)** sont les plus **sévères** mais moins fréquents (~10 %). Les **DICV** représentent ~20 %, les déficits en **phagocytes** ~18 %, et les déficits du **complément** < 2 % (souvent associés à des formes de lupus). À retenir : plus fréquents (LB) ≠ plus sévères (LT).",
+   "tags": ["déficits immunitaires primitifs", "lymphocytes B"],
+   "source": "FC13 — Déficits immunitaires primitifs"
+  },
+  {
+   "id": "fc13-q12",
+   "lesson": "fc13",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant l'**exploration fonctionnelle de la réponse humorale par la vaccination** (sérologies post-vaccinales) :",
+   "options": [
+    "Un vaccin **protéique conjugué** (Diphtérie-Tétanos-Polio) explore surtout la réponse en **IgG1**",
+    "Un vaccin **polysaccharidique** (Pneumo23, Méningo) explore surtout la réponse en **IgG2**",
+    "Les anticorps spécifiques produits sont dosés par **ELISA**",
+    "En cas d'absence de réponse, on peut **revacciner** puis recontrôler le titre quelques mois plus tard",
+    "Une réponse post-vaccinale absente **élimine** formellement un déficit immunitaire"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Protéique → IgG1 ; polysaccharidique → IgG2 ; on revaccine si pas de réponse.",
+   "explanation": "Réponses ABCD. Cette exploration teste la **fonctionnalité des LB** : un vaccin **protéique (DTP)** stimule surtout les **IgG1**, un vaccin **polysaccharidique (Pneumo23)** surtout les **IgG2** ; les anticorps spécifiques sont mesurés par **ELISA** ; en l'absence de réponse, on **revaccine** et on recontrôle. E faux : une **absence de réponse n'élimine pas** un déficit, au contraire elle **oriente vers un déficit fonctionnel / lymphocytaire**.",
+   "tags": ["réponse humorale", "vaccination", "IgG"],
+   "source": "FC13 — Exploration fonctionnelle humorale"
+  }
+ ]
 }

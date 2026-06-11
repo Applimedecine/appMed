@@ -2,5 +2,234 @@
  "slug": "fc10",
  "title": "QCM — Vaccins & adjuvants",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc10-q01",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel type d'immunisation un vaccin induit-il ?",
+   "options": [
+    "Une immunisation active : le sujet fabrique lui-même sa réponse immunitaire",
+    "Une immunisation passive : transfert d'anticorps d'un individu à un autre",
+    "Une immunisation passive par injection d'IgG préformées",
+    "Aucune immunisation, seulement une protection mécanique",
+    "Une immunisation exclusivement cellulaire sans production d'anticorps"
+   ],
+   "correct": [0],
+   "hint": "Le vaccin amène le sujet à produire sa propre réponse.",
+   "explanation": "Un vaccin induit une **immunisation active** : c'est l'organisme du sujet vacciné qui fabrique sa propre réponse immunitaire et sa mémoire. L'**immunisation passive** (B, C) correspond au **transfert d'anticorps** (ex. immunoglobulines) d'un individu à l'autre, ce qui n'est pas le mécanisme vaccinal. D est faux (le vaccin induit bien une réponse). E est faux : le vaccin induit aussi une réponse humorale (anticorps).",
+   "tags": ["définition", "immunisation active"],
+   "source": "FC10 — Définition de la vaccination"
+  },
+  {
+   "id": "fc10-q02",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant les **vaccins vivants atténués**, quelles propositions sont exactes ?",
+   "options": [
+    "Ils sont contre-indiqués chez l'immunodéprimé et la femme enceinte",
+    "Ils sont souvent efficaces dès une seule dose",
+    "Ils sollicitent bien l'immunité cellulaire et locale, sans adjuvant",
+    "Ils sont totalement dépourvus de risque infectieux",
+    "Le ROR, le BCG et la fièvre jaune en sont des exemples"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Un vaccin vivant garde un risque infectieux résiduel.",
+   "explanation": "Réponses ABCE. Les vaccins vivants atténués sont **contre-indiqués chez l'immunodéprimé et la femme enceinte**, souvent efficaces en **une dose**, sollicitent l'immunité cellulaire/locale **sans adjuvant**, et incluent **ROR, BCG, fièvre jaune**. D est faux : ils **ne sont pas dépourvus de risque infectieux** (réversion du virus polio, BCGites, vaccine généralisée), ce qui justifie justement leur contre-indication chez l'immunodéprimé.",
+   "tags": ["vaccins vivants atténués", "contre-indications"],
+   "source": "FC10 — Vaccins vivants atténués"
+  },
+  {
+   "id": "fc10-q03",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Qu'est-ce qu'un **toxoïde** (anatoxine) ?",
+   "options": [
+    "Une toxine bactérienne inactivée, non toxique mais restée immunogène",
+    "Une bactérie vivante atténuée par passages en culture",
+    "Un fragment d'ARN messager codant une protéine virale",
+    "Un polysaccharide capsulaire couplé à une protéine porteuse",
+    "Un virus entier inactivé par le formaldéhyde"
+   ],
+   "correct": [0],
+   "hint": "On retire la fraction toxique en gardant les épitopes. Exemples : tétanos, diphtérie.",
+   "explanation": "Un **toxoïde** est une **toxine bactérienne inactivée** (modification chimique/physique) : on supprime les groupes responsables de la toxicité tout en **conservant les épitopes immunogènes**, induisant des anticorps neutralisants. Exemples : **tétanos, diphtérie**. B décrit un vaccin vivant atténué, C un vaccin ARNm, D un vaccin conjugué, E un vaccin inactivé entier : aucun n'est un toxoïde.",
+   "tags": ["toxoïde", "anatoxine", "tétanos"],
+   "source": "FC10 — Vaccins inactivés particulaires"
+  },
+  {
+   "id": "fc10-q04",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Au-delà de quel seuil de **couverture vaccinale** estime-t-on pouvoir interrompre la transmission de la **rougeole** (immunité collective) ?",
+   "options": [
+    "Environ 95 %",
+    "Environ 50 %",
+    "Environ 65 %",
+    "Environ 30 %",
+    "Environ 10 %"
+   ],
+   "correct": [0],
+   "hint": "La rougeole est très contagieuse (R0 élevé), le seuil est donc très haut.",
+   "explanation": "La rougeole étant très contagieuse, la couverture vaccinale doit dépasser **~95 %** pour interrompre la transmission. En 2017, la France a connu une épidémie là où la couverture était tombée **sous 65 %** (Ardèche, Hautes-Alpes). Le seuil de 65 % (C) correspond à la couverture insuffisante observée, pas à l'objectif. Les autres valeurs sont trop basses.",
+   "tags": ["immunité collective", "rougeole", "couverture vaccinale"],
+   "source": "FC10 — Couverture vaccinale de la rougeole"
+  },
+  {
+   "id": "fc10-q05",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "**(Type ACC)** Concernant la vaccination, qu'induit **majoritairement** la première injection vaccinale (primo-vaccination) ?",
+   "options": [
+    "Une forte réponse IgM",
+    "L'activation et la production de lymphocytes B mémoires",
+    "Des cytokines pro-inflammatoires",
+    "Une forte réponse IgG d'emblée",
+    "Une réponse IgE"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "La réponse primaire est dominée par les IgM ; les IgG fortes attendent le rappel.",
+   "explanation": "Réponses ABC (calquées sur l'ACC). La **réponse primaire** est dominée par les **IgM**, s'accompagne d'une **activation des LB** et de la génération de **lymphocytes B mémoires**, dans un contexte de cytokines pro-inflammatoires. D est faux : la **forte réponse IgG** caractérise la **réponse secondaire** (rappel), pas la primo-vaccination. E est faux : les IgE relèvent de l'allergie, pas de la réponse vaccinale.",
+   "tags": ["réponse primaire", "IgM", "ACC"],
+   "source": "FC10 — ACC 2024 Q17 / 2023 Q4"
+  },
+  {
+   "id": "fc10-q06",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Comparée à la réponse primaire, la **réponse secondaire** (après rappel) se caractérise par :",
+   "options": [
+    "Une réponse plus rapide, plus intense, riche en IgG de haute affinité",
+    "Une réponse plus lente et moins puissante, riche en IgM",
+    "Une production exclusive d'IgD",
+    "Une absence de mémoire immunitaire",
+    "Une réponse identique à la réponse primaire"
+   ],
+   "correct": [0],
+   "hint": "La mémoire immunitaire accélère et amplifie la réponse au rappel.",
+   "explanation": "La **réponse secondaire** mobilise les lymphocytes mémoires : elle est **plus rapide (2-5 j), plus intense** et riche en **IgG de haute affinité** (maturation d'affinité). B décrit la réponse primaire (lente, IgM). C est faux (les IgD ne dominent pas). D est faux : c'est précisément la mémoire qui rend la réponse secondaire si efficace. E est faux (les deux réponses diffèrent nettement).",
+   "tags": ["réponse secondaire", "IgG", "mémoire"],
+   "source": "FC10 — Réponse immunitaire après exposition"
+  },
+  {
+   "id": "fc10-q07",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Opposez vaccins **polysaccharidiques purs** et **conjugués**. Quelles propositions sont exactes ?",
+   "options": [
+    "Les polysaccharides purs sont thymo-indépendants et produisent surtout des IgM",
+    "Les polysaccharides purs sont peu immunogènes chez l'enfant",
+    "Les vaccins conjugués ajoutent une protéine porteuse permettant une réponse CD4 et des IgG",
+    "Les vaccins conjugués produisent essentiellement des IgM sans mémoire",
+    "Les vaccins conjugués induisent une mémoire immunitaire"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "La protéine porteuse fait basculer la réponse vers les IgG et la mémoire.",
+   "explanation": "Réponses ABCE. Les **polysaccharides purs** sont **thymo-indépendants**, produisent surtout des **IgM**, sont **peu immunogènes chez l'enfant** (rappel tous les 5 ans, sans mémoire). Les **conjugués** ajoutent une **protéine porteuse** → réponse **CD4** → **IgG +++** et **mémoire**. D est faux : ce sont les conjugués qui produisent des **IgG** (avec mémoire), pas des IgM.",
+   "tags": ["polysaccharides", "conjugués", "IgM/IgG"],
+   "source": "FC10 — Vaccins polysaccharidiques"
+  },
+  {
+   "id": "fc10-q08",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "**(Type ACC)** Concernant les **avantages des adjuvants** vaccinaux, quelles propositions sont exactes ?",
+   "options": [
+    "Ils améliorent l'efficacité du vaccin chez les personnes âgées",
+    "Ils améliorent la biodisponibilité / la présentation de l'antigène",
+    "Ils permettent une meilleure conservation du vaccin au site d'injection",
+    "Ils diminuent l'inflammation locale",
+    "Ils permettent de réduire la quantité d'antigène nécessaire (« dose sparing »)"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Un adjuvant stimule la réponse : il n'est pas anti-inflammatoire.",
+   "explanation": "Réponses ABCE (calquées sur l'ACC). Les adjuvants **améliorent l'efficacité chez les sujets âgés/immunodéficients**, améliorent la **présentation/biodisponibilité** de l'antigène, le **protègent** au site d'injection (ex. aluminium qui ralentit sa dégradation), et permettent le **« dose sparing »**. D est faux : un adjuvant **stimule** la réponse immunitaire (active les signaux de danger/PRR) ; il n'a pas pour but de diminuer l'inflammation.",
+   "tags": ["adjuvants", "dose sparing", "ACC"],
+   "source": "FC10 — ACC 2023 Q7 / Les adjuvants"
+  },
+  {
+   "id": "fc10-q09",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle est la différence fondamentale entre vaccination **prophylactique** et **thérapeutique** ?",
+   "options": [
+    "Prophylactique = sujet naïf (prévenir) ; thérapeutique = sujet déjà exposé/infecté (réactiver les effecteurs)",
+    "Prophylactique = sujet déjà infecté ; thérapeutique = sujet naïf",
+    "La prophylactique n'induit aucune mémoire immunitaire",
+    "La thérapeutique ne s'applique qu'aux maladies non infectieuses",
+    "Les deux s'adressent uniquement à des sujets jamais exposés"
+   ],
+   "correct": [0],
+   "hint": "Prévenir avant tout contact vs traiter après contact.",
+   "explanation": "La vaccination **prophylactique** s'adresse à un sujet **naïf** : préparer le SI à une future infection (effecteurs + mémoire). La vaccination **thérapeutique** s'adresse à un sujet **déjà exposé/infecté** (infection chronique, cancers) : **réactiver des cellules effectrices non efficaces**. B inverse les définitions. C est faux (la prophylaxie induit bien une mémoire). D est faux (la thérapeutique inclut des contextes infectieux comme VHC/VIH). E est faux pour la thérapeutique.",
+   "tags": ["prophylactique", "thérapeutique"],
+   "source": "FC10 — Deux types de vaccination"
+  },
+  {
+   "id": "fc10-q10",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "**(Type ACC)** Concernant les **recommandations vaccinales chez la mère et l'enfant**, quelles propositions sont exactes ?",
+   "options": [
+    "Le vaccin antigrippal (inactivé) peut être réalisé au cours de la grossesse",
+    "La vaccination anti-coqueluche est recommandée dans l'entourage du jeune enfant (cocooning)",
+    "La vaccination ROR doit absolument être réalisée pendant la grossesse si la femme n'est pas immunisée",
+    "Les vaccins vivants atténués sont indiqués au cours de la grossesse",
+    "La vaccination de la femme enceinte peut protéger le nouveau-né dans les premiers mois de vie"
+   ],
+   "correct": [0, 1, 4],
+   "hint": "Le ROR est un vaccin vivant : que dit-on des vaccins vivants chez la femme enceinte ?",
+   "explanation": "Réponses ABE. Le **vaccin antigrippal inactivé** est recommandé pendant la grossesse ; la vaccination anti-**coqueluche** de l'entourage (**cocooning**) protège le nourrisson ; la vaccination maternelle protège le **nouveau-né** dans les premiers mois. C et D sont faux : le **ROR est un vaccin vivant atténué**, donc **contre-indiqué pendant la grossesse** (comme tous les vaccins vivants) — il ne doit surtout pas être fait pendant la grossesse.",
+   "tags": ["grossesse", "cocooning", "vaccins vivants", "ACC"],
+   "source": "FC10 — ACC 2022 Q13 / Vaccination et grossesse"
+  },
+  {
+   "id": "fc10-q11",
+   "lesson": "fc10",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Quel est le **seul épisode** considéré comme une mise en cause **réellement avérée** d'un vaccin dans une pathologie auto-immune, et par quel mécanisme ?",
+   "options": [
+    "La narcolepsie après vaccin H1N1 adjuvanté, par mimétisme moléculaire avec l'hypocrétine",
+    "L'autisme après vaccin ROR, par neuro-inflammation",
+    "La sclérose en plaques après vaccin contre l'hépatite B",
+    "Le syndrome de Guillain-Barré après vaccin antigrippal",
+    "La myofasciite à macrophages confirmée comme due à l'aluminium"
+   ],
+   "correct": [0],
+   "hint": "Un épitope d'un lot vaccinal ressemblait à une protéine de l'éveil/sommeil.",
+   "explanation": "La **narcolepsie après vaccin H1N1 adjuvanté (2014)** est le seul lien réellement **avéré** : certains lots contenaient un épitope proche de l'**hypocrétine** (régulant l'endormissement) → narcolepsie par **mimétisme moléculaire** (résolu après changement de composition). Les liens **autisme/ROR** (B, étude de Wakefield retirée), **SEP/hépatite B** (C) et **Guillain-Barré/grippe** (D) ont été **invalidés** (corrélation ≠ causalité). E est faux : la myofasciite à macrophages reste sans preuve, le rapport bénéfice/risque de l'aluminium étant favorable.",
+   "tags": ["auto-immunité", "narcolepsie", "mimétisme moléculaire"],
+   "source": "FC10 — Vaccin et auto-immunité"
+  },
+  {
+   "id": "fc10-q12",
+   "lesson": "fc10",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Un nourrisson de 5 mois, né de parents apparentés, vacciné par le **BCG**, présente une pneumopathie à *Pneumocystis jirovecii*, une lymphopénie (0,5 G/L) et des immunoglobulines effondrées. Concernant ce tableau, quelles affirmations sont **exactes** ?",
+   "options": [
+    "*Pneumocystis jirovecii* est un champignon opportuniste",
+    "Le tableau évoque un déficit immunitaire combiné sévère (DICS)",
+    "Le BCG est un vaccin vivant atténué, contre-indiqué en cas de déficit immunitaire",
+    "Le BCG est un vaccin 'tué' (inactivé)",
+    "Une infection disséminée au BCG (BCGite) est cohérente avec un déficit immunitaire sévère"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Le BCG est un vaccin vivant — d'où le danger en cas de DICS.",
+   "explanation": "Réponses ABCE (calquées sur l'ACC). *Pneumocystis jirovecii* est un **champignon opportuniste** ; l'association lymphopénie profonde + Ig nulles + infections opportunistes évoque un **DICS** ; le **BCG est un vaccin vivant atténué**, donc **contre-indiqué** chez l'immunodéprimé, et peut donner une **BCGite disséminée**. D est faux : le BCG n'est **pas** un vaccin tué, c'est un vaccin **vivant atténué** (Mycobacterium bovis atténué), ce qui explique précisément sa dangerosité ici.",
+   "tags": ["BCG", "DICS", "vaccin vivant", "ACC"],
+   "source": "FC10 — ACC 2023 Q22"
+  }
+ ]
 }

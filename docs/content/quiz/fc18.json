@@ -2,5 +2,234 @@
  "slug": "fc18",
  "title": "QCM — Déficits immunitaires (DIH)",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc18-q01",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la différence fondamentale entre un **déficit immunitaire héréditaire (DIH)** et un **déficit immunitaire acquis** ?",
+   "options": [
+    "Le DIH est une **erreur innée constitutionnelle** (transmission mendélienne) ; l'acquis est **secondaire** (traitement, maladie)",
+    "Le DIH survient toujours après 60 ans ; l'acquis dès la naissance",
+    "Le DIH est contagieux ; l'acquis ne l'est pas",
+    "Le DIH ne touche que l'immunité innée ; l'acquis que l'adaptative",
+    "Il n'existe aucune différence physiopathologique"
+   ],
+   "correct": [0],
+   "hint": "Pense « génétique, présent dès la naissance » vs « secondaire à une cause extérieure ».",
+   "explanation": "Le **DIH** est une **erreur innée du système immunitaire**, constitutionnelle, transmise selon les lois mendéliennes et se révélant tôt (ex : Bruton, SCID). Le déficit **acquis** est secondaire à un traitement (immunosuppresseurs, corticoïdes, chimiothérapie) ou une maladie (VIH). B, C, D et E sont faux (chronologie inversée, non contagieux, et les deux types peuvent toucher n'importe quel compartiment).",
+   "tags": ["DIH", "définition"],
+   "source": "FC18 — Généralités"
+  },
+  {
+   "id": "fc18-q02",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel gène est muté dans l'**agammaglobulinémie de Bruton (XLA)** ?",
+   "options": [
+    "Le gène **BTK** (Bruton Tyrosine Kinase), lié à l'**X**",
+    "Le gène ADA (adénosine désaminase)",
+    "Le gène codant la NADPH oxydase",
+    "Le gène de la chaîne γc (IL-2Rγ)",
+    "Le gène CD18 (intégrine β2)"
+   ],
+   "correct": [0],
+   "hint": "Le nom de la maladie contient celui de la kinase.",
+   "explanation": "L'**agammaglobulinémie de Bruton (XLA)** est due à la mutation du gène **BTK** (lié à l'X) → blocage au stade pré-B → absence de LB matures et d'Ig (garçons). L'ADA (B faux) et la γc (D faux) concernent des formes de SCID ; la NADPH oxydase (C faux) la granulomatose septique chronique ; CD18 (E faux) le déficit d'adhésion leucocytaire (LAD-1).",
+   "tags": ["Bruton", "BTK", "XLA"],
+   "source": "FC18 — Déficits humoraux"
+  },
+  {
+   "id": "fc18-q03",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le **déficit immunitaire commun variable (DICV)** est la cause la plus fréquente de déficit humoral sévère **chez l'adulte**. Quelle est sa particularité concernant les lymphocytes B ?",
+   "options": [
+    "Les LB sont **présents** mais **non fonctionnels** (défaut de sécrétion d'Ig)",
+    "Les LB sont totalement absents",
+    "Les LB sont en excès et hyperfonctionnels",
+    "Les LB produisent uniquement des IgE en excès",
+    "Il n'existe aucune anomalie des LB"
+   ],
+   "correct": [0],
+   "hint": "Contrairement à Bruton, les LB sont là — mais ils ne font pas leur travail.",
+   "explanation": "Dans le **DICV**, les LB sont **présents en nombre normal** mais **non fonctionnels** : défaut de sécrétion d'Ig (défaut de coopération LT/LB, déficit en cellules B mémoires) → hypogammaglobulinémie (IgG abaissées). C'est le point qui le distingue de **Bruton**, où les LB matures sont **absents** (B faux). C, D et E sont faux.",
+   "tags": ["DICV", "lymphocyte B"],
+   "source": "FC18 — Déficits humoraux"
+  },
+  {
+   "id": "fc18-q04",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel type d'agents infectieux touche préférentiellement les patients atteints d'un **déficit humoral** (déficit en anticorps) ?",
+   "options": [
+    "Les **bactéries encapsulées** (pneumocoque, Haemophilus, méningocoque)",
+    "Les virus à ADN exclusivement",
+    "Les mycobactéries intracellulaires",
+    "Les helminthes digestifs",
+    "Les prions"
+   ],
+   "correct": [0],
+   "hint": "Les anticorps opsonisent surtout les germes à capsule.",
+   "explanation": "Les déficits **humoraux** (LB/anticorps) exposent surtout aux infections à **bactéries encapsulées** (pneumocoque, Haemophilus, méningocoque), car les anticorps sont essentiels à leur opsonisation. Les virus, champignons et mycobactéries (B, C faux) caractérisent plutôt les déficits **cellulaires** (LT). Les helminthes (D) et les prions (E) ne sont pas la cible typique.",
+   "tags": ["déficit humoral", "bactéries encapsulées"],
+   "source": "FC18 — Classification"
+  },
+  {
+   "id": "fc18-q05",
+   "lesson": "fc18",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **déficit immunitaire combiné sévère (DICS / SCID)**, quelles propositions sont exactes ?",
+   "options": [
+    "Il associe une **absence de LT fonctionnels** (± LB, NK selon la forme)",
+    "Il se révèle par des infections graves **dès les premiers mois de vie**",
+    "Le traitement curatif repose sur la **greffe de cellules souches hématopoïétiques**",
+    "Les **vaccins vivants atténués** y sont **contre-indiqués** (risque de BCGite)",
+    "Les LB, lorsqu'ils sont présents, suffisent à produire des anticorps efficaces"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "« Bubble baby » : déficit profond et précoce, greffe indispensable, pas de vaccin vivant.",
+   "explanation": "Le **DICS** = absence de **LT fonctionnels** (± LB/NK selon la forme), avec infections graves **dès les premiers mois** ; le traitement curatif est la **greffe de CSH** et les **vaccins vivants** sont **contre-indiqués** (risque de BCGite). E est faux : même présents, les **LB sont dysfonctionnels** car la production d'anticorps dépend de l'aide des LT → le déficit reste **combiné**.",
+   "tags": ["DICS", "SCID"],
+   "source": "FC18 — DICS"
+  },
+  {
+   "id": "fc18-q06",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle est la forme la plus fréquente de **DICS**, et quel gène est en cause ?",
+   "options": [
+    "La forme **liée à l'X** par mutation de la **chaîne γc (IL-2Rγ)**, commune à plusieurs récepteurs de cytokines",
+    "La forme par déficit en complément C5",
+    "La forme par mutation de BTK",
+    "La forme par mutation de CD18",
+    "La forme par micro-délétion 22q11"
+   ],
+   "correct": [0],
+   "hint": "La chaîne γ « commune » est partagée par les récepteurs de l'IL-2, IL-4, IL-7, IL-9, IL-15 et IL-21.",
+   "explanation": "La forme la plus fréquente de DICS est **liée à l'X** : mutation du gène de la **chaîne γc (IL-2Rγ)**, commune aux récepteurs IL-2/4/7/9/15/21 → absence de LT et de NK, LB non fonctionnels. Le C5 (B faux) concerne les infections à Neisseria ; BTK (C faux) Bruton ; CD18 (D faux) le LAD-1 ; 22q11 (E faux) le syndrome de DiGeorge.",
+   "tags": ["DICS", "chaîne gamma commune", "IL-2Rγ"],
+   "source": "FC18 — DICS"
+  },
+  {
+   "id": "fc18-q07",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Dans la **granulomatose septique chronique (CGD)**, quelle est l'anomalie physiopathologique fondamentale ?",
+   "options": [
+    "Un déficit de la **NADPH oxydase** → absence de **burst oxydatif** : les PNN phagocytent mais ne tuent pas",
+    "Une absence totale de polynucléaires neutrophiles circulants",
+    "Un déficit de production d'immunoglobulines par les LB",
+    "Une absence de lymphocytes T par atrophie thymique",
+    "Un déficit en complément C3"
+   ],
+   "correct": [0],
+   "hint": "Le défaut est fonctionnel : la cellule mange la bactérie mais ne produit pas de radicaux bactéricides.",
+   "explanation": "La **CGD** est un déficit de la **NADPH oxydase** (gp91phox, le plus souvent lié à l'X) → pas d'**explosion oxydative** (O2-, H2O2, HClO) : les PNN **phagocytent mais ne tuent pas** les germes catalase+ (Staph. aureus, Aspergillus). Le nombre de PNN est normal (B faux) ; le déficit n'est ni humoral (C faux), ni lymphocytaire T (D faux), ni du complément (E faux) — le bilan immunitaire de base est d'ailleurs normal.",
+   "tags": ["CGD", "NADPH oxydase", "burst oxydatif"],
+   "source": "FC18 — Déficits phagocytaires"
+  },
+  {
+   "id": "fc18-q08",
+   "lesson": "fc18",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **diagnostic et le profil infectieux** de la granulomatose septique chronique, quelles propositions sont exactes ?",
+   "options": [
+    "Le **test à la DHR (dihydrorhodamine)** en cytométrie est anormal (pas de fluorescence)",
+    "Le **test au NBT (nitroblue de tétrazolium)** ne vire pas au bleu chez le patient déficitaire",
+    "Les infections typiques sont dues à des germes **catalase positifs** (Staph. aureus, Aspergillus)",
+    "Le bilan immunitaire de base (NFS, Ig, phénotype lymphocytaire) est habituellement **normal**",
+    "Le diagnostic repose sur un dosage abaissé des immunoglobulines"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Tests reposant sur la production (ou non) de radicaux libres ; bilan de base normal.",
+   "explanation": "Le diagnostic de CGD repose sur la mise en évidence de l'absence de radicaux : **test à la DHR** (pas de fluorescence) et historiquement **test au NBT** (pas de virage au bleu). Les germes sont **catalase+** (Staph. aureus → abcès, Aspergillus) et le **bilan immunitaire de base est normal** (anomalie de fonction des phagocytes). E est faux : les Ig sont **normales** — ce n'est pas un déficit humoral.",
+   "tags": ["CGD", "test DHR", "NBT"],
+   "source": "FC18 — Déficits phagocytaires"
+  },
+  {
+   "id": "fc18-q09",
+   "lesson": "fc18",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Un patient présente des méningites à **Neisseria meningitidis** à répétition, avec un bilan lymphocytaire et un dosage d'Ig normaux. Quel déficit évoquez-vous en priorité ?",
+   "options": [
+    "Un déficit en **fractions terminales du complément (C5-C9)**",
+    "Une agammaglobulinémie de Bruton",
+    "Un syndrome de DiGeorge",
+    "Une granulomatose septique chronique",
+    "Un déficit immunitaire commun variable"
+   ],
+   "correct": [0],
+   "hint": "Les infections à Neisseria à répétition sont la signature d'un déficit très ciblé.",
+   "explanation": "Les infections récidivantes à **Neisseria** (méningocoque, gonocoque) orientent vers un déficit des **fractions terminales du complément (C5-C9)**, indispensables au complexe d'attaque membranaire qui lyse les Neisseria. Bruton et le DICV (B, E faux) donnent des infections à bactéries encapsulées avec **Ig abaissées** ; DiGeorge (C faux) un déficit T ; la CGD (D faux) des infections à catalase+.",
+   "tags": ["complément", "Neisseria", "C5-C9"],
+   "source": "FC18 — Classification"
+  },
+  {
+   "id": "fc18-q10",
+   "lesson": "fc18",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **examens biologiques de première intention** devant une suspicion de déficit immunitaire, quelles propositions sont exactes (d'après les QCM du cours) ?",
+   "options": [
+    "La **NFS** doit être réalisée (recherche d'une lymphopénie persistante à explorer)",
+    "Le **dosage des IgG, IgA, IgM** évalue la réponse humorale de manière **indirecte**",
+    "Une **radiographie thoracique** peut explorer le thymus, bien que l'**échographie** soit meilleure",
+    "Une **sérologie** est réalisée après une infection prouvée",
+    "Le titrage des anticorps vaccinaux se fait dès **3 mois** de vie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Attention au seuil temporel du titrage des Ac vaccinaux (persistance des Ac maternels).",
+   "explanation": "En première intention : **NFS** (lymphopénie persistante à explorer), **dosage IgG/IgA/IgM** (évaluation **indirecte** de l'immunité humorale), **Rx thoracique** pour le thymus (échographie meilleure), **sérologie** après infection prouvée. E est faux : le titrage des **Ac vaccinaux** se fait après **6 mois** (avant, persistance des Ac maternels rendant l'interprétation impossible).",
+   "tags": ["bilan de première intention", "NFS", "Ig"],
+   "source": "FC18 — ACC QCM 1"
+  },
+  {
+   "id": "fc18-q11",
+   "lesson": "fc18",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Parmi ces **signes d'alerte d'un déficit immunitaire primitif chez l'enfant**, lesquels sont **réellement** retenus (parmi les 13 signes) ?",
+   "options": [
+    "**Plus de 2 sinusites** par an",
+    "**Plus de 8 otites** par an",
+    "Un **ralentissement de la croissance**",
+    "Un **antécédent familial** d'immunodéficience",
+    "**Une seule pneumonie** par an"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Le seuil pour les pneumonies est strict : ce n'est pas une seule par an.",
+   "explanation": "Sont retenus : **> 2 sinusites/an**, **> 8 otites/an**, **ralentissement de croissance**, **antécédent familial** d'immunodéficience (et aussi : > 3 pneumonies, > 2 mois d'antibiotiques/an, nécessité d'antibiotiques **IV**, 2 infections sévères/an, mycoses chroniques, cytopénie auto-immune…). E est faux : le seuil est de **plus de 2 (≥ 3) pneumonies** — **une seule** pneumonie par an n'est pas un signe d'alerte.",
+   "tags": ["signes d'alerte", "DIP", "pédiatrie"],
+   "source": "FC18 — Signes d'alerte"
+  },
+  {
+   "id": "fc18-q12",
+   "lesson": "fc18",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant le **syndrome de DiGeorge** et la prise en charge des DIH, quelles propositions sont exactes ?",
+   "options": [
+    "Le syndrome de DiGeorge est dû à une **micro-délétion 22q11**",
+    "Il associe **hypoplasie/aplasie du thymus**, **agénésie des parathyroïdes** et **cardiopathies congénitales**",
+    "Sa conséquence immunologique est un **déficit T** (réduction quantitative des LT)",
+    "Le **dépistage néonatal du DICS** repose sur le dosage des **TREC** (sang de Guthrie)",
+    "Le syndrome de DiGeorge est un déficit purement **humoral** sans anomalie thymique"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Délétion d'un petit morceau du chromosome 22 → atteinte de structures dérivées des arcs branchiaux.",
+   "explanation": "Le **syndrome de DiGeorge** résulte d'une **micro-délétion 22q11** : **hypoplasie/aplasie du thymus**, **agénésie des parathyroïdes** (hypocalcémie) et **cardiopathies congénitales** → **déficit T quantitatif**. Le **dépistage néonatal du DICS** utilise les **TREC** par PCR sur sang de Guthrie. E est faux : c'est un déficit **cellulaire (T)** avec atteinte **thymique** majeure, pas humoral.",
+   "tags": ["DiGeorge", "22q11", "TREC", "dépistage"],
+   "source": "FC18 — DIP syndromiques"
+  }
+ ]
 }

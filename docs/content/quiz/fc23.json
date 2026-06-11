@@ -2,5 +2,234 @@
  "slug": "fc23",
  "title": "QCM — Infections longues",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc23-q01",
+   "lesson": "fc23",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la caractéristique principale des **syndromes post-infectieux** qui les distingue de la phase aiguë de l'infection ?",
+   "options": [
+    "Ils surviennent après la résolution de la phase aiguë de l'infection",
+    "Ils sont dus à la persistance de l'agent infectieux actif",
+    "Ils se manifestent uniquement pendant la phase d'incubation",
+    "Ils surviennent exclusivement après des infections bactériennes",
+    "Ils disparaissent toujours en moins de deux semaines"
+   ],
+   "correct": [0],
+   "hint": "Post-infectieux = après la phase aiguë, pas pendant.",
+   "explanation": "Les **syndromes post-infectieux** se définissent par la persistance de symptômes **après la résolution de la phase aiguë** : l'infection est terminée mais les symptômes persistent durablement (semaines, mois, voire années). B est faux : l'agent infectieux n'est plus nécessairement actif à ce stade. C est faux : l'incubation précède les symptômes. D est faux : ils surviennent après des infections virales aussi bien que bactériennes. E est faux : ils peuvent persister très longtemps.",
+   "tags": ["syndromes post-infectieux", "définition"],
+   "source": "FC23 — Syndromes post-infectieux"
+  },
+  {
+   "id": "fc23-q02",
+   "lesson": "fc23",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est le **symptôme le plus fréquent** des syndromes post-infectieux, toutes étiologies confondues ?",
+   "options": [
+    "La fatigue",
+    "Les douleurs articulaires",
+    "Les troubles neurocognitifs",
+    "La dyspnée",
+    "Les douleurs musculaires"
+   ],
+   "correct": [0],
+   "hint": "Présent dans presque tous les syndromes post-infectieux décrits dans le cours.",
+   "explanation": "La **fatigue** est le symptôme le plus fréquent des syndromes post-infectieux, toutes étiologies confondues (COVID long, post-EBV, post-Ebola, post-Chikungunya…). Les douleurs musculaires (E), articulaires (B), les troubles neurocognitifs (C) et la dyspnée (D) sont également présents mais arrivent en second plan.",
+   "tags": ["syndromes post-infectieux", "fatigue", "symptômes"],
+   "source": "FC23 — Syndromes post-infectieux"
+  },
+  {
+   "id": "fc23-q03",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Quelles infections peuvent entraîner des **symptômes persistants** post-infectieux selon le cours ?",
+   "options": [
+    "Infection par le virus Ebola",
+    "Infection par le virus Chikungunya",
+    "Infection par le SARS-CoV-2 (COVID-19)",
+    "Infection par le virus Epstein-Barr (EBV)",
+    "Infection par Borrelia burgdorferi (maladie de Lyme)"
+   ],
+   "correct": [0, 1, 2, 3, 4],
+   "hint": "Tous les agents cités dans le cours peuvent laisser des séquelles.",
+   "explanation": "Toutes ces infections peuvent entraîner des symptômes persistants : **Ebola** (75 % des survivants présentent fatigue, douleurs articulaires) ; **Chikungunya** (arthralgies chroniques, alopécie) ; **SARS-CoV-2** (COVID long) ; **EBV** (syndrome de fatigue chronique) ; **Borrelia burgdorferi** (douleurs diffuses, fatigue persistante après traitement). Les syndromes post-infectieux sont donc un phénomène transversal, indépendant du type de pathogène.",
+   "tags": ["syndromes post-infectieux", "exemples", "agents infectieux"],
+   "source": "FC23 — Syndromes post-infectieux"
+  },
+  {
+   "id": "fc23-q04",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Selon la définition de l'**OMS**, quels critères définissent le **COVID long** ?",
+   "options": [
+    "Survenir après une infection aiguë par le SARS-CoV-2",
+    "Persister plus de deux mois après l'infection",
+    "Ne pas pouvoir être expliqué par une autre maladie",
+    "Être confirmé par un test PCR positif au moment du diagnostic",
+    "Survenir uniquement chez des patients ayant été hospitalisés"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Trois critères seulement — pas de biologie ni de critère de sévérité.",
+   "explanation": "L'OMS définit le **COVID long** par **3 critères** : (1) symptômes apparaissant après une infection aiguë par le **SARS-CoV-2** ; (2) persistant **plus de 2 mois** ; (3) ne pouvant pas être expliqués par une **autre maladie** — c'est un **diagnostic d'exclusion**. D est faux : un test PCR positif n'est pas requis (il peut avoir été négatif ou non réalisé lors de l'infection initiale). E est faux : le COVID long touche aussi les cas ambulatoires non sévères.",
+   "tags": ["COVID long", "définition OMS", "critères"],
+   "source": "FC23 — COVID long"
+  },
+  {
+   "id": "fc23-q05",
+   "lesson": "fc23",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle est la **prévalence estimée** du COVID long parmi les personnes infectées par le SARS-CoV-2 en 2025 ?",
+   "options": [
+    "Environ 6 personnes sur 100 infectées",
+    "Environ 1 personne sur 100 infectées",
+    "Environ 25 personnes sur 100 infectées",
+    "Environ 50 personnes sur 100 infectées",
+    "Environ 1 personne sur 1 000 infectées"
+   ],
+   "correct": [0],
+   "hint": "Chiffre fourni dans le cours pour 2025.",
+   "explanation": "Les études estiment qu'environ **6 personnes sur 100** infectées développent un COVID long en 2025. Par ailleurs, environ **4 % de la population française** était concernée en 2023, et entre **65 et 200 millions** de personnes dans le monde pourraient être touchées. Les autres chiffres (1/100, 25/100, 50/100, 1/1000) ne correspondent pas aux données épidémiologiques citées dans le cours.",
+   "tags": ["COVID long", "épidémiologie", "prévalence"],
+   "source": "FC23 — Épidémiologie COVID long"
+  },
+  {
+   "id": "fc23-q06",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **facteurs de risque** du COVID long, quelles propositions sont exactes ?",
+   "options": [
+    "Le sexe féminin est un facteur de risque",
+    "La présence de maladies chroniques préexistantes (diabète, arthrite rhumatoïde, migraines) augmente le risque",
+    "Une infection initiale sévère est un facteur de risque",
+    "Le variant Delta était associé à un risque plus élevé que le variant Omicron",
+    "La vaccination avant l'infection n'a aucun effet sur le risque de développer un COVID long"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "La vaccination est un facteur PROTECTEUR, pas un facteur de risque.",
+   "explanation": "Facteurs de risque identifiés : **sexe féminin** (A) ; **comorbidités** telles que diabète, arthrite rhumatoïde, migraines (B) ; **infection initiale sévère** (C) ; infection par le **variant Delta** (risque plus élevé qu'Omicron) (D). E est faux : la **vaccination est protectrice** — 1 dose avant l'infection réduit le risque d'environ **15 %**, 2 doses d'environ **24 %** ; les non-vaccinés présentent le risque le plus élevé.",
+   "tags": ["COVID long", "facteurs de risque", "variants"],
+   "source": "FC23 — Facteurs de risque COVID long"
+  },
+  {
+   "id": "fc23-q07",
+   "lesson": "fc23",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant l'effet **protecteur de la vaccination** contre le COVID long, quelle proposition est exacte ?",
+   "options": [
+    "2 doses de vaccin avant l'infection réduisent le risque d'environ 24 %",
+    "1 dose de vaccin avant l'infection réduit le risque d'environ 50 %",
+    "La vaccination après l'infection aiguë réduit significativement le risque de COVID long",
+    "Les patients vaccinés présentent le même risque de COVID long que les non-vaccinés",
+    "3 doses sont nécessaires pour obtenir une réduction significative du risque"
+   ],
+   "correct": [0],
+   "hint": "Mémorise les chiffres exacts : 15 % pour 1 dose et 24 % pour 2 doses.",
+   "explanation": "Les études montrent : **2 doses** de vaccin **avant** l'infection → réduction d'environ **24 %** du risque de COVID long ; **1 dose** → réduction d'environ **15 %** ; les non-vaccinés ont le risque le plus élevé. B est faux : 1 dose = **15 %**, pas 50 %. C : la vaccination **avant** (et non après) l'infection est le facteur protecteur étudié. D est faux : les vaccinés ont un risque inférieur. E est faux : l'effet protecteur est observable dès 1–2 doses.",
+   "tags": ["COVID long", "vaccination", "protection", "facteurs protecteurs"],
+   "source": "FC23 — Facteurs protecteurs"
+  },
+  {
+   "id": "fc23-q08",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Parmi les **hypothèses mécanistiques** proposées pour expliquer le COVID long, lesquelles sont correctement décrites ?",
+   "options": [
+    "Persistance de matériel génétique viral du SARS-CoV-2 dans différents tissus (foie, cerveau, poumon, peau)",
+    "Présence de micro-caillots (microthromboses) perturbant la circulation et l'oxygénation tissulaire",
+    "Dysfonction immunitaire avec élévation des IgG, abaissement du cortisol et inflammation persistante",
+    "Réactivation du virus Epstein-Barr chez certains patients atteints de COVID long",
+    "Présence d'auto-anticorps avec des résultats concordants dans toutes les études publiées"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Les auto-anticorps existent bien mais les résultats sont contradictoires selon les études.",
+   "explanation": "Quatre hypothèses sont correctement décrites : **(A) Persistance virale** (ARN/protéines SARS-CoV-2 retrouvés dans les tissus plusieurs mois après l'infection) ; **(B) Micro-caillots** (microthromboses, hypoxie tissulaire) ; **(C) Dysfonction immunitaire** (IgG élevées, cortisol bas, inflammation chronique) ; **(D) Réactivation de l'EBV**. E est faux : les **auto-anticorps** sont décrits chez certains patients mais les résultats sont **contradictoires** entre les études — l'unanimité est absente.",
+   "tags": ["COVID long", "mécanismes", "hypothèses"],
+   "source": "FC23 — Hypothèses mécanistiques"
+  },
+  {
+   "id": "fc23-q09",
+   "lesson": "fc23",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant les **manifestations post-infectieuses du virus Chikungunya**, quelle proposition est exacte ?",
+   "options": [
+    "Les arthralgies chroniques touchent notamment les chevilles et les genoux et peuvent persister des mois",
+    "Les symptômes post-infectieux disparaissent toujours dans les 48 h suivant la phase aiguë",
+    "L'alopécie est absente dans les séquelles décrites après une infection par le Chikungunya",
+    "Les douleurs articulaires post-Chikungunya disparaissent systématiquement en 4 semaines",
+    "Le Chikungunya ne provoque que des complications neurologiques persistantes"
+   ],
+   "correct": [0],
+   "hint": "Le Chikungunya est connu pour ses arthralgies chroniques persistantes.",
+   "explanation": "L'infection par le **Chikungunya** peut entraîner des **arthralgies chroniques** (chevilles et genoux notamment) ainsi qu'une **alopécie**, pouvant persister des mois après la phase aiguë. B est faux : les symptômes persistent bien au-delà de 48 h. C est faux : l'alopécie fait partie des séquelles documentées. D est faux : les douleurs articulaires peuvent persister bien plus de 4 semaines. E est faux : les séquelles principales sont **articulaires**, pas neurologiques.",
+   "tags": ["Chikungunya", "arthralgies", "post-infectieux", "alopécie"],
+   "source": "FC23 — Chikungunya"
+  },
+  {
+   "id": "fc23-q10",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **mécanismes des arthralgies persistantes post-Chikungunya**, quelles propositions sont exactes ?",
+   "options": [
+    "L'hypothèse 1 fait intervenir les lymphocytes Th17 produisant de l'IL-17",
+    "L'IL-17 active des métalloprotéinases matricielles (MMP) et RANKL, agissant sur les ostéoclastes et le cartilage",
+    "L'hypothèse 2 implique la persistance d'ARN viral activant les macrophages via le récepteur SLAMF7",
+    "L'hypothèse 1 implique les lymphocytes Th1 producteurs d'IFN-γ",
+    "L'hypothèse 2 implique une activation des lymphocytes B par les fragments viraux persistants"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "H1 = Th17 / IL-17 / MMP / RANKL ; H2 = ARN viral / macrophages / SLAMF7.",
+   "explanation": "Deux hypothèses mécanistiques : **H1** — les cellules **Th17** produisent de l'**IL-17**, qui active les **MMP (métalloprotéinases matricielles)** et **RANKL**, agissant sur les **ostéoclastes et le cartilage** → lésions articulaires inflammatoires (A, B corrects). **H2** — l'**ARN viral persistant** active les **macrophages via le récepteur SLAMF7** → inflammation chronique locale (C correct). D est faux : l'hypothèse 1 implique les **Th17**, pas les Th1/IFN-γ. E est faux : H2 implique les macrophages (via SLAMF7), pas les lymphocytes B.",
+   "tags": ["Chikungunya", "mécanismes", "Th17", "IL-17", "SLAMF7"],
+   "source": "FC23 — Mécanismes Chikungunya"
+  },
+  {
+   "id": "fc23-q11",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **séquelles post-infectieuses de la maladie de Lyme** (Borrelia burgdorferi), quelles propositions sont exactes ?",
+   "options": [
+    "Des symptômes persistants (fatigue, douleurs diffuses) peuvent survenir même après traitement antibiotique bien conduit",
+    "L'une des hypothèses est la persistance de réservoirs bactériens",
+    "La persistance de fragments bactériens peut stimuler de façon prolongée le système immunitaire",
+    "Des co-infections avec d'autres agents transmis par les tiques peuvent être impliquées",
+    "Le traitement antibiotique élimine toujours complètement tous les symptômes persistants"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Les mécanismes sont multiples et le traitement n'est pas toujours suffisant.",
+   "explanation": "Pour la maladie de Lyme : (A) des symptômes persistent **même après traitement antibiotique** bien conduit (fatigue, douleurs diffuses, troubles cognitifs) ; (B) hypothèse de **persistance de réservoirs bactériens** ; (C) des **fragments bactériens persistants** stimulent le SI → inflammation ; (D) **co-infections** avec d'autres agents transmis par les tiques peuvent être impliquées. E est faux : le traitement antibiotique ne garantit pas la disparition complète des symptômes persistants.",
+   "tags": ["Lyme", "Borrelia burgdorferi", "post-infectieux", "mécanismes"],
+   "source": "FC23 — Maladie de Lyme"
+  },
+  {
+   "id": "fc23-q12",
+   "lesson": "fc23",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "**(Type annale)** Concernant les syndromes post-infectieux et le COVID long, laquelle (ou lesquelles) de ces affirmations est (sont) **exacte(s)** ?",
+   "options": [
+    "La fatigue est le symptôme le plus fréquent des syndromes post-infectieux",
+    "Le COVID long est défini selon l'OMS par des symptômes persistant plus de 2 mois, inexpliqués par une autre maladie",
+    "Le diagnostic du COVID long est un diagnostic d'exclusion",
+    "Le variant Omicron était associé à un risque de COVID long plus élevé que le variant Delta",
+    "La vaccination avant l'infection est le principal facteur protecteur contre le COVID long"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Attention à la comparaison Delta vs Omicron : lequel était le plus à risque ?",
+   "explanation": "Réponses ABCE. La **fatigue** est le symptôme le plus fréquent (A). Le COVID long est défini par des symptômes persistant **> 2 mois**, inexpliqués par une autre maladie (B). Le diagnostic est d'**exclusion** (C). La **vaccination** est le principal facteur protecteur (E). D est faux : c'est le **variant Delta** qui était associé à un risque **plus élevé** que le variant Omicron — l'inverse est incorrect.",
+   "tags": ["annale", "COVID long", "synthèse", "ACC"],
+   "source": "FC23 — ACC"
+  }
+ ]
 }

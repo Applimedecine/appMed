@@ -109,8 +109,8 @@
    "prof": "Pr. Lefebvre",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -123,8 +123,8 @@
    "prof": "Pr. Lefèvre",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -137,10 +137,10 @@
    "prof": "Pr. Paul",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 5
+   "qrocCount": 10
   },
   {
    "slug": "fc10",
@@ -151,8 +151,8 @@
    "prof": "Pr. Paul",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -165,8 +165,8 @@
    "prof": "Pr. Berger",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -179,8 +179,8 @@
    "prof": "Dr. Waeckel",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -193,8 +193,8 @@
    "prof": "Pr. Paul",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -207,8 +207,8 @@
    "prof": "Pr. Longet",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -221,10 +221,10 @@
    "prof": "Pr. Mariat",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 5
+   "qrocCount": 10
   },
   {
    "slug": "fc16",
@@ -235,8 +235,8 @@
    "prof": "Dr. Waeckel",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -249,8 +249,8 @@
    "prof": "Dr. Waeckel",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -263,8 +263,8 @@
    "prof": "Pr. Stephan",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -277,8 +277,8 @@
    "prof": "Pr. Maillard",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -291,8 +291,8 @@
    "prof": "Pr. Berger",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -305,8 +305,8 @@
    "prof": "Pr. Killian",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
   },
@@ -319,10 +319,10 @@
    "prof": "Pr. Hean",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 5
+   "qrocCount": 10
   },
   {
    "slug": "fc23",
@@ -333,10 +333,10 @@
    "prof": "Pr. Longet",
    "hasCours": true,
    "hasFiche": true,
-   "hasQuiz": false,
-   "quizCount": 0,
+   "hasQuiz": true,
+   "quizCount": 12,
    "hasQroc": true,
-   "qrocCount": 5
+   "qrocCount": 10
   }
  ],
  "annales": [

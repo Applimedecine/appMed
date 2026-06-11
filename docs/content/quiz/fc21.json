@@ -2,5 +2,234 @@
  "slug": "fc21",
  "title": "QCM — Lupus (LES)",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc21-q01",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le **lupus érythémateux systémique (LES)** est :",
+   "options": [
+    "Une maladie auto-immune **systémique** (connectivite), touchant potentiellement plusieurs organes",
+    "Une maladie auto-immune **spécifique d'organe** touchant uniquement la peau",
+    "Une maladie infectieuse chronique",
+    "Une maladie allergique de type I (IgE)",
+    "Une hémopathie maligne lymphoïde"
+   ],
+   "correct": [0],
+   "hint": "« Systémique » = plusieurs organes ; c'est une connectivite.",
+   "explanation": "Le LES est une **maladie auto-immune systémique** (une connectivite), avec une atteinte **protéiforme** (articulaire, cutanée, rénale, hématologique, neurologique). Ce n'est **pas** une maladie spécifique d'organe (B faux) : par définition plusieurs organes peuvent être impliqués.",
+   "tags": ["définition", "connectivite"],
+   "source": "FC21 — Introduction"
+  },
+  {
+   "id": "fc21-q02",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est le **sex-ratio** caractéristique du LES ?",
+   "options": [
+    "Prédominance féminine nette, environ **9 femmes pour 1 homme**",
+    "Prédominance masculine, environ 9 hommes pour 1 femme",
+    "Strictement 1 femme pour 1 homme",
+    "Exclusivement féminin (aucun homme atteint)",
+    "Exclusivement pédiatrique"
+   ],
+   "correct": [0],
+   "hint": "Femmes jeunes surtout, en période d'activité hormonale.",
+   "explanation": "Le LES touche surtout les **femmes jeunes** : sex-ratio **≈ 9F/1H**. Cette prédominance féminine, avec un début rare avant la puberté et après la ménopause, est un argument en faveur du rôle des facteurs **hormonaux** (œstrogènes). Le lupus n'est pas exclusivement féminin ni pédiatrique (D, E faux).",
+   "tags": ["épidémiologie", "sex-ratio"],
+   "source": "FC21 — Introduction"
+  },
+  {
+   "id": "fc21-q03",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le **rash malaire** (érythème en papillon) du LES :",
+   "options": [
+    "Touche les **joues et le nez**, est **photosensible**, apparaît lors des poussées puis régresse",
+    "Touche uniquement les paumes et les plantes, sans lien avec le soleil",
+    "Est une lésion permanente et cicatricielle qui ne régresse jamais",
+    "Est insensible aux ultraviolets",
+    "Prédomine sur les zones non exposées au soleil"
+   ],
+   "correct": [0],
+   "hint": "« Masque de loup », régions photo-exposées, transitoire.",
+   "explanation": "Le rash malaire touche préférentiellement les **joues et le nez** (« masque de loup »), il est **photosensible** (aggravé par les UV, critère de classification) et **apparaît lors des poussées puis disparaît** entre les crises. Il n'est donc pas permanent/cicatriciel (C faux) — à distinguer du **lupus discoïde**, lui cicatriciel.",
+   "tags": ["rash malaire", "photosensibilité"],
+   "source": "FC21 — Manifestations cutanées"
+  },
+  {
+   "id": "fc21-q04",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Parmi les facteurs **déclenchants/environnementaux** du LES, lequel agit en induisant l'apoptose des kératinocytes ?",
+   "options": [
+    "Les **rayons ultraviolets (UV)**",
+    "Le tabac exclusivement",
+    "L'altitude élevée",
+    "Une carence en fer",
+    "L'exercice physique intense"
+   ],
+   "correct": [0],
+   "hint": "Le soleil aggrave le lupus ; les corps apoptotiques libérés sont immunogènes.",
+   "explanation": "Les **UV** induisent l'**apoptose des kératinocytes** : les corps apoptotiques libèrent des auto-antigènes (ADN double brin, Ro/SSA, RNP) qui deviennent immunogènes et déclenchent une réponse immune, avec des manifestations parfois systémiques (articulaires, rénales). La photoprotection est conseillée aux patients lupiques. Les autres facteurs cités ne correspondent pas à ce mécanisme.",
+   "tags": ["UV", "facteurs déclenchants"],
+   "source": "FC21 — Facteurs environnementaux"
+  },
+  {
+   "id": "fc21-q05",
+   "lesson": "fc21",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **auto-anticorps du LES**, quelles propositions sont exactes ?",
+   "options": [
+    "Les **anti-Sm** sont parmi les anticorps les **plus spécifiques** du LES",
+    "Les **anti-ADN natif (anti-ADNn)** sont **fréquemment** retrouvés et figurent parmi les critères immunologiques",
+    "Le titre des anti-ADN natif est **corrélé à l'activité** de la maladie (notamment rénale)",
+    "On peut avoir ces anticorps **sans symptôme** (la maladie pouvant survenir plus tard)",
+    "Les anti-ADN natif sont **systématiquement** présents chez tous les patients lupiques"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Anti-Sm = très spécifique ; anti-ADNn = fréquents (non systématiques) et corrélés à l'activité.",
+   "explanation": "Les **anti-Sm** comptent parmi les anticorps les **plus spécifiques** du LES. Les **anti-ADN natif** sont **fréquemment** retrouvés (critère immunologique) et leur titre est **corrélé à l'activité**, surtout rénale. On peut détecter ces anticorps **avant l'apparition des symptômes**. La proposition E est fausse : les anti-ADNn sont **fréquents mais non systématiques** (piège classique).",
+   "tags": ["auto-anticorps", "anti-Sm", "anti-ADN"],
+   "source": "FC21 — Auto-anticorps"
+  },
+  {
+   "id": "fc21-q06",
+   "lesson": "fc21",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant la **physiopathologie du LES**, quelles propositions sont exactes ?",
+   "options": [
+    "Elle est **multifactorielle** (facteurs génétiques, environnementaux et hormonaux)",
+    "Un **défaut d'élimination des corps apoptotiques** est un mécanisme clé (rupture de tolérance)",
+    "Les **complexes immuns circulants** s'accumulent dans les tissus, notamment le **rein**",
+    "Le LES fait partie des **interféronopathies de type 1** (↑ IFN-α)",
+    "On observe une **diminution** de l'interféron alpha dans cette pathologie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "IFN-α AUGMENTE (interféronopathie). Corps apoptotiques mal éliminés + CIC.",
+   "explanation": "Le LES est **multifactoriel** (génétique, environnement, hormones). Un **défaut d'élimination des corps apoptotiques** (déficit C1q, DNases) entraîne une rupture de tolérance ; les **complexes immuns circulants** se déposent dans les tissus, notamment le **rein** (néphrite lupique). C'est une **interféronopathie de type 1** avec **augmentation de l'IFN-α**. La proposition E est donc fausse : l'IFN-α est **très augmenté** (et non diminué).",
+   "tags": ["physiopathologie", "interféronopathie", "corps apoptotiques"],
+   "source": "FC21 — Physiopathologie"
+  },
+  {
+   "id": "fc21-q07",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel est le rôle de la **cellule dendritique plasmacytoïde (pDC)** dans la boucle physiopathologique du LES ?",
+   "options": [
+    "Activée par l'ADN via **TLR7/TLR9**, elle produit massivement de l'**IFN-α** (interféron de type I)",
+    "Elle sécrète de grandes quantités d'IL-10 anti-inflammatoire pour éteindre la réaction",
+    "Elle phagocyte les complexes immuns pour les éliminer du rein",
+    "Elle produit des anticorps anti-ADN natif",
+    "Elle inhibe l'activation des lymphocytes B auto-réactifs"
+   ],
+   "correct": [0],
+   "hint": "pDC = principale source d'IFN de type I, déclenchée par les acides nucléiques via les TLR.",
+   "explanation": "Les **pDC** sont activées par l'ADN (et les complexes immuns contenant de l'ADN) via **TLR7/TLR9** et produisent massivement de l'**IFN-α** (IFN de type I), moteur de la boucle auto-immune (maturation des DC, présentation d'auto-antigènes, activation des LT/LB auto-réactifs). Elles ne produisent pas d'anticorps (rôle des plasmocytes, D faux) et ne sont pas anti-inflammatoires ici (B faux).",
+   "tags": ["pDC", "IFN-alpha", "TLR"],
+   "source": "FC21 — Boucle IFN"
+  },
+  {
+   "id": "fc21-q08",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant la cytokine **IL-10** dans le LES, quelle proposition est exacte ?",
+   "options": [
+    "L'IL-10 est une cytokine **anti-inflammatoire**",
+    "L'IL-10 est la cytokine pro-inflammatoire majeure responsable de la néphrite lupique",
+    "L'IL-10 est l'interféron de type I produit par les pDC",
+    "L'IL-10 est un auto-anticorps spécifique du LES",
+    "L'IL-10 est produite uniquement par les kératinocytes apoptotiques"
+   ],
+   "correct": [0],
+   "hint": "Ne pas confondre une cytokine anti-inflammatoire avec l'IFN-α.",
+   "explanation": "L'**IL-10** est une cytokine **anti-inflammatoire**. Le piège fréquent est d'affirmer que le LES est « caractérisé par une production importante d'IL-10 » (faux : c'est l'**IFN-α** qui est massivement produit, l'IL-10 étant anti-inflammatoire). L'IFN de type I est produit par les pDC (C faux).",
+   "tags": ["IL-10", "cytokines"],
+   "source": "FC21 — Physiopathologie"
+  },
+  {
+   "id": "fc21-q09",
+   "lesson": "fc21",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Quelles atteintes peuvent entrer dans les **critères de classification** du LES ?",
+   "options": [
+    "**Cutanée** : rash malaire, lupus discoïde, photosensibilité, ulcérations buccales",
+    "**Articulaire** : arthrites **non érosives** d'au moins 2 articulations périphériques",
+    "**Rénale** : protéinurie persistante > 0,5 g/j ou cylindrurie",
+    "**Hématologique** : anémie hémolytique, leucopénie, lymphopénie ou thrombopénie",
+    "Ce sont des critères de **diagnostic** dont 4 sont obligatoires pour affirmer la maladie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Ce sont des critères de CLASSIFICATION (pas de diagnostic). Arthrites NON érosives.",
+   "explanation": "Les critères couvrent la **peau**, les **articulations** (arthrites **non érosives** ; si érosives → penser PR), le **rein** (protéinurie > 0,5 g/j ou cylindrurie), l'**hématologie** (cytopénies auto-immunes), les séroses, le neuro et l'immunologie. La proposition E est fausse : ce sont des critères de **classification** (et non de diagnostic) — on peut avoir le lupus sans 4 critères, et inversement.",
+   "tags": ["critères", "classification"],
+   "source": "FC21 — Critères de classification"
+  },
+  {
+   "id": "fc21-q10",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Concernant les **déficits en protéines de la voie classique du complément** et le LES :",
+   "options": [
+    "La sévérité est **croissante avec la précocité** du déficit : **C1q > C4 >> C2**",
+    "Seuls les déficits de la voie **alterne** prédisposent au LES",
+    "Le déficit en C2 donne le lupus le plus sévère et le plus fréquent",
+    "Ces déficits **protègent** du LES en limitant l'inflammation",
+    "Le déficit en facteur H de la voie alterne est la cause principale du LES"
+   ],
+   "correct": [0],
+   "hint": "Plus la mutation est précoce dans la cascade classique (C1q), plus le lupus est sévère.",
+   "explanation": "Les déficits homozygotes de la **voie classique** prédisposent au LES (≈ 90 % des déficits en **C1q**, 75 % en **C4**, 10-30 % en **C2**) par **défaut de clairance des complexes immuns et des corps apoptotiques**. La sévérité est **croissante avec la précocité** : **C1q > C4 >> C2** (C faux). Ce sont les déficits de la voie **classique** (et non alterne) qui sont en cause (B, E faux) ; ces déficits **favorisent** le LES (D faux).",
+   "tags": ["complément", "C1q", "voie classique"],
+   "source": "FC21 — Facteurs génétiques"
+  },
+  {
+   "id": "fc21-q11",
+   "lesson": "fc21",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Dans le syndrome d'**Aicardi-Goutières**, la mutation de l'exonucléase **TREX1** illustre le concept d'interféronopathie. Quel est le mécanisme ?",
+   "options": [
+    "L'accumulation de fragments d'**ADN** captés par les **DNA sensors (TLR9, NLR)** → stimulation de l'immunité **innée** → production massive d'**IFN-α**",
+    "Une stimulation directe de l'immunité **adaptative** sans intermédiaire de l'immunité innée",
+    "Une diminution de l'IFN-α par excès de dégradation de l'ADN",
+    "Une activation de la voie alterne du complément par le facteur D",
+    "Une production accrue d'IL-10 anti-inflammatoire"
+   ],
+   "correct": [0],
+   "hint": "TREX1 digère l'ADN ; sa mutation laisse l'ADN s'accumuler et stimuler les capteurs innés.",
+   "explanation": "**TREX1** est une exonucléase cytosolique 3'→5' digérant l'ADN. Sa **mutation** entraîne une **accumulation de fragments d'ADN** captés par les **DNA sensors** (TLR9, DAI, NLR), stimulant l'**immunité innée** et une production **majeure d'IFN-α** (syndrome d'Aicardi-Goutières : encéphalopathie + fièvre + auto-immunité). La stimulation est **innée** (et non adaptative directe, B faux) et l'IFN-α **augmente** (C faux).",
+   "tags": ["TREX1", "Aicardi-Goutières", "interféronopathie"],
+   "source": "FC21 — Nucléases / interféronopathies"
+  },
+  {
+   "id": "fc21-q12",
+   "lesson": "fc21",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant le rôle de l'**EBV** dans le LES, quelles propositions sont exactes ?",
+   "options": [
+    "**Mimétisme moléculaire** entre les antigènes **Sm** et la protéine **EBNA-1** de l'EBV",
+    "**Épitope spreading** : libération d'auto-antigènes lors de la destruction cellulaire",
+    "**Activation lymphocytaire B** (LMP-1 mimant le signal CD40) générant des LB auto-réactifs",
+    "**Activation des pDC** et production d'IFN-α",
+    "L'EBV suffit **à lui seul** à provoquer le LES, sans aucun terrain génétique"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Plusieurs mécanismes, mais un terrain génétique reste nécessaire.",
+   "explanation": "L'EBV intervient dans le LES par : **mimétisme moléculaire** (Sm ≈ EBNA-1), **épitope spreading**, **activation lymphocytaire B** (LMP-1 imite CD40 → LB auto-réactifs) et **activation des pDC** (→ IFN-α). La proposition E est fausse : malgré ces liens, un **terrain génétique de base** reste nécessaire pour développer le LES (l'EBV ne suffit pas seul).",
+   "tags": ["EBV", "mimétisme moléculaire"],
+   "source": "FC21 — Agents infectieux"
+  }
+ ]
 }

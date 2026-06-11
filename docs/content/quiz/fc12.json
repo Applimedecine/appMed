@@ -2,5 +2,234 @@
  "slug": "fc12",
  "title": "QCM — Immunosuppresseurs",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc12-q01",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la **cible moléculaire** des inhibiteurs de la calcineurine (**ciclosporine, tacrolimus**) ?",
+   "options": [
+    "La **calcineurine**, ce qui empêche la déphosphorylation de **NFAT** et la production d'**IL-2**",
+    "La **mTOR**, ce qui bloque le cycle cellulaire en phase G0/G1",
+    "L'**IMPDH** de la voie de synthèse des purines",
+    "Le **CD20** des lymphocytes B",
+    "Le **récepteur de l'IL-2 (CD25)**"
+   ],
+   "correct": [0],
+   "hint": "Ils agissent sur le signal 1 (TCR → calcium → calcineurine).",
+   "explanation": "La ciclosporine (via la cyclophilline) et le tacrolimus (via la FKBP12) bloquent la **calcineurine** : NFAT n'est plus déphosphorylé, ne migre plus au noyau → ↓ transcription de l'**IL-2** → ↓ prolifération des LT (signal 1). B faux = inhibiteurs de mTOR (signal 3). C faux = mycophénolate. D faux = rituximab. E faux = anti-CD25 (basiliximab).",
+   "tags": ["calcineurine", "ciclosporine", "tacrolimus"],
+   "source": "FC12 — Inhibiteurs de calcineurine"
+  },
+  {
+   "id": "fc12-q02",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la cible du **rituximab** ?",
+   "options": [
+    "Le **CD20** exprimé par les **lymphocytes B**",
+    "Le **CD3** des lymphocytes T",
+    "La **calcineurine**",
+    "Le **récepteur de l'IL-2 (CD25)**",
+    "Les molécules de costimulation **CD80/CD86 (B7)**"
+   ],
+   "correct": [0],
+   "hint": "Anticorps monoclonal anti-lymphocyte B.",
+   "explanation": "Le rituximab est un anticorps monoclonal **anti-CD20**, molécule portée par le **lymphocyte B** : il entraîne une **déplétion B** profonde et durable (≈ 5-6 mois) → ↓ auto-anticorps. B faux : le CD20 est sur le LB, pas le LT. C faux = inhibiteurs de calcineurine. D faux = basiliximab/daclizumab. E faux = bélatacept/abatacept (anti-costimulation).",
+   "tags": ["rituximab", "CD20", "anti-CD20"],
+   "source": "FC12 — Biothérapies"
+  },
+  {
+   "id": "fc12-q03",
+   "lesson": "fc12",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant les **inhibiteurs de mTOR** (sirolimus / rapamycine, évérolimus) :",
+   "options": [
+    "Ils bloquent la **prolifération clonale** des lymphocytes T (signal 3)",
+    "Ils se lient à la **FKBP12** (comme le tacrolimus) mais ciblent **mTOR**, pas la calcineurine",
+    "Ils ont des propriétés **antiprolifératives** utilisées dans l'enrobage des **stents** et en anticancérologie",
+    "Ils inhibent directement la **synthèse de l'IL-2**",
+    "Ils sont les inhibiteurs de la **synthèse des purines**"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "mTOR = régulateur du passage G0→G1 du cycle cellulaire.",
+   "explanation": "Réponses ABC. Les inhibiteurs de mTOR bloquent le **signal 3** (prolifération clonale) en inhibant mTOR (régulateur du cycle cellulaire G0→G1) après liaison à la **FKBP12** ; leurs propriétés **antiprolifératives** sont exploitées dans les **stents** coronariens et en oncologie (évérolimus). D faux : contrairement aux inhibiteurs de calcineurine, ils n'inhibent **pas** la synthèse d'IL-2 (ils bloquent en aval, la réponse à l'IL-2). E faux : ce sont les antimétabolites (azathioprine, MMF) qui inhibent la synthèse des purines.",
+   "tags": ["mTOR", "sirolimus", "évérolimus"],
+   "source": "FC12 — Inhibiteurs de mTOR"
+  },
+  {
+   "id": "fc12-q04",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quels sont les **deux risques majeurs** communs à tous les immunosuppresseurs au long cours ?",
+   "options": [
+    "Les **infections opportunistes** et les **cancers** (lymphomes, cancers cutanés)",
+    "L'ostéoporose et la cataracte exclusivement",
+    "L'hyperthyroïdie et l'hypoglycémie",
+    "L'hypertension artérielle et l'hypercholestérolémie uniquement",
+    "Aucun risque particulier en dehors des allergies"
+   ],
+   "correct": [0],
+   "hint": "Diminuer l'immunité expose au pathogène et à la prolifération tumorale.",
+   "explanation": "Tous les immunosuppresseurs exposent aux **infections opportunistes** et aux **cancers** (perte de l'immunité anti-tumorale + réplication de virus oncogènes : **EBV → lymphome**, HHV-8 → Kaposi). Ces risques sont proportionnels au degré et à la durée de l'immunosuppression. Il faut aussi **éviter les vaccins vivants atténués** sous immunosuppresseurs. Les autres propositions ne sont que des effets indésirables partiels et non spécifiques de certaines molécules.",
+   "tags": ["effets indésirables", "infections", "cancers"],
+   "source": "FC12 — Pièges / effets secondaires"
+  },
+  {
+   "id": "fc12-q05",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Le **mycophénolate mofétil (MMF)** exerce son effet immunosuppresseur en inhibant :",
+   "options": [
+    "L'**inosine-5'-monophosphate déshydrogénase (IMPDH)** → ↓ synthèse de novo des purines (guanosine)",
+    "La **dihydro-orotate déshydrogénase (DHODH)** → ↓ synthèse des pyrimidines",
+    "La **calcineurine** → ↓ IL-2",
+    "La **mTOR** → ↓ prolifération clonale",
+    "La **5-lipoxygénase** → ↓ leucotriènes"
+   ],
+   "correct": [0],
+   "hint": "Les lymphocytes activés dépendent surtout de la voie de novo des purines.",
+   "explanation": "Le MMF est hydrolysé en acide mycophénolique, inhibiteur sélectif de l'**IMPDH**, enzyme clé de la **voie de novo de synthèse des purines** (guanosine), dont dépendent particulièrement les LT et LB activés → effet relativement **sélectif** sur les lymphocytes. B faux : c'est le **léflunomide** qui inhibe la DHODH (synthèse des **pyrimidines**), piège classique. C et D faux (autres classes). E faux (sans rapport, voie de l'inflammation).",
+   "tags": ["MMF", "IMPDH", "purines"],
+   "source": "FC12 — Antimétabolites"
+  },
+  {
+   "id": "fc12-q06",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel immunosuppresseur expose principalement à une **toxicité médullaire** imposant une surveillance régulière de la **NFS** ?",
+   "options": [
+    "L'**azathioprine** (métabolisée en 6-mercaptopurine)",
+    "Le **bélatacept**",
+    "Le **basiliximab**",
+    "Le **rituximab**",
+    "La **prednisone**"
+   ],
+   "correct": [0],
+   "hint": "Antimétabolite purique → cytopénies.",
+   "explanation": "L'**azathioprine** (prodrogue → 6-mercaptopurine) inhibe la synthèse des purines et la réplication de l'ADN : sa toxicité limitante est **médullaire** (leucopénie, anémie, thrombopénie) → surveillance de la **NFS**. Les autres molécules ont des profils différents : le MMF est tératogène, les inhibiteurs de calcineurine néphrotoxiques. Le rituximab, le basiliximab et le bélatacept ne provoquent pas typiquement de toxicité médullaire au premier plan.",
+   "tags": ["azathioprine", "toxicité médullaire", "NFS"],
+   "source": "FC12 — Pièges / effets secondaires"
+  },
+  {
+   "id": "fc12-q07",
+   "lesson": "fc12",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **bélatacept** (et l'abatacept) :",
+   "options": [
+    "Ce sont des **protéines de fusion** associant un fragment **Fc d'IgG1** à **CTLA-4**",
+    "Ils bloquent le **signal 2 (costimulation)** en saturant **CD80/CD86 (B7)** des CPA",
+    "En empêchant la liaison **B7–CD28**, ils induisent une **anergie** du lymphocyte T",
+    "Le **bélatacept** est indiqué dans la **prévention du rejet de greffe rénale**",
+    "Ce sont des inhibiteurs de la **calcineurine**"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "CTLA-4-Ig qui sature B7 sur la cellule présentatrice.",
+   "explanation": "Réponses ABCD. Le bélatacept et l'abatacept sont des **protéines de fusion Fc-IgG1 + CTLA-4** : ils saturent **CD80/CD86 (B7)** des cellules présentatrices, empêchent la liaison **B7-CD28** (signal 2) → **anergie** du LT. Le **bélatacept** prévient le **rejet de greffe rénale** (l'abatacept est plutôt utilisé dans les rhumatismes inflammatoires). E faux : ce ne sont **pas** des inhibiteurs de la calcineurine mais des inhibiteurs de la **costimulation**.",
+   "tags": ["bélatacept", "costimulation", "signal 2"],
+   "source": "FC12 — Biothérapies / Belatacept"
+  },
+  {
+   "id": "fc12-q08",
+   "lesson": "fc12",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant la **trithérapie** classique en transplantation d'organe :",
+   "options": [
+    "Elle associe un **inhibiteur de calcineurine** + un **antimétabolite** + des **corticoïdes**",
+    "Chaque médicament cible une **étape différente** de l'activation lymphocytaire T",
+    "L'association permet de **limiter les doses** et donc les effets secondaires de chaque molécule",
+    "On associe volontiers **ciclosporine + tacrolimus** pour majorer l'efficacité",
+    "Le traitement est **transitoire** et arrêté dès J15 dans la greffe d'organe"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Cibler plusieurs étapes = synergie ; même classe = toxicité sans gain.",
+   "explanation": "Réponses ABC. La trithérapie associe **inhibiteur de calcineurine + antimétabolite + corticoïdes**, chacun ciblant une **étape différente** (signal 1, prolifération, transcription cytokinique) : effets synergiques → **doses réduites** et moindre toxicité. D faux : on **n'associe jamais deux molécules de même mécanisme** (ciclosporine + tacrolimus = majoration des effets indésirables sans gain d'efficacité). E faux : en transplantation d'organe, l'immunosuppression est **à vie**.",
+   "tags": ["transplantation", "trithérapie"],
+   "source": "FC12 — Stratégie de la trithérapie"
+  },
+  {
+   "id": "fc12-q09",
+   "lesson": "fc12",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant la comparaison **ciclosporine vs tacrolimus** :",
+   "options": [
+    "La ciclosporine se lie à la **cyclophilline**, le tacrolimus à la **FKBP12**, mais tous deux bloquent la **calcineurine**",
+    "L'**hypertrophie gingivale** et l'**hirsutisme** sont plutôt propres à la **ciclosporine**",
+    "Le **diabète** et les **tremblements** sont plutôt propres au **tacrolimus**",
+    "Les deux sont **néphrotoxiques** et ont un **index thérapeutique étroit** imposant un suivi des taux",
+    "Ils ont des mécanismes d'action totalement différents et peuvent être associés sans risque"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Même cible (calcineurine), immunophilines différentes, effets propres distincts.",
+   "explanation": "Réponses ABCD. La ciclosporine (cyclophilline) et le tacrolimus (FKBP12) bloquent la **même cible**, la **calcineurine**. Effets propres : ciclosporine → **hypertrophie gingivale + hirsutisme** ; tacrolimus → **diabète + tremblements + alopécie**. Les deux sont **néphrotoxiques** avec un **index thérapeutique étroit** (métabolisme par le CYP3A4) → suivi pharmacologique obligatoire. E faux : ayant le **même mécanisme**, ils ne doivent **jamais être associés** (toxicité accrue sans bénéfice).",
+   "tags": ["ciclosporine", "tacrolimus", "néphrotoxicité"],
+   "source": "FC12 — Inhibiteurs de calcineurine, effets indésirables"
+  },
+  {
+   "id": "fc12-q10",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Concernant le **sérum anti-lymphocytaire (SAL)**, quelle proposition est **exacte** ?",
+   "options": [
+    "Ce sont des **IgG polyclonales** anti-thymocytes humains (lapin/cheval immunisé) provoquant une **lymphopénie T** profonde",
+    "C'est un anticorps **monoclonal** dirigé contre le CD20",
+    "Il agit en inhibant la **calcineurine**",
+    "Il est dénué de risque de réaction d'hypersensibilité",
+    "Il est administré par voie orale"
+   ],
+   "correct": [0],
+   "hint": "Polyclonal, obtenu par immunisation animale contre des thymocytes.",
+   "explanation": "Le SAL est constitué d'**IgG polyclonales** obtenues chez un animal (lapin ou cheval) immunisé contre des **thymocytes humains** ; il provoque une **lymphopénie T** rapide (CDC + phagocytose via Fc). B faux : le caractère **monoclonal anti-CD20** correspond au **rituximab**. C faux (ce n'est pas un inhibiteur de calcineurine). D faux : risque d'**hypersensibilité de type I**, de **syndrome de relargage cytokinique** (72 h) et de **maladie sérique** (J7-J11). E faux : il est **injecté**, comme toutes les protéines thérapeutiques.",
+   "tags": ["SAL", "anticorps polyclonaux"],
+   "source": "FC12 — Anticorps déplétants"
+  },
+  {
+   "id": "fc12-q11",
+   "lesson": "fc12",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Associez correctement immunosuppresseur et **signal d'activation lymphocytaire T** ciblé :",
+   "options": [
+    "**Inhibiteurs de calcineurine** (ciclosporine, tacrolimus) → **signal 1** (TCR → IL-2)",
+    "**Bélatacept** → **signal 2** (costimulation B7-CD28)",
+    "**Inhibiteurs de mTOR** (sirolimus) et **anti-CD25** (basiliximab) → **signal 3** (prolifération via IL-2/CD25)",
+    "**Inhibiteurs de mTOR** → signal 1 (calcineurine)",
+    "**Bélatacept** → signal 3 (prolifération clonale)"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Signal 1 = activation TCR ; signal 2 = costimulation ; signal 3 = prolifération (IL-2).",
+   "explanation": "Réponses ABC. **Signal 1** (TCR → calcineurine → IL-2) = inhibiteurs de calcineurine. **Signal 2** (costimulation B7-CD28) = bélatacept. **Signal 3** (prolifération en réponse à l'IL-2/CD25) = inhibiteurs de mTOR ET anti-CD25 (basiliximab, qui bloque le récepteur de l'IL-2). D faux : les inhibiteurs de mTOR n'agissent **pas** sur la calcineurine (signal 1). E faux : le bélatacept agit sur le **signal 2**, pas le signal 3.",
+   "tags": ["signaux d'activation", "synthèse"],
+   "source": "FC12 — Classes d'immunosuppresseurs"
+  },
+  {
+   "id": "fc12-q12",
+   "lesson": "fc12",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Quel immunosuppresseur est **contre-indiqué pendant la grossesse** en raison de son caractère **tératogène** ?",
+   "options": [
+    "Le **mycophénolate mofétil (MMF)**",
+    "La **prednisone** à faible dose",
+    "Le **basiliximab**",
+    "La **ciclosporine**",
+    "Les **immunoglobulines polyvalentes**"
+   ],
+   "correct": [0],
+   "hint": "Antimétabolite purique formellement contre-indiqué chez la femme enceinte.",
+   "explanation": "Le **MMF** est **tératogène** et formellement contre-indiqué pendant la grossesse (contraception efficace exigée). La prednisone et la ciclosporine peuvent être utilisées sous surveillance si nécessaire pendant la grossesse (rapport bénéfice/risque). Le basiliximab et les immunoglobulines polyvalentes ne sont pas les réponses attendues ici sur le caractère tératogène. À ne pas confondre avec l'azathioprine, dont le risque principal est la **toxicité médullaire**.",
+   "tags": ["MMF", "grossesse", "tératogène"],
+   "source": "FC12 — Pièges / effets secondaires"
+  }
+ ]
 }
