@@ -1,6 +1,13 @@
 // Construction du chrome partagé : barre latérale, barre supérieure, thème, tiroir mobile.
 import { Data } from './data.js';
 import { Prefs, Progress } from './storage.js';
+import { initEditor, wireEditToggles } from './editor.js';
+
+// Bouton « Modifier le texte », commun à la barre du haut et au menu latéral.
+const editToggle = (extra = '') =>
+  `<button class="ed-toggle${extra}" type="button" aria-pressed="false" aria-label="Modifier le texte de la page">
+     <span class="ed-toggle-ico" aria-hidden="true">✏️</span><span class="ed-toggle-lbl">Modifier le texte</span>
+   </button>`;
 
 const ICONS = {
   home: '<path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/>',
@@ -74,6 +81,7 @@ export async function initLayout(active = {}) {
         <span class="logo">Im</span>
         <span><b>Immuno&nbsp;Révise</b><small>Immunopathologie · UE2</small></span>
       </div>
+      ${editToggle(' ed-toggle-side')}
       <nav class="nav" aria-label="Navigation principale">
         <a href="./index.html" class="${here('index.html') ? 'active' : ''}">${icon('home')}<span>Accueil</span></a>
         <div class="group-title">Cours</div>
@@ -98,6 +106,7 @@ export async function initLayout(active = {}) {
     topbar.innerHTML = `
       <button class="icon-btn" id="menu-btn" aria-label="Ouvrir le menu" aria-controls="sidebar" aria-expanded="false">${icon('menu')}</button>
       <div class="brand" style="border:0;padding:0;flex:1"><span class="logo" style="width:30px;height:30px;flex-basis:30px;font-size:.85rem">Im</span><b style="font-size:.95rem">Immuno Révise</b></div>
+      ${editToggle()}
       <button class="icon-btn" id="theme-btn"></button>`;
   } else {
     // bouton thème ancré dans la barre latérale si pas de barre supérieure visible
@@ -121,6 +130,12 @@ export async function initLayout(active = {}) {
   if (menuBtn) menuBtn.addEventListener('click', () => openDrawer(!sidebar.classList.contains('open')));
   if (scrim) scrim.addEventListener('click', () => openDrawer(false));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') openDrawer(false); });
+
+  // Édition locale du texte : boutons d'activation dans l'en-tête (toutes les
+  // pages) + moteur d'édition branché sur le contenu principal de la page.
+  wireEditToggles();
+  const mainEl = document.getElementById('main');
+  if (mainEl) initEditor(mainEl);
 
   return manifest;
 }
