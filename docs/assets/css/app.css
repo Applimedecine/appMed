@@ -306,16 +306,20 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
   display: flex; flex-direction: column; align-items: flex-end; gap: .5rem;
 }
 .ed-tools[hidden] { display: none; }
-.ed-fab {
-  display: inline-flex; align-items: center; gap: .5rem;
-  padding: .65rem 1.1rem; border-radius: 999px; cursor: pointer;
-  font: inherit; font-weight: 650; font-size: .9rem;
-  background: var(--c-surface); color: var(--c-text);
-  border: 1px solid var(--c-border); box-shadow: var(--shadow);
+/* Bouton « Modifier le texte » ancré dans l'en-tête (barre du haut + menu latéral). */
+.ed-toggle {
+  display: inline-flex; align-items: center; gap: .45rem;
+  padding: .5rem .9rem; border-radius: 999px; cursor: pointer;
+  font: inherit; font-weight: 650; font-size: .88rem; line-height: 1;
+  white-space: nowrap; transition: .15s;
+  background: var(--c-primary-soft); color: var(--c-primary-dark);
+  border: 1px solid transparent;
 }
-.ed-fab:hover { background: var(--c-surface-2); }
-.ed-fab.on { background: var(--c-primary); color: #fff; border-color: var(--c-primary); }
-.ed-fab .ed-fab-ico { font-size: 1.05em; line-height: 1; }
+.ed-toggle:hover { background: var(--c-primary); color: #fff; }
+.ed-toggle.on { background: var(--c-primary); color: #fff; box-shadow: var(--shadow-sm); }
+.ed-toggle .ed-toggle-ico { font-size: 1.05em; line-height: 1; }
+/* Variante menu latéral : pleine largeur, bien visible sous le logo. */
+.ed-toggle-side { width: calc(100% - 1.2rem); margin: .85rem .6rem .2rem; justify-content: center; padding: .58rem 1rem; }
 .ed-resetall {
   display: inline-flex; align-items: center; cursor: pointer;
   padding: .45rem .9rem; border-radius: 999px;
@@ -325,7 +329,7 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
 }
 .ed-resetall[hidden] { display: none; }
 .ed-resetall:hover { background: var(--c-error-soft); }
-@media (max-width: 640px) { .ed-fab .ed-fab-lbl { display: none; } .ed-fab { padding: .7rem; } }
+@media (max-width: 560px) { .topbar .ed-toggle .ed-toggle-lbl { display: none; } .topbar .ed-toggle { padding: .55rem; } }
 
 /* Mode édition : surligne les passages modifiables. */
 body.ed-on [data-eid] {
