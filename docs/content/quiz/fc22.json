@@ -2,5 +2,234 @@
  "slug": "fc22",
  "title": "QCM — Neuro-immunologie",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc22-q01",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle cellule représente l'**immunité résidente** du parenchyme du système nerveux central ?",
+   "options": [
+    "La **microglie** (macrophages résidents du SNC)",
+    "L'oligodendrocyte",
+    "L'astrocyte",
+    "Le neurone",
+    "Le lymphocyte T CD8 circulant"
+   ],
+   "correct": [0],
+   "hint": "Ce sont les macrophages résidents du cerveau.",
+   "explanation": "La **microglie** correspond aux **macrophages résidents** du SNC : elle assure l'immunité du parenchyme (surveillance, sentinelle, remodelage synaptique). L'oligodendrocyte (myéline du SNC) et l'astrocyte (homéostasie) sont des cellules gliales non immunes au sens strict. En physiologie, le parenchyme est dépourvu de cellules immunitaires périphériques (E faux).",
+   "tags": ["microglie", "SNC"],
+   "source": "FC22 — La microglie"
+  },
+  {
+   "id": "fc22-q02",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "La **sclérose en plaques (SEP)** est une maladie démyélinisante touchant :",
+   "options": [
+    "Le **système nerveux central (SNC)**, avec atteinte des **oligodendrocytes**",
+    "Le système nerveux périphérique, avec atteinte des cellules de Schwann",
+    "La jonction neuromusculaire",
+    "Uniquement les nerfs crâniens périphériques",
+    "Le muscle strié squelettique"
+   ],
+   "correct": [0],
+   "hint": "SEP = SNC (oligodendrocyte) ; Guillain-Barré = SNP (Schwann).",
+   "explanation": "La SEP est une maladie démyélinisante auto-immune du **SNC**, dont la cible est l'**oligodendrocyte** (cellule produisant la myéline du SNC). Le syndrome de **Guillain-Barré** touche au contraire le **SNP** (cellule de Schwann) (B faux). La SEP n'atteint ni la jonction neuromusculaire (myasthénie) ni le muscle.",
+   "tags": ["SEP", "SNC", "oligodendrocyte"],
+   "source": "FC22 — Sclérose en plaques"
+  },
+  {
+   "id": "fc22-q03",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Dans la **myasthénie**, contre quelle cible les auto-anticorps sont-ils principalement dirigés ?",
+   "options": [
+    "Le **récepteur de l'acétylcholine (RACh)** de la jonction neuromusculaire",
+    "Le récepteur de la dopamine",
+    "La myéline du système nerveux central",
+    "Les canaux calciques présynaptiques (comme dans Lambert-Eaton)",
+    "Le récepteur NMDA des neurones"
+   ],
+   "correct": [0],
+   "hint": "Maladie de la jonction neuromusculaire → fatigabilité à l'effort.",
+   "explanation": "La myasthénie est une maladie auto-immune de la **jonction neuromusculaire** : les auto-anticorps **anti-RACh** bloquent/détruisent les récepteurs de l'acétylcholine → fatigabilité fluctuante à l'effort (ptosis, diplopie, dysphagie). Les anti-canaux calciques caractérisent le syndrome de **Lambert-Eaton** (D faux) ; le récepteur NMDA est la cible des encéphalites auto-immunes (E faux).",
+   "tags": ["myasthénie", "RACh"],
+   "source": "FC22 — Myasthénie"
+  },
+  {
+   "id": "fc22-q04",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est l'**encéphalite auto-immune** la plus fréquente ?",
+   "options": [
+    "L'encéphalite à **anti-NMDAR** (blocage des récepteurs glutaminergiques NMDA)",
+    "L'encéphalite à anti-AMPAR",
+    "L'encéphalite à anti-CASPR2",
+    "L'encéphalite à anti-RACh",
+    "L'encéphalite à anti-MPO"
+   ],
+   "correct": [0],
+   "hint": "Récepteur glutaminergique, tableau psychiatrique fréquent chez le sujet jeune.",
+   "explanation": "L'encéphalite auto-immune la plus fréquente est celle à **anti-NMDAR**, caractérisée par un blocage des **récepteurs glutaminergiques NMDA** (symptômes psychiatriques, troubles cognitifs, crises, mouvements anormaux). Les anti-AMPAR/CASPR2 sont plus rares ; les anti-RACh relèvent de la myasthénie et les anti-MPO des vascularites (D, E faux).",
+   "tags": ["encéphalite auto-immune", "anti-NMDAR"],
+   "source": "FC22 — Encéphalites auto-immunes"
+  },
+  {
+   "id": "fc22-q05",
+   "lesson": "fc22",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant la **microglie**, quelles propositions sont exactes ?",
+   "options": [
+    "Elle **dérive des macrophages**",
+    "Elle assure la **surveillance de l'homéostasie** et une réponse sentinelle rapide aux signaux de danger",
+    "Elle participe au **remodelage synaptique** via le complément (C1q, C3, C4)",
+    "Son activation **excessive et chronique** entretient une neuro-inflammation délétère",
+    "Elle est présente **uniquement** dans le système nerveux central"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Macrophages résidents, phagocytose des synapses via le complément.",
+   "explanation": "La microglie **dérive des macrophages**, surveille l'**homéostasie**, agit en **sentinelle** rapide et participe au **remodelage synaptique** via le complément (C1q/C3/C4). Son **activation excessive chronique** est délétère (neurodégénérescence). La proposition E est fausse selon le cours : la microglie n'est **pas uniquement** dans le SNC (elle est aussi présente dans le SNP).",
+   "tags": ["microglie", "complément", "synapses"],
+   "source": "FC22 — La microglie"
+  },
+  {
+   "id": "fc22-q06",
+   "lesson": "fc22",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **mécanisme immunologique de la SEP**, quelles propositions sont exactes ?",
+   "options": [
+    "Une inflammation périphérique **perméabilise la barrière hémato-encéphalique (BHE)**",
+    "Les lymphocytes **Th2** (favorisés pendant la grossesse) induisent une réponse B → **auto-Ac anti-myéline**",
+    "La destruction concerne les **oligodendrocytes**",
+    "Le marqueur diagnostique est la présence de **bandes oligoclonales dans le LCR**",
+    "Les traitements agissent directement à l'intérieur du parenchyme cérébral, jamais en périphérie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "BHE perméabilisée → Th2 → LB → anti-myéline ; bandes oligoclonales LCR.",
+   "explanation": "Dans la SEP, l'inflammation périphérique **perméabilise la BHE**, permettant l'infiltration de LT ; les **Th2** (↑ pendant la grossesse) activent les LB → **auto-Ac anti-myéline** → destruction des **oligodendrocytes**. Le marqueur diagnostique est la présence de **bandes oligoclonales dans le LCR** (PL). La proposition E est fausse : les traitements ciblent le SI **en périphérie** (anti-S1P, anti-CD20, anti-intégrines).",
+   "tags": ["SEP", "BHE", "bandes oligoclonales"],
+   "source": "FC22 — Sclérose en plaques"
+  },
+  {
+   "id": "fc22-q07",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel est le **traitement** symptomatique de référence de la myasthénie au niveau de la jonction neuromusculaire ?",
+   "options": [
+    "Un **inhibiteur de l'acétylcholinestérase** (augmente l'ACh dans la fente synaptique)",
+    "Un **activateur** de l'acétylcholinestérase",
+    "Un antagoniste du récepteur de l'acétylcholine",
+    "Un anti-TNF-α",
+    "Un anticoagulant au long cours"
+   ],
+   "correct": [0],
+   "hint": "Il faut AUGMENTER l'acétylcholine disponible, donc inhiber son enzyme de dégradation.",
+   "explanation": "Le traitement repose sur des **inhibiteurs de l'acétylcholinestérase** : en bloquant l'enzyme qui dégrade l'ACh, ils **augmentent** la quantité d'ACh dans la fente synaptique et compensent le blocage des récepteurs. La proposition B (activateur de l'acétylcholinestérase) est le piège classique : elle **aggraverait** la maladie en diminuant l'ACh disponible.",
+   "tags": ["myasthénie", "acétylcholinestérase", "traitement"],
+   "source": "FC22 — Myasthénie"
+  },
+  {
+   "id": "fc22-q08",
+   "lesson": "fc22",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le rôle du **thymus** dans la myasthénie, quelles propositions sont exactes ?",
+   "options": [
+    "Le thymus possède des **cellules myoïdes** proches des cellules musculaires",
+    "Une inflammation thymique conduit les CPA à présenter les **épitopes du RACh**",
+    "Des **centres germinatifs** thymiques produisent des auto-anticorps",
+    "Environ **15-20 %** des patients présentent un **thymome**",
+    "Le thymus n'a aucun rôle dans la myasthénie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Cellules myoïdes → présentation des épitopes RACh → auto-Ac ; 15-20 % de thymomes.",
+   "explanation": "Le **thymus** joue un rôle central : ses **cellules myoïdes** ressemblent aux cellules musculaires ; l'inflammation conduit les **CPA** à présenter les **épitopes du RACh**, avec formation de **centres germinatifs** producteurs d'auto-Ac. **15-20 %** des patients ont un **thymome** (→ thymectomie). La proposition E est fausse : le thymus a bien un rôle majeur.",
+   "tags": ["thymus", "myasthénie", "thymome"],
+   "source": "FC22 — Myasthénie"
+  },
+  {
+   "id": "fc22-q09",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant les **encéphalites auto-immunes**, quelle proposition est exacte ?",
+   "options": [
+    "Les anticorps sont **directement pathogènes** et ciblent des **protéines neuronales membranaires** (récepteurs, canaux)",
+    "Les anticorps ciblent exclusivement des protéines intracellulaires sans effet fonctionnel",
+    "Elles relèvent d'une atteinte du système nerveux périphérique",
+    "Elles ne provoquent jamais de symptômes psychiatriques",
+    "Elles sont dues à des auto-anticorps anti-RACh"
+   ],
+   "correct": [0],
+   "hint": "Cibles membranaires accessibles → anticorps pathogènes.",
+   "explanation": "Les encéphalites auto-immunes sont causées par des **anticorps dirigés contre des protéines neuronales** (protéines synaptiques, transporteurs ioniques, **récepteurs membranaires**) ; ces anticorps sont **directement pathogènes** (leur fixation perturbe le fonctionnement neuronal → symptômes psychiatriques, cognitifs, épileptiques). La cible est **membranaire** (accessible), pas exclusivement intracellulaire (B faux). C'est une atteinte du SNC (C faux).",
+   "tags": ["encéphalite auto-immune", "anticorps pathogènes"],
+   "source": "FC22 — Encéphalites auto-immunes"
+  },
+  {
+   "id": "fc22-q10",
+   "lesson": "fc22",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant le **syndrome de Guillain-Barré** (polyradiculonévrite aiguë), quelles propositions sont exactes ?",
+   "options": [
+    "Il touche le **système nerveux périphérique (SNP)** (cellule de Schwann)",
+    "Il est précédé d'un épisode infectieux dans **plus de 50 %** des cas (Campylobacter, CMV, EBV)",
+    "Le mécanisme central est le **mimétisme moléculaire** entre antigènes du pathogène et myéline du SNP",
+    "L'atteinte motrice est typiquement **ascendante**, débutant aux membres inférieurs",
+    "Il s'agit d'une démyélinisation du **système nerveux central**"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "SNP (Schwann), post-infectieux, mimétisme moléculaire, ascendant. PAS le SNC.",
+   "explanation": "Le syndrome de Guillain-Barré est une démyélinisation du **SNP** (cellule de **Schwann**), précédée dans **> 50 %** des cas d'une infection (**Campylobacter jejuni, CMV, EBV**). Le mécanisme est le **mimétisme moléculaire** (Ac anti-pathogène croisant avec la myéline du SNP), avec une atteinte **ascendante** débutant aux membres inférieurs. La proposition E est fausse : il touche le **SNP** (et non le SNC, qui est le territoire de la SEP).",
+   "tags": ["Guillain-Barré", "SNP", "mimétisme moléculaire"],
+   "source": "FC22 — Polyradiculonévrite aiguë"
+  },
+  {
+   "id": "fc22-q11",
+   "lesson": "fc22",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Dans les **syndromes paranéoplasiques** neurologiques avec anticorps **onconeuronaux** (cibles **intracellulaires**), par quel mécanisme surviennent les lésions ?",
+   "options": [
+    "Une **cytotoxicité des LT CD8** (les anticorps n'étant pas directement pathogènes sur une cible intracellulaire)",
+    "Une fixation directe des anticorps sur des récepteurs membranaires bloquant la transmission",
+    "Une activation de la voie alterne du complément par le facteur D",
+    "Un dépôt de complexes immuns dans les glomérules",
+    "Une démyélinisation du SNP par mimétisme moléculaire"
+   ],
+   "correct": [0],
+   "hint": "Cible intracellulaire = inaccessible à l'anticorps → ce sont les LT CD8 qui détruisent.",
+   "explanation": "Pour les anticorps **onconeuronaux** dirigés contre des antigènes **intracellulaires** (anti-Hu, anti-Yo…), les anticorps **ne sont pas directement pathogènes** (cible inaccessible) : les lésions résultent d'une **cytotoxicité des LT CD8**. La fixation directe sur des récepteurs membranaires concerne au contraire les anticorps de type **neuropile** à cible extracellulaire (B faux).",
+   "tags": ["syndromes paranéoplasiques", "onconeuronaux", "LT CD8"],
+   "source": "FC22 — Syndromes paranéoplasiques"
+  },
+  {
+   "id": "fc22-q12",
+   "lesson": "fc22",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **cellules immunitaires méningées** et l'axe intestin-cerveau, quelles propositions sont exactes ?",
+   "options": [
+    "Les **méninges** sont riches en cellules immunitaires (irriguées par le LCS)",
+    "Les **LT CD4** méningés influencent le développement neuronal et les fonctions cérébrales via leurs cytokines",
+    "L'altération des défenses **Th2** méningées est associée à l'apparition de **troubles cognitifs**",
+    "L'**axe intestin-cerveau** est un lien **bidirectionnel** influencé par le microbiote (rôle probable du nerf vague)",
+    "En physiologie, le parenchyme cérébral est massivement infiltré de lymphocytes T périphériques"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Méninges riches en cellules immunes, mais parenchyme normalement dépourvu.",
+   "explanation": "Les **méninges** sont **riches en cellules immunitaires** (irriguées par le LCS) ; les **LT CD4** méningés modulent le fonctionnement cérébral via leurs cytokines, et l'altération des **Th2** méningés est associée à des **troubles cognitifs**. L'**axe intestin-cerveau** est **bidirectionnel** (microbiote, nerf vague). La proposition E est fausse : en physiologie, le **parenchyme** est **dépourvu** de cellules immunitaires périphériques — leur présence signe une pathologie.",
+   "tags": ["méninges", "axe intestin-cerveau", "LT CD4"],
+   "source": "FC22 — Cellules méningées / axe intestin-cerveau"
+  }
+ ]
 }

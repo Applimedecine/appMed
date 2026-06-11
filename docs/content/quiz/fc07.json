@@ -2,5 +2,234 @@
  "slug": "fc07",
  "title": "QCM — Hypersensibilité immédiate",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc07-q01",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Dans la classification de **Gell et Coombs**, quel est le **seul** type d'hypersensibilité **IgE-dépendant** ?",
+   "options": [
+    "Le type I (hypersensibilité immédiate)",
+    "Le type II (hypersensibilité cytotoxique)",
+    "Le type III (hypersensibilité à complexes immuns)",
+    "Le type IV (hypersensibilité retardée)",
+    "Les types I et IV simultanément"
+   ],
+   "correct": [0],
+   "hint": "Pense à la cellule effectrice qui porte le récepteur FcεRI.",
+   "explanation": "Seul le **type I** est IgE-dépendant : les IgE se fixent sur le récepteur FcεRI des mastocytes/basophiles. Le type II est cytotoxique (IgG/IgM), le type III met en jeu des complexes immuns (IgG/IgM) et le type IV est à médiation cellulaire (lymphocytes T) : aucun de ces trois n'est IgE-dépendant. D est faux car le type IV est retardé et médié par les LT, pas par les IgE.",
+   "tags": ["Gell et Coombs", "classification"],
+   "source": "FC07 — Classification de Gell et Coombs"
+  },
+  {
+   "id": "fc07-q02",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Concernant la **phase de sensibilisation** de l'hypersensibilité de type I, quelle proposition est exacte ?",
+   "options": [
+    "Elle survient à la première exposition et est cliniquement asymptomatique",
+    "Elle survient à la deuxième exposition et provoque l'anaphylaxie",
+    "Elle correspond à la dégranulation mastocytaire",
+    "Elle est responsable de l'urticaire et du bronchospasme",
+    "Elle nécessite la présence d'IgG spécifiques préformées"
+   ],
+   "correct": [0],
+   "hint": "Premier contact = mise en place silencieuse de la réponse.",
+   "explanation": "La phase de sensibilisation a lieu lors du **premier contact** avec l'allergène : elle est **cliniquement muette** (silencieuse). L'allergène est capté par les cellules dendritiques, induit une polarisation Th2 (IL-4, IL-5, IL-13), une commutation des LB en plasmocytes à **IgE** qui se fixent sur le FcεRI. Les symptômes (dégranulation, urticaire, bronchospasme, anaphylaxie) ne surviennent qu'à la **phase effectrice**, lors de la réexposition (B, C, D faux). E faux : ce sont des IgE, pas des IgG, qui sont produites.",
+   "tags": ["sensibilisation", "deux phases"],
+   "source": "FC07 — Phases de l'HSI de type I"
+  },
+  {
+   "id": "fc07-q03",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est le **point de départ** de la phase effectrice de l'hypersensibilité immédiate de type I ?",
+   "options": [
+    "La dégranulation mastocytaire après pontage des IgE par l'allergène",
+    "L'activation du complément par des complexes immuns",
+    "La cytotoxicité directe des lymphocytes T CD8",
+    "Le dépôt tissulaire d'immunoglobulines IgG",
+    "La phagocytose de l'allergène par les macrophages"
+   ],
+   "correct": [0],
+   "hint": "L'allergène ponte les IgE déjà fixées sur la cellule.",
+   "explanation": "Le point de départ est la **dégranulation mastocytaire** : à la réexposition, l'allergène ponte les IgE fixées sur le FcεRI du mastocyte, ce qui déclenche la libération de médiateurs (histamine, prostaglandines, leucotriènes, cytokines). L'activation du complément par complexes immuns (B, D) caractérise les types II/III ; la cytotoxicité T CD8 (C) caractérise le type IV. E n'est pas le mécanisme déclencheur de l'HSI.",
+   "tags": ["mastocyte", "dégranulation"],
+   "source": "FC07 — HSI de type I"
+  },
+  {
+   "id": "fc07-q04",
+   "lesson": "fc07",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant les **médiateurs** libérés par le mastocyte lors de l'HSI de type I, quelles propositions sont exactes ?",
+   "options": [
+    "L'histamine est un médiateur préformé responsable du prurit et de la vasodilatation",
+    "La tryptase est un médiateur préformé des granules mastocytaires",
+    "Les prostaglandines et leucotriènes sont des médiateurs néoformés (lipidiques)",
+    "L'histamine est exclusivement libérée par les lymphocytes T",
+    "Les cytokines de type 2 (IL-4, IL-5, IL-13) participent à l'inflammation"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Préformés = histamine + tryptase ; néoformés = dérivés lipidiques.",
+   "explanation": "Réponses ABCE. Les médiateurs **préformés** des granules sont l'**histamine** (prurit, vasodilatation, urticaire) et la **tryptase**. Les **prostaglandines et leucotriènes** sont des médiateurs lipidiques **néoformés** (bronchospasme, hyperperméabilité). Les cytokines de type 2 (IL-4, IL-5, IL-13) entretiennent l'inflammation. D est faux : l'histamine est libérée par les **mastocytes et les basophiles**, pas par les lymphocytes T.",
+   "tags": ["médiateurs", "histamine", "tryptase"],
+   "source": "FC07 — Médiateurs du mastocyte"
+  },
+  {
+   "id": "fc07-q05",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Lors de la phase de sensibilisation, vers quel profil les lymphocytes T naïfs se **polarisent-ils**, et quelle est la conséquence sur les lymphocytes B ?",
+   "options": [
+    "Profil Th2 (IL-4, IL-5, IL-13) → commutation des LB en plasmocytes sécréteurs d'IgE",
+    "Profil Th1 (IFN-γ) → production de plasmocytes sécréteurs d'IgG",
+    "Profil Th17 (IL-17) → recrutement de polynucléaires neutrophiles",
+    "Profil Treg (IL-10) → tolérance vis-à-vis de l'allergène",
+    "Profil Th2 → commutation des LB en plasmocytes sécréteurs d'IgA"
+   ],
+   "correct": [0],
+   "hint": "Les interleukines de type 2 commandent la commutation vers les IgE.",
+   "explanation": "Les lymphocytes naïfs se polarisent en **Th2** et sécrètent des interleukines de type 2 (**IL-4, IL-5, IL-13**) ; ces signaux induisent la commutation isotypique des LB en **plasmocytes sécréteurs d'IgE**. Le profil Th1/IgG (B) et Th17 (C) ne correspondent pas à l'HSI ; le profil Treg/tolérance (D) est au contraire ce que vise la désensibilisation. E est faux : la commutation se fait vers les **IgE**, pas vers les IgA (piège classique de l'ACC).",
+   "tags": ["Th2", "IgE", "polarisation"],
+   "source": "FC07 — Phase de sensibilisation"
+  },
+  {
+   "id": "fc07-q06",
+   "lesson": "fc07",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant la **classification de Ring et Messmer** de l'anaphylaxie, quelles propositions sont exactes ?",
+   "options": [
+    "Le grade I correspond à une atteinte cutanéo-muqueuse isolée (urticaire, angiœdème)",
+    "Le grade III associe une atteinte sévère avec hypotension (perte de 20 mmHg de PAS)",
+    "Le grade IV correspond à l'arrêt cardio-respiratoire",
+    "Le grade I se traite par adrénaline intraveineuse à 1 mg",
+    "Le grade II comporte une atteinte multiviscérale modérée (tachycardie, dyspnée)"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "L'adrénaline forte dose est réservée aux grades sévères.",
+   "explanation": "Réponses ABCE. Grade I = cutanéo-muqueux isolé ; grade II = multiviscéral modéré (tachycardie, toux, dyspnée, douleurs abdominales) ; grade III = sévère avec **hypotension** (−20 mmHg PAS), bradycardie, troubles du rythme ; grade IV = arrêt cardio-respiratoire. D est faux : le **grade I se traite par antihistaminiques** ; l'adrénaline IV 1 mg est réservée à l'ACR (grade IV).",
+   "tags": ["anaphylaxie", "Ring et Messmer"],
+   "source": "FC07 — Anaphylaxie"
+  },
+  {
+   "id": "fc07-q07",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Un patient de 70 kg présente une anaphylaxie de **grade III** (hypotension, troubles du rythme). Quelle est la prise en charge de **première intention** appropriée ?",
+   "options": [
+    "2 voies veineuses, remplissage par cristalloïdes et bolus d'adrénaline IV de 0,1 mg",
+    "Antihistaminiques oraux seuls et surveillance",
+    "Adrénaline IM 0,01 mg uniquement",
+    "Corticoïdes IV seuls, sans adrénaline",
+    "Abstention thérapeutique car l'urticaire est absente"
+   ],
+   "correct": [0],
+   "hint": "Grade III sévère → adrénaline, mais quelle dose IV ?",
+   "explanation": "Le grade III impose : **2 VVP, remplissage par cristalloïdes**, polaramine, corticoïdes (1 mg/kg), salbutamol si bronchospasme, et un **bolus d'adrénaline IV de 0,1 mg** (ou IM 0,3–0,5 mg si > 50 kg), tout en stoppant l'exposition à l'allergène. Les antihistaminiques seuls (B) suffisent au grade I uniquement. La dose IV de 0,01 mg (C) correspond au grade II, pas III. Les corticoïdes seuls (D) sont insuffisants. E est dangereux : dans les grades sévères, l'urticaire est souvent **absente** et ne doit pas rassurer.",
+   "tags": ["anaphylaxie", "adrénaline", "traitement"],
+   "source": "FC07 — Prise en charge de l'anaphylaxie"
+  },
+  {
+   "id": "fc07-q08",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Pourquoi la **tryptase** est-elle préférée à l'histamine comme marqueur biologique d'activation mastocytaire ?",
+   "options": [
+    "Elle est stable dans le temps, automatisée et libérée uniquement par les mastocytes",
+    "Elle est libérée à la fois par les mastocytes et les basophiles",
+    "Elle est rapidement métabolisée, ce qui rend son dosage très précis",
+    "Elle n'augmente jamais, servant ainsi de témoin négatif",
+    "Elle est dosée immédiatement, sans nécessiter de valeur basale"
+   ],
+   "correct": [0],
+   "hint": "Spécificité mastocytaire + stabilité = dosage de routine.",
+   "explanation": "La **tryptase** est le marqueur de référence car elle est **stable dans le temps**, automatisée, dosée en routine et **libérée uniquement par les mastocytes** (spécificité). On compare le dosage à une **tryptase basale prélevée > 24 h** après la réaction (élevée si > basale × 1,2 + 2 μg/L). B décrit l'histamine (mastocytes + basophiles). C est faux : c'est l'**histamine** qui est rapidement métabolisée, rendant son dosage difficile. D et E sont faux : la tryptase augmente lors de l'activation et nécessite une valeur basale de comparaison.",
+   "tags": ["tryptase", "biomarqueur"],
+   "source": "FC07 — Examens paracliniques"
+  },
+  {
+   "id": "fc07-q09",
+   "lesson": "fc07",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **bilan allergologique** et les tests cutanés de l'HSI, quelles propositions sont exactes ?",
+   "options": [
+    "Le prick-test est le test cutané de référence en première intention",
+    "Un prick-test est positif si la papule est > 3 mm et ≥ 1/2 du témoin positif",
+    "L'intradermoréaction (IDR) est réalisée en seconde intention, car plus sensible",
+    "Les tests cutanés se réalisent dès le lendemain de la réaction anaphylactique",
+    "Une IgE spécifique positive signe toujours une allergie clinique certaine"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Sensibilisation ≠ allergie clinique ; et il faut attendre avant de tester.",
+   "explanation": "Réponses ABC. Le **prick-test** est le test cutané de **référence en 1re intention** (positif si papule > 3 mm et ≥ 1/2 du témoin positif) ; l'**IDR**, plus sensible, est faite en **2e intention** si le prick est négatif. D est faux : les tests cutanés se réalisent **≥ 6 semaines** après la réaction. E est faux : une IgE spécifique positive signe une **sensibilisation**, pas forcément une allergie clinique (corrélation indispensable).",
+   "tags": ["prick-test", "IDR", "bilan allergologique"],
+   "source": "FC07 — Tests cutanés"
+  },
+  {
+   "id": "fc07-q10",
+   "lesson": "fc07",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **mécanismes immunologiques de la désensibilisation** (immunothérapie allergénique), quelles propositions sont exactes ?",
+   "options": [
+    "Induction de lymphocytes T régulateurs (Treg) producteurs d'IL-10 et de TGF-β",
+    "Production d'IgG4 bloquants entrant en compétition avec les IgE",
+    "Déviation progressive de la réponse Th2 vers Th1",
+    "Augmentation du nombre et de la sensibilité des mastocytes à l'allergène",
+    "Diminution retardée du nombre de mastocytes et d'éosinophiles tissulaires"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Le but est d'éteindre la voie Th2, pas de l'amplifier.",
+   "explanation": "Réponses ABCE. La désensibilisation induit des **Treg** (IL-10, TGF-β), dévie la réponse **Th2 → Th1**, fait produire des **IgG4 bloquants** (compétiteurs des IgE), et diminue de façon retardée les mastocytes et éosinophiles tissulaires. D est faux : on observe au contraire une **tolérisation** (↓ de la sensibilité) des mastocytes et basophiles, pas une augmentation.",
+   "tags": ["désensibilisation", "Treg", "IgG4"],
+   "source": "FC07 — Immunothérapie spécifique (ITS)"
+  },
+  {
+   "id": "fc07-q11",
+   "lesson": "fc07",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Pourquoi un traitement par **β-bloquants** constitue-t-il une contre-indication à l'immunothérapie allergénique (désensibilisation) ?",
+   "options": [
+    "Ils rendent l'adrénaline inefficace en cas de réaction anaphylactique",
+    "Ils potentialisent dangereusement l'effet de l'adrénaline",
+    "Ils induisent eux-mêmes une réponse Th2 IgE-médiée",
+    "Ils empêchent la production d'IgG4 bloquants",
+    "Ils provoquent une hyperréactivité des Treg"
+   ],
+   "correct": [0],
+   "hint": "Que se passe-t-il si une réaction grave survient pendant l'ITS ?",
+   "explanation": "Les **β-bloquants** sont contre-indiqués car, en cas de réaction anaphylactique survenant pendant la désensibilisation, ils **rendent l'adrénaline inefficace** (blocage des récepteurs β-adrénergiques), compromettant le traitement d'urgence. B est l'inverse de la réalité. C, D, E sont inventés : les β-bloquants n'agissent ni sur la polarisation Th2, ni sur les IgG4, ni sur les Treg.",
+   "tags": ["désensibilisation", "contre-indications", "β-bloquants"],
+   "source": "FC07 — Contre-indications de l'ITS"
+  },
+  {
+   "id": "fc07-q12",
+   "lesson": "fc07",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "**(Type annale)** Concernant l'hypersensibilité allergique immédiate (HSI), laquelle (ou lesquelles) de ces affirmations est (sont) **exacte(s)** ?",
+   "options": [
+    "L'HSI comprend une phase de sensibilisation et une phase effectrice",
+    "La tryptase est un médiateur préformé",
+    "L'immunothérapie spécifique d'allergène peut réduire les symptômes voire guérir les patients",
+    "L'HSI est une hypersensibilité de type IV selon Gell et Coombs",
+    "La prévalence des maladies allergiques est en constante diminution"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Deux affirmations sont des pièges classiques : type de Gell-Coombs et épidémiologie.",
+   "explanation": "Réponses ABC (calquées sur l'ACC). L'HSI comporte bien une phase de **sensibilisation** puis **effectrice** ; la **tryptase est préformée** ; l'**ITS** peut réduire les symptômes voire guérir. D est faux : l'HSI est de **type I**, pas de type IV. E est faux : selon la **théorie hygiéniste**, la prévalence des allergies est en **augmentation** constante, pas en diminution.",
+   "tags": ["annale", "synthèse", "ACC"],
+   "source": "FC07 — ACC 2024 Q9"
+  }
+ ]
 }

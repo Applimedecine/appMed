@@ -2,5 +2,235 @@
  "slug": "fc11",
  "title": "QCM — AINS & AIS",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc11-q01",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est le **mécanisme d'action commun à tous les AINS** ?",
+   "options": [
+    "L'inhibition des **cyclo-oxygénases (COX)** → ↓ synthèse des prostaglandines",
+    "L'inhibition de la **phospholipase A2** → ↓ acide arachidonique",
+    "L'inhibition de la **5-lipoxygénase** → ↓ leucotriènes",
+    "La répression de **NF-κB** → ↓ cytokines pro-inflammatoires",
+    "L'induction de l'**annexine 1 (lipocortine-1)**"
+   ],
+   "correct": [0],
+   "hint": "Les AINS agissent en aval, sur l'enzyme qui fabrique les prostaglandines.",
+   "explanation": "Tous les AINS inhibent les **cyclo-oxygénases (COX-1 et COX-2)**, ce qui diminue la synthèse des prostaglandines et des thromboxanes. B, C, E faux car ce sont des mécanismes des **AIS (corticoïdes)** : inhibition de la PLA2 via l'annexine 1 (en amont, ce qui bloque AUSSI la voie des leucotriènes). D faux car la répression de NF-κB est également un mécanisme des corticoïdes, pas des AINS.",
+   "tags": ["AINS", "COX", "mécanisme"],
+   "source": "FC11 — Fonctionnement des AINS"
+  },
+  {
+   "id": "fc11-q02",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle enzyme libère l'**acide arachidonique** à partir des phospholipides membranaires ?",
+   "options": [
+    "La **phospholipase A2 (PLA2)**",
+    "La **cyclo-oxygénase 1 (COX-1)**",
+    "La **5-lipoxygénase**",
+    "La **thromboxane synthase**",
+    "La **kallicréine**"
+   ],
+   "correct": [0],
+   "hint": "C'est l'enzyme inhibée indirectement par les corticoïdes.",
+   "explanation": "La **phospholipase A2** hydrolyse les phospholipides membranaires et libère l'**acide arachidonique (AA)**, précurseur commun des eicosanoïdes. B et C faux car la COX-1 et la 5-LOX agissent **en aval**, sur l'AA déjà libéré (COX → prostaglandines/thromboxanes ; 5-LOX → leucotriènes). D faux : la thromboxane synthase fabrique le TXA2 à partir d'un intermédiaire prostaglandine. E faux : la kallicréine appartient à la voie des kinines.",
+   "tags": ["acide arachidonique", "PLA2"],
+   "source": "FC11 — Cascade de l'acide arachidonique"
+  },
+  {
+   "id": "fc11-q03",
+   "lesson": "fc11",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant la **COX-1** (cyclo-oxygénase 1) :",
+   "options": [
+    "Elle est **constitutive** (exprimée dans tous les tissus)",
+    "Elle assure la **protection de la muqueuse gastrique** (PGE2, PGI2)",
+    "Elle participe à l'**agrégation plaquettaire** via le thromboxane A2 (TXA2)",
+    "Elle est **inductible** uniquement lors de l'inflammation",
+    "Son inhibition allonge le **temps de saignement**"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "COX-1 = constitutive et physiologique ; COX-2 = inductible.",
+   "explanation": "Réponses ABCE. La COX-1 est **constitutive** : elle synthétise des prostaglandines physiologiques (protection gastrique, maintien du flux rénal, agrégation plaquettaire via le TXA2) ; son inhibition explique la toxicité gastrique et l'allongement du temps de saignement. D faux car c'est la **COX-2** qui est inductible (exprimée lors des phénomènes inflammatoires).",
+   "tags": ["COX-1", "COX-2"],
+   "source": "FC11 — COX-1 vs COX-2"
+  },
+  {
+   "id": "fc11-q04",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Sur quelle enzyme les **anti-inflammatoires stéroïdiens (AIS / corticoïdes)** agissent-ils pour bloquer **à la fois** la voie des prostaglandines ET celle des leucotriènes ?",
+   "options": [
+    "La **phospholipase A2** (inhibée via l'annexine 1)",
+    "La **COX-2** uniquement",
+    "La **COX-1** uniquement",
+    "La **5-lipoxygénase** uniquement",
+    "La **thromboxane synthase**"
+   ],
+   "correct": [0],
+   "hint": "Agir en amont de l'acide arachidonique bloque les deux voies à la fois.",
+   "explanation": "Les corticoïdes induisent l'**annexine 1 (lipocortine-1)** qui inhibe la **PLA2** : en supprimant la libération d'acide arachidonique **en amont**, ils bloquent simultanément la voie COX (prostaglandines/TXA2) ET la voie 5-LOX (leucotriènes). B, C, D faux car inhiber une seule de ces enzymes (comme le font les AINS sur la COX) ne bloque qu'une des deux voies. C'est ce qui explique la supériorité anti-inflammatoire des corticoïdes sur les AINS.",
+   "tags": ["AIS", "corticoïdes", "annexine 1"],
+   "source": "FC11 — Mécanisme moléculaire des AIS"
+  },
+  {
+   "id": "fc11-q05",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant les AINS **sélectifs de la COX-2** (coxibs), quelle proposition est **exacte** ?",
+   "options": [
+    "Ils ont **moins d'effets indésirables gastriques** mais **augmentent le risque cardiovasculaire**",
+    "Ils ont moins d'effets gastriques ET moins de risque cardiovasculaire",
+    "Ils sont dénués de toxicité rénale",
+    "Ils ont un effet antiagrégant plaquettaire plus puissant que l'aspirine",
+    "Ils sont indiqués en première intention chez le coronarien"
+   ],
+   "correct": [0],
+   "hint": "Épargner la COX-1 protège l'estomac mais laisse le déséquilibre TXA2/PGI2.",
+   "explanation": "Les coxibs épargnent la COX-1 (donc **moins d'effets gastriques**) mais en inhibant la COX-2 endothéliale (productrice de prostacycline PGI2 antithrombotique) sans inhiber le TXA2 plaquettaire (COX-1), ils créent un déséquilibre **prothrombotique → ↑ risque cardiovasculaire** (le rofécoxib a été retiré du marché). B et D faux pour cette raison : pas d'effet antiagrégant. C faux car ils restent **néphrotoxiques** (la COX-2 est aussi exprimée dans le rein). E faux : ils sont à éviter chez le coronarien.",
+   "tags": ["coxibs", "risque cardiovasculaire", "annale"],
+   "source": "FC11 — AINS sélectifs COX-2"
+  },
+  {
+   "id": "fc11-q06",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "À propos de l'**aspirine (acide acétylsalicylique)**, quelle proposition concernant le type de blocage de la COX est **exacte** ?",
+   "options": [
+    "L'**acide acétylsalicylique** réalise un blocage **irréversible** (acétylation) ; l'**acide salicylique** un blocage **réversible**",
+    "L'acide acétylsalicylique réalise un blocage réversible ; l'acide salicylique un blocage irréversible",
+    "Les deux métabolites bloquent la COX de façon irréversible",
+    "Les deux métabolites bloquent la COX de façon réversible",
+    "L'aspirine n'inhibe pas la COX mais la phospholipase A2"
+   ],
+   "correct": [0],
+   "hint": "C'est l'acétylation qui rend le blocage définitif.",
+   "explanation": "L'aspirine est une **prodrogue** hydrolysée en acide salicylique. L'**acide acétylsalicylique** bloque la COX de façon **irréversible** par **acétylation** (la plaquette, anucléée, ne peut pas resynthétiser la COX → effet sur 7-10 jours) ; l'**acide salicylique** réalise un blocage **réversible**. C'est l'erreur classique à éviter : ne pas inverser réversible/irréversible. E faux car l'aspirine inhibe bien la COX.",
+   "tags": ["aspirine", "irréversible"],
+   "source": "FC11 — L'aspirine et ses dérivés"
+  },
+  {
+   "id": "fc11-q07",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "À **faible dose**, l'aspirine produit principalement un effet :",
+   "options": [
+    "**Antiagrégant plaquettaire** (inhibition de la COX-1 plaquettaire → ↓ TXA2)",
+    "Anti-inflammatoire systémique puissant",
+    "Antipyrétique exclusif",
+    "Immunosuppresseur",
+    "Bronchodilatateur"
+   ],
+   "correct": [0],
+   "hint": "À faible dose, l'aspirine est presque totalement métabolisée au premier passage hépatique.",
+   "explanation": "À **faible dose** (≈ 75-320 mg/j), l'aspirine est presque entièrement métabolisée dès le premier passage hépatique : il en résulte une **inhibition sélective de la COX-1 plaquettaire** au niveau du système porte, bloquant le TXA2 pour toute la vie de la plaquette → **effet antiagrégant** (prévention secondaire des accidents ischémiques). B faux car l'effet anti-inflammatoire nécessite des **doses élevées** (> 3 g/j) pour inhiber la synthèse des prostaglandines dans les tissus périphériques.",
+   "tags": ["aspirine", "antiagrégant", "dose"],
+   "source": "FC11 — Effets thérapeutiques de l'aspirine"
+  },
+  {
+   "id": "fc11-q08",
+   "lesson": "fc11",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **syndrome de Fernand Widal** :",
+   "options": [
+    "Il associe une triade : **intolérance à l'aspirine**, **polypose nasale** et **asthme**",
+    "Le mécanisme est une anomalie du **métabolisme de l'acide arachidonique** avec surproduction de **cystéinyl-leucotriènes**",
+    "Il impose une **contre-indication de tous les AINS** (réactions croisées)",
+    "Il s'agit d'une allergie IgE-dépendante classique à l'aspirine",
+    "Le paracétamol seul est formellement contre-indiqué chez ces patients"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Triade + dérivation de l'AA vers la voie des leucotriènes.",
+   "explanation": "Réponses ABC. Le syndrome de Widal associe **intolérance à l'aspirine + polypose nasale + asthme**. L'inhibition de la COX-1 dérive l'acide arachidonique vers la **5-lipoxygénase** → surproduction de **cystéinyl-leucotriènes** bronchoconstricteurs. Par réaction croisée, **tous les AINS** inhibant la COX-1 sont contre-indiqués. D faux : ce n'est **pas une allergie IgE** mais une intolérance pharmacologique. E faux : le **paracétamol** est justement l'antalgique de recours.",
+   "tags": ["syndrome de Widal", "leucotriènes"],
+   "source": "FC11 — Syndrome de Fernand Widal"
+  },
+  {
+   "id": "fc11-q09",
+   "lesson": "fc11",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **syndrome de Reye** :",
+   "options": [
+    "Il survient essentiellement **chez l'enfant** après prise d'**aspirine au cours d'un épisode viral aigu**",
+    "Il associe une **atteinte cérébrale non inflammatoire (œdème)** et une **atteinte hépatique (stéatose)**",
+    "En pratique, on privilégie le **paracétamol** chez l'enfant fébrile",
+    "Il s'agit d'une complication banale et bénigne",
+    "Il touche préférentiellement le sujet âgé sous corticoïdes"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Enfant + aspirine + virose = œdème cérébral + stéatose hépatique.",
+   "explanation": "Réponses ABC. Le syndrome de Reye est rare mais potentiellement mortel : il survient chez l'**enfant** prenant de l'**aspirine pendant une virose** (varicelle, grippe) et associe **œdème cérébral** (encéphalopathie chez un patient apyrétique) et **stéatose hépatique**. On utilise donc le **paracétamol** chez l'enfant fébrile. D faux (grave, potentiellement mortel). E faux (terrain pédiatrique, sans rapport avec les corticoïdes).",
+   "tags": ["syndrome de Reye", "annale"],
+   "source": "FC11 — Syndromes associés à l'aspirine"
+  },
+  {
+   "id": "fc11-q10",
+   "lesson": "fc11",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Quel est le mécanisme physiopathologique de la **toxicité rénale** des AINS ?",
+   "options": [
+    "Inhibition des prostaglandines vasodilatatrices rénales → **vasoconstriction de l'artériole afférente** → ↓ DFG → IRA fonctionnelle",
+    "Toxicité tubulaire directe par dépôt de cristaux d'acide salicylique",
+    "Inhibition de la phospholipase A2 tubulaire",
+    "Vasodilatation excessive de l'artériole afférente → hyperfiltration",
+    "Glomérulonéphrite extra-membraneuse à complexes immuns",
+    "Néphrocalcinose par hypercalcémie"
+   ],
+   "correct": [0],
+   "hint": "Les prostaglandines rénales protègent la perfusion glomérulaire.",
+   "explanation": "Les **prostaglandines rénales** (dépendantes de la COX) ont un rôle **vasodilatateur sur l'artériole afférente** et maintiennent le flux sanguin rénal. En les inhibant, les AINS provoquent une **vasoconstriction de l'afférente**, une baisse du DFG et une **rétention hydrosodée** (œdèmes, HTA), d'où une **insuffisance rénale aiguë fonctionnelle**, majorée chez le sujet âgé, déshydraté ou insuffisant cardiaque. D faux car c'est l'inverse (vasoconstriction). C faux : les AINS inhibent la COX, pas la PLA2.",
+   "tags": ["toxicité rénale", "prostaglandines"],
+   "source": "FC11 — Effets indésirables des AINS"
+  },
+  {
+   "id": "fc11-q11",
+   "lesson": "fc11",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant le **mécanisme d'action génomique** des corticoïdes (AIS) :",
+   "options": [
+    "Lipophiles, ils **diffusent passivement** et se fixent sur un **récepteur glucocorticoïde intracytoplasmique**",
+    "Les **GRE positifs** induisent la transcription de protéines anti-inflammatoires (annexine 1, IκB, IL-10)",
+    "La répression de **NF-κB** diminue la transcription des cytokines pro-inflammatoires (TNF-α, IL-1, IL-6)",
+    "L'effet transcriptionnel explique un **délai d'action** de quelques heures",
+    "Ils agissent uniquement sur des récepteurs membranaires couplés aux protéines G"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Récepteur cytoplasmique → noyau → GRE + répression NF-κB.",
+   "explanation": "Réponses ABCD. Les glucocorticoïdes, lipophiles, **diffusent passivement** et se lient au **récepteur GR cytoplasmique** ; le complexe migre au noyau. Sur les **GRE positifs**, ils induisent des protéines anti-inflammatoires (**annexine 1** inhibant la PLA2, IκB, IL-10) ; ils **répriment NF-κB et AP-1** → ↓ cytokines pro-inflammatoires (TNF-α, IL-1, IL-6). Cet effet **transcriptionnel** explique le délai d'action. E faux : le mécanisme principal est **intracellulaire/génomique** (et non via un récepteur membranaire couplé aux protéines G).",
+   "tags": ["corticoïdes", "GRE", "NF-κB"],
+   "source": "FC11 — Mécanisme moléculaire des AIS"
+  },
+  {
+   "id": "fc11-q12",
+   "lesson": "fc11",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Parmi les **effets indésirables des corticoïdes** au long cours, lesquels sont **exacts** ?",
+   "options": [
+    "**Hyperglycémie / diabète induit** et rétention hydrosodée avec HTA",
+    "**Ostéoporose** (par diminution de l'activité ostéoblastique)",
+    "**Immunosuppression** favorisant les infections opportunistes",
+    "Risque d'**insuffisance surrénalienne aiguë** en cas d'**arrêt brutal**",
+    "**Hypokaliémie** systématiquement absente sous corticothérapie"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Ne jamais arrêter brutalement une corticothérapie prolongée.",
+   "explanation": "Réponses ABCD. Les corticoïdes entraînent des effets **métaboliques** (hyperglycémie/diabète induit, hypokaliémie, rétention sodée, HTA), **osseux** (ostéoporose par ↓ ostéoblastes), **immunologiques** (immunosuppression → infections) et **surrénaliens** : il ne faut **jamais arrêter brutalement** une corticothérapie prolongée sous peine d'**insuffisance surrénalienne aiguë**. E faux : l'**hypokaliémie** est un effet métabolique classique des corticoïdes, elle n'est pas absente.",
+   "tags": ["corticoïdes", "effets indésirables", "annale"],
+   "source": "FC11 — Effets secondaires des corticoïdes"
+  }
+ ]
 }

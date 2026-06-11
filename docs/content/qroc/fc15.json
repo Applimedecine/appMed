@@ -66,6 +66,72 @@
     "Positif → contre-indication absolue à la greffe"
    ],
    "trap": "Le cross-match est réalisé le jour J (pas à l'avance) car les Ac peuvent apparaître tardivement. Un cross-match négatif est indispensable avant toute greffe."
+  },
+  {
+   "id": "fc15-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle du **système HLA** dans la transplantation ? Précisez les locus les plus importants à apparier et la conséquence d'une incompatibilité.",
+   "answer": "Le **système HLA** (CMH humain, sur le **chromosome 6**) code les molécules de présentation antigénique qui constituent les principaux **allo-antigènes** reconnus lors du rejet. En transplantation d'organe, on **apparie** donneur et receveur sur les locus **HLA-A, -B (classe I)** et surtout **HLA-DR (classe II)**, les plus immunogènes. Plus le nombre d'**incompatibilités (mismatches)** est élevé, plus le risque de rejet et d'immunisation (apparition d'Ac anti-HLA) augmente, et plus la survie du greffon diminue. Le système HLA étant très **polymorphe**, un appariement parfait est rare hors fratrie HLA-identique. L'appariement est crucial en greffe de **moelle osseuse** (risque de GVH), un peu moins en greffe rénale où l'immunosuppression compense en partie.",
+   "keyPoints": [
+    "HLA = CMH (chromosome 6) = principaux allo-antigènes du rejet",
+    "Apparier surtout HLA-A, -B (classe I) et HLA-DR (classe II)",
+    "Plus de mismatches → plus de rejet/immunisation, moins de survie",
+    "Appariement crucial en greffe de moelle (GVH)"
+   ]
+  },
+  {
+   "id": "fc15-qroc7",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Qu'est-ce que la **réaction du greffon contre l'hôte (GVHD)** ? Contexte de survenue, mécanisme et organes atteints ?",
+   "answer": "La **GVHD (Graft-versus-Host Disease)** est la situation **inverse du rejet** : ce sont les **cellules immunocompétentes du greffon** (LT du donneur) qui attaquent les **tissus du receveur**. Elle survient typiquement après une **allogreffe de cellules souches hématopoïétiques (moelle osseuse)**, où le greffon contient des LT matures du donneur, chez un receveur immunodéprimé incapable de les rejeter. Mécanisme : les LT du donneur reconnaissent les **allo-antigènes HLA (et mineurs) du receveur** comme étrangers → activation et attaque. Organes cibles : **peau** (érythème, rash), **foie** (cholestase, ictère), **tube digestif** (diarrhée). On distingue formes **aiguë** et **chronique**. Prévention : immunosuppression (ciclosporine, méthotrexate), déplétion T du greffon. À l'inverse, l'effet **GVL (greffon contre leucémie)** est bénéfique dans les hémopathies.",
+   "keyPoints": [
+    "GVHD = LT du donneur attaquent les tissus du receveur (inverse du rejet)",
+    "Contexte : allogreffe de CSH (moelle), receveur immunodéprimé",
+    "Organes : peau, foie, tube digestif",
+    "Prévention : immunosuppression, déplétion T ; effet GVL bénéfique"
+   ],
+   "trap": "La GVHD nécessite un greffon contenant des cellules immunocompétentes (moelle) et un receveur incapable de les rejeter. Ne pas confondre avec le rejet (hôte contre greffon)."
+  },
+  {
+   "id": "fc15-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez la **stratégie immunosuppressive** classique en transplantation d'organe : phases et principe d'association des molécules.",
+   "answer": "Deux phases : **(1) Traitement d'induction** : immunosuppression **intense** au moment de la greffe et juste après, période à plus haut risque de rejet aigu (ex : anti-récepteur de l'IL-2 / **basiliximab**, ou sérum anti-lymphocytaire / **thymoglobulines**). **(2) Traitement d'entretien** : immunosuppression au long cours, à doses **progressivement réduites**, poursuivie **à vie**. Principe central : **associer des molécules aux mécanismes d'action différents** (souvent une **trithérapie** : inhibiteur de calcineurine + antimétabolite + corticoïdes) pour agir sur plusieurs étapes de l'activation lymphocytaire, ce qui permet de **réduire les doses** de chacune (et leur toxicité) tout en maximisant l'efficacité. Objectif : prévenir le rejet sans immunodépression excessive (infections, cancers).",
+   "keyPoints": [
+    "Induction : immunosuppression forte péri-greffe (basiliximab, thymoglobulines)",
+    "Entretien : doses réduites, à vie",
+    "Trithérapie : anticalcineurine + antimétabolite + corticoïdes (mécanismes différents)",
+    "Associer des mécanismes différents → ↓ doses et toxicité"
+   ]
+  },
+  {
+   "id": "fc15-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce qu'un **site immunoprivilégié** ? Donnez des exemples et expliquez l'intérêt en transplantation (ex : greffe de cornée).",
+   "answer": "Un **site immunoprivilégié** est un tissu où une **réponse immunitaire est physiologiquement limitée**, permettant de tolérer des antigènes étrangers sans rejet majeur. Mécanismes : **barrières anatomiques** (absence de drainage lymphatique direct, jonctions serrées), **faible expression du CMH**, environnement **immunosuppresseur local** (TGF-β, expression de **FasL** induisant l'apoptose des LT infiltrants). Exemples : **œil (chambre antérieure, cornée)**, **cerveau/SNC**, **testicule**, **placenta/fœtus**. Intérêt : la **greffe de cornée** est l'allogreffe la **plus pratiquée** et réussit **sans immunosuppression systémique ni typage HLA** dans la majorité des cas, grâce au privilège immunitaire de l'œil (avascularité de la cornée).",
+   "keyPoints": [
+    "Site où la réponse immune est physiologiquement limitée",
+    "Mécanismes : pas de drainage lymphatique, faible CMH, FasL/TGF-β",
+    "Exemples : œil/cornée, SNC, testicule, placenta",
+    "Greffe de cornée : sans immunosuppression systémique ni typage HLA"
+   ]
+  },
+  {
+   "id": "fc15-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quelles sont les principales **complications de l'immunosuppression au long cours** chez le transplanté ?",
+   "answer": "L'immunosuppression à vie expose à des complications liées à la **baisse des défenses** et à la **toxicité** des molécules : **(1) Infections** — surtout **opportunistes** (**CMV**, **BK virus**, pneumocystose, candidoses, tuberculose) et infections communautaires plus sévères ; les **vaccins vivants atténués sont contre-indiqués**. **(2) Cancers** — risque accru de **lymphomes** (souvent EBV-induits : syndrome lymphoprolifératif post-transplantation, **PTLD**), **cancers cutanés** et cancers viro-induits. **(3) Toxicités spécifiques** — néphrotoxicité des anticalcineurines, diabète, HTA, dyslipidémie, ostéoporose (corticoïdes), toxicité médullaire (antimétabolites). D'où une surveillance régulière (taux résiduels, NFS, créatinine, dépistage cutané).",
+   "keyPoints": [
+    "Infections opportunistes (CMV, BK, pneumocystose) ; vaccins vivants CI",
+    "Cancers : lymphomes EBV (PTLD), cancers cutanés",
+    "Toxicités : néphrotoxicité (anticalcineurines), diabète, HTA, ostéoporose",
+    "Surveillance régulière (taux, NFS, créatinine, peau)"
+   ]
   }
  ]
 }

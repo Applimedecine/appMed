@@ -31,6 +31,14 @@ export function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
+// Mise en forme en ligne légère : **gras**, *italique*, `code`. (Contenu rédigé, sûr.)
+export function inline(s) {
+  return esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>')
+    .replace(/`([^`]+)`/g, '<code class="kbd">$1</code>');
+}
+
 // Mélange de Fisher-Yates (renvoie une copie).
 export function shuffle(arr) {
   const a = arr.slice();

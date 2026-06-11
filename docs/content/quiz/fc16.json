@@ -2,5 +2,222 @@
  "slug": "fc16",
  "title": "QCM — Cytokines",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc16-q01",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la nature des **cytokines** ?",
+   "options": [
+    "De **petites protéines** solubles assurant la signalisation extracellulaire de la réponse immunitaire",
+    "Des lipides membranaires des lymphocytes",
+    "Des acides nucléiques transmettant un signal intracellulaire",
+    "Des anticorps circulants de la famille des IgG",
+    "Des sucres complexes de la paroi bactérienne"
+   ],
+   "correct": [0],
+   "hint": "Pense à de petits médiateurs solubles agissant de cellule à cellule.",
+   "explanation": "Les cytokines sont de **petites protéines** (≈ 8 à 80 kDa) du réseau de signalisation **extracellulaire** de la réponse immunitaire ; elles agissent de façon autocrine, paracrine ou endocrine. Ce ne sont ni des lipides (B faux), ni des acides nucléiques (C faux : la signalisation est extracellulaire, pas intracellulaire), ni des anticorps (D faux), ni des polysaccharides (E faux).",
+   "tags": ["définition", "cytokines"],
+   "source": "FC16 — Généralités"
+  },
+  {
+   "id": "fc16-q02",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est l'effet clé de l'**IL-2** dans la réponse immunitaire ?",
+   "options": [
+    "La **prolifération et la survie des lymphocytes T**",
+    "La commutation isotypique vers les IgE",
+    "Le recrutement des polynucléaires neutrophiles",
+    "L'activation des macrophages en phénotype M1",
+    "L'inhibition globale de la réponse immunitaire"
+   ],
+   "correct": [0],
+   "hint": "C'est le « signal 3 » autocrine de l'activation lymphocytaire T.",
+   "explanation": "L'**IL-2**, produite par le LT CD4 activé, est la cytokine clé de la **prolifération et de la survie des LT** (signal 3 autocrine/paracrine) ; c'est la seule interleukine ayant une AMM (cancer du rein métastatique). La commutation vers IgE (B faux) relève de l'IL-4 ; le recrutement des PNN (C faux) de l'IL-17 ; l'activation M1 (D faux) de l'IFN-γ ; le frein immunitaire (E faux) de l'IL-10.",
+   "tags": ["IL-2", "lymphocyte T"],
+   "source": "FC16 — Cytokines clés"
+  },
+  {
+   "id": "fc16-q03",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle voie de signalisation est typiquement empruntée par de nombreuses cytokines (IL-2, IL-4, interférons…) ?",
+   "options": [
+    "La voie **JAK/STAT**",
+    "La voie de la PCR (polymérase)",
+    "La voie du cycle de Krebs",
+    "La voie de la coagulation plasmatique",
+    "La voie de la β-oxydation des acides gras"
+   ],
+   "correct": [0],
+   "hint": "Janus kinases et facteurs de transcription STAT.",
+   "explanation": "La voie **JAK/STAT** est la voie de signalisation canonique des récepteurs de cytokines : liaison → dimérisation du récepteur → activation des **JAK** (kinases) → phosphorylation des **STAT** → translocation nucléaire → transcription. Les autres propositions (B-E) sont des voies métaboliques ou plasmatiques sans rapport avec la transduction du signal cytokinique.",
+   "tags": ["JAK/STAT", "signalisation"],
+   "source": "FC16 — Récepteurs et signalisation"
+  },
+  {
+   "id": "fc16-q04",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle cytokine est la principale responsable de la différenciation **Th2** et de la commutation isotypique vers les **IgE** ?",
+   "options": ["L'**IL-4**", "L'IL-12", "L'IFN-γ", "Le TNF-α", "L'IL-17"],
+   "correct": [0],
+   "hint": "C'est la cytokine de l'allergie et des helminthes.",
+   "explanation": "L'**IL-4** (LT Th2, mastocytes) oriente la différenciation **Th2** et la commutation vers les **IgE** (allergie, helminthes). L'IL-12 (B faux) oriente Th1 ; l'IFN-γ (C faux) active les macrophages M1 ; le TNF-α (D faux) est pro-inflammatoire systémique ; l'IL-17 (E faux) recrute les PNN.",
+   "tags": ["IL-4", "Th2", "IgE"],
+   "source": "FC16 — Cytokines clés"
+  },
+  {
+   "id": "fc16-q05",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle cytokine oriente la différenciation **Th1** et active les cellules **NK**, favorisant la défense contre les bactéries intracellulaires ?",
+   "options": [
+    "L'**IL-12** (produite par les macrophages et les cellules dendritiques)",
+    "L'IL-4 produite par les Th2",
+    "L'IL-10 produite par les LT régulateurs",
+    "L'IL-5 produite par les Th2",
+    "Le TGF-β produit par les LT régulateurs"
+   ],
+   "correct": [0],
+   "hint": "Macrophages/DC → polarisation cellulaire → production d'IFN-γ.",
+   "explanation": "L'**IL-12** (macrophages, DC) induit la différenciation **Th1** (→ IFN-γ) et active les **NK** : c'est l'axe de l'immunité cellulaire (bactéries intracellulaires, tumeurs). L'IL-4 et l'IL-5 (B, D faux) sont Th2 ; l'IL-10 et le TGF-β (C, E faux) sont immunosuppresseurs/tolérogènes.",
+   "tags": ["IL-12", "Th1", "NK"],
+   "source": "FC16 — Polarisation Th"
+  },
+  {
+   "id": "fc16-q06",
+   "lesson": "fc16",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant l'**IFN-γ**, quelles propositions sont exactes ?",
+   "options": [
+    "C'est un **interféron de type II**",
+    "Il est un **activateur puissant des macrophages** (phénotype M1)",
+    "Il est produit notamment par les **Th1** et les **NK**",
+    "Il est principalement antiviral et augmente l'expression du CMH-I",
+    "Il est utilisé en traitement de la **granulomatose septique chronique**"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Type II, germes intracellulaires, granulomes. À distinguer des IFN de type I.",
+   "explanation": "L'**IFN-γ** est l'interféron de **type II**, produit par les **Th1** et les **NK** ; c'est un puissant **activateur des macrophages M1** (défense contre les germes intracellulaires, formation des granulomes) et il est utilisé dans la **granulomatose septique chronique**. D décrit plutôt les IFN de **type I** (α/β) : action antivirale dominante et ↑ du CMH-I. L'IFN-γ augmente surtout le **CMH-II**.",
+   "tags": ["IFN-gamma", "macrophages"],
+   "source": "FC16 — Interférons"
+  },
+  {
+   "id": "fc16-q07",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle cytokine, produite par les **Th17**, recrute les polynucléaires neutrophiles et participe à la défense fongique et bactérienne au niveau des muqueuses ?",
+   "options": ["L'**IL-17**", "L'IL-2", "L'IFN-α", "L'IL-10", "Le TNF-β"],
+   "correct": [0],
+   "hint": "La cytokine signature de la lignée Th17.",
+   "explanation": "L'**IL-17** (Th17) recrute les **PNN** et assure la défense **fongique/bactérienne muqueuse** ; elle est aussi impliquée dans l'auto-immunité (psoriasis, spondylarthrite — cible du sécukinumab). L'IL-2 (B faux) agit sur les LT ; l'IFN-α (C faux) est antiviral ; l'IL-10 (D faux) est anti-inflammatoire.",
+   "tags": ["IL-17", "Th17", "PNN"],
+   "source": "FC16 — Cytokines clés"
+  },
+  {
+   "id": "fc16-q08",
+   "lesson": "fc16",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **TNF-α**, quelles propositions sont exactes ?",
+   "options": [
+    "Il est produit notamment par les **macrophages**",
+    "Il active la voie de transcription **NF-κB**",
+    "Il participe à l'**inflammation systémique** et à la cachexie",
+    "Il est la cytokine de différenciation des lymphocytes Th2",
+    "Il joue un rôle clé dans la **formation et le maintien du granulome**"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Cytokine pro-inflammatoire majeure, cible des biothérapies en rhumatologie/MICI.",
+   "explanation": "Le **TNF-α** (macrophages, LT) est une cytokine **pro-inflammatoire** majeure : activation **NF-κB**, inflammation systémique, cachexie, apoptose, et rôle essentiel dans le **granulome** (d'où le risque de réactivation tuberculeuse sous anti-TNF). D est faux : la différenciation Th2 dépend de l'**IL-4**, pas du TNF-α.",
+   "tags": ["TNF-alpha", "NF-kB"],
+   "source": "FC16 — Cytokines clés"
+  },
+  {
+   "id": "fc16-q09",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Le **tocilizumab** est une biothérapie indiquée notamment dans la polyarthrite rhumatoïde et la tempête cytokinique. Quelle est sa cible ?",
+   "options": [
+    "Le **récepteur de l'IL-6**",
+    "Le TNF-α soluble et membranaire",
+    "La sous-unité p40 commune à IL-12 et IL-23",
+    "L'IL-17A",
+    "Le récepteur de l'IL-4 (IL-4Rα)"
+   ],
+   "correct": [0],
+   "hint": "Anti-IL-6R : abaisse la CRP, peut masquer la fièvre.",
+   "explanation": "Le **tocilizumab** bloque le **récepteur de l'IL-6** (anti-IL-6R) ; il abaisse la CRP (marqueur indirect d'IL-6) et peut **masquer la fièvre** (surveillance clinique renforcée). Le TNF-α (B faux) est ciblé par infliximab/adalimumab/étanercept ; la p40 (C faux) par l'ustékinumab ; l'IL-17A (D faux) par le sécukinumab ; l'IL-4Rα (E faux) par le dupilumab.",
+   "tags": ["tocilizumab", "anti-IL-6R", "biothérapie"],
+   "source": "FC16 — Biothérapies anti-cytokines"
+  },
+  {
+   "id": "fc16-q10",
+   "lesson": "fc16",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **trois grands types d'interférons**, quelles propositions sont exactes ?",
+   "options": [
+    "Type I : **IFN-α et IFN-β**",
+    "Type II : **IFN-γ**",
+    "Type III : **IFN-λ (lambda)**",
+    "L'**IFN-β** est utilisé dans le traitement de la **sclérose en plaques**",
+    "L'IFN-γ est de type I et traite la sclérose en plaques"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Trois types ; attention à ne pas confondre IFN-β (SEP) et IFN-γ (CGD).",
+   "explanation": "Type I = **IFN-α/β** ; type II = **IFN-γ** ; type III = **IFN-λ**. L'**IFN-β** (type I) traite la **sclérose en plaques** (immunomodulateur). E est un piège : l'IFN-γ est de **type II** (pas I) et traite la **granulomatose septique chronique**, pas la SEP.",
+   "tags": ["interférons", "types"],
+   "source": "FC16 — Interférons"
+  },
+  {
+   "id": "fc16-q11",
+   "lesson": "fc16",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Avant d'instaurer un traitement **anti-TNF-α**, quel dépistage est **indispensable** et pourquoi ?",
+   "options": [
+    "Le dépistage de la **tuberculose latente**, car le TNF-α est nécessaire au maintien du granulome",
+    "Le dépistage d'une allergie aux pénicillines, car l'anti-TNF la majore",
+    "Un dosage de la calcémie, car l'anti-TNF provoque une hypocalcémie",
+    "Une sérologie HER2, car l'anti-TNF cible HER2",
+    "Aucun bilan n'est nécessaire avant un anti-TNF"
+   ],
+   "correct": [0],
+   "hint": "Le granulome contient le bacille tuberculeux ; le TNF-α le maintient.",
+   "explanation": "Le **TNF-α** est indispensable à la **formation et au maintien du granulome** qui contient la tuberculose latente. Sous anti-TNF, le granulome n'est plus contrôlé → **réactivation tuberculeuse**. Il faut donc dépister une tuberculose latente (IDR ou Quantiféron) avant traitement. Les propositions B, C, D sont sans rapport physiopathologique ; E est faux (un bilan pré-thérapeutique est systématique).",
+   "tags": ["anti-TNF", "tuberculose"],
+   "source": "FC16 — Biothérapies anti-cytokines"
+  },
+  {
+   "id": "fc16-q12",
+   "lesson": "fc16",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant la **pléiotropie** des cytokines et ses conséquences, quelles propositions sont exactes ?",
+   "options": [
+    "Une même cytokine peut exercer des effets **différents, voire opposés**, selon la cellule cible",
+    "Le **TGF-β** est immunosuppresseur, mais devient inducteur de **Th17** en présence d'IL-6",
+    "La pléiotropie explique en partie les nombreux **effets indésirables** des cytokines thérapeutiques",
+    "La pléiotropie signifie qu'une cytokine n'a qu'une seule cible cellulaire",
+    "L'EPO, le G-CSF et le GM-CSF échappent à la pléiotropie"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Pléiotropie = effets multiples/contextuels ; quelques exceptions ciblées.",
+   "explanation": "La **pléiotropie** = une cytokine a des effets **multiples et contexte-dépendants** (parfois opposés) selon la cible : le **TGF-β** est immunosuppresseur seul, mais inducteur de **Th17** avec l'IL-6. Cela explique de nombreux **effets indésirables** des cytokines thérapeutiques. L'**EPO, le G-CSF et le GM-CSF** font exception (action ciblée). D est faux : c'est l'inverse de la définition (la pléiotropie implique de **multiples** cibles).",
+   "tags": ["pléiotropie", "effets indésirables"],
+   "source": "FC16 — Pièges"
+  }
+ ]
 }

@@ -2,5 +2,228 @@
  "slug": "fc15",
  "title": "QCM — Rejet de greffe",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc15-q01",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quels sont les **allo-antigènes** principalement responsables du rejet de greffe ?",
+   "options": [
+    "Les molécules **HLA (CMH)** du donneur",
+    "Les antigènes du groupe sanguin Rhésus uniquement",
+    "Les protéines du complément du receveur",
+    "Les antigènes viraux portés par le greffon",
+    "Les auto-antigènes du receveur"
+   ],
+   "correct": [0],
+   "hint": "Ce sont les molécules de présentation antigénique du donneur, reconnues comme étrangères.",
+   "explanation": "Les allo-antigènes qui déclenchent le rejet sont les **molécules HLA (CMH)** du donneur, reconnues comme étrangères par les LT du receveur. Le rejet est une réponse **allo-immune** médiée surtout par les LT. Le Rhésus (B faux) n'est pas le déterminant majeur du rejet d'organe ; le complément (C faux) est un effecteur, pas l'antigène cible ; les auto-antigènes (E faux) ne déclenchent pas le rejet (ils sont tolérés).",
+   "tags": ["allo-antigène", "HLA"],
+   "source": "FC15 — Réponse allogénique"
+  },
+  {
+   "id": "fc15-q02",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Comment qualifie-t-on une greffe entre **deux individus génétiquement différents de la même espèce** (ex : greffe rénale humaine) ?",
+   "options": ["Allogreffe", "Autogreffe", "Xénogreffe", "Isogreffe parfaite", "Hétérogreffe inter-espèces"],
+   "correct": [0],
+   "hint": "Préfixe « allo- » = un autre individu de la même espèce.",
+   "explanation": "Une **allogreffe** relie deux individus génétiquement différents de la même espèce et induit une réponse **allogénique** (LT + HLA). L'**autogreffe** (B faux) provient du même individu (ex : peau d'un brûlé) et n'induit aucune réponse. La **xénogreffe** (C faux) est inter-espèces (ex : porc → homme), la barrière la plus difficile à franchir.",
+   "tags": ["types de greffe", "vocabulaire"],
+   "source": "FC15 — Vocabulaire"
+  },
+  {
+   "id": "fc15-q03",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le rejet de greffe est une réponse immunitaire **adaptative à mémoire**. Quelle en est la conséquence clinique principale ?",
+   "options": [
+    "La nécessité d'une **immunosuppression à vie**",
+    "L'acquisition d'une tolérance spontanée en quelques semaines",
+    "L'absence de tout traitement après le premier mois",
+    "Une protection définitive après une seule greffe",
+    "Une réponse identique quel que soit le nombre de greffes antérieures"
+   ],
+   "correct": [0],
+   "hint": "Qui dit mémoire immunitaire dit réponse plus rapide lors d'une réexposition aux mêmes antigènes.",
+   "explanation": "Le caractère **adaptatif et mémorisé** impose une **immunosuppression à vie** : le système garde la mémoire des allo-antigènes du greffon et l'attaquerait dès l'arrêt du traitement. Il n'y a pas de tolérance spontanée (B, C, D faux). La réponse n'est pas identique d'une greffe à l'autre (E faux) : une 2e greffe du même fond est rejetée plus vite (avant J3) qu'une 1re (J10).",
+   "tags": ["mémoire immunitaire", "immunosuppression"],
+   "source": "FC15 — Réponse adaptative"
+  },
+  {
+   "id": "fc15-q04",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Pourquoi parle-t-on d'allo-réactivité **explosive** dans le rejet de greffe ?",
+   "options": [
+    "Environ **1 LT sur 100** est recruté, contre 1 sur 1 000 000 dans une réponse classique",
+    "Le rejet survient toujours en moins d'une heure",
+    "La totalité des lymphocytes B du receveur est mobilisée",
+    "Le greffon libère des cytokines qui détruisent le receveur",
+    "Le complément est activé sans intervention lymphocytaire"
+   ],
+   "correct": [0],
+   "hint": "Compare la fréquence des LT recrutés à celle d'une réponse anti-microbienne classique.",
+   "explanation": "Par mimétisme conformationnel, un même allo-CMH recrute de nombreux TCR différents : environ **1 LT sur 100** répond, contre ~1 sur 1 000 000 dans une réponse classique — d'où le caractère explosif. Le délai (B faux) varie selon le type de rejet. Ce sont les LT, non les LB (C faux), qui dominent. Le complément (E faux) intervient surtout dans le rejet hyperaigu médié par anticorps.",
+   "tags": ["allo-réactivité", "fréquence LT"],
+   "source": "FC15 — Réponse allogénique"
+  },
+  {
+   "id": "fc15-q05",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Concernant l'**allo-reconnaissance directe**, quelle proposition est exacte ?",
+   "options": [
+    "Les LT du receveur reconnaissent le **CMH du donneur** présenté par les **CPA du greffon**, surtout en phase **aiguë**",
+    "Les CPA du receveur présentent des allo-peptides du donneur sur le CMH du soi",
+    "Elle est responsable de la phase chronique et de la fibrose tardive",
+    "Elle recrute environ 1 LT sur 1 000 000",
+    "Elle ne fait intervenir aucune molécule du CMH"
+   ],
+   "correct": [0],
+   "hint": "Moyen mnémotechnique : Directe = Donneur.",
+   "explanation": "Dans la voie **directe**, les LT du receveur reconnaissent directement le **CMH du donneur** (intact) porté par les **CPA du greffon** ; c'est le mécanisme de la phase **aiguë** (précoce), recrutant ~1 LT/100. Les propositions B, C et D décrivent la voie **indirecte** (CPA du receveur, allo-peptides sur le CMH du soi, phase chronique, ~1 LT/1 000 000). E est faux : le CMH est central.",
+   "tags": ["allo-reconnaissance directe"],
+   "source": "FC15 — Allo-reconnaissance"
+  },
+  {
+   "id": "fc15-q06",
+   "lesson": "fc15",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant l'**allo-reconnaissance indirecte**, quelles propositions sont exactes ?",
+   "options": [
+    "Ce sont les **CPA du receveur** qui captent et apprêtent les protéines HLA du donneur",
+    "Le CMH présentant les allo-peptides est celui du **receveur (soi)**",
+    "Elle est surtout impliquée dans le rejet **chronique**",
+    "Elle recrute davantage de LT que la voie directe (1 LT sur 100)",
+    "Mnémotechnique : Indirecte = Interne (nos propres CPA)"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Elle suit le schéma de présentation antigénique « classique ».",
+   "explanation": "Dans la voie **indirecte**, les **CPA du receveur** captent les protéines HLA du donneur et présentent des **allo-peptides** sur leur propre **CMH du soi** (schéma classique) ; elle domine la phase **chronique** (fibrose). Mnémotechnique : Indirecte = Interne. D est faux : elle recrute ~1 LT/1 000 000, soit **moins** que la voie directe (1 LT/100, qui est la voie « explosive »).",
+   "tags": ["allo-reconnaissance indirecte"],
+   "source": "FC15 — Allo-reconnaissance"
+  },
+  {
+   "id": "fc15-q07",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Un greffon rénal se thrombose en quelques **heures** après revascularisation. Quel mécanisme évoquez-vous en priorité ?",
+   "options": [
+    "Un rejet **hyperaigu** par anticorps préformés (anti-ABO ou anti-HLA) activant le complément",
+    "Un rejet aigu médié par les LT du receveur",
+    "Un rejet chronique par fibrose progressive",
+    "Une réaction d'hypersensibilité retardée de type IV",
+    "Une infection opportuniste du greffon"
+   ],
+   "correct": [0],
+   "hint": "Un délai de quelques heures oriente vers des anticorps déjà présents avant la greffe.",
+   "explanation": "Un rejet en **quelques heures** est un rejet **hyperaigu** : des **anticorps préformés** (anti-ABO naturels en cas d'incompatibilité, ou anti-HLA acquis non détectés) se fixent sur l'endothélium → activation du **complément** → **thrombose**. Le rejet aigu (B faux) survient en jours-semaines (LT) ; le chronique (C faux) en mois-années. Le rejet n'est **pas** une hypersensibilité retardée (D faux).",
+   "tags": ["rejet hyperaigu", "complément"],
+   "source": "FC15 — Types de rejet"
+  },
+  {
+   "id": "fc15-q08",
+   "lesson": "fc15",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **types de rejet**, quelles associations mécanisme / délai sont correctes ?",
+   "options": [
+    "Hyperaigu : anticorps préformés → complément → thrombose — délai de **heures**",
+    "Aigu : lymphocytes **T** du receveur (infiltrat, œdème, fièvre) — délai de **jours à semaines**",
+    "Chronique : voie indirecte + Ac anti-HLA de novo → fibrose — délai de **mois à années**",
+    "Aigu : anticorps anti-ABO naturels — délai immédiat",
+    "Chronique : médié exclusivement par le complément en quelques minutes"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Trois temporalités distinctes : heures, jours-semaines, mois-années.",
+   "explanation": "Hyperaigu = Ac préformés → complément → thrombose en **heures** ; aigu = **LT** du receveur (voie directe) en **jours à semaines** (infiltrat de LT activés à la biopsie) ; chronique = voie indirecte + Ac de novo → fibrose en **mois à années**. D est faux (les Ac anti-ABO naturels causent le rejet **hyperaigu**, pas l'aigu) ; E est faux (le chronique est lent, pas en minutes).",
+   "tags": ["types de rejet", "chronologie"],
+   "source": "FC15 — Types de rejet"
+  },
+  {
+   "id": "fc15-q09",
+   "lesson": "fc15",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "À quel moment et avec quels réactifs réalise-t-on un **cross-match** avant une greffe ?",
+   "options": [
+    "**Le jour J** de la greffe : sérum du **receveur** + cellules nucléées du **donneur**",
+    "Plusieurs mois avant la greffe : sérum du donneur + cellules du receveur",
+    "Après la greffe, sur une biopsie du greffon",
+    "Le jour J : sérum du donneur + complément du receveur",
+    "À la naissance du receveur, sur sang de Guthrie"
+   ],
+   "correct": [0],
+   "hint": "Le test cherche, chez le receveur, des anticorps dirigés contre le donneur, au plus près de la greffe.",
+   "explanation": "Le cross-match est réalisé **le jour J** car les Ac anti-HLA peuvent apparaître tardivement. On met en contact le **sérum/plasma du receveur** (qui peut contenir des Ac anti-HLA) avec les **cellules nucléées du donneur** (ex : lymphocytes B). Les sens donneur/receveur sont inversés en B et D (faux). Ce n'est ni une biopsie (C faux) ni un dépistage néonatal (E faux).",
+   "tags": ["cross-match", "pré-greffe"],
+   "source": "FC15 — Cross-match"
+  },
+  {
+   "id": "fc15-q10",
+   "lesson": "fc15",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **techniques de cross-match** et leur interprétation, quelles propositions sont exactes ?",
+   "options": [
+    "La **cytométrie de flux** révèle les Ac fixés par un Ac secondaire couplé à un **fluorochrome** (fluorescence si positif)",
+    "La **cytotoxicité dépendante du complément** entraîne une **lyse cellulaire** (colorant vital) si l'Ac est fixé",
+    "Un cross-match **positif** est une **contre-indication** à la greffe",
+    "Un cross-match positif autorise la greffe sous immunosuppression renforcée",
+    "Le cross-match recherche des Ac anti-ABO naturels exclusivement"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Deux techniques : fluorescence d'un côté, lyse de l'autre. Positif = stop.",
+   "explanation": "Deux techniques : **cytométrie de flux** (fluorochrome → fluorescence si Ac fixés) et **cytotoxicité dépendante du complément** (ajout de complément → lyse révélée par colorant vital). Un cross-match **positif** = Ac anti-HLA du receveur contre le donneur → **contre-indication absolue** (risque de rejet hyperaigu), donc D est faux. E est faux : le cross-match cible surtout les **Ac anti-HLA**, qui sont acquis.",
+   "tags": ["cross-match", "techniques"],
+   "source": "FC15 — Cross-match"
+  },
+  {
+   "id": "fc15-q11",
+   "lesson": "fc15",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **anticorps anti-HLA** (par opposition aux anticorps anti-ABO), quelles propositions sont exactes ?",
+   "options": [
+    "Ils sont **acquis** (non naturels)",
+    "Ils peuvent apparaître après une **grossesse**",
+    "Ils peuvent apparaître après une **transfusion sanguine**",
+    "Ils peuvent apparaître après une **greffe antérieure**",
+    "Ils sont présents dès la naissance chez tous les individus"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Trois situations d'immunisation à dépister systématiquement.",
+   "explanation": "Les Ac anti-HLA sont **acquis** dans **3 situations** à dépister : **grossesse**, **transfusion sanguine** et **greffe antérieure**. À l'inverse, les Ac anti-ABO sont **naturels** (présents sans immunisation préalable). E est faux : les anti-HLA ne sont pas présents dès la naissance — c'est justement ce qui les distingue des anti-ABO naturels.",
+   "tags": ["anticorps anti-HLA", "immunisation"],
+   "source": "FC15 — Types de rejet"
+  },
+  {
+   "id": "fc15-q12",
+   "lesson": "fc15",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Parmi ces affirmations sur la nature du rejet de greffe, lesquelles sont **exactes** (attention aux pièges du cours) ?",
+   "options": [
+    "Le rejet est une réponse **allo-immune** (et non auto-immune)",
+    "Le rejet est une réponse **adaptative** (et non innée)",
+    "Une greffe **orthotopique** peut être rejetée",
+    "Le rejet est assimilé à une **hypersensibilité retardée** de type IV",
+    "L'autogreffe induit une réponse allogénique"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Trois affirmations « justes » et deux pièges classiques à éliminer.",
+   "explanation": "Le rejet est **allo-immune** (≠ auto-immune) et **adaptatif** (≠ inné) ; une greffe **orthotopique** (placée dans la loge anatomique normale) **peut** être rejetée — la localisation ne protège pas. D est un piège : le rejet n'est **pas** classé comme hypersensibilité retardée. E est faux : l'**autogreffe** (même individu) n'induit **aucune** réponse, et certainement pas allogénique.",
+   "tags": ["pièges", "nature du rejet"],
+   "source": "FC15 — Pièges"
+  }
+ ]
 }

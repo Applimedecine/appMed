@@ -2,5 +2,234 @@
  "slug": "fc09",
  "title": "QCM — Immunothérapie antitumorale",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc09-q01",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Dans quel ordre se succèdent les **3 E** de l'immunoediting tumoral ?",
+   "options": [
+    "Élimination → Équilibre → Échappement",
+    "Échappement → Équilibre → Élimination",
+    "Équilibre → Élimination → Échappement",
+    "Élimination → Échappement → Équilibre",
+    "Équilibre → Échappement → Élimination"
+   ],
+   "correct": [0],
+   "hint": "On détruit d'abord, on contient ensuite, on perd le contrôle en dernier.",
+   "explanation": "La théorie des 3 E suit l'ordre **Élimination → Équilibre → Échappement** : le SI détruit d'abord les cellules transformées (immunosurveillance), puis contrôle la tumeur tout en la sculptant (sélection de variants peu immunogènes), avant que les variants résistants ne prolifèrent (maladie clinique). Cet ordre est impératif ; les autres propositions inversent les phases.",
+   "tags": ["3E", "immunoediting"],
+   "source": "FC09 — Immunosurveillance & théorie des 3 E"
+  },
+  {
+   "id": "fc09-q02",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le concept de « **missing self** » décrit la situation où une cellule NK lyse sa cible parce que celle-ci :",
+   "options": [
+    "A perdu l'expression de son CMH-I, supprimant le signal inhibiteur des KIR",
+    "Surexprime fortement le CMH-I",
+    "Présente un antigène viral via le CMH-II",
+    "Est opsonisée par des IgM et du complément",
+    "Exprime PD-L1 à sa surface"
+   ],
+   "correct": [0],
+   "hint": "Les KIR reconnaissent le CMH-I du soi et envoient un signal inhibiteur.",
+   "explanation": "Le **missing self** = perte du **CMH-I** : les récepteurs inhibiteurs **KIR** des NK ne reçoivent plus de signal inhibiteur, la balance bascule vers l'activation et la NK lyse la cible par perforine/granzyme. C'est complémentaire des LT CD8, qui eux **ne peuvent pas** tuer une cellule sans CMH-I. B est l'inverse (un CMH-I présent inhibe la NK). C, D et E décrivent d'autres mécanismes (présentation, opsonisation, checkpoint) sans rapport avec le missing self.",
+   "tags": ["NK", "missing self", "CMH-I"],
+   "source": "FC09 — Acteurs de la réponse antitumorale"
+  },
+  {
+   "id": "fc09-q03",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Les lymphocytes **T CD8 cytotoxiques (CTL)** lysent une cellule tumorale :",
+   "options": [
+    "Par perforine/granzyme, après reconnaissance d'un peptide présenté par le CMH-I",
+    "Par sécrétion d'IgG spécifiques de la tumeur",
+    "Indépendamment de toute présentation antigénique",
+    "Uniquement via le récepteur FcεRI et les IgE",
+    "En reconnaissant les cellules ayant perdu leur CMH-I"
+   ],
+   "correct": [0],
+   "hint": "Les CTL sont restreints au CMH de classe I.",
+   "explanation": "Les **CTL** sont restreints au **CMH-I** : ils reconnaissent un peptide tumoral présenté par le CMH-I et lysent la cible par **perforine/granzyme** (comme les NK). B est faux (les CTL ne sécrètent pas d'anticorps). C est faux (la présentation antigénique est indispensable). D décrit un mécanisme IgE/mastocyte hors sujet. E est précisément le rôle des **NK** (missing self), pas des CTL, qui au contraire ont besoin du CMH-I.",
+   "tags": ["CTL", "CD8", "CMH-I"],
+   "source": "FC09 — Immunité adaptative antitumorale"
+  },
+  {
+   "id": "fc09-q04",
+   "lesson": "fc09",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant les **macrophages associés à la tumeur (TAM)**, quelles propositions sont exactes ?",
+   "options": [
+    "Les TAM M1 sont pro-inflammatoires (réponse Th1) et de bon pronostic",
+    "Les TAM M2 sont anti-inflammatoires et favorisent la croissance tumorale",
+    "Les TAM M2 sécrètent IL-10, TGF-β et VEGF",
+    "Les TAM M1 favorisent l'angiogenèse et sont de mauvais pronostic",
+    "Les TAM M1 sécrètent IFN-γ et IL-12"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "M1 = anti-tumoral (bon pronostic) ; M2 = pro-tumoral (mauvais pronostic).",
+   "explanation": "Réponses ABCE. Les **TAM M1** sont pro-inflammatoires (Th1 : IFN-γ, IL-12), inhibent la tumeur → **bon pronostic**. Les **TAM M2** sont anti-inflammatoires (IL-10, TGF-β, VEGF), favorisent l'angiogenèse et la croissance tumorale → **mauvais pronostic**. D est faux : c'est le M2, et non le M1, qui favorise l'angiogenèse et est de mauvais pronostic.",
+   "tags": ["TAM", "M1", "M2"],
+   "source": "FC09 — Acteurs de la réponse antitumorale"
+  },
+  {
+   "id": "fc09-q05",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel mécanisme d'échappement tumoral rend la cellule cancéreuse **invisible aux lymphocytes T CD8**, mais la rend paradoxalement **plus vulnérable aux NK** ?",
+   "options": [
+    "La perte d'expression du CMH-I",
+    "La surexpression de PD-L1",
+    "La sécrétion d'IDO",
+    "Le recrutement de Treg",
+    "La perte de costimulation B7"
+   ],
+   "correct": [0],
+   "hint": "Pense au missing self.",
+   "explanation": "La **perte du CMH-I** (mutation de β2m, défaut de TAP/LMP) rend la cellule **invisible aux LT CD8** (qui ont besoin du CMH-I), mais déclenche au contraire l'attaque des **NK** par le mécanisme de **missing self**. Les autres mécanismes (PD-L1, IDO, Treg, perte de B7) sont immunosuppresseurs mais n'exposent pas la cellule aux NK via le missing self.",
+   "tags": ["échappement", "CMH-I", "missing self"],
+   "source": "FC09 — Mécanismes d'échappement tumoral"
+  },
+  {
+   "id": "fc09-q06",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Comment l'enzyme **IDO** (indoléamine 2,3-dioxygénase) contribue-t-elle à l'immunosuppression tumorale ?",
+   "options": [
+    "En dégradant le tryptophane, ce qui limite la prolifération des lymphocytes T",
+    "En détruisant directement le CMH-I des cellules tumorales",
+    "En augmentant la costimulation B7/CD28 des LT",
+    "En recrutant des TAM M1 anti-tumoraux",
+    "En produisant des IgG4 bloquants"
+   ],
+   "correct": [0],
+   "hint": "C'est une question de carence en acide aminé essentiel à la prolifération T.",
+   "explanation": "L'**IDO** dégrade le **tryptophane** du microenvironnement, créant une carence qui **limite la prolifération des lymphocytes T** : c'est un mécanisme immunosuppresseur métabolique. B est faux (IDO n'agit pas sur le CMH-I). C est l'inverse d'un effet immunosuppresseur. D est faux (IDO ne recrute pas de M1). E confond avec la désensibilisation allergique.",
+   "tags": ["IDO", "immunosuppression", "tryptophane"],
+   "source": "FC09 — Immunosuppression tumorale"
+  },
+  {
+   "id": "fc09-q07",
+   "lesson": "fc09",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **mécanismes d'échappement tumoral**, quelles propositions sont exactes ?",
+   "options": [
+    "L'altération du CMH-I peut résulter d'un défaut de TAP-1/TAP-2 ou de LMP-2/LMP-7",
+    "L'inhibition de la costimulation B7.1/B7.2 et CD40 entraîne une anergie lymphocytaire",
+    "Le TGF-β et l'IL-10 sont des cytokines immunosuppressives produites dans le microenvironnement",
+    "La perte du CMH-I augmente la reconnaissance par les lymphocytes T CD8",
+    "Les Treg et les MDSC participent à l'immunosuppression tumorale"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Une seule proposition contredit le rôle du CMH-I dans la présentation aux CD8.",
+   "explanation": "Réponses ABCE. L'altération de la présentation antigénique passe par un défaut de **TAP** (transport) ou **LMP** (apprêtement) ; la perte de **costimulation** (B7, CD40) induit l'**anergie** ; **TGF-β/IL-10**, **Treg** et **MDSC** créent un microenvironnement immunosuppresseur. D est faux : la perte du CMH-I **diminue** (et non augmente) la reconnaissance par les LT CD8, qui sont restreints au CMH-I.",
+   "tags": ["échappement", "anergie", "présentation antigénique"],
+   "source": "FC09 — Mécanismes d'échappement tumoral"
+  },
+  {
+   "id": "fc09-q08",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "L'**ipilimumab** (anti-CTLA-4) et le **pembrolizumab** (anti-PD-1) diffèrent par leur lieu d'action. Quelle proposition est exacte ?",
+   "options": [
+    "L'anti-CTLA-4 agit à l'amorçage dans les ganglions ; l'anti-PD-1 agit dans le microenvironnement tumoral",
+    "L'anti-CTLA-4 agit dans la tumeur ; l'anti-PD-1 agit dans les ganglions",
+    "Les deux agissent exclusivement sur les cellules NK",
+    "L'anti-PD-1 bloque la costimulation CD28/B7",
+    "L'anti-CTLA-4 restaure la cytotoxicité des LT déjà épuisés dans la tumeur"
+   ],
+   "correct": [0],
+   "hint": "CTLA-4 = phase d'amorçage ; PD-1 = marqueur d'épuisement dans la tumeur.",
+   "explanation": "L'**ipilimumab (anti-CTLA-4)** lève l'inhibition à l'**amorçage des LT dans les ganglions** → ↑ recrutement de LT effecteurs. Le **pembrolizumab (anti-PD-1)** agit sur les LT épuisés dans le **microenvironnement tumoral** (PD-1 = marqueur d'épuisement), restaurant leur cytotoxicité. B inverse les lieux d'action. C est faux (ce sont les LT, pas les NK). D est faux (l'anti-PD-1 ne bloque pas la costimulation, il la restaure indirectement). E décrit l'anti-PD-1, pas l'anti-CTLA-4.",
+   "tags": ["checkpoints", "ipilimumab", "pembrolizumab"],
+   "source": "FC09 — Inhibiteurs de checkpoint"
+  },
+  {
+   "id": "fc09-q09",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Le **PD-1**, cible des anticorps comme le nivolumab/pembrolizumab, est principalement décrit comme :",
+   "options": [
+    "Un marqueur d'épuisement des lymphocytes T au contact de la tumeur",
+    "Un récepteur activateur des cellules NK",
+    "Une molécule de costimulation indispensable à l'activation T",
+    "Un antigène tumoral spécifique (néo-antigène)",
+    "Une cytokine pro-inflammatoire de type Th1"
+   ],
+   "correct": [0],
+   "hint": "Il s'exprime sur les LT trop stimulés, qui deviennent dysfonctionnels.",
+   "explanation": "**PD-1** est un récepteur co-inhibiteur, **marqueur d'épuisement** des LT : il s'exprime sur les LT infiltrant la tumeur et, en se liant à PD-L1 tumoral, freine leur cytotoxicité. Bloquer l'axe PD-1/PD-L1 restaure la fonction des LT. B est faux (PD-1 n'est pas un récepteur activateur NK). C est faux (PD-1 est co-inhibiteur, pas costimulateur). D et E confondent PD-1 avec un antigène ou une cytokine.",
+   "tags": ["PD-1", "épuisement", "checkpoint"],
+   "source": "FC09 — Inhibiteurs de checkpoint"
+  },
+  {
+   "id": "fc09-q10",
+   "lesson": "fc09",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **stratégies d'immunothérapie spécifique et cellulaire** du cancer, quelles propositions sont exactes ?",
+   "options": [
+    "Les CAR-T sont des LT du patient modifiés génétiquement avec un récepteur chimérique anti-tumoral, amplifiés puis réinjectés",
+    "Les TILs (Rosenberg) sont des lymphocytes infiltrant la tumeur, amplifiés in vitro puis réinjectés",
+    "Le rituximab (anti-CD20) et le trastuzumab (anti-HER2) agissent notamment par ADCC (recrutement des NK)",
+    "Le BCG est une immunothérapie spécifique d'un antigène tumoral précis",
+    "Le trastuzumab cible le récepteur HER2 dans certains cancers du sein"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Le BCG est une immunostimulation non spécifique.",
+   "explanation": "Réponses ABCE. Les **CAR-T** (récepteur chimérique) et les **TILs** (Rosenberg, ~90 % d'efficacité dans certains mélanomes) sont des thérapies cellulaires adoptives. Le **rituximab** (anti-CD20) et le **trastuzumab** (anti-HER2) agissent par **ADCC** (recrutement des NK) et complément. D est faux : le **BCG** (cancer de la vessie) est une immunothérapie **non spécifique** activant l'immunité innée via les TLR, et non ciblée sur un antigène tumoral précis.",
+   "tags": ["CAR-T", "TILs", "ADCC", "BCG"],
+   "source": "FC09 — Stratégies d'immunothérapie du cancer"
+  },
+  {
+   "id": "fc09-q11",
+   "lesson": "fc09",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Quels **arguments** soutiennent l'existence d'une **immunosurveillance** antitumorale ?",
+   "options": [
+    "L'augmentation de l'incidence des cancers chez les patients immunodéprimés",
+    "Un infiltrat lymphocytaire intratumoral (TIL) associé à un bon pronostic",
+    "Les régressions spontanées de certains mélanomes",
+    "L'absence totale d'antigènes associés aux tumeurs dans les cancers humains",
+    "L'identification d'antigènes associés aux tumeurs (TAA) dans de nombreux cancers"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Un argument nie au contraire l'existence de cibles tumorales.",
+   "explanation": "Réponses ABCE. L'immunosurveillance est soutenue par : ↑ des cancers chez les **immunodéprimés**, le bon pronostic associé aux **TIL**, les **régressions spontanées** de mélanome (TILs cytotoxiques) et l'identification de nombreux **TAA**. D est faux : c'est précisément l'**existence** de TAA (et non leur absence) qui constitue un argument en faveur de l'immunosurveillance et offre des cibles thérapeutiques.",
+   "tags": ["immunosurveillance", "TIL", "TAA"],
+   "source": "FC09 — Immunosurveillance"
+  },
+  {
+   "id": "fc09-q12",
+   "lesson": "fc09",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Quelle est une **toxicité caractéristique** des inhibiteurs de checkpoint, qui impose un raisonnement bénéfices/risques et un suivi rapproché ?",
+   "options": [
+    "Des phénomènes auto-immuns (colites, hépatites, diabète, atteintes neurologiques)",
+    "Une immunodépression profonde par destruction de la moelle osseuse",
+    "Une aplasie médullaire systématique et irréversible",
+    "Une réaction allergique IgE-médiée de type I obligatoire",
+    "Une perte du CMH-I sur les cellules saines"
+   ],
+   "correct": [0],
+   "hint": "Lever les freins du système immunitaire peut le retourner contre le soi.",
+   "explanation": "En levant les freins (checkpoints) du système immunitaire, l'immunothérapie peut induire des **phénomènes auto-immuns** : colites, hépatites, **diabète**, atteintes neurologiques, etc. D'où la nécessité d'un suivi rapproché et d'un raisonnement bénéfices/risques. B et C (aplasie/destruction médullaire) décrivent une toxicité de chimiothérapie classique, pas des checkpoints. D (allergie IgE) et E (perte de CMH-I) ne sont pas les toxicités typiques des checkpoints.",
+   "tags": ["toxicité", "auto-immunité", "checkpoints"],
+   "source": "FC09 — Stratégies d'immunothérapie du cancer"
+  }
+ ]
 }

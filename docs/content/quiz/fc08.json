@@ -2,5 +2,234 @@
  "slug": "fc08",
  "title": "QCM — Eczémas",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc08-q01",
+   "lesson": "fc08",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant les **phases cliniques** de l'eczéma, quelles propositions sont exactes ?",
+   "options": [
+    "Le prurit est constant quelle que soit la phase",
+    "Les 4 phases sont : érythémateuse, vésiculeuse, suintante puis desquamative",
+    "La phase desquamative correspond à une guérison sans cicatrice",
+    "La phase desquamative laisse systématiquement une cicatrice indélébile",
+    "L'histologie montre une spongiose et une apoptose kératinocytaire"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "La desquamation est le stade de guérison de l'eczéma.",
+   "explanation": "Réponses ABCE. L'eczéma évolue en 4 phases (**érythémateuse → vésiculeuse → suintante → desquamative**), le **prurit est constant**, et l'histologie montre spongiose, exocytose et apoptose kératinocytaire. La phase desquamative est le stade de **guérison sans cicatrice** : D est donc faux.",
+   "tags": ["phases cliniques", "eczéma"],
+   "source": "FC08 — L'eczéma comme symptôme"
+  },
+  {
+   "id": "fc08-q02",
+   "lesson": "fc08",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "**(Type QCM cours)** Concernant la **dermatite atopique (DA)**, quelles affirmations sont exactes ?",
+   "options": [
+    "La triade diagnostique associe eczéma, prurit et xérose",
+    "Le diagnostic est clinique",
+    "La prévalence est plus élevée chez l'enfant (10–30 %) que chez l'adulte (~2 %)",
+    "Elle débute le plus souvent à l'âge adulte",
+    "Elle évolue de façon chronique avec des comorbidités atopiques"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "DA = maladie de l'enfance dans la grande majorité des cas.",
+   "explanation": "Réponses ABCE (calquées sur le QCM du cours). Le diagnostic de la DA est **clinique** et repose sur la triade **eczéma + prurit + xérose** ; la prévalence est de **10–30 % chez l'enfant** vs **~2 % chez l'adulte** ; l'évolution est chronique avec comorbidités atopiques. D est faux : la DA débute le plus souvent **précocement dans l'enfance**, pas à l'âge adulte.",
+   "tags": ["dermatite atopique", "diagnostic", "triade"],
+   "source": "FC08 — QCM 1"
+  },
+  {
+   "id": "fc08-q03",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "L'**eczéma de contact irritatif (ECI)** met en jeu principalement :",
+   "options": [
+    "L'immunité innée seule, sans présentation antigénique ganglionnaire",
+    "Une hypersensibilité retardée de type IV médiée par les LT CD8",
+    "Une réponse IgE-médiée de type I",
+    "Une phase de sensibilisation lymphocytaire spécifique",
+    "L'activation du complément par des complexes immuns"
+   ],
+   "correct": [0],
+   "hint": "L'ECI est une cytotoxicité directe, sans mémoire immunitaire.",
+   "explanation": "L'**ECI** correspond à une activation de l'**immunité innée seule** : les substances cytotoxiques détruisent directement la barrière sans présentation antigénique ni immunité adaptative (il représente ~80 % des eczémas de contact). B et D décrivent l'**ECA** (hypersensibilité retardée de type IV, LT CD8, phase de sensibilisation). C (type I IgE) et E (complexes immuns) ne correspondent pas aux eczémas de contact.",
+   "tags": ["ECI", "immunité innée"],
+   "source": "FC08 — Eczémas de contact"
+  },
+  {
+   "id": "fc08-q04",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel est l'examen de **référence (gold standard)** pour diagnostiquer un **eczéma de contact allergique (ECA)** ?",
+   "options": [
+    "Le patch-test (test épicutané)",
+    "Le prick-test",
+    "Le dosage des IgE spécifiques sériques",
+    "La numération formule sanguine",
+    "Le dosage de la tryptase"
+   ],
+   "correct": [0],
+   "hint": "On applique des allergènes standardisés 48 h, avec lectures différées.",
+   "explanation": "Le **patch-test** (test épicutané) est le gold standard de l'ECA : on applique des allergènes standardisés pendant 48 h, avec lectures à 48-72-96 h. Le **prick-test** (B) et les **IgE spécifiques** (C) explorent l'hypersensibilité **immédiate de type I** (IgE), pas l'ECA (type IV retardé). La NFS (D) et la tryptase (E) ne diagnostiquent pas l'ECA.",
+   "tags": ["ECA", "patch-test", "diagnostic"],
+   "source": "FC08 — Diagnostic des eczémas de contact"
+  },
+  {
+   "id": "fc08-q05",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle cytokine de type 2 est la principale responsable du **prurit** dans la dermatite atopique ?",
+   "options": [
+    "L'IL-31",
+    "L'IL-4",
+    "L'IL-13",
+    "L'IL-5",
+    "L'IFN-γ"
+   ],
+   "correct": [0],
+   "hint": "Surnommée la « cytokine des démangeaisons ».",
+   "explanation": "L'**IL-31** est la « cytokine du prurit » : elle agit sur les fibres nerveuses sensitives cutanées et déclenche les démangeaisons. L'**IL-4** induit la commutation IgE et la polarisation Th2 ; l'**IL-13** altère la barrière (↓ filaggrine) et participe au remodelage ; l'**IL-5** recrute les éosinophiles. L'**IFN-γ** est une cytokine de type 1 (lésions chroniques), pas le médiateur du prurit.",
+   "tags": ["IL-31", "prurit", "cytokines type 2"],
+   "source": "FC08 — Cytokines de type 2"
+  },
+  {
+   "id": "fc08-q06",
+   "lesson": "fc08",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "**(Type QCM cours)** Concernant les **mécanismes des eczémas de contact**, quelles affirmations sont exactes ?",
+   "options": [
+    "L'ECA implique une hypersensibilité retardée de type IV",
+    "L'ECA met en jeu des lymphocytes T spécifiques de l'allergène",
+    "L'ECI active principalement l'immunité innée",
+    "L'ECI nécessite une phase de sensibilisation ganglionnaire",
+    "L'eczéma de contact irritatif représente environ 80 % des eczémas de contact"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "Ce qui discrimine l'ECA de l'ECI = activation de l'immunité adaptative.",
+   "explanation": "Réponses ABCE (calquées sur le QCM du cours). L'**ECA** est une hypersensibilité retardée de **type IV** à LT spécifiques d'allergène ; l'**ECI** active l'**immunité innée** et représente ~**80 %** des eczémas de contact. D est faux : l'ECI ne comporte **ni phase de sensibilisation ni immunité adaptative** — c'est précisément l'activation de l'immunité adaptative qui distingue l'ECA de l'ECI.",
+   "tags": ["ECA", "ECI", "hypersensibilité type IV"],
+   "source": "FC08 — QCM 2"
+  },
+  {
+   "id": "fc08-q07",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Dans la phase de sensibilisation de l'ECA, quelle cellule **capte l'haptène** dans l'épiderme puis migre vers le ganglion pour le présenter aux lymphocytes T naïfs ?",
+   "options": [
+    "La cellule de Langerhans",
+    "Le kératinocyte",
+    "Le mastocyte",
+    "Le polynucléaire éosinophile",
+    "Le lymphocyte B"
+   ],
+   "correct": [0],
+   "hint": "C'est la cellule dendritique résidente de l'épiderme (CD1a+, langerine+).",
+   "explanation": "La **cellule de Langerhans** est la cellule dendritique résidente de l'épiderme (CD1a+, langerine+, CMH II+) : elle capte le complexe haptène/protéine, migre vers le **ganglion** et présente l'antigène aux LT naïfs, générant des LT spécifiques et mémoires. Le **kératinocyte** (B) libère des signaux de danger (TSLP, IL-25, IL-33) mais n'est pas une CPA professionnelle migratrice. Le mastocyte (C), l'éosinophile (D) et le LB (E) ne jouent pas ce rôle de présentation initiale.",
+   "tags": ["cellule de Langerhans", "sensibilisation", "ECA"],
+   "source": "FC08 — Physiopathologie de l'ECA"
+  },
+  {
+   "id": "fc08-q08",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Dans l'ECA, quelles cellules sont les **principales effectrices cytotoxiques** responsables de l'apoptose kératinocytaire, et lesquelles ont un rôle régulateur ?",
+   "options": [
+    "LT CD8 effecteurs ; LT CD4 régulateurs (FOXP3+, IL-10)",
+    "LT CD4 effecteurs ; LT CD8 régulateurs",
+    "Mastocytes effecteurs ; LB régulateurs",
+    "Éosinophiles effecteurs ; macrophages régulateurs",
+    "LT CD8 effecteurs ; mastocytes régulateurs"
+   ],
+   "correct": [0],
+   "hint": "Les CD8 tuent, les CD4 FOXP3+ régulent via l'IL-10.",
+   "explanation": "Dans l'ECA, les **LT CD8** sont les principales cellules effectrices (cytotoxicité → apoptose des kératinocytes → vésicules d'eczéma), tandis que les **LT CD4 régulateurs (FOXP3+, IL-10)** assurent la tolérance et la résolution. B inverse les rôles. C, D et E attribuent à tort la cytotoxicité ou la régulation à des cellules qui ne jouent pas ce rôle central dans l'ECA.",
+   "tags": ["LT CD8", "LT CD4 régulateurs", "ECA"],
+   "source": "FC08 — Physiopathologie de l'ECA"
+  },
+  {
+   "id": "fc08-q09",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Pourquoi l'hypersensibilité de **type IV** est-elle qualifiée de « **retardée** » ?",
+   "options": [
+    "Parce que les symptômes apparaissent en 48-72 h, du fait d'une médiation par les lymphocytes T",
+    "Parce qu'elle nécessite la dégranulation lente des mastocytes",
+    "Parce que les IgE mettent plusieurs jours à se fixer sur le FcεRI",
+    "Parce qu'elle survient toujours plus d'un mois après le contact",
+    "Parce que les anticorps préformés agissent avec retard"
+   ],
+   "correct": [0],
+   "hint": "Le délai vient du recrutement et de l'activation des LT.",
+   "explanation": "Le type IV est « retardé » car les symptômes surviennent **48-72 h** après le contact : ce délai correspond au temps nécessaire au recrutement et à l'activation des **lymphocytes T** mémoires (et non à des anticorps préformés). Cela l'oppose au type I, immédiat (< 1 h). B et C confondent avec le type I (mastocytes, IgE). D surestime le délai. E est faux : il n'y a pas d'anticorps préformés dans le type IV (c'est une réponse cellulaire).",
+   "tags": ["type IV", "hypersensibilité retardée", "cinétique"],
+   "source": "FC08 — Hypersensibilité retardée"
+  },
+  {
+   "id": "fc08-q10",
+   "lesson": "fc08",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant la **filaggrine** et l'altération de la barrière cutanée dans la dermatite atopique, quelles propositions sont exactes ?",
+   "options": [
+    "La filaggrine agrège les filaments de kératine et participe à l'hydratation (NMF) et au pH acide",
+    "La mutation de la filaggrine est un facteur de susceptibilité ni nécessaire ni suffisant",
+    "L'augmentation du pH cutané active des sérine-protéases qui dégradent la barrière",
+    "La mutation de la filaggrine est nécessaire et suffisante pour développer une DA",
+    "L'altération de la barrière favorise la pénétration des allergènes et l'inflammation de type 2"
+   ],
+   "correct": [0, 1, 2, 4],
+   "hint": "« Ni nécessaire ni suffisante » est la formule clé sur la filaggrine.",
+   "explanation": "Réponses ABCE. La **filaggrine** agrège les filaments de kératine et, par sa dégradation, génère le facteur naturel d'hydratation (NMF) et maintient un **pH acide** (~5,5). Sa mutation est un **facteur de susceptibilité ni nécessaire ni suffisant**. L'↑ du pH active des sérine-protéases qui dégradent la barrière, favorisant la pénétration des allergènes et l'inflammation de type 2. D est le piège classique : la mutation FLG n'est **ni nécessaire ni suffisante** (tous les patients ne l'ont pas, et la porter ne suffit pas).",
+   "tags": ["filaggrine", "barrière cutanée", "DA"],
+   "source": "FC08 — Initiation de la maladie"
+  },
+  {
+   "id": "fc08-q11",
+   "lesson": "fc08",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "**(Type QCM cours)** Concernant la **physiopathologie et les thérapeutiques ciblées** de la dermatite atopique, quelles affirmations sont exactes ?",
+   "options": [
+    "L'IL-4 et l'IL-13 participent à l'inflammation de type 2",
+    "Les inhibiteurs de JAK bloquent la signalisation intracellulaire de plusieurs cytokines via la voie JAK-STAT",
+    "La colonisation par Staphylococcus aureus est associée aux poussées",
+    "Le dupilumab cible directement l'IL-13 circulante",
+    "La mutation de la filaggrine est nécessaire et suffisante pour développer une DA"
+   ],
+   "correct": [0, 1, 2],
+   "hint": "Attention à la cible exacte du dupilumab.",
+   "explanation": "Réponses ABC (calquées sur le QCM du cours). L'**IL-4 et l'IL-13** sont centrales dans l'inflammation Th2 ; les **inhibiteurs de JAK** bloquent la voie **JAK-STAT** et la programmation des LT ; **S. aureus** prolifère lors des poussées. D est faux : le **dupilumab** cible le **récepteur commun IL-4/IL-13**, pas directement l'IL-13 circulante (ce sont le tralokinumab et le lebrikizumab qui ciblent l'IL-13 circulante). E est faux : la mutation FLG est un simple facteur de susceptibilité.",
+   "tags": ["dupilumab", "inhibiteurs JAK", "S. aureus", "ACC"],
+   "source": "FC08 — QCM 3"
+  },
+  {
+   "id": "fc08-q12",
+   "lesson": "fc08",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Concernant le **dupilumab** et les **inhibiteurs de JAK1** dans la DA, quelle proposition est exacte ?",
+   "options": [
+    "Le dupilumab est un anticorps monoclonal anti-récepteur commun IL-4/IL-13 ; les anti-JAK1 sont de petites molécules bloquant la voie JAK-STAT",
+    "Le dupilumab et les anti-JAK ont strictement le même mécanisme d'action",
+    "Les inhibiteurs de JAK1 sont des anticorps monoclonaux dirigés contre l'IL-31",
+    "Le dupilumab agit en bloquant directement la voie JAK-STAT intracellulaire",
+    "L'IL-4 et l'IL-13 signalisent via JAK3, ce qui justifie l'usage d'anti-JAK3"
+   ],
+   "correct": [0],
+   "hint": "Anticorps monoclonal vs petite molécule, et IL-4/IL-13 passent par JAK1.",
+   "explanation": "Le **dupilumab** est un **anticorps monoclonal** ciblant le **récepteur commun IL-4/IL-13** ; les inhibiteurs de JAK (upadacitinib, abrocitinib) sont de **petites molécules** intracellulaires bloquant la voie **JAK-STAT** et la programmation des LT. Comme l'IL-4 et l'IL-13 signalisent via **JAK1**, on utilise des inhibiteurs sélectifs de **JAK1** (E est faux : ce n'est pas JAK3). B est faux (mécanismes différents : Ac vs petite molécule). C est faux (les anti-JAK ne sont pas des Ac anti-IL-31). D est faux : le dupilumab agit en extracellulaire sur le récepteur, pas sur JAK-STAT.",
+   "tags": ["dupilumab", "JAK1", "biomédicaments"],
+   "source": "FC08 — Stratégie thérapeutique de la DA"
+  }
+ ]
 }

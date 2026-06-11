@@ -2,5 +2,234 @@
  "slug": "fc19",
  "title": "QCM — Complément & complexes immuns",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc19-q01",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel composant constitue le **pivot central** des trois voies d'activation du complément ?",
+   "options": [
+    "**C3** (toutes les voies convergent vers une C3 convertase)",
+    "C1q",
+    "Le facteur B",
+    "La MBL (mannose-binding lectin)",
+    "Le facteur H"
+   ],
+   "correct": [0],
+   "hint": "Quelle que soit la voie, on aboutit d'abord à une convertase qui clive ce composant.",
+   "explanation": "Les trois voies (classique, lectines, alterne) aboutissent toutes à une **C3 convertase** qui clive **C3** : c'est le point de convergence (pivot). C1q (voie classique), MBL (voie des lectines) et le facteur B (voie alterne) sont spécifiques d'une seule voie, donc en amont du pivot. Le facteur H est un régulateur de la voie alterne, pas un pivot.",
+   "tags": ["C3", "voies"],
+   "source": "FC19 — Mécanisme général"
+  },
+  {
+   "id": "fc19-q02",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la **fonction spécifique** de la voie classique du complément ?",
+   "options": [
+    "La gestion des **complexes immuns** (elle est activée par les Ac fixés sur leur Ag)",
+    "La détection directe de motifs bactériens (mannose)",
+    "L'amplification spontanée en l'absence d'inhibiteurs de surface",
+    "La régulation de la voie alterne",
+    "La lyse exclusive des globules rouges du soi"
+   ],
+   "correct": [0],
+   "hint": "Cette voie démarre par la fixation de C1q sur des complexes Ag-Ac.",
+   "explanation": "La voie classique est activée par la fixation de **C1q** sur des complexes Ag-Ac (IgM ou IgG) : sa fonction spécifique est la **gestion des complexes immuns**. La détection directe de motifs bactériens (mannose) est le rôle de la **voie des lectines** (B faux) ; l'activation spontanée en l'absence d'inhibiteurs caractérise la **voie alterne** (C faux).",
+   "tags": ["voie classique", "complexes immuns"],
+   "source": "FC19 — Les 3 voies"
+  },
+  {
+   "id": "fc19-q03",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Les **anaphylatoxines** C3a et C5a ont principalement un rôle de :",
+   "options": [
+    "Chimiotaxie et recrutement de cellules inflammatoires (avec dégranulation des mastocytes)",
+    "Opsonisation directe des bactéries",
+    "Perforation de la membrane bactérienne",
+    "Inhibition de la voie alterne",
+    "Dégradation de l'ADN des corps apoptotiques"
+   ],
+   "correct": [0],
+   "hint": "Ce sont de petits fragments qui se comportent comme des cytokines pro-inflammatoires.",
+   "explanation": "C3a et C5a sont des **anaphylatoxines** : elles agissent comme des cytokines pro-inflammatoires, recrutent les PNN (chimiotaxie), activent les mastocytes (dégranulation) et augmentent la perméabilité vasculaire. L'opsonisation est le rôle de **C3b** (B faux) et la perforation membranaire celui du **MAC / C5b-9** (C faux).",
+   "tags": ["anaphylatoxines", "C3a", "C5a"],
+   "source": "FC19 — Rôles des fragments"
+  },
+  {
+   "id": "fc19-q04",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le **complexe d'attaque membranaire (MAC)** correspond à l'assemblage :",
+   "options": [
+    "**C5b-9** (C5b à C9), formant des pores qui lysent la cellule cible",
+    "C1q-C1r-C1s",
+    "C4b2a (C3 convertase classique)",
+    "C3bBb (C3 convertase alterne)",
+    "MBL-MASP1-MASP2"
+   ],
+   "correct": [0],
+   "hint": "C'est le complexe terminal, commun à toutes les voies, qui « fait des trous ».",
+   "explanation": "Le MAC est le complexe terminal **C5b-9** : il perfore la membrane (pores) et entraîne une lyse osmotique de la cellule cible. C1q-C1r-C1s est le complexe d'initiation de la voie classique ; C4b2a et C3bBb sont des **C3 convertases** ; MBL-MASP est l'initiation de la voie des lectines : aucun de ces complexes n'est le MAC.",
+   "tags": ["MAC", "C5b-9"],
+   "source": "FC19 — Rôles des fragments"
+  },
+  {
+   "id": "fc19-q05",
+   "lesson": "fc19",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant l'**hémoglobinurie paroxystique nocturne (HPN)**, quelles propositions sont exactes ?",
+   "options": [
+    "Elle résulte d'une mutation **acquise** du gène **PIG-A** dans les progéniteurs hématopoïétiques",
+    "Le défaut de GPI entraîne la perte de l'ancrage de **CD55 et CD59** sur les globules rouges",
+    "Le mécanisme est une **hémolyse intravasculaire** par activation incontrôlée du complément",
+    "Le traitement des formes sévères est l'**éculizumab** (anti-C5)",
+    "Il s'agit d'une mutation **constitutionnelle** présente dès la naissance dans toutes les cellules"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Mutation acquise PIG-A → pas de GPI → pas de CD55/CD59 sur les GR.",
+   "explanation": "L'HPN est due à une mutation **acquise** de **PIG-A** dans les progéniteurs myéloïdes : défaut de **GPI** → perte de l'ancrage de **CD55 (DAF)** et **CD59 (protectine)** sur les GR → activation permanente du complément → **hémolyse intravasculaire**. Traitement des formes sévères : **éculizumab** (anti-C5) qui bloque le MAC. La proposition E est fausse : la mutation est **acquise** (et non constitutionnelle), restreinte au clone hématopoïétique.",
+   "tags": ["HPN", "PIG-A", "éculizumab"],
+   "source": "FC19 — HPN"
+  },
+  {
+   "id": "fc19-q06",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Un déficit en **C1-inhibiteur (C1-INH)** est responsable de l'**angio-œdème héréditaire**. Quelle est la conséquence thérapeutique majeure à connaître ?",
+   "options": [
+    "L'œdème ne répond **ni aux antihistaminiques ni à l'adrénaline** (mécanisme bradykinique) → C1-INH concentré ou icatibant",
+    "Il répond très bien aux antihistaminiques car le mécanisme est histaminique",
+    "Le traitement de référence est l'éculizumab (anti-C5)",
+    "Il faut transfuser des globules rouges en urgence",
+    "Le traitement repose sur les corticoïdes seuls, toujours efficaces"
+   ],
+   "correct": [0],
+   "hint": "Le médiateur n'est pas l'histamine mais la bradykinine.",
+   "explanation": "Le C1-INH inhibe C1r, C1s et MASP2 mais aussi la cascade des kinines : son déficit entraîne une accumulation de **bradykinine** → angio-œdème. Le mécanisme étant **bradykinique (non histaminique)**, l'œdème ne répond **ni aux antihistaminiques ni à l'adrénaline** : on utilise le **C1-INH concentré** ou l'**icatibant** (antagoniste du récepteur B2 de la bradykinine). L'éculizumab est le traitement de l'HPN/SHUa (C faux).",
+   "tags": ["C1-INH", "angio-œdème", "bradykinine"],
+   "source": "FC19 — Régulation du complément"
+  },
+  {
+   "id": "fc19-q07",
+   "lesson": "fc19",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **complexes immuns (CI)** et leur devenir physiologique, quelles propositions sont exactes ?",
+   "options": [
+    "Un CI se forme à chaque fois qu'un **antigène est reconnu par un anticorps** (couple Ac/Ag)",
+    "La formation de CI est un phénomène **physiologique** permanent, en faible quantité",
+    "Leur élimination est assurée par les cellules **phagocytaires** via les récepteurs au **Fc** des Ac",
+    "L'hypersensibilité à complexes immuns est de **type III** de Gell et Coombs",
+    "Le complément **diminue** la clairance des complexes immuns circulants"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Le complément aide à éliminer les CI ; l'HS à CI est de type III.",
+   "explanation": "Un CI = couple Ac/Ag ; sa formation est **physiologique** (en permanence, faible quantité) et vise à faciliter la clairance de l'Ag via les **récepteurs au Fc** des cellules phagocytaires, avec activation de la voie classique. L'hypersensibilité à CI est de **type III** (délai 3-10h). La proposition E est fausse : le complément **augmente** (et non diminue) la clairance des CI — un déficit du complément favorise au contraire l'accumulation des CI (ex. lupus).",
+   "tags": ["complexes immuns", "type III"],
+   "source": "FC19 — Les complexes immuns"
+  },
+  {
+   "id": "fc19-q08",
+   "lesson": "fc19",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **vascularites à ANCA** et leur diagnostic biologique, quelles propositions sont exactes ?",
+   "options": [
+    "ANCA signifie **Anticorps Anti-Cytoplasme des PNN**",
+    "Une fluorescence **diffuse** du cytoplasme correspond à un **c-ANCA**",
+    "La détection d'**anti-protéinase 3 (PR3)** en ELISA correspond à un **c-ANCA**",
+    "La détection d'**anti-myéloperoxydase (MPO)** correspond à un **p-ANCA** (fluorescence périnucléaire)",
+    "L'immunofluorescence indirecte seule suffit à poser le diagnostic"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Anti-PR3 → c-ANCA ; anti-MPO → p-ANCA. L'IFI seule ne suffit pas.",
+   "explanation": "ANCA = **Anticorps Anti-Cytoplasme des PNN**. Fluorescence **diffuse** = **c-ANCA** (cible : **PR3**) ; fluorescence **périnucléaire** = **p-ANCA** (cible : **MPO**). La proposition E est fausse : l'immunofluorescence indirecte ne suffit **pas**, l'**ELISA** (typage PR3/MPO) est aussi nécessaire au diagnostic.",
+   "tags": ["ANCA", "vascularites", "PR3", "MPO"],
+   "source": "FC19 — Vascularites à ANCA"
+  },
+  {
+   "id": "fc19-q09",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Dans la **maladie sérique**, quel marqueur biologique traduit l'activation de la **voie classique** par les complexes immuns ?",
+   "options": [
+    "La **chute du taux de C4** (consommation par les CI)",
+    "Une élévation du C4 isolée",
+    "Une chute isolée du facteur B",
+    "Une élévation de la MBL",
+    "Une augmentation du CH50 avec C4 normal"
+   ],
+   "correct": [0],
+   "hint": "La voie classique consomme C4 ; on suit sa baisse, transitoire.",
+   "explanation": "La maladie sérique est une hypersensibilité de type III : les CI Ag-Ac **activent et consomment la voie classique**, d'où une **chute du taux de C4** (puis restauration). Cette baisse de C4 est le marqueur biologique de l'activation de la voie classique par les CI (on la retrouve aussi dans la cryoglobulinémie). Une élévation de C4 ou du CH50 traduirait l'inverse (B, E faux).",
+   "tags": ["maladie sérique", "C4", "voie classique"],
+   "source": "FC19 — Maladie sérique"
+  },
+  {
+   "id": "fc19-q10",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "La **maladie de Horton** (artérite à cellules géantes) se caractérise par :",
+   "options": [
+    "Une artérite des **gros vaisseaux** (artère temporale, aorte), à médiation **cellulaire (LT, IFN-γ)**, avec risque d'AVC/NOIA par atteinte de la carotide interne",
+    "Une vascularite des **petits vaisseaux** à complexes immuns IgA",
+    "Une vascularite à ANCA des capillaires, avec syndrome pneumo-rénal",
+    "Une maladie à cryoglobulines précipitant au froid",
+    "Une atteinte des moyens vaisseaux par dépôt de C3b sur les coronaires"
+   ],
+   "correct": [0],
+   "hint": "Gros vaisseaux, granulome giganto-cellulaire, médiateur clé IFN-γ.",
+   "explanation": "La maladie de Horton est une **artérite des gros vaisseaux** (artère temporale, aorte), à inflammation **giganto-cellulaire** relevant de l'**immunité cellulaire** (LT, médiateur clé **IFN-γ** favorisant le granulome). La complication redoutable est l'atteinte de la **carotide interne** (AVC, NOIA). Les propositions B (vascularite IgA), C (ANCA), D (cryoglobulinémie) décrivent des atteintes de **petits vaisseaux** à mécanisme différent.",
+   "tags": ["Horton", "gros vaisseaux", "IFN-gamma"],
+   "source": "FC19 — Maladie de Horton"
+  },
+  {
+   "id": "fc19-q11",
+   "lesson": "fc19",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Quelles propositions concernant les **maladies à complexes immuns** et leurs causes sont exactes ?",
+   "options": [
+    "Un **excès de formation** de CI (auto-immunité) peut submerger les mécanismes d'élimination",
+    "Un **déficit du complément** empêche la solubilisation/clairance des CI (ex. lupus)",
+    "Une **défaillance des cellules** de la clairance (GR, cellules mononucléées du foie/rate) favorise leur dépôt",
+    "Plus la **taille** des CI est importante, plus les dégâts tissulaires sont importants",
+    "Le complément protège du dépôt des CI, donc son déficit est toujours bénéfique"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "3 anomalies possibles ; un déficit du complément FAVORISE les maladies à CI.",
+   "explanation": "Les maladies à CI résultent de trois types d'anomalies (pouvant coexister) : **excès de formation** (auto-immunité), **déficit du complément** (mauvaise clairance, ex. lupus) et **défaillance des cellules** de clairance (GR, foie, rate). La **taille** des CI conditionne la gravité (les gros CI s'accumulent et font plus de dégâts). La proposition E est fausse/piégeuse : le complément est **protecteur** vis-à-vis du dépôt des CI, donc son déficit **favorise** les maladies à CI (lupus) — il n'est pas « bénéfique ».",
+   "tags": ["maladies à CI", "complément", "lupus"],
+   "source": "FC19 — Maladies à CI"
+  },
+  {
+   "id": "fc19-q12",
+   "lesson": "fc19",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Une **cryoglobulinémie de type II** (IgM monoclonale + IgG polyclonale) est le plus souvent associée à :",
+   "options": [
+    "L'**hépatite C** (VHC), avec chute du **C4** et glomérulonéphrite membrano-proliférative",
+    "Un myélome isolé sans contexte infectieux",
+    "Un déficit constitutionnel en CD59",
+    "Une mutation acquise de PIG-A",
+    "Une artérite gigantocellulaire de l'aorte"
+   ],
+   "correct": [0],
+   "hint": "Type II ≠ type I. L'étiologie virale prédominante est bien connue.",
+   "explanation": "La cryoglobulinémie de **type II** (IgM monoclonale + IgG polyclonale) est surtout associée à l'**hépatite C** (+++), avec activation de la voie classique (**C4 effondré**), purpura vasculaire et glomérulonéphrite membrano-proliférative. Le **type I** (Ig monoclonale isolée) évoque une hémopathie/myélome (B faux). Les propositions C et D décrivent l'HPN (CD59/PIG-A), E la maladie de Horton.",
+   "tags": ["cryoglobulinémie", "VHC", "C4"],
+   "source": "FC19 — Cryoglobulinémie"
+  }
+ ]
 }

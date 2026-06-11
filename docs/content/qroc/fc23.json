@@ -64,6 +64,71 @@
     "H1 : Th17 → IL-17 → MMP/RANKL → dégradation articulaire (ostéoclastes, cartilage)",
     "H2 : ARN viral persistant → activation macrophages (SLAMF7) → inflammation chronique"
    ]
+  },
+  {
+   "id": "fc23-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Qu'est-ce que le **syndrome de fatigue chronique** (encéphalomyélite myalgique) et quel lien entretient-il avec certaines infections virales ?",
+   "answer": "Le **syndrome de fatigue chronique (SFC)**, ou **encéphalomyélite myalgique (EM/SFC)**, est un syndrome post-infectieux caractérisé par une **fatigue intense, persistante (> 6 mois) et invalidante**, non soulagée par le repos, aggravée par l'effort (**malaise post-effort**), associée à des troubles du sommeil, des douleurs et des troubles neurocognitifs (« brouillard cérébral »). Il survient fréquemment **au décours d'une infection virale**, notamment par le **virus d'Epstein-Barr (EBV)** (après une mononucléose infectieuse), mais aussi d'autres agents. Les mécanismes évoqués rejoignent ceux des autres syndromes post-infectieux : **dysrégulation immunitaire**, inflammation persistante, **réactivation virale** et dysautonomie. Le diagnostic est **clinique et d'exclusion** ; pas de traitement spécifique (prise en charge symptomatique, gestion de l'effort).",
+   "keyPoints": [
+    "SFC/EM : fatigue invalidante > 6 mois, malaise post-effort, troubles cognitifs",
+    "Survient au décours d'infections virales (EBV ++ après MNI)",
+    "Mécanismes : dysrégulation immunitaire, inflammation, réactivation virale",
+    "Diagnostic clinique d'exclusion, pas de traitement spécifique"
+   ]
+  },
+  {
+   "id": "fc23-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez le **syndrome post-maladie de Lyme** (PTLDS) : définition, symptômes et mécanismes évoqués.",
+   "answer": "Le **syndrome post-traitement de la maladie de Lyme (PTLDS)** désigne la **persistance de symptômes** après un traitement antibiotique **bien conduit** d'une borréliose de Lyme (infection à **Borrelia burgdorferi**, transmise par les tiques). Symptômes persistant des mois : **fatigue**, **douleurs musculo-articulaires (arthralgies)**, **troubles neurocognitifs**, parfois troubles de l'humeur. Mécanismes proposés (communs aux syndromes post-infectieux) : **réaction auto-immune** post-infectieuse (mimétisme moléculaire), **inflammation résiduelle**, persistance d'antigènes bactériens, séquelles tissulaires. Une **antibiothérapie prolongée n'a pas démontré d'efficacité** (l'infection active étant éradiquée) ; la prise en charge est symptomatique. Le diagnostic d'exclusion impose d'éliminer une réinfection ou une autre cause.",
+   "keyPoints": [
+    "PTLDS : symptômes persistants après traitement ATB efficace de Lyme (Borrelia)",
+    "Fatigue, arthralgies, troubles neurocognitifs",
+    "Mécanismes : auto-immunité (mimétisme), inflammation résiduelle",
+    "Antibiothérapie prolongée inefficace → PEC symptomatique"
+   ]
+  },
+  {
+   "id": "fc23-qroc8",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le concept de **mimétisme moléculaire** comme mécanisme d'auto-immunité post-infectieuse et donnez deux exemples de maladies.",
+   "answer": "Le **mimétisme moléculaire** est un mécanisme par lequel une **infection déclenche une auto-immunité** : certains **antigènes du pathogène ressemblent structurellement à des antigènes du soi**. La réponse dirigée contre l'agent infectieux **réagit de façon croisée** avec les tissus de l'hôte (LT et/ou anticorps), provoquant des lésions auto-immunes une fois l'infection résolue. Exemples : **(1)** le **syndrome de Guillain-Barré** après infection à *Campylobacter jejuni* (Ac croisant avec les **gangliosides de la myéline du SNP**) ; **(2)** le **rhumatisme articulaire aigu** après angine à **streptocoque β-hémolytique du groupe A** (Ac croisant avec le cœur, les articulations, le SNC). Ce mécanisme explique le **délai** entre l'infection et l'apparition des symptômes auto-immuns.",
+   "keyPoints": [
+    "Mimétisme : antigène du pathogène ≈ antigène du soi → réaction croisée",
+    "Guillain-Barré post-Campylobacter (gangliosides myéline SNP)",
+    "Rhumatisme articulaire aigu post-streptocoque A (cœur, articulations)",
+    "Explique le délai infection → auto-immunité"
+   ]
+  },
+  {
+   "id": "fc23-qroc9",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quels sont les **principes de prise en charge** des syndromes post-infectieux (type COVID long) et pourquoi le diagnostic est-il difficile ?",
+   "answer": "Le diagnostic est **difficile** car les symptômes sont **multiples, fluctuants et non spécifiques** (fatigue, douleurs, troubles cognitifs), il n'existe **pas de marqueur biologique spécifique**, et c'est un **diagnostic d'exclusion** (éliminer toute autre cause). La prise en charge est essentiellement **symptomatique et multidisciplinaire** : **réadaptation adaptée** (réentraînement progressif à l'effort en évitant le malaise post-effort), prise en charge de la **douleur**, du **sommeil**, **soutien psychologique**, traitement des comorbidités. Il n'existe pas (à ce jour) de **traitement curatif** ciblant le mécanisme. La **prévention** repose sur la **vaccination** (qui réduit le risque de COVID long) et la prévention des infections. La reconnaissance de ces syndromes est importante pour la **prise en charge sociale** des patients.",
+   "keyPoints": [
+    "Diagnostic difficile : symptômes non spécifiques, pas de marqueur, exclusion",
+    "PEC symptomatique multidisciplinaire : réadaptation à l'effort, douleur, sommeil, psy",
+    "Pas de traitement curatif spécifique",
+    "Prévention : vaccination ; enjeu social fort"
+   ]
+  },
+  {
+   "id": "fc23-qroc10",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Opposez les deux grands mécanismes des symptômes post-infectieux prolongés : **persistance de l'agent/antigène** et **dérèglement immunitaire auto-entretenu**. Quelles implications thérapeutiques ?",
+   "answer": "Deux familles de mécanismes, **non exclusives**. **(1) Persistance de l'agent ou de ses antigènes** : du **matériel viral** (ARN, protéines) ou bactérien persiste dans des **réservoirs tissulaires** (intestin, ganglions, SNC…) après la phase aiguë, entretenant une **stimulation immunitaire chronique** et une inflammation locale (démontré pour le SARS-CoV-2, évoqué pour le Chikungunya via les macrophages). Implication : des stratégies **antivirales/anti-pathogènes** pourraient théoriquement être utiles si la persistance est confirmée. **(2) Dérèglement immunitaire auto-entretenu** : même après élimination de l'agent, le SI reste **anormalement activé** — **auto-anticorps** (mimétisme), **réactivation de virus latents (EBV)**, inflammation chronique, dysrégulation cytokinique. Implication : approches **immunomodulatrices**. En pratique, la coexistence probable des deux mécanismes explique l'absence de traitement univoque et la nécessité de **phénotyper** les patients.",
+   "keyPoints": [
+    "Persistance : antigènes viraux/bactériens dans des réservoirs → stimulation chronique",
+    "Dérèglement immunitaire : auto-Ac, réactivation EBV, inflammation auto-entretenue",
+    "Implications : antiviraux (si persistance) vs immunomodulation (si dysimmunité)",
+    "Mécanismes non exclusifs → phénotypage nécessaire, pas de traitement univoque"
+   ]
   }
  ]
 }

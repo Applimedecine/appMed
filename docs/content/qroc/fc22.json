@@ -71,6 +71,72 @@
     "Traitement : IgIV ou échanges plasmatiques"
    ],
    "trap": "Guillain-Barré touche le SNP (cellule de Schwann) et non le SNC (oligodendrocyte). L'atteinte est ascendante (débute aux membres inférieurs). À distinguer de la SEP qui est une maladie du SNC."
+  },
+  {
+   "id": "fc22-qroc6",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Expliquez le **privilège immunitaire** du système nerveux central : rôle de la **barrière hémato-encéphalique** et conséquences en pathologie.",
+   "answer": "Le **SNC** est un **site immunoprivilégié** : en conditions physiologiques, il est **dépourvu de cellules immunitaires périphériques**, seule la **microglie** (macrophages résidents) y assure l'immunité innée. Le privilège repose sur : la **barrière hémato-encéphalique (BHE)** — jonctions serrées entre cellules endothéliales limitant le passage des cellules et molécules immunitaires ; l'**absence de drainage lymphatique** conventionnel ; une **faible expression du CMH** par les cellules neurales. Conséquence : lorsque la BHE est **perméabilisée** (inflammation), des lymphocytes T auto-réactifs et des anticorps peuvent **infiltrer** le SNC et déclencher des maladies neuro-immunes (ex : **SEP**). À l'inverse, la présence de cellules immunitaires périphériques dans le tissu cérébral **témoigne toujours d'une pathologie**.",
+   "keyPoints": [
+    "SNC immunoprivilégié : pas de cellules immunes périphériques en temps normal",
+    "BHE (jonctions serrées) + pas de drainage lymphatique + faible CMH",
+    "Microglie = seule immunité résidente",
+    "Perméabilisation BHE → infiltration → maladies neuro-immunes (SEP)"
+   ]
+  },
+  {
+   "id": "fc22-qroc7",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Décrivez les principales **formes évolutives de la sclérose en plaques** et le principe des **traitements de fond**.",
+   "answer": "La **SEP** évolue selon plusieurs formes : **(1) Rémittente-récurrente (poussées-rémissions)** — la plus fréquente au début (~85 %) : épisodes neurologiques (poussées) suivis de récupération partielle ou complète. **(2) Secondairement progressive** : après des années, aggravation progressive et continue du handicap. **(3) Primaire progressive** : aggravation d'emblée, sans poussées nettes (~15 %). Les **traitements de fond** (immunomodulateurs/immunosuppresseurs) réduisent la fréquence des poussées et ralentissent la progression : **interféron β**, acétate de glatiramère, biothérapies (**anti-CD20 / ocrélizumab**, **natalizumab** anti-intégrine α4 bloquant le passage des LT à travers la BHE, fingolimod…). Les **poussées aiguës** sont traitées par **corticothérapie** à forte dose (bolus de méthylprednisolone).",
+   "keyPoints": [
+    "Rémittente-récurrente (~85 % au début) : poussées + rémissions",
+    "Secondairement progressive : aggravation après phase rémittente",
+    "Primaire progressive (~15 %) : progressive d'emblée",
+    "Fond : IFN-β, anti-CD20 (ocrélizumab), natalizumab ; poussée : corticoïdes IV"
+   ]
+  },
+  {
+   "id": "fc22-qroc8",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Qu'est-ce que la **neuromyélite optique (maladie de Devic)** ? Précisez la cible antigénique et ce qui la distingue de la SEP.",
+   "answer": "La **neuromyélite optique (NMO)** ou **maladie de Devic** est une maladie auto-immune **démyélinisante du SNC** caractérisée par l'atteinte préférentielle du **nerf optique (névrite optique)** et de la **moelle épinière (myélite extensive)**. Sa particularité : des **auto-anticorps dirigés contre l'aquaporine-4 (anti-AQP4)**, un **canal hydrique** exprimé par les **astrocytes** (pieds astrocytaires au contact de la BHE). Ces Ac sont **directement pathogènes** (activation du complément → astrocytopathie). Distinction avec la SEP : la cible est l'**astrocyte (AQP4)** et non l'oligodendrocyte/myéline ; les Ac anti-AQP4 sont spécifiques ; l'atteinte est plus sévère et le traitement diffère (les traitements de la SEP comme l'IFN-β peuvent **aggraver** la NMO). Traitement : corticoïdes, échanges plasmatiques, **rituximab (anti-CD20)**, anti-complément (eculizumab).",
+   "keyPoints": [
+    "NMO/Devic : névrite optique + myélite, démyélinisation du SNC",
+    "Cible : aquaporine-4 (AQP4) des astrocytes (anti-AQP4 pathogènes, complément)",
+    "Distinction SEP : astrocyte (≠ oligodendrocyte), Ac spécifiques anti-AQP4",
+    "Traitement : rituximab, échanges plasmatiques (IFN-β aggrave la NMO)"
+   ],
+   "trap": "Donner un traitement de fond de SEP (interféron β) à une NMO peut aggraver la maladie : d'où l'importance du dosage des anti-AQP4 pour les distinguer."
+  },
+  {
+   "id": "fc22-qroc9",
+   "difficulty": "difficile",
+   "points": 4,
+   "question": "Définissez les **syndromes neurologiques paranéoplasiques** et expliquez leur mécanisme immunologique (anticorps onconeuronaux).",
+   "answer": "Les **syndromes neurologiques paranéoplasiques** sont des atteintes neurologiques **à distance d'un cancer**, **non liées** à un envahissement direct, à des métastases ou à un effet toxique, mais d'origine **immunologique**. Mécanisme : la tumeur exprime des **antigènes normalement neuronaux (antigènes onconeuronaux)** ; la réponse anti-tumorale **réagit de façon croisée** avec le tissu nerveux → production d'**anticorps onconeuronaux** et de LT auto-réactifs attaquant le SNC ou le SNP. Exemples : **anti-Hu** (cancer pulmonaire à petites cellules → encéphalomyélite, neuropathie), **anti-Yo** (cancer ovaire/sein → dégénérescence cérébelleuse), anti-CV2/CRMP5. Ces syndromes peuvent **précéder** la découverte du cancer → leur détection impose une **recherche de néoplasie**. Traitement : celui du cancer + immunomodulation.",
+   "keyPoints": [
+    "Atteinte neuro à distance d'un cancer, d'origine immunitaire (pas d'invasion directe)",
+    "Antigènes onconeuronaux : réaction croisée tumeur ↔ tissu nerveux",
+    "Ac : anti-Hu (CPPC), anti-Yo (ovaire/sein → cervelet)",
+    "Peut précéder le cancer → rechercher une néoplasie"
+   ]
+  },
+  {
+   "id": "fc22-qroc10",
+   "difficulty": "moyen",
+   "points": 3,
+   "question": "Quel est le rôle des sous-populations lymphocytaires **Th17** et **Treg** dans les maladies neuro-inflammatoires comme la SEP ?",
+   "answer": "L'équilibre entre lymphocytes **effecteurs** et **régulateurs** est déterminant. Les **LT Th17** (produisant l'**IL-17**) et les **Th1** (IFN-γ) sont **pro-inflammatoires** : ils franchissent la BHE, recrutent d'autres cellules immunitaires et participent à la **démyélinisation** (rôle central démontré dans le modèle expérimental d'encéphalomyélite auto-immune, **EAE**). À l'inverse, les **LT régulateurs (Treg)** sont **protecteurs** : ils freinent la réponse auto-immune et favorisent la tolérance. Dans la SEP, on observe un **déséquilibre** en faveur des effecteurs (Th17/Th1) avec un **déficit fonctionnel des Treg**, entretenant l'attaque de la myéline. (Note : la grossesse, en favorisant un profil Th2/Treg, réduit transitoirement les poussées de SEP.)",
+   "keyPoints": [
+    "Th17 (IL-17) et Th1 (IFN-γ) : pro-inflammatoires, démyélinisation (modèle EAE)",
+    "Treg : protecteurs, tolérance",
+    "SEP : déséquilibre effecteurs > Treg",
+    "Grossesse (profil Th2/Treg) → ↓ poussées"
+   ]
   }
  ]
 }

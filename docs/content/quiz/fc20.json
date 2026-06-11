@@ -2,5 +2,234 @@
  "slug": "fc20",
  "title": "QCM — MICI",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc20-q01",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelles sont les **deux formes principales** de MICI ?",
+   "options": [
+    "La **maladie de Crohn** et la **rectocolite hémorragique (RCH)**",
+    "La maladie cœliaque et la maladie de Whipple",
+    "Le syndrome de l'intestin irritable et la diverticulite",
+    "La maladie de Crohn et la maladie cœliaque",
+    "La RCH et la colite pseudomembraneuse"
+   ],
+   "correct": [0],
+   "hint": "Deux entités distinctes, mais de la même grande famille inflammatoire.",
+   "explanation": "Les deux formes principales de MICI sont la **maladie de Crohn (MC)** et la **rectocolite hémorragique (RCH)**, auxquelles s'ajoutent les colites indéterminées. La maladie cœliaque, le syndrome de l'intestin irritable et la colite pseudomembraneuse ne sont pas des MICI.",
+   "tags": ["définition", "Crohn", "RCH"],
+   "source": "FC20 — Introduction"
+  },
+  {
+   "id": "fc20-q02",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Concernant la **topographie**, quelle proposition oppose correctement Crohn et RCH ?",
+   "options": [
+    "La MC peut toucher tout le tube digestif (bouche à l'anus), de façon **discontinue** ; la RCH touche **toujours le rectum** et s'étend de façon **continue**",
+    "La MC est limitée au rectum ; la RCH touche tout le tube digestif",
+    "Les deux touchent uniquement l'iléon terminal de façon continue",
+    "La MC ne touche jamais l'iléon ; la RCH touche l'iléon en premier",
+    "La RCH épargne toujours le rectum"
+   ],
+   "correct": [0],
+   "hint": "Crohn = discontinu (skip lesions), iléon terminal ; RCH = continu depuis le rectum.",
+   "explanation": "La **maladie de Crohn** peut toucher tout le segment digestif (de la bouche à l'anus), de façon **discontinue** (atteinte préférentielle de l'iléon terminal et du côlon droit, lésions ano-périnéales). La **RCH** touche **toujours le rectum**, s'étend de façon **continue** vers l'amont (jusqu'à la pancolite), avec un iléon sain. Les autres propositions inversent ou caricaturent ces topographies.",
+   "tags": ["topographie", "Crohn", "RCH"],
+   "source": "FC20 — Anatomopathologie"
+  },
+  {
+   "id": "fc20-q03",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Le gène de prédisposition **NOD2 (CARD15)** est principalement associé à :",
+   "options": [
+    "La **maladie de Crohn**",
+    "La rectocolite hémorragique",
+    "La maladie cœliaque",
+    "Le syndrome de l'intestin irritable",
+    "La colite microscopique"
+   ],
+   "correct": [0],
+   "hint": "Premier gène de susceptibilité découvert pour cette MICI.",
+   "explanation": "**NOD2/CARD15** est le **premier gène de susceptibilité** découvert et le facteur de risque génétique le plus important de la **maladie de Crohn** (et non de la RCH). Il code un récepteur intracytoplasmique des cellules de Paneth reconnaissant le muramyl dipeptide (MDP).",
+   "tags": ["NOD2", "génétique", "Crohn"],
+   "source": "FC20 — Facteurs génétiques"
+  },
+  {
+   "id": "fc20-q04",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Dans la physiopathologie des MICI, que désigne la **dysbiose** ?",
+   "options": [
+    "Une **diminution de la diversité** du microbiote intestinal (↓ Firmicutes/Bacteroides, ↑ entérobactéries)",
+    "Une augmentation de la diversité du microbiote",
+    "Une stérilisation complète du tube digestif",
+    "Un excès de production de mucus protecteur",
+    "Une augmentation des lymphocytes T régulateurs"
+   ],
+   "correct": [0],
+   "hint": "Dys-biose = déséquilibre, appauvrissement.",
+   "explanation": "La **dysbiose** correspond à une **diminution de la diversité** du microbiote : baisse des phyla **Firmicutes et Bacteroides**, augmentation relative des **entérobactéries** (et des souches E. coli adhérentes-invasives). La proposition B est le piège classique : il s'agit bien d'une **diminution** (et non augmentation) de la diversité.",
+   "tags": ["dysbiose", "microbiote"],
+   "source": "FC20 — Microbiote"
+  },
+  {
+   "id": "fc20-q05",
+   "lesson": "fc20",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le gène **NOD2 (CARD15)** dans la maladie de Crohn, quelles propositions sont exactes ?",
+   "options": [
+    "Il code un **récepteur intracytoplasmique** présent dans les **cellules de Paneth**",
+    "Il reconnaît le **muramyl dipeptide (MDP)** via son domaine LRR",
+    "Une mutation **homozygote** multiplie le risque de MC par environ **40**",
+    "Une mutation **hétérozygote** multiplie le risque par environ **1,5 à 3**",
+    "Ses mutations sont surtout retrouvées dans la **rectocolite hémorragique**"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Récepteur des cellules de Paneth, MDP, risque x40 si homozygote — mais maladie de Crohn.",
+   "explanation": "NOD2 code un **récepteur intracytoplasmique** des **cellules de Paneth** (aussi macrophages, DC) qui reconnaît le **MDP** (domaine LRR). Le risque de MC est multiplié par **~1,5-3** (hétérozygote) et par **~40** (homozygote). La proposition E est fausse : les mutations de NOD2 sont associées à la **maladie de Crohn**, pas à la RCH.",
+   "tags": ["NOD2", "cellules de Paneth", "MDP"],
+   "source": "FC20 — NOD2 (CARD15)"
+  },
+  {
+   "id": "fc20-q06",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel est l'effet du **tabac** dans les MICI ?",
+   "options": [
+    "**Délétère** dans la maladie de Crohn, **protecteur** dans la RCH",
+    "Protecteur dans la maladie de Crohn, délétère dans la RCH",
+    "Délétère dans les deux pathologies de façon identique",
+    "Protecteur dans les deux pathologies",
+    "Sans aucun effet démontré sur les MICI"
+   ],
+   "correct": [0],
+   "hint": "Effet opposé selon la MICI — point tombable +++. Ne pas inverser.",
+   "explanation": "Le tabac a un effet **opposé** selon la MICI : **délétère dans la maladie de Crohn** (augmente le risque, aggrave la maladie, augmente récidives/chirurgie, diminue la réponse au Remicade) et **protecteur dans la RCH** (risque ~2,5 fois plus faible chez les fumeurs). La proposition B inverse l'effet (erreur classique).",
+   "tags": ["tabac", "facteurs de risque"],
+   "source": "FC20 — Facteurs environnementaux"
+  },
+  {
+   "id": "fc20-q07",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle est l'**orientation T helper** prédominante dans la maladie de Crohn ?",
+   "options": [
+    "Une réponse essentiellement **Th1** (efficacité des anti-TNF-α et de l'anti-IL-12/23)",
+    "Une réponse essentiellement Th2",
+    "Une réponse exclusivement Treg (tolérogène)",
+    "Une réponse purement humorale sans lymphocytes T",
+    "Aucune polarisation lymphocytaire T"
+   ],
+   "correct": [0],
+   "hint": "MC = Th1 ; RCH = Th2. Erreur classique en QCM.",
+   "explanation": "La maladie de Crohn est caractérisée par une réponse essentiellement **Th1** (avec composante Th17), ce qui explique l'efficacité des **anti-TNF-α** (infliximab) et de l'**anti-IL-12/23** (ustékinumab). La **RCH** est plutôt orientée **Th2**. Confondre Th1/Th2 entre les deux maladies est une erreur fréquente (B faux).",
+   "tags": ["Th1", "Th2", "cytokines"],
+   "source": "FC20 — Immunité adaptative"
+  },
+  {
+   "id": "fc20-q08",
+   "lesson": "fc20",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **altérations de la barrière épithéliale** dans la maladie de Crohn, quelles propositions sont exactes ?",
+   "options": [
+    "La sécrétion de **mucine est insuffisante voire absente** (↓ MUC1, MUC19, PTGER4)",
+    "Les **jonctions serrées** sont plus lâches (↓ claudines) → **augmentation** de la perméabilité",
+    "Les **cellules de Paneth** sont défectueuses (mutation ATG16L) → ↓ peptides antimicrobiens (α-défensines)",
+    "L'**autophagie** est inefficace (mutations ATG16L1, IRGM) → persistance de bactéries intracellulaires",
+    "La barrière est **moins** perméable que la normale, ce qui empêche la translocation bactérienne"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Barrière PLUS perméable ; mucine quasi absente ; Paneth/autophagie défaillantes.",
+   "explanation": "Dans la MC, la barrière est **plus perméable** : **mucine insuffisante** (↓ MUC1/MUC19/PTGER4), **jonctions serrées lâches** (↓ claudines → ↑ perméabilité), **cellules de Paneth défectueuses** (ATG16L → ↓ α-défensines) et **autophagie inefficace** (ATG16L1, IRGM → persistance bactérienne). La proposition E est fausse : la barrière est **plus** (et non moins) perméable, ce qui **favorise** la translocation bactérienne.",
+   "tags": ["barrière épithéliale", "autophagie", "Paneth"],
+   "source": "FC20 — Facteurs immunitaires"
+  },
+  {
+   "id": "fc20-q09",
+   "lesson": "fc20",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Quels examens biologiques/anticorps sont utiles dans le bilan et le diagnostic différentiel des MICI ?",
+   "options": [
+    "La **calprotectine fécale** (marqueur de poussée, mais **non spécifique** des MICI)",
+    "Les **ASCA** (anti-Saccharomyces cerevisiae), plutôt évocateurs de la **maladie de Crohn**",
+    "Les **p-ANCA**, plutôt évocateurs de la **RCH**",
+    "La **CRP** comme marqueur du syndrome inflammatoire",
+    "Les ASCA et ANCA, dosés **uniquement** si le bilan de routine est anormal"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Calprotectine non spécifique ; ASCA → Crohn, ANCA → RCH ; dosés en routine.",
+   "explanation": "Sont utiles : la **calprotectine fécale** (marqueur de poussée, **non spécifique**), la **CRP**, les **ASCA** (plutôt Crohn, 60 %) et les **p-ANCA** (plutôt RCH, 80 %). La proposition E est fausse : ASCA et ANCA sont dosés **en routine** dans les MICI, et non seulement si le bilan est anormal.",
+   "tags": ["diagnostic", "ASCA", "ANCA", "calprotectine"],
+   "source": "FC20 — Diagnostic"
+  },
+  {
+   "id": "fc20-q10",
+   "lesson": "fc20",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **cellules dendritiques (DC)** dans la physiopathologie des MICI, quelles propositions sont exactes ?",
+   "options": [
+    "À l'état sain, les DC mucosales sont **tolérogènes** (TGF-β, IL-10, induction de Treg)",
+    "Dans les MICI, elles adoptent un **phénotype activé** (↑ CD40/CD86, ↑ TNF-α/IL-6/IL-8)",
+    "Elles **surexpriment TLR2 et TLR4** avec une réponse exagérée au LPS",
+    "Des polymorphismes d'**IL-23R** orientent vers une sécrétion d'IL-17 et d'IFN-γ",
+    "Dans les MICI, elles renforcent la **tolérance** intestinale et la production de Treg"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Bascule du phénotype tolérogène (sain) vers un phénotype effecteur (MICI).",
+   "explanation": "Dans l'intestin sain, les DC sont **tolérogènes** (TGF-β, IL-10, Treg). Dans les MICI, elles deviennent **activées** (↑ CD40/CD86, ↑ TNF-α/IL-6/IL-8), **surexpriment TLR2/TLR4** (réponse exagérée au LPS), et les polymorphismes d'**IL-23R** favorisent l'IL-17/IFN-γ. La proposition E est fausse : dans les MICI, le déséquilibre se fait **vers l'inflammation** (phénotype effecteur), à l'opposé de leur action tolérogène habituelle.",
+   "tags": ["cellules dendritiques", "TLR", "IL-23R"],
+   "source": "FC20 — Immunité innée"
+  },
+  {
+   "id": "fc20-q11",
+   "lesson": "fc20",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Le **védolizumab** est une biothérapie utilisée dans les MICI. Quel est son mécanisme d'action ?",
+   "options": [
+    "Un **anti-intégrine α4β7** qui bloque le trafic des lymphocytes vers la muqueuse intestinale (sélectivité intestinale)",
+    "Un anti-TNF-α de type infliximab",
+    "Un anti-IL-12/23 (anti-p40) comme l'ustékinumab",
+    "Un inhibiteur local de NF-κB de type 5-ASA",
+    "Un corticoïde à action systémique"
+   ],
+   "correct": [0],
+   "hint": "Cible l'interaction α4β7 / MAdCAM-1 → action intestinale sélective.",
+   "explanation": "Le **védolizumab** est un **anti-intégrine α4β7** : il bloque l'interaction α4β7 (lymphocytes) / MAdCAM-1 (endothélium intestinal), empêchant le **homing** des lymphocytes vers la muqueuse intestinale. Sa **sélectivité intestinale** réduit l'immunosuppression systémique (moins d'infections systémiques que les anti-TNF). L'**ustékinumab** est l'anti-IL-12/23 (anti-p40) (C faux), l'infliximab l'anti-TNF (B faux).",
+   "tags": ["védolizumab", "intégrine", "biothérapie"],
+   "source": "FC20 — Traitements"
+  },
+  {
+   "id": "fc20-q12",
+   "lesson": "fc20",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant les **traitements** des MICI, quelles propositions sont exactes ?",
+   "options": [
+    "Les **anti-TNF-α** sont **efficaces** dans les MICI (formes sévères/cortico-réfractaires)",
+    "L'**ustékinumab** bloque la sous-unité **p40** (inhibe Th1 et Th17)",
+    "Les **5-ASA** (mésalazine) agissent surtout dans le **côlon** (RCH), peu dans la MC",
+    "Les **corticoïdes** sont indiqués en **induction** mais à éviter en entretien au long cours",
+    "Les **anti-TNF-α** ne peuvent **pas** être utilisés dans les MICI"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Anti-TNF EFFICACES (point de QCM). Ustékinumab = anti-p40.",
+   "explanation": "Les **anti-TNF-α** sont **efficaces** dans les MICI (MC et RCH). L'**ustékinumab** bloque **p40** (commun à IL-12 et IL-23 → inhibe Th1 et Th17). Les **5-ASA** agissent surtout dans le côlon (RCH), peu dans la MC. Les **corticoïdes** servent à l'**induction** mais sont à éviter en entretien (dépendance, effets osseux/surrénaliens). La proposition E est fausse et contredit A : les anti-TNF **peuvent** être utilisés (piège classique).",
+   "tags": ["traitements", "anti-TNF", "ustékinumab", "5-ASA"],
+   "source": "FC20 — Traitements"
+  }
+ ]
 }

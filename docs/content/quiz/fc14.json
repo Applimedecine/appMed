@@ -2,5 +2,234 @@
  "slug": "fc14",
  "title": "QCM — Immunopathologie VIH",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc14-q01",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quelle est la **cellule cible principale** du VIH, dont la destruction progressive conduit à l'immunodépression ?",
+   "options": [
+    "Le **lymphocyte T CD4**",
+    "Le **lymphocyte T CD8** cytotoxique",
+    "Le **polynucléaire neutrophile**",
+    "Le **lymphocyte B**",
+    "Le **mastocyte**"
+   ],
+   "correct": [0],
+   "hint": "Le VIH utilise la molécule CD4 comme porte d'entrée.",
+   "explanation": "Le VIH infecte et détruit principalement les **lymphocytes T CD4** (≈ 90 % des cibles), car la molécule **CD4** est sa porte d'entrée ; leur déplétion progressive aboutit à l'**immunodépression** cellulaire et humorale. B faux : les **CD8** sont au contraire des effecteurs antiviraux qui augmentent en primo-infection. C, D, E faux : ce ne sont pas les cibles préférentielles (les macrophages et cellules dendritiques, qui expriment aussi le CD4, sont également infectés).",
+   "tags": ["CD4", "cellule cible"],
+   "source": "FC14 — Entrée du VIH et cellules cibles"
+  },
+  {
+   "id": "fc14-q02",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quels sont les **deux co-récepteurs** que le VIH utilise (avec le CD4) pour pénétrer dans la cellule ?",
+   "options": [
+    "**CCR5** et **CXCR4**",
+    "CD4 et CD8",
+    "TLR7 et TLR8",
+    "CD80 et CD86",
+    "FcγRIII et FcεRI"
+   ],
+   "correct": [0],
+   "hint": "Virus R5 (macrophage/précoce) et virus X4 (T/tardif).",
+   "explanation": "Après liaison de la **gp120** au **CD4**, un changement de conformation permet la liaison à un **co-récepteur** : **CCR5** (virus R5, tropisme macrophage, phase précoce) ou **CXCR4** (virus X4, tropisme T, phase tardive). B faux : le CD8 n'est pas un co-récepteur du VIH. C faux : TLR7/8 sont des récepteurs de l'immunité innée. D faux : CD80/86 sont des molécules de costimulation. E faux : ce sont des récepteurs Fc.",
+   "tags": ["CCR5", "CXCR4", "co-récepteurs"],
+   "source": "FC14 — Entrée du VIH et cellules cibles"
+  },
+  {
+   "id": "fc14-q03",
+   "lesson": "fc14",
+   "type": "multiple",
+   "difficulty": "facile",
+   "stem": "Concernant le **VIH** en tant que rétrovirus :",
+   "options": [
+    "Son matériel génétique est de l'**ARN** transcrit en **ADN** par une enzyme interne",
+    "La **transcriptase inverse** rétrotranscrit l'ARN viral en ADN",
+    "L'**intégrase** intègre l'ADN proviral dans le génome de la cellule hôte",
+    "La **protéase** assure la **maturation** des nouveaux virions",
+    "Sa transcriptase inverse est une enzyme d'origine **humaine**"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Trois enzymes virales : RT, intégrase, protéase.",
+   "explanation": "Réponses ABCD. Le VIH est un **rétrovirus à ARN** : la **transcriptase inverse** (RT) rétrotranscrit l'ARN en ADN, l'**intégrase** intègre l'ADN proviral dans le génome de l'hôte, et la **protéase** assure la **maturation** des virions (clivage gag-pol). E faux : la RT est d'origine **virale** (et non humaine) — piège classique d'annale.",
+   "tags": ["rétrovirus", "enzymes", "annale"],
+   "source": "FC14 — Cycle viral"
+  },
+  {
+   "id": "fc14-q04",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel seuil de **lymphocytes T CD4** définit le **stade SIDA** (immunologique) ?",
+   "options": [
+    "**CD4 < 200/mm³**",
+    "CD4 < 500/mm³",
+    "CD4 < 800/mm³",
+    "CD4 < 1000/mm³",
+    "CD4 < 50/mm³"
+   ],
+   "correct": [0],
+   "hint": "C'est aussi le seuil au-dessous duquel survient la pneumocystose.",
+   "explanation": "Le **stade SIDA** est défini par un effondrement des **CD4 < 200/mm³** (et/ou la survenue d'une infection opportuniste/cancer classant). C'est en dessous de ce seuil qu'apparaît la **pneumocystose**. B faux : 500/mm³ correspond plutôt à la limite de la phase asymptomatique / pré-SIDA. E faux : < 100/mm³ (voire < 50) correspond au SIDA **avancé** (toxoplasmose, CMV, MAC).",
+   "tags": ["SIDA", "CD4", "seuil"],
+   "source": "FC14 — Cinétique et seuils CD4"
+  },
+  {
+   "id": "fc14-q05",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle **mutation génétique** confère une **résistance naturelle** à l'infection par le VIH (à tropisme R5) ?",
+   "options": [
+    "La **délétion CCR5Δ32** (homozygote)",
+    "Une mutation activatrice du **CD4**",
+    "Une délétion du gène **CXCR4**",
+    "Une mutation de la **transcriptase inverse** humaine",
+    "Une amplification du gène **gp120**"
+   ],
+   "correct": [0],
+   "hint": "C'est le co-récepteur, et non le récepteur CD4, qui est aboli.",
+   "explanation": "La **délétion de 32 paires de bases du gène CCR5 (CCR5Δ32)** à l'état **homozygote** empêche l'expression fonctionnelle du **co-récepteur CCR5** → le virus R5 ne peut plus pénétrer dans les cellules cibles. C'est le mécanisme exploité dans les rares cas de rémission après **greffe de moelle** d'un donneur CCR5Δ32. B et D faux : ce n'est pas le **CD4** ni la RT qui sont concernés mais le **co-récepteur CCR5**. C faux : c'est CCR5, pas CXCR4.",
+   "tags": ["CCR5", "delta32", "résistance"],
+   "source": "FC14 — Entrée / facteurs de l'hôte"
+  },
+  {
+   "id": "fc14-q06",
+   "lesson": "fc14",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant le **tropisme** des souches de VIH :",
+   "options": [
+    "Les souches **R5 (CCR5)** prédominent en **primo-infection** et phase chronique précoce (macrophages, muqueuses)",
+    "Les souches **X4 (CXCR4)** apparaissent plus **tardivement** (progression vers le SIDA)",
+    "Certaines souches ont un **double tropisme R5/X4**",
+    "Un **test de tropisme** est requis avant de prescrire un **inhibiteur de CCR5 (maraviroc)**",
+    "Le maraviroc est efficace contre **toutes** les souches, y compris X4"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Maraviroc = anti-CCR5, inefficace sur les souches X4.",
+   "explanation": "Réponses ABCD. Les souches **R5** prédominent en **primo-infection** (macrophages, muqueuses), les souches **X4** plus **tardivement** (progression vers le SIDA), et certaines ont un **double tropisme**. Avant de prescrire le **maraviroc** (anti-CCR5), un **test de tropisme** est **obligatoire**. E faux : le maraviroc est **inefficace** contre les souches **X4 et à double tropisme** (il ne bloque que CCR5).",
+   "tags": ["tropisme", "R5", "X4", "maraviroc"],
+   "source": "FC14 — Tropisme et traitement"
+  },
+  {
+   "id": "fc14-q07",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quelle **infection opportuniste** survient typiquement lorsque les **CD4 passent sous 200/mm³** ?",
+   "options": [
+    "La **pneumocystose pulmonaire (PCP)**",
+    "Un simple zona",
+    "Une candidose buccale isolée",
+    "Une infection à pneumocoque banale",
+    "Une grippe saisonnière"
+   ],
+   "correct": [0],
+   "hint": "Infection fongique opportuniste, marqueur du stade SIDA.",
+   "explanation": "La **pneumocystose (PCP)** survient typiquement quand les **CD4 < 200/mm³** : c'est une infection opportuniste **classante SIDA**. Le **zona**, la **candidose buccale** et les infections à **pneumocoque** sont plutôt observés au stade **pré-SIDA** (CD4 200-500/mm³). À un stade plus profond (CD4 < 100/mm³) apparaissent la **toxoplasmose cérébrale**, la **cryptococcose**, le **CMV** et le **MAC**.",
+   "tags": ["infections opportunistes", "pneumocystose"],
+   "source": "FC14 — Cinétique et seuils CD4"
+  },
+  {
+   "id": "fc14-q08",
+   "lesson": "fc14",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **mécanismes d'échappement** du VIH au système immunitaire :",
+   "options": [
+    "Une **variation antigénique** intense (mutations de la RT sans correction d'erreur)",
+    "Une **latence virale** : ADN proviral intégré dans les LT mémoires (réservoirs)",
+    "Une **diminution de l'expression du CMH de classe I** pour échapper aux CTL",
+    "Une **activation polyclonale** des LB → hypergammaglobulinémie d'anticorps non protecteurs",
+    "Une réparation systématique des erreurs de réplication garantissant la stabilité du virus"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "ARN simple brin → mutations non corrigées ; réservoirs latents.",
+   "explanation": "Réponses ABCD. Le VIH échappe par **variation antigénique** (ARN simple brin, mutations de la RT **non corrigées**), **latence** (ADN proviral intégré dans les LT mémoires = réservoirs non éliminables par la TAR), **↓ du CMH-I** (échappe aux CTL) et **activation polyclonale des LB** (hypergammaglobulinémie d'anticorps non protecteurs). E faux : justement, les erreurs de réplication **ne sont pas corrigées**, ce qui crée la grande variabilité du virus.",
+   "tags": ["échappement", "latence", "réservoirs"],
+   "source": "FC14 — Mécanismes d'échappement"
+  },
+  {
+   "id": "fc14-q09",
+   "lesson": "fc14",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant la **cinétique** de l'infection VIH non traitée :",
+   "options": [
+    "En **primo-infection** : charge virale très **élevée**, **baisse** initiale des CD4 et **hausse** des CD8",
+    "En **phase chronique** : charge virale **basse** (setpoint), **déclin progressif** des CD4",
+    "Au **stade SIDA** : la charge virale **remonte** car les défenses (CD4 et CD8) sont **épuisées**",
+    "Le stade SIDA s'accompagne d'infections opportunistes et de cancers classants",
+    "Au stade SIDA, la charge virale est **basse** car le virus a été éliminé"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Setpoint en phase chronique, rebond de la virémie au stade SIDA.",
+   "explanation": "Réponses ABCD. **Primo-infection** : virémie **élevée**, chute des CD4, **hausse des CD8** (effecteurs antiviraux dès J4). **Phase chronique** : charge virale **basse** (setpoint), déclin lent des CD4. **Stade SIDA** : la charge virale **remonte** (épuisement des CD4 ET des CD8), avec infections opportunistes/cancers. E faux : au stade SIDA la virémie est **haute** (et non basse) ; le virus n'est jamais éliminé (réservoirs latents).",
+   "tags": ["cinétique", "charge virale", "annale"],
+   "source": "FC14 — Cinétique de l'infection"
+  },
+  {
+   "id": "fc14-q10",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Quel **antirétroviral** appartient à la classe des **inhibiteurs d'intégrase** ?",
+   "options": [
+    "Le **raltégravir** (ou dolutégravir)",
+    "Le **ténofovir** (INTI)",
+    "L'**éfavirenz** (INNTI)",
+    "L'**atazanavir** (inhibiteur de protéase)",
+    "Le **maraviroc** (inhibiteur d'entrée)"
+   ],
+   "correct": [0],
+   "hint": "Le suffixe « -tégravir » signe la classe.",
+   "explanation": "Le **raltégravir** et le **dolutégravir** (suffixe **-tégravir**) sont des **inhibiteurs d'intégrase** : ils bloquent l'intégration de l'ADN proviral dans le génome de l'hôte. B faux : le ténofovir est un **INTI** (analogue nucléotidique inhibant la RT). C faux : l'éfavirenz est un **INNTI** (inhibition allostérique de la RT). D faux : l'atazanavir est un **inhibiteur de protéase** (bloque la maturation). E faux : le maraviroc est un **inhibiteur d'entrée** (anti-CCR5).",
+   "tags": ["TAR", "inhibiteurs d'intégrase"],
+   "source": "FC14 — Trithérapie antirétrovirale"
+  },
+  {
+   "id": "fc14-q11",
+   "lesson": "fc14",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Associez correctement chaque **classe d'antirétroviraux** à l'**étape du cycle viral** ciblée :",
+   "options": [
+    "**INTI / INNTI** → inhibition de la **transcriptase inverse**",
+    "**Inhibiteurs de protéase (IP)** → blocage de la **maturation** virale",
+    "**Inhibiteurs d'intégrase** → blocage de l'**intégration** de l'ADN proviral",
+    "**Inhibiteurs d'entrée** (maraviroc, enfuvirtide) → blocage de l'**attachement/fusion**",
+    "**Inhibiteurs de protéase** → blocage de l'**entrée** du virus"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Chaque classe bloque une étape distincte du cycle.",
+   "explanation": "Réponses ABCD. **INTI/INNTI** inhibent la **transcriptase inverse** ; les **IP** bloquent la **maturation** (clivage gag-pol) ; les **inhibiteurs d'intégrase** bloquent l'**intégration** ; les **inhibiteurs d'entrée** (maraviroc anti-CCR5, enfuvirtide anti-fusion gp41) bloquent l'**attachement/fusion**. E faux : les inhibiteurs de protéase agissent sur la **maturation**, pas sur l'entrée. Le but commun de la **TAR** est d'associer plusieurs classes (≥ 3 molécules) pour bloquer le cycle à plusieurs étapes.",
+   "tags": ["TAR", "cycle viral", "classes ARV"],
+   "source": "FC14 — Trithérapie antirétrovirale"
+  },
+  {
+   "id": "fc14-q12",
+   "lesson": "fc14",
+   "type": "single",
+   "difficulty": "difficile",
+   "stem": "Pourquoi la **trithérapie antirétrovirale (TAR)** ne permet-elle **pas de guérir** l'infection à VIH ?",
+   "options": [
+    "Elle bloque le cycle viral mais **n'élimine pas l'ADN proviral** des **réservoirs latents** (LT CD4 mémoires)",
+    "Elle élimine le virus circulant mais provoque une réinfection systématique",
+    "Elle ne fait pas baisser la charge virale plasmatique",
+    "Elle détruit définitivement les lymphocytes T CD4",
+    "Elle est inefficace sur la transcriptase inverse"
+   ],
+   "correct": [0],
+   "hint": "Le réservoir intégré n'est pas accessible aux antirétroviraux.",
+   "explanation": "La TAR fait chuter la charge virale plasmatique mais **n'élimine pas l'ADN proviral intégré** dans les cellules **quiescentes** (LT CD4 mémoires, réservoir intestinal/Th17) : ces **réservoirs latents** persistent et peuvent se réactiver, d'où l'absence de guérison. B faux : la TAR ne provoque pas de réinfection. C faux : elle rend justement l'ARN **indétectable**. D faux : au contraire, elle permet la **reconstitution** des CD4. E faux : les INTI/INNTI sont efficaces sur la RT.",
+   "tags": ["TAR", "réservoirs", "latence"],
+   "source": "FC14 — TAR et réservoirs viraux"
+  }
+ ]
 }

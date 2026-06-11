@@ -2,5 +2,228 @@
  "slug": "fc17",
  "title": "QCM — Anticorps thérapeutiques",
  "unofficialKey": false,
- "questions": []
+ "questions": [
+  {
+   "id": "fc17-q01",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "À quel degré d'humanisation correspond le suffixe **-ximab** dans la nomenclature des anticorps monoclonaux ?",
+   "options": [
+    "Anticorps **chimérique** (variable murin + constant humain)",
+    "Anticorps entièrement **murin**",
+    "Anticorps **humanisé** (seules les CDR sont murines)",
+    "Anticorps entièrement **humain**",
+    "Protéine de fusion Fc"
+   ],
+   "correct": [0],
+   "hint": "« x » comme cross (croisement souris/humain).",
+   "explanation": "Le suffixe **-ximab** désigne un anticorps **chimérique** : domaines variables murins + domaines constants humains (ex : rituximab, infliximab, cetuximab). Le murin (B faux) correspond à **-omab/-momab** ; l'humanisé (C faux) à **-zumab** (CDR murines) ; l'humain (D faux) à **-umab/-mumab** ; les protéines de fusion (E faux) à **-cept**.",
+   "tags": ["nomenclature", "chimérique"],
+   "source": "FC17 — Nomenclature"
+  },
+  {
+   "id": "fc17-q02",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Quel anticorps monoclonal cible le **CD20** et entraîne une déplétion des lymphocytes B ?",
+   "options": ["Le **rituximab**", "Le trastuzumab", "Le bevacizumab", "L'ipilimumab", "L'étanercept"],
+   "correct": [0],
+   "hint": "Anti-CD20, utilisé dans les lymphomes B et certaines maladies auto-immunes.",
+   "explanation": "Le **rituximab** est un anticorps anti-**CD20** (chimérique, -ximab) qui déplète les LB (lymphome B, PR, lupus) ; une sérologie VHB est requise avant traitement (risque de réactivation). Le trastuzumab (B faux) cible HER2 ; le bevacizumab (C faux) le VEGF ; l'ipilimumab (D faux) CTLA-4 ; l'étanercept (E faux) est une protéine de fusion anti-TNF.",
+   "tags": ["rituximab", "CD20"],
+   "source": "FC17 — Exemples clés"
+  },
+  {
+   "id": "fc17-q03",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Dans le mécanisme d'**ADCC** (cytotoxicité cellulaire dépendante des anticorps), quelle cellule effectrice est principalement recrutée via les récepteurs FcγRIII (CD16) ?",
+   "options": [
+    "La cellule **NK**",
+    "Le lymphocyte B naïf",
+    "Le polynucléaire éosinophile exclusivement",
+    "Le lymphocyte T régulateur",
+    "La cellule dendritique plasmacytoïde"
+   ],
+   "correct": [0],
+   "hint": "FcγRIII / CD16 est un marqueur clé de cette population cytotoxique innée.",
+   "explanation": "Dans l'**ADCC**, le fragment **Fc** de l'anticorps lié à la cible est reconnu par les récepteurs **FcγRIII (CD16)** des cellules **NK** (et macrophages) → lyse de la cible (ex : rituximab, trastuzumab). Ni le LB naïf (B faux), ni le LT régulateur (D faux), ni la pDC (E faux) n'assurent l'ADCC.",
+   "tags": ["ADCC", "NK", "CD16"],
+   "source": "FC17 — Mécanismes d'action"
+  },
+  {
+   "id": "fc17-q04",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "facile",
+   "stem": "Pourquoi les anticorps thérapeutiques sont-ils administrés par voie **injectable** et non par voie orale ?",
+   "options": [
+    "Parce que l'**acidité gastrique détruit** leur structure protéique",
+    "Parce qu'ils sont trop petits pour être absorbés",
+    "Parce qu'ils sont lipophiles et traversent trop vite la barrière intestinale",
+    "Parce qu'ils sont inactivés par la lumière",
+    "Parce qu'ils doivent être métabolisés par le foie avant d'agir"
+   ],
+   "correct": [0],
+   "hint": "Ce sont des protéines : que leur arrive-t-il dans l'estomac ?",
+   "explanation": "Les anticorps sont des **protéines** : l'**acidité gastrique dénature leur structure**, et ces molécules **hydrophiles** ne traversent pas la membrane plasmique (action membranaire/extracellulaire) → administration **injectable**. B est faux (ce sont de grosses molécules) ; C est faux (ils sont hydrophiles, pas lipophiles) ; D et E sont sans rapport.",
+   "tags": ["pharmacocinétique", "voie injectable"],
+   "source": "FC17 — Pharmacocinétique"
+  },
+  {
+   "id": "fc17-q05",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Quel est le rôle du récepteur **FcRn** dans la pharmacocinétique des anticorps thérapeutiques ?",
+   "options": [
+    "Il **recycle** l'anticorps et **augmente sa demi-vie**",
+    "Il accélère la dégradation de l'anticorps et raccourcit sa demi-vie",
+    "Il bloque la fixation de l'anticorps à son antigène",
+    "Il transforme l'anticorps en fragment Fab",
+    "Il active directement le complément sur la cible"
+   ],
+   "correct": [0],
+   "hint": "FcRn = « Fc neonatal receptor » ; il sauve l'Ig de la dégradation.",
+   "explanation": "Le **FcRn** (présent sur monocytes et cellules endothéliales) capte le fragment **Fc** et **recycle** l'anticorps au lieu de le dégrader → **augmentation de la demi-vie**. C'est l'inverse de B (faux). Il n'empêche pas la liaison à l'antigène (C faux), ne clive pas l'Ig (D faux) et n'active pas le complément (E faux).",
+   "tags": ["FcRn", "demi-vie"],
+   "source": "FC17 — Pharmacocinétique"
+  },
+  {
+   "id": "fc17-q06",
+   "lesson": "fc17",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les mécanismes d'action des anticorps **cytolytiques**, quelles propositions sont exactes ?",
+   "options": [
+    "L'**ADCC** est médiée par le fragment Fc et les cellules effectrices (NK)",
+    "La **CDC** repose sur l'activation de la voie classique du **complément** (→ MAC)",
+    "Certains anticorps induisent directement l'**apoptose** de la cible",
+    "La **phagocytose après opsonisation** est l'un des mécanismes",
+    "L'isotype le plus défavorable à ces fonctions effectrices est l'**IgG1**"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Quatre mécanismes cytolytiques ; attention à l'isotype « privilégié ».",
+   "explanation": "Les anticorps cytolytiques agissent par **ADCC** (Fc → NK), **CDC** (complément → MAC → lyse), **apoptose directe** et **phagocytose après opsonisation**. E est faux : l'**IgG1** est au contraire l'isotype **privilégié** car son Fc active très bien le complément et les cellules effectrices — il est favorable, pas défavorable.",
+   "tags": ["cytolytique", "ADCC", "CDC", "IgG1"],
+   "source": "FC17 — Mécanismes d'action"
+  },
+  {
+   "id": "fc17-q07",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Le **blinatumomab**, utilisé dans la leucémie aiguë lymphoblastique B, est un anticorps **bispécifique**. Quelles sont ses deux cibles ?",
+   "options": [
+    "**CD19** (LB tumoral) et **CD3** (LT cytotoxique)",
+    "HER2 et VEGF",
+    "PD-1 et CTLA-4",
+    "CD20 et complément",
+    "TNF-α soluble et TNF-α membranaire"
+   ],
+   "correct": [0],
+   "hint": "Il rapproche un lymphocyte T cytotoxique de la cellule B tumorale.",
+   "explanation": "Le **blinatumomab** lie simultanément le **CD19** (LB tumoral) et le **CD3** (LT cytotoxique) : il rapproche le LT de la cellule B tumorale et induit sa **lyse**. Les autres combinaisons (B-E) ne correspondent pas à ce bispécifique ; HER2/VEGF, PD-1/CTLA-4 sont des cibles distinctes d'autres molécules.",
+   "tags": ["bispécifique", "blinatumomab", "CD19", "CD3"],
+   "source": "FC17 — Formats avancés"
+  },
+  {
+   "id": "fc17-q08",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "Qu'est-ce qu'un **ADC (Antibody-Drug Conjugate)** ?",
+   "options": [
+    "Un anticorps **couplé à un agent cytotoxique** pour une délivrance ciblée dans la tumeur",
+    "Un anticorps dépourvu de fragment Fc",
+    "Un anticorps capable de lier deux antigènes différents",
+    "Une protéine de fusion entre un récepteur et un fragment Fc",
+    "Un anticorps entièrement murin non modifié"
+   ],
+   "correct": [0],
+   "hint": "« Drug » = molécule cytotoxique greffée sur l'anticorps.",
+   "explanation": "Un **ADC** est un anticorps **couplé à un agent cytotoxique** (molécule ou radio-isotope) permettant de **concentrer la toxicité dans la tumeur** (ex : trastuzumab emtansine/T-DM1 anti-HER2 ; brentuximab vedotine anti-CD30). B décrit un fragment ; C un bispécifique ; D une protéine de fusion ; E un anticorps murin — tous faux.",
+   "tags": ["ADC", "anticorps conjugué"],
+   "source": "FC17 — Formats avancés"
+  },
+  {
+   "id": "fc17-q09",
+   "lesson": "fc17",
+   "type": "multiple",
+   "difficulty": "moyen",
+   "stem": "Concernant les **inhibiteurs de checkpoints immunitaires**, quelles propositions sont exactes ?",
+   "options": [
+    "Le **pembrolizumab** et le **nivolumab** ciblent **PD-1**",
+    "L'**ipilimumab** cible **CTLA-4**",
+    "Leur action est **immunostimulante** (levée d'un frein sur les LT)",
+    "Ils exposent à des effets indésirables **auto-immuns** (irAE)",
+    "Ce sont des immunosuppresseurs diminuant l'activité des LT"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Ils « lèvent le frein » → action opposée à un immunosuppresseur.",
+   "explanation": "Les inhibiteurs de checkpoints **lèvent l'inhibition** des LT : **anti-PD-1** (pembrolizumab, nivolumab) et **anti-CTLA-4** (ipilimumab). Leur action est **immunostimulante**, d'où des effets indésirables **auto-immuns** (irAE : thyroïdite, colite, pneumopathie, hépatite). E est faux : ce sont des immuno**stimulants**, pas des immunosuppresseurs.",
+   "tags": ["checkpoints", "PD-1", "CTLA-4", "irAE"],
+   "source": "FC17 — Mécanismes d'action"
+  },
+  {
+   "id": "fc17-q10",
+   "lesson": "fc17",
+   "type": "single",
+   "difficulty": "moyen",
+   "stem": "À propos de l'**étanercept**, quelle proposition est exacte ?",
+   "options": [
+    "C'est une **protéine de fusion** (récepteur soluble du TNF + fragment Fc), pas un anticorps",
+    "C'est un anticorps monoclonal humanisé anti-CD20",
+    "C'est un anticorps bispécifique CD19 × CD3",
+    "C'est un ADC anti-HER2 couplé à un antimitotique",
+    "C'est un inhibiteur de checkpoint anti-PD-1"
+   ],
+   "correct": [0],
+   "hint": "Suffixe -cept : ce n'est pas un -mab.",
+   "explanation": "L'**étanercept** est une **protéine de fusion** : récepteur soluble du TNF (TNF-R2) + fragment **Fc** d'IgG1 → il **capture le TNF-α circulant** (rhumatismes inflammatoires, psoriasis). Son suffixe **-cept** le distingue des anticorps (-mab). Les propositions B à E décrivent d'autres classes de molécules.",
+   "tags": ["étanercept", "protéine de fusion", "TNF"],
+   "source": "FC17 — Formats avancés"
+  },
+  {
+   "id": "fc17-q11",
+   "lesson": "fc17",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Concernant l'**immunogénicité** des anticorps thérapeutiques, quelles propositions sont exactes ?",
+   "options": [
+    "Plus un anticorps est **humanisé**, **moins** il est en principe immunogène",
+    "L'**idiotype** (région variable) reste immunogène même pour un anticorps **entièrement humain**",
+    "Les anticorps murins et chimériques peuvent induire des **anticorps anti-médicament** (HAMA)",
+    "L'apparition d'anticorps anti-médicament peut entraîner une **perte d'efficacité** (échappement)",
+    "Un anticorps entièrement humain est totalement dépourvu d'immunogénicité"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "L'humanisation réduit l'immunogénicité, mais l'idiotype demeure.",
+   "explanation": "L'humanisation **réduit** l'immunogénicité (de -omab à -umab), mais l'**idiotype** (région variable) reste immunogène, **même** pour un anticorps 100 % humain. Les anticorps murins/chimériques induisent des **HAMA** → **perte d'efficacité** (échappement) et réactions d'hypersensibilité, d'où le monitoring (taux résiduel + Ac anti-médicament). E est faux : **aucun** anticorps n'est totalement non immunogène (contredit par B).",
+   "tags": ["immunogénicité", "HAMA", "idiotype"],
+   "source": "FC17 — Pièges / effets secondaires"
+  },
+  {
+   "id": "fc17-q12",
+   "lesson": "fc17",
+   "type": "multiple",
+   "difficulty": "difficile",
+   "stem": "Associez correctement chaque anticorps thérapeutique à sa cible. Quelles associations sont **exactes** ?",
+   "options": [
+    "**Trastuzumab** → **HER2** (cancer du sein HER2+)",
+    "**Bevacizumab** → **VEGF** (anti-angiogénique)",
+    "**Dupilumab** → **IL-4Rα** (dermatite atopique, asthme Th2)",
+    "**Belimumab** → **BAFF/BLyS** (lupus)",
+    "**Cetuximab** → **PD-1** (immunothérapie du mélanome)"
+   ],
+   "correct": [0, 1, 2, 3],
+   "hint": "Quatre couples corrects ; un intrus sur la cible.",
+   "explanation": "Associations exactes : **trastuzumab → HER2**, **bevacizumab → VEGF**, **dupilumab → IL-4Rα** (bloque IL-4 et IL-13), **belimumab → BAFF/BLyS** (lupus). E est faux : le **cetuximab** est un anti-**EGFR** (cancer colorectal, ORL), **pas** un anti-PD-1 ; les anti-PD-1 sont le pembrolizumab et le nivolumab.",
+   "tags": ["cibles", "exemples clés"],
+   "source": "FC17 — Exemples clés"
+  }
+ ]
 }
