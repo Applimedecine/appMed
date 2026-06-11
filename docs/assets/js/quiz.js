@@ -1,6 +1,7 @@
 import { initLayout } from './nav.js';
 import { Data, param, esc, shuffle } from './data.js';
 import { Progress } from './storage.js';
+import { eAttrs, initEditor } from './editor.js';
 
 const KEYS = ['A', 'B', 'C', 'D', 'E', 'F'];
 const DIFF_LABEL = { facile: 'Facile', moyen: 'Moyen', difficile: 'Difficile' };
@@ -16,14 +17,14 @@ async function loadQuestions(cfg) {
   let qs = [];
   if (cfg.set === 'annales') {
     const d = await Data.annales(cfg.annales);
-    qs = (d.questions || []).map((q) => ({ ...q, _src: d.title, _unofficial: !!d.unofficialKey }));
+    qs = (d.questions || []).map((q) => ({ ...q, _src: d.title, _slug: cfg.annales, _unofficial: !!d.unofficialKey }));
   } else if (cfg.mode === 'lesson') {
     const d = await Data.quiz(cfg.lesson);
-    qs = (d.questions || []).map((q) => ({ ...q, _src: d.title }));
+    qs = (d.questions || []).map((q) => ({ ...q, _src: d.title, _slug: cfg.lesson }));
   } else { // mixte sur tous les cours
     const slugs = (MANIFEST.lessons || []).filter((l) => l.hasQuiz).map((l) => l.slug);
     const all = await Promise.all(slugs.map((s) => Data.quiz(s).catch(() => ({ questions: [] }))));
-    all.forEach((d) => (d.questions || []).forEach((q) => qs.push({ ...q, _src: d.title })));
+    all.forEach((d, k) => (d.questions || []).forEach((q) => qs.push({ ...q, _src: d.title, _slug: slugs[k] })));
   }
   if (cfg.level && cfg.level !== 'tous') qs = qs.filter((q) => q.difficulty === cfg.level);
   return qs;
@@ -174,9 +175,9 @@ function runQuestion(state) {
     </div>
     <div class="bar" style="margin-bottom:1.2rem"><span style="width:${(i / total) * 100}%"></span></div>
 
-    <div class="card">
+    <div class="card" data-escope="quiz/${esc(q._slug || 'mixte')}">
       <p class="muted" style="font-size:.8rem;margin:0">${esc(q._src || '')}</p>
-      <p class="qstem">${esc(q.stem)}</p>
+      <p class="qstem" ${eAttrs(`${q.id}.stem`, q.stem, false)}>${esc(q.stem)}</p>
       ${multi ? '<p class="muted" style="font-size:.82rem;margin-top:-.6rem">Plusieurs réponses possibles.</p>' : ''}
       <fieldset class="options" id="options">
         <legend class="sr-only">${esc(q.stem)}</legend>
@@ -184,7 +185,7 @@ function runQuestion(state) {
           <label class="option" data-orig="${origIdx}">
             <input type="${multi ? 'checkbox' : 'radio'}" name="opt" value="${origIdx}">
             <span class="key">${KEYS[pos]}</span>
-            <span class="otext">${esc(q.options[origIdx])}</span>
+            <span class="otext" ${eAttrs(`${q.id}.opt${origIdx}`, q.options[origIdx], false)}>${esc(q.options[origIdx])}</span>
             <span class="mark"></span>
           </label>`).join('')}
       </fieldset>
@@ -204,7 +205,7 @@ function runQuestion(state) {
   const hintBtn = document.getElementById('hint-btn');
   if (hintBtn) hintBtn.addEventListener('click', () => {
     state.hintUsed.add(q.id);
-    document.getElementById('hint-slot').innerHTML = `<div class="hintbox">💡 ${esc(q.hint)}</div>`;
+    document.getElementById('hint-slot').innerHTML = `<div class="hintbox">💡 <span ${eAttrs(`${q.id}.hint`, q.hint, false)}>${esc(q.hint)}</span></div>`;
     hintBtn.disabled = true;
   });
 
@@ -251,7 +252,7 @@ function grade(state, picked) {
   document.getElementById('feedback').innerHTML = `
     <div class="feedback ${isCorrect ? 'ok' : 'ko'}" role="status" aria-live="polite">
       <h4>${isCorrect ? '✓ Bonne réponse&nbsp;!' : '✗ Réponse incorrecte'}</h4>
-      ${(!isCorrect || q.explanation) ? `<div class="explain"><b>Explication.</b> ${esc(q.explanation || '')}</div>` : ''}
+      ${(!isCorrect || q.explanation) ? `<div class="explain"><b>Explication.</b> <span ${eAttrs(`${q.id}.expl`, q.explanation || '', false)}>${esc(q.explanation || '')}</span></div>` : ''}
       ${q.source ? `<p class="muted" style="font-size:.8rem;margin:.5rem 0 0">📖 ${esc(q.source)}</p>` : ''}
       <div class="btn-row" style="margin-top:1rem">
         <button class="btn btn-primary" id="next">${last ? 'Voir le résultat' : 'Question suivante'}</button>
@@ -338,6 +339,7 @@ function renderSummary(state) {
 (async function () {
   MANIFEST = await initLayout({ page: 'quiz' });
   main = document.getElementById('main');
+  initEditor(main); // l'observateur réapplique les retouches à chaque question
   const set = param('set') || 'cours';
   const mode = param('mode');
   const auto = param('auto');

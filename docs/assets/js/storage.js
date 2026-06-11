@@ -72,3 +72,25 @@ export const ActiveAttempt = {
   set(v) { _set('activeAttempt', v); },
   clear() { try { localStorage.removeItem(`${NS}.activeAttempt`); } catch (e) {} },
 };
+
+// Retouches de texte saisies par l'utilisatrice, propres à son appareil.
+// Stockées par portée « type/slug » (ex. cours/fc07), chaque entrée : { eid: texte }.
+export const Edits = {
+  _key(type, slug) { return `edits.${type}.${slug}`; },
+  all(type, slug) { return _get(this._key(type, slug), {}); },
+  get(type, slug, eid) {
+    const v = this.all(type, slug)[eid];
+    return v == null ? null : v;
+  },
+  set(type, slug, eid, value) {
+    const m = this.all(type, slug);
+    m[eid] = value;
+    return _set(this._key(type, slug), m);
+  },
+  remove(type, slug, eid) {
+    const m = this.all(type, slug);
+    if (eid in m) { delete m[eid]; _set(this._key(type, slug), m); }
+  },
+  count(type, slug) { return Object.keys(this.all(type, slug)).length; },
+  clear(type, slug) { try { localStorage.removeItem(`${NS}.${this._key(type, slug)}`); } catch (e) {} },
+};

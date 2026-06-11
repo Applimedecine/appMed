@@ -1,18 +1,11 @@
 import { initLayout } from './nav.js';
-import { Data, param, esc } from './data.js';
+import { Data, param, esc, inline } from './data.js';
+import { eAttrs, initEditor } from './editor.js';
 
 const DIFF_LABEL = { facile: 'Facile', moyen: 'Moyen', difficile: 'Difficile' };
 let MANIFEST = null;
 let main;
 let lastId = null; // évite de retirer deux fois de suite la même question
-
-// Mise en forme en ligne légère : **gras**, *italique*, `code`.
-function inline(s) {
-  return esc(s)
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>')
-    .replace(/`([^`]+)`/g, '<code class="kbd">$1</code>');
-}
 
 const lessonsWithQroc = () =>
   (MANIFEST.lessons || []).filter((l) => l.hasQroc !== false).sort((a, b) => a.order - b.order);
@@ -81,15 +74,15 @@ function correctionHTML(q) {
   return `
     <div class="callout cle">
       <div class="callout-title">✅ Proposition de réponse rédigée</div>
-      <div class="callout-body">${inline(q.answer || '')}</div>
+      <div class="callout-body" ${eAttrs(`${q.id}.answer`, q.answer || '', true)}>${inline(q.answer || '')}</div>
     </div>
     ${pts.length ? `<div class="callout def">
       <div class="callout-title">🎯 Points clés attendus (barème)</div>
-      <div class="callout-body"><ul class="c-list">${pts.map((x) => `<li>${inline(x)}</li>`).join('')}</ul></div>
+      <div class="callout-body"><ul class="c-list">${pts.map((x, i) => `<li ${eAttrs(`${q.id}.kp${i}`, x, true)}>${inline(x)}</li>`).join('')}</ul></div>
     </div>` : ''}
     ${q.trap ? `<div class="callout piege">
       <div class="callout-title">⚠️ Piège à éviter</div>
-      <div class="callout-body">${inline(q.trap)}</div>
+      <div class="callout-body" ${eAttrs(`${q.id}.trap`, q.trap, true)}>${inline(q.trap)}</div>
     </div>` : ''}`;
 }
 
@@ -107,9 +100,9 @@ function renderQuestion(slug, q) {
       <a class="btn btn-ghost" href="./qroc.html" style="font-size:.82rem">Changer de cours</a>
     </div>
 
-    <div class="card qroc-card">
+    <div class="card qroc-card" data-escope="qroc/${esc(slug)}">
       <p class="qroc-eyebrow">${esc(lesson.shortTitle || '')}</p>
-      <p class="qstem">${inline(q.question || '')}</p>
+      <p class="qstem" ${eAttrs(`${q.id}.question`, q.question || '', true)}>${inline(q.question || '')}</p>
 
       <div class="field">
         <label for="ans">Ta réponse (brouillon — facultatif)</label>
@@ -139,6 +132,7 @@ function renderQuestion(slug, q) {
 (async function () {
   MANIFEST = await initLayout({ page: 'qroc' });
   main = document.getElementById('main');
+  initEditor(main); // l'observateur réapplique les retouches à chaque tirage
   const id = param('id');
   const valid = id && lessonsWithQroc().some((l) => l.slug === id);
   if (valid) drawQuestion(id);
