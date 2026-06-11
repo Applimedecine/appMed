@@ -1,78 +1,177 @@
 {
  "slug": "fc16",
  "code": "FC16",
- "title": "Cibles et mécanismes d’action des cytokines",
+ "title": "Cibles et mécanismes d'action des cytokines",
+ "shortTitle": "Cytokines",
  "prof": "Dr. Waeckel",
- "sourceFile": "FC16-WAECKEL-Cibles-et-mecanismes-daction-des-cytokines-0103.docx(1).pdf",
- "generatedAt": "2026-06-11",
- "extractionStatus": "ok",
- "toc": [
+ "curated": true,
+ "updated": "2026-06-11",
+ "summary": "Les **cytokines** sont de petites protéines extracellulaires (8–80 kDa) qui régulent la réponse immunitaire de façon **pléiotrope** et **redondante**, avec des actions autocrine, paracrine et endocrine. Leurs familles principales — interleukines, interférons, TNF, chimiokines et CSF — orchestrent la polarisation des lymphocytes T, l'inflammation et l'hématopoïèse. En thérapeutique, seules les **IFN, l'IL-2, l'EPO, le G-CSF et le GM-CSF** disposent d'une AMM, et leurs biosimilaires sont commercialisés sous forme PEGylée pour prolonger leur demi-vie.",
+ "sections": [
   {
-   "id": "i-introduction",
-   "label": "I. Introduction",
-   "level": 2
+   "id": "definition-proprietes",
+   "icon": "🧬",
+   "heading": "Définition et propriétés générales des cytokines",
+   "accent": "teal",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "<strong>Cytokines</strong> : petites protéines (<strong>8 à 80 kDa</strong>) appartenant au <strong>réseau de signalisation extracellulaire</strong> qui contrôle la réponse immunitaire. Elles peuvent agir en mode <strong>autocrine</strong> (sur la cellule sécrétrice elle-même), <strong>paracrine</strong> (sur les cellules voisines) ou <strong>endocrine</strong> (à distance via la circulation)."
+    },
+    {
+     "type": "definition",
+     "items": [
+      {"t": "Pléiotropie", "d": "Une cytokine provoque des effets biologiques différents sur des cellules cibles variées → source d'effets indésirables multiples en thérapeutique."},
+      {"t": "Redondance", "d": "Plusieurs cytokines partagent les mêmes effets biologiques → difficile de bloquer une fonction en ciblant une seule cytokine."},
+      {"t": "PEGylation", "d": "Modification structurelle consistant à greffer des chaînes de polyéthylène glycol (PEG) sur la cytokine → allonge la demi-vie en réduisant la clairance rénale."}
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "<strong>Piège</strong> : les cytokines font partie du réseau de signalisation <strong>extracellulaire</strong> (et non intracellulaire). Leur <strong>pléiotropie augmente</strong> les effets indésirables — elle ne les diminue pas."
+    }
+   ]
   },
   {
-   "id": "iii-interleukines",
-   "label": "III. Interleukines",
-   "level": 2
+   "id": "familles-cytokines",
+   "icon": "🗂️",
+   "heading": "Familles de cytokines et polarisation des lymphocytes T",
+   "accent": "indigo",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Sous-type Th", "Cytokines inductrices", "Cytokines produites", "Rôle principal"],
+     "rows": [
+      ["Th1", "IL-12 + IFN-γ", "IFN-γ, IL-2, TNF-α", "Immunité cellulaire (infections intracellulaires, mycobactéries)"],
+      ["Th2", "IL-4 + IL-13", "IL-4, IL-5, IL-13", "Immunité humorale, allergies, parasites extracellulaires"],
+      ["Th17", "IL-6 + TGF-β (+ IL-23)", "IL-17, IL-22", "Défense antifongique, maladies auto-immunes (MAI)"],
+      ["Treg", "TGF-β + IL-2 (+ IL-10)", "IL-10, TGF-β", "Tolérance immunitaire, contrôle de l'inflammation"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "mnemo",
+     "html": "<strong>Mnémotechnique polarisation Th</strong> : <em>« 12 gamma → Th1 ; 4-13 → Th2 ; 6 beta → Th17 ; beta-10 → Treg »</em>. Retenir : <strong>IL-12 + IFN-γ = Th1</strong> ; <strong>IL-4 + IL-13 = Th2</strong> ; <strong>IL-6 + TGF-β = Th17</strong> ; <strong>TGF-β + IL-10 = Treg</strong>."
+    },
+    {
+     "type": "callout",
+     "tone": "info",
+     "html": "<strong>Cytokines pro-inflammatoires clés</strong> : <strong>TNF-α</strong>, <strong>IL-1β</strong> et <strong>IL-6</strong> → activation de l'inflammation, induction de la fièvre et des protéines de la phase aiguë. L'<strong>IL-18</strong> amplifie la production d'IFN-γ."
+    }
+   ]
   },
   {
-   "id": "g-csf-gm-csf",
-   "label": "G-CSF, GM-CSF)",
-   "level": 2
-  }
- ],
- "blocks": [
-  {
-   "type": "paragraph",
-   "text": "Cibles et mécanismes d’action des cytokines"
+   "id": "signalisation-jak-stat",
+   "icon": "⚡",
+   "heading": "Récepteurs cytokiniques et voie JAK/STAT",
+   "accent": "purple",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "<strong>Voie JAK/STAT</strong> : principale voie de signalisation des cytokines. La liaison cytokine–récepteur active les <strong>JAK (Janus Kinases)</strong>, qui phosphorylent les <strong>STAT (Signal Transducers and Activators of Transcription)</strong>. Les STAT phosphorylés dimèrisent, migrent dans le noyau et activent la transcription de gènes cibles."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "<strong>STAT1</strong> : activé par IFN-γ → réponse antivirale et activation des macrophages",
+      "<strong>STAT3</strong> : activé par IL-6, IL-10 → inflammation, survie cellulaire, oncogenèse",
+      "<strong>STAT4</strong> : activé par IL-12 → polarisation Th1",
+      "<strong>STAT6</strong> : activé par IL-4 et IL-13 → polarisation Th2"
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "<strong>Piège — inhibiteurs JAK en thérapeutique</strong> : les inhibiteurs de JAK (ruxolitinib, baricitinib, tofacitinib) bloquent plusieurs voies JAK/STAT simultanément → effet immunosuppresseur large mais risque infectieux accru. Ne pas confondre avec les anti-cytokines qui bloquent une cytokine spécifique."
+    }
+   ]
   },
   {
-   "type": "heading",
-   "level": 2,
-   "id": "i-introduction",
-   "text": "I. Introduction"
+   "id": "interferons",
+   "icon": "🛡️",
+   "heading": "Interférons thérapeutiques",
+   "accent": "blue",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Type", "Exemple", "Cellules productrices", "Indication thérapeutique principale"],
+     "rows": [
+      ["Type I", "IFN-α", "Cellules dendritiques, macrophages", "Cancers solides et hématologiques, hépatites B et C"],
+      ["Type I", "IFN-β", "Fibroblastes, cellules endothéliales", "Sclérose en plaques (propriétés immunomodulatrices)"],
+      ["Type II", "IFN-γ", "LT CD4 (Th1), LT CD8, NK", "Granulomatose septique chronique (réduction des infections graves)"],
+      ["Type III", "IFN-λ", "Cellules épithéliales, pDC", "Essais cliniques (pas encore d'AMM standard)"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "L'<strong>IFN-γ</strong> (type II) est un <strong>activateur puissant des macrophages</strong> et favorise la formation des <strong>granulomes</strong> : essentiel dans la défense contre les germes intracellulaires. Indication : <strong>granulomatose septique chronique</strong>."
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "<strong>Piège classique</strong> : l'<strong>IFN-β</strong> est de <strong>type I</strong> (et non type II) et traite la <strong>sclérose en plaques</strong> ; l'<strong>IFN-γ</strong> est de type II et traite la <strong>granulomatose septique chronique</strong> — ne pas les inverser."
+    }
+   ]
   },
   {
-   "type": "paragraph",
-   "text": "1. Définition Rq : C’est un nouveau cours mais le prof est passé très rapidement dessus. Les cytokines sont de petites protéines (8 à 80kDa) qui font partie du réseau de signalisation extracellulaire qui contrôle la réponse immunitaire. Elles peuvent avoir une action autocrine, paracrine ou endocrine. 2. Familles"
+   "id": "interleukines-csf",
+   "icon": "🩸",
+   "heading": "Interleukines et facteurs de croissance (CSF) avec AMM",
+   "accent": "green",
+   "blocks": [
+    {
+     "type": "callout",
+     "tone": "def",
+     "html": "<strong>Seule interleukine disposant d'une AMM : l'IL-2</strong>. C'est la cytokine clé pour l'<strong>activation et la prolifération des lymphocytes T</strong>. Indication : <strong>cancer du rein métastatique</strong>. D'autres (IL-7, IL-15, IL-21, IL-12, IL-10) sont en essais cliniques."
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "<strong>EPO (érythropoïétine)</strong> : synthétisée par le rein → stimule la production d'érythrocytes par la moelle osseuse ; indiquée dans les <strong>anémies d'origine rénale</strong> ou post-chimiothérapie ; <em>pas de pléiotropie</em>",
+      "<strong>G-CSF / GM-CSF</strong> : stimulent la production de <strong>polynucléaires neutrophiles</strong> → but : réduire la durée et les complications des <strong>neutropénies</strong> ; <em>pas de pléiotropie</em>",
+      "Les <strong>CSF ne sont pas des modulateurs du système immunitaire</strong> au sens strict — ils agissent sur l'hématopoïèse"
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "piege",
+     "html": "<strong>Piège</strong> : l'<strong>IL-2</strong> active les lymphocytes <strong>T</strong> (et non B). — Seules <strong>IFN, IL-2, EPO, G-CSF et GM-CSF</strong> disposent d'une AMM ; <strong>toutes les familles</strong> de cytokines ne sont <strong>pas</strong> utilisées en thérapeutique."
+    }
+   ]
   },
   {
-   "type": "paragraph",
-   "text": "Les CSF, interférons et interleukines sont les seuls utilisés actuellement chez l’Homme. Indications : Cancer Infections Maladies dysimmunitaires Elles provoquent des effets biologiques différents sur diverses cellules pléiotropie Faible demi-vie in vitro modifications structurelles (PEGylation) II. Interférons Ils interfèrent avec la réplication virale et possèdent un effet antitumoral. Il en existe 3 grand types : - Type I (IFN alpha et beta) - Type II (IFN gamma) - Type III (IFN lambda) Page 1/4"
-  },
-  {
-   "type": "paragraph",
-   "text": "1. IFN alpha Physiologiquement sécrété par les cellules dendritiques et les macrophages Indications : - Cancers solides et hématologiques o Diminuent l’expression des oncogènes et augmentent celles des gènes suppresseurs de tumeur o Stimulent les lymphocytes T antitumoraux et favorisent la maturation des cellules dendritiques - Hépatite B et C o Stimulation des lymphocytes NK, prolifération des lymphocytes T, maturation des cellules dendritiques 2. IFN beta Utilisé dans le traitement de la sclérose en plaques pour ses propriétés immunomodulatrices. Sclérose en plaques = maladie auto-immune par lésion de la gaine de myéline. 3. IFN gamma Il a un rôle de lutte contre les germes intra-cellulaires important. C’est un activateur puissant des macrophages. Il favorise la formation des granulomes. Indications : maladies rares comme granulomatose septique chronique (déficit génétique touchant le fonctionnement des polynucléaires) pour réduire la fréquence des infections graves chez ces patients."
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "id": "iii-interleukines",
-   "text": "III. Interleukines"
-  },
-  {
-   "type": "paragraph",
-   "text": "La seule interleukine possédant une AMM est l’IL-2. C’est la cytokine clé pour l’activation et la prolifération des lymphocytes T. Utilisé pour des cancers du rein métastatique. Autres cytokines en cours d’essais : IL-7, IL-15, IL-21, IL-12, IL-10, … IV. CSF (colony-stimulating factor) Cas particulier : - Pas utilisé en tant que modulateur du système immunitaire - Pas de pléiotropie L’érythropoïétine (EPO) : physiologiquement synthétisée par le rein puis va au niveau de la moelle osseuse pour stimuler la synthèse des globules rouges, stimule la synthèse médullaire d’érythrocytes. L’EPO est utilisée pour les anémies d’origine rénale, suite à chimio…"
-  },
-  {
-   "type": "paragraph",
-   "text": "La production de polynucléaires neutrophiles stimulée par G-CSF et GM-CSF : granulocyte/macrophage colony stimulating factor. Le but est de réduire la durée et les complications des neutropénies. V. Conclusion Les cytokines sont des protéines clés de la réponse immunitaire. Les cytokines thérapeutiques font partie des biomédicaments. Certaines sont commercialisées sous forme PEGylée afin d’allonger leur demi-vie. Beaucoup d'essais sont en cours, mais actuellement seules les interférons, IL-2, EPO, G-CSF et GM-CSF ont une autorisation de mise sur le marché. Se sont des thérapies intéressantes mais elles ont aussi de nombreux effets indésirables dus à leur pléiotropie (sauf EPO,"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "id": "g-csf-gm-csf",
-   "text": "G-CSF, GM-CSF)"
-  },
-  {
-   "type": "paragraph",
-   "text": "VI/QCM Question n°1 : Concernant les cytokines : A. Ce sont de petites protéines B. Elles font parti du réseau de signalisation intra-cellulaire qui contrôle la réponse immunitaire C. Toutes les familles de cytokines sont utilisées en thérapeutique D. Elles sont indiquées dans le traitement des cancers, maladies dysimmunitaires et infections E. Elles provoquent les mêmes effets biologiques sur toutes les cellules Question n°2 : A propos des cytokines : A. Les CSF sont utilisé en tant que modulateur du système immunitaire mais elles n’ont pas d’effet pléiotrope B. La seule interleukine possédant l’AMM est IL-2 C. IL-2 est la cytokine clé pour l’activation et la prolifération des lymphocytes B. D. Actuellement seules les interférons, IL-2, EPO, G-CSF et GM-CSF ont une autorisation de mise sur le marché E. La pléiotropie réduit les effets indésirables Question n°3 : Concernant les interférons : A. IFN beta est un interféron de type II. B. IFN lambda est un interféron de type III. C. IFN alpha est utilisé pour traiter l’hépatite B. D. IFN gamma est utilisé pour traiter la sclérose en plaque. E. IFN gamma est un activateur puissant des macrophages. Correction question n°1 : A. VRAI B. FAUX : elles font parti du réseau de signalisation extracellulaire qui contrôle la réponse immunitaire C. FAUX : seules les CSF, interférons et interleukines sont actuellement utilisées D. VRAI E. FAUX : elles provoquent des effets biologiques différents sur diverses cellules = pléiotropie Correction question n°2 : A. FAUX : Les CSF NE sont PAS utilisé en tant que modulateur du système immunitaire mais elles n’ont pas d’effet pléiotrope B. VRAI C. FAUX : IL-2 est la cytokine clé pour l’activation et la prolifération des lymphocytes T. D. VRAI E. FAUX : elle les augmente Correction question n°3 : A. FAUX : IFN beta est un interféron de type I. B. VRAI C. VRAI D. FAUX : IFN béta est utilisé pour traiter la sclérose en plaque. E. VRAI Année 2024 QUESTION N° 13 : Quelles sont les caractéristiques communes des cytokines ? A. Il s’agit de petites protéines B. Elles ont un effet pléiotropique C. Elles possèdent une action ciblée et unique Page 3/4"
-  },
-  {
-   "type": "paragraph",
-   "text": "D. Il s’agit de molécules membranaires E. Elles peuvent avoir une action endocrine Correction: A : VRAI B : VRAI (elles ont plusieurs actions systémiques) C : FAUX, cf B D : FAUX humoral E : VRAI Année 2019 QUESTION N° 10 : Quelles sont les caractéristiques communes des cytokines ? 1. Ce sont des grosses molécules 2. Elles ont une courte demi-vie 3. Elles peuvent être classées par leurs modes d’actions 4. Elles ont toujours une action paracrine 5. Elles ont une action spécifique sur un type cellulaire spécifique A : FAUX : elles ont des masses moléculaires moyenne de 8 à 50 kDa B : VRAI C : VRAI D : FAUX : elles peuvent avoir une action autocrine, paracrine et endocrine E : FAUX : elles sont moins spécifiques que par exemple les hormones , vrai non?/ non car effet pléiotropique gtt Page 4/4"
+   "id": "biotherapies-anti-cytokines",
+   "icon": "🔬",
+   "heading": "Biothérapies anti-cytokines et inhibiteurs de JAK",
+   "accent": "amber",
+   "blocks": [
+    {
+     "type": "table",
+     "columns": ["Médicament", "Cible", "Classe", "Indication principale"],
+     "rows": [
+      ["Infliximab, adalimumab", "TNF-α (soluble + membranaire)", "Anti-TNF (Ac monocl.)", "PR, MICI, psoriasis"],
+      ["Étanercept", "TNF-α (forme soluble)", "Protéine de fusion TNF-R-Fc", "PR, psoriasis"],
+      ["Tocilizumab", "Récepteur IL-6 (IL-6R)", "Ac anti-IL-6R", "PR, arthrite juvénile, orage cytokinique"],
+      ["Anakinra", "Récepteur IL-1 (IL-1R)", "Antagoniste du récepteur IL-1", "Polyarthrite rhumatoïde, syndrome de Still"],
+      ["Dupilumab", "Récepteur IL-4Rα (bloque IL-4 et IL-13)", "Ac anti-IL-4Rα", "Dermatite atopique, asthme"],
+      ["Baricitinib, ruxolitinib", "JAK1/JAK2", "Inhibiteurs JAK", "PR, myélofibrose, dermato-immuno"]
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "mnemo",
+     "html": "<strong>Mnémotechnique biothérapies anti-cytokines</strong> : <em>« TNF = inflixi/adali ; IL-6R = tocili ; IL-1 = anakinra ; IL-4Rα = dupilumab »</em>. Les <strong>anti-TNF</strong> sont les biothérapies les plus prescrites en rhumatologie et gastroentérologie."
+    },
+    {
+     "type": "callout",
+     "tone": "cle",
+     "html": "<strong>Biomédica ment / biosimilaire</strong> : les cytokines thérapeutiques sont des <strong>biomédicaments</strong> (synthèse biologique). Leurs copies sont des <strong>biosimilaires</strong> (non génériques) — la biosimilarité doit être prouvée par des études réglementées d'immunogénicité, d'efficacité et de tolérance comparables."
+    }
+   ]
   }
  ]
 }
