@@ -1,7 +1,68 @@
 {
  "slug": "fc17",
  "title": "Fiche — Anticorps thérapeutiques",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **anticorps monoclonaux thérapeutiques (AcM)** sont des immunoglobulines recombinantes ciblant un antigène précis. Ils agissent par **neutralisation**, **ADCC**, **CDC** ou **blocage de récepteur**. La nomenclature internationale donne le mécanisme et l'origine de l'anticorps. Les nouveaux formats — **ADC**, **bispécifiques**, **protéines de fusion** — élargissent le spectre thérapeutique.",
+ "sections": [
+  {
+   "heading": "Nomenclature des anticorps thérapeutiques",
+   "type": "table",
+   "columns": ["Suffixe", "Origine", "Exemple"],
+   "rows": [
+    ["-**omab**", "Murin (souris) — 100 % murin", "Muromonab (OKT3)"],
+    ["-**ximab**", "Chimérique (souris + humain, ~70 % humain)", "Rituximab, infliximab, cetuximab"],
+    ["-**zumab**", "Humanisé (~95 % humain, CDR de souris)", "Trastuzumab, bevacizumab, tocilizumab"],
+    ["-**umab**", "Humain (100 % humain)", "Adalimumab, pembrolizumab, nivolumab"]
+   ]
+  },
+  {
+   "heading": "Mécanismes d'action",
+   "type": "definition",
+   "items": [
+    {"t": "Neutralisation / blocage", "d": "L'AcM se fixe sur un ligand ou récepteur et bloque son interaction. Ex : bevacizumab bloque le VEGF (anti-angiogénique) ; adalimumab bloque le TNF-α."},
+    {"t": "ADCC (cytotoxicité cellulaire dépendante des Ac)", "d": "Fc de l'AcM → récepteurs FcγRIII (CD16) sur NK/macrophages → lyse de la cellule cible. Ex : rituximab (anti-CD20), trastuzumab (anti-HER2)."},
+    {"t": "CDC (cytotoxicité dépendante du complément)", "d": "Fc de l'AcM → activation voie classique du complément → MAC → lyse. Ex : rituximab, ofatumumab."},
+    {"t": "Induction de l'apoptose", "d": "Certains AcM déclenchent directement l'apoptose après fixation. Ex : anti-CD95 (expérimental)."},
+    {"t": "Blocage des checkpoints immunitaires", "d": "Anti-PD-1 (pembrolizumab, nivolumab), anti-CTLA-4 (ipilimumab), anti-PD-L1 (atézolizumab) → levée de l'inhibition des LT → immunothérapie antitumorale."}
+   ]
+  },
+  {
+   "heading": "Formats avancés",
+   "type": "bullets",
+   "items": [
+    "**ADC (Antibody-Drug Conjugate)** : AcM couplé à une molécule cytotoxique (ex : trastuzumab emtansine = T-DM1, anti-HER2 + chimiothérapie) → délivrance ciblée dans la tumeur",
+    "**Anticorps bispécifiques** : deux bras Fab de spécificités différentes ; ex : blinatumomab (anti-CD19 × anti-CD3) → recrute directement les LT T contre les lymphocytes B tumoraux",
+    "**Protéines de fusion (Fc-fusion)** : domaine extracellulaire d'un récepteur + Fc IgG1 ; ex : étanercept (récepteur TNF-R2 soluble + Fc) → capture le TNF-α circulant",
+    "**Fragments d'Ac** : Fab (1 bras), F(ab')2, scFv (anticorps simple chaîne) — demi-vie courte, meilleure pénétration tissulaire",
+    "**CAR-T cells** : LT T transduits avec un récepteur chimérique comportant un scFv anti-tumoral → reconnaissance directe sans CMH"
+   ]
+  },
+  {
+   "heading": "Exemples clés à connaître",
+   "type": "table",
+   "columns": ["AcM", "Cible", "Indication principale"],
+   "rows": [
+    ["Rituximab", "CD20 (LB)", "Lymphome B, PR, LED"],
+    ["Trastuzumab", "HER2", "Cancer du sein HER2+, cancer gastrique"],
+    ["Bevacizumab", "VEGF", "Cancer colorectal, rénal, glioblastome (anti-angiogénique)"],
+    ["Infliximab / Adalimumab", "TNF-α", "PR, MICI, spondylarthrite, psoriasis"],
+    ["Pembrolizumab / Nivolumab", "PD-1", "Mélanome, CBNPC, nombreux carcinomes"],
+    ["Ipilimumab", "CTLA-4", "Mélanome (seul ou + anti-PD-1)"],
+    ["Dupilumab", "IL-4Rα (IL-4 + IL-13)", "Dermatite atopique modérée-sévère, asthme Th2"],
+    ["Belimumab", "BAFF/BLyS", "Lupus (LES)"]
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "Nomenclature : -omab (murin) → -ximab (chimérique) → -zumab (humanisé) → -umab (humain). Plus c'est humain, moins c'est immunogène. ADCC = NK (FcγRIII/CD16) ; CDC = complément. Anti-PD-1 / anti-CTLA-4 = inhibiteurs de checkpoint (immunothérapie antitumorale). Rituximab = anti-CD20 → déplétion LB. Blinatumomab = bispécifique CD19×CD3 (recrute LT contre LB tumoraux)."
+  },
+  {
+   "heading": "Pièges / effets secondaires",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Immunogénicité</strong> : les AcM murins et chimériques induisent des anticorps anti-médicaments (HAMA) → perte d'efficacité et réactions d'hypersensibilité. <strong>Inhibiteurs de checkpoint</strong> : irAE (immune-related Adverse Events) — thyroïdite, pneumopathie, colite, hépatite auto-immunes → peuvent être graves (grade 3-4). <strong>Anti-CD20 (rituximab)</strong> : déplétion des LB → hypogammaglobulinémie prolongée, réactivation HBV → sérologie VHB obligatoire avant traitement."
+  }
+ ]
 }

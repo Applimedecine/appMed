@@ -1,7 +1,45 @@
 {
  "slug": "fc12",
  "title": "Fiche — Immunosuppresseurs",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les immunosuppresseurs ciblent différentes étapes de l'activation lymphocytaire. Ils sont utilisés en **transplantation** (prévention du rejet) et en **auto-immunité**. Les principales classes : **inhibiteurs de calcineurine** (cyclosporine, tacrolimus), **antimétabolites** (azathioprine, MMF), **inhibiteurs de mTOR**, **corticoïdes** et **biothérapies** (anti-CD20, belatacept).",
+ "sections": [
+  {
+   "heading": "Principales classes d'immunosuppresseurs",
+   "type": "table",
+   "columns": ["Classe", "Molécule", "Cible", "Mécanisme"],
+   "rows": [
+    ["**Inhibiteurs de calcineurine**", "Cyclosporine, Tacrolimus", "Calcineurine", "↓ déphosphorylation NFAT → ↓ transcription IL-2 → ↓ prolifération T"],
+    ["**Inhibiteurs de mTOR**", "Sirolimus (rapamycine), Évérolimus", "mTOR", "Bloque le signal 3 (prolifération clonale) sans inhiber l'IL-2"],
+    ["**Antimétabolites**", "Azathioprine (6-MP), Mycophénolate mofétil (MMF)", "Synthèse des bases puriques", "Aza → antimétabolite purique ; MMF → inhibe IMPDH (guanosine) → ↓ prolifération LB et LT"],
+    ["**Corticoïdes**", "Prednisone, méthylprednisolone", "PLA2 + NF-κB", "↓ transcription cytokines pro-inflammatoires (voir FC11)"],
+    ["**Anti-CD20**", "Rituximab", "CD20 sur LB", "Déplétion des LB → ↓ auto-Ac"],
+    ["**Anti-CD25**", "Basiliximab, Daclizumab", "Récepteur IL-2 (CD25)", "Bloque le signal 3 → ↓ prolifération T activés"],
+    ["**Belatacept**", "Belatacept", "B7.1/B7.2 (CTLA-4 Ig)", "Bloque le signal 2 (costimulation) → anergie T"]
+   ]
+  },
+  {
+   "heading": "Inhibiteurs de calcineurine — mécanisme détaillé",
+   "type": "bullets",
+   "items": [
+    "Signal 1 (TCR → Ca²⁺ intracellulaire) → activation **calcineurine** (phosphatase)",
+    "Calcineurine déphosphoryle **NFAT** → translocation nucléaire → transcription de l'**IL-2**",
+    "**Cyclosporine** + cyclophiline → inhibe calcineurine. **Tacrolimus** + FKBP12 → inhibe calcineurine",
+    "Résultat : ↓ IL-2 → ↓ prolifération clonale des LT",
+    "**Effets secondaires** : néphrotoxicité +++, neurotoxicité, HTA, hirsutisme (cyclosporine), diabète (tacrolimus)"
+   ]
+  },
+  {
+   "heading": "Stratégie de la trithérapie en transplantation",
+   "type": "callout",
+   "tone": "tip",
+   "html": "En transplantation, on utilise souvent une <strong>trithérapie</strong> : inhibiteur de calcineurine (cyclosporine ou tacrolimus) + antimétabolite (MMF ou azathioprine) + corticoïdes. Chaque médicament cible une étape différente de l'activation T, permettant de <strong>limiter les doses et les effets secondaires</strong> tout en maximisant l'efficacité."
+  },
+  {
+   "heading": "Pièges / Effets secondaires clés",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Cyclosporine / Tacrolimus</strong> = néphrotoxiques (surveillance créatinine, taux résiduel). <strong>MMF</strong> = contre-indiqué pendant la grossesse (tératogène). <strong>Azathioprine</strong> = toxicité médullaire (surveillance NFS). Tous les immunosuppresseurs : risque d'<strong>infections opportunistes</strong> et de <strong>cancers</strong> (lymphomes EBV, cancers cutanés). Éviter les vaccins vivants atténués sous immunosuppresseurs."
+  }
+ ]
 }

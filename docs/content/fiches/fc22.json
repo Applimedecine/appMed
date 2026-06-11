@@ -1,7 +1,55 @@
 {
  "slug": "fc22",
  "title": "Fiche — Neuro-immunologie",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le **SNC** est protégé par la **BHE** et possède une immunité résidente (**microglie** = macrophages du parenchyme). Neuro-inflammation aiguë : bénéfique. Chronique : délétère (neurodégénérescence). Pathologies clés : **SEP** (SNC, bandes oligoclonales LCR), **myasthénie** (anti-RACh, thymus), **Guillain-Barré** (SNP, mimétisme moléculaire).",
+ "sections": [
+  {
+   "heading": "Immunité du SNC — principes",
+   "type": "bullets",
+   "items": [
+    "**Microglie** = macrophages résidents du parenchyme cérébral : surveillance homéostasie, régulation neuronale, sentinelle rapide",
+    "**Tissu cérébral** : dépourvu de cellules immunitaires périphériques en physiologie — leur présence = signe pathologique",
+    "**BHE** protège le parenchyme ; les méninges (riches en LT CD4, NK) communiquent avec le SI périphérique",
+    "**Axe intestin-cerveau** : lien bidirectionnel (nerf vague, cytokines, microbiote)"
+   ]
+  },
+  {
+   "heading": "Pathologies neuro-immunes — tableau comparatif",
+   "type": "table",
+   "columns": ["Maladie", "Site", "Mécanisme clé", "Marqueur diagnostique"],
+   "rows": [
+    ["**SEP**", "SNC (oligodendrocytes)", "Auto-Ac anti-myéline + LT CD8, perméabilisation BHE, profil Th2", "Bandes oligoclonales LCR (PL)"],
+    ["**Myasthénie**", "Jonction neuromusculaire", "Auto-Ac anti-RACh → blocage → fatigabilité fluctuante à l'effort", "Anti-RACh sérique (ou anti-MuSK)"],
+    ["**Guillain-Barré**", "SNP (cellule de Schwann)", "Mimétisme moléculaire (Campylobacter, CMV, EBV) → anti-myéline SNP → démyélinisation ascendante", "Dissociation albumino-cytologique LCR"],
+    ["**Encéphalite auto-immune**", "SNC", "Auto-Ac anti-récepteurs neuronaux membranaires (anti-NMDAR ++)", "Anti-NMDAR LCR/sérum"]
+   ]
+  },
+  {
+   "heading": "SEP — mécanisme immunologique",
+   "type": "bullets",
+   "items": [
+    "Démyélinisation du **SNC** (≠ SNP). Cellule cible : **oligodendrocyte**",
+    "Inflammation périphérique → perméabilisation **BHE** → infiltrat LT auto-réactifs",
+    "LT **Th2** (↑ pendant la grossesse) → LB → plasmocytes → **auto-Ac anti-myéline** → bandes oligoclonales dans le LCR",
+    "Traitements ciblent le SI **en périphérie** : **anti-S1P** (séquestration LT dans la rate), **anti-CD20** (rituximab), **anti-intégrines** (bloquent passage BHE)"
+   ]
+  },
+  {
+   "heading": "Myasthénie — rôle du thymus",
+   "type": "bullets",
+   "items": [
+    "Auto-Ac anti-**RACh** → blocage jonction neuromusculaire → **fatigabilité fluctuante** (ptosis, diplopie, dysphagie)",
+    "**Thymus** : cellules myoïdes → CPA présentent épitopes RACh → LB thymiques → auto-Ac",
+    "**15–20 %** des patients : **thymome** → thymectomie",
+    "Traitement : **inhibiteurs** de l'acétylcholinestérase (↑ ACh dans la fente) + immunosuppresseurs"
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "SEP = SNC (oligodendrocytes, <strong>bandes oligoclonales LCR</strong>). Guillain-Barré = SNP (cellule de Schwann, mimétisme Campylobacter/CMV/EBV, ascendant). Myasthénie = anti-RACh, traitement = inhibiteurs ACh-estérase (NON activateurs). Encéphalite auto-immune la plus fréquente = anti-NMDAR. Microglie = seule cellule immune résidente du parenchyme."
+  }
+ ]
 }

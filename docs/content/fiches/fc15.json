@@ -1,7 +1,62 @@
 {
  "slug": "fc15",
  "title": "Fiche — Rejet de greffe",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Le rejet est une **réponse adaptative à mémoire** (≠ innée) dirigée contre les **allo-antigènes HLA du donneur**. L'allo-réactivité est explosive (~1 LT/100). Allo-reconnaissance **directe** (phase aiguë) vs **indirecte** (phase chronique). Le **cross-match** est le test pré-greffe clé : positif → contre-indication absolue.",
+ "sections": [
+  {
+   "heading": "Types de greffes",
+   "type": "table",
+   "columns": ["Type", "Donneur → Receveur", "Réponse immunitaire"],
+   "rows": [
+    ["**Autogreffe**", "Même individu (ex : peau d'un brûlé)", "Aucune (soi)"],
+    ["**Allogreffe**", "Même espèce, individus différents (ex : rein)", "Allogénique (LT + HLA)"],
+    ["**Xénogreffe**", "Espèces différentes (ex : cœur de porc → homme)", "Xénogénique (la plus difficile)"]
+   ]
+  },
+  {
+   "heading": "Caractère adaptatif et mémorisé du rejet",
+   "type": "bullets",
+   "items": [
+    "**1re greffe** d'un fond génétique étranger → rejet à **J10** (5–7 j de recrutement/prolifération des LT)",
+    "**2e greffe du même fond** → rejet **avant J3** (réponse mémoire accélérée)",
+    "Greffe d'un **3e fond génétique inconnu** → retour à J10 (naïf vis-à-vis de ce fond)",
+    "Conséquence : **immunosuppression à vie** obligatoire"
+   ]
+  },
+  {
+   "heading": "Allo-reconnaissance directe vs indirecte",
+   "type": "table",
+   "columns": ["", "Directe", "Indirecte"],
+   "rows": [
+    ["Phase", "**Aiguë** (précoce)", "**Chronique** (tardive)"],
+    ["CPA impliquée", "CPA **du donneur**", "CPA **du receveur**"],
+    ["CMH présenté", "CMH du **donneur** (intact)", "CMH du **receveur** + allo-peptides apprêtés"],
+    ["Fréquence LT", "**1/100** (explosive)", "1/1 000 000 (classique)"],
+    ["Mnémotechnique", "**D**irecte = **D**onneur", "**I**ndirecte = **I**nterne (nos CPA)"]
+   ]
+  },
+  {
+   "heading": "Types de rejet",
+   "type": "table",
+   "columns": ["Rejet", "Mécanisme", "Délai"],
+   "rows": [
+    ["**Hyperaigu**", "Ac préformés anti-ABO (naturels) ou anti-HLA → complément → thrombose vasculaire", "Heures"],
+    ["**Aigu**", "LT du receveur (voie directe) → infiltrat, œdème, fièvre ; biopsie : LT activés", "Jours à semaines"],
+    ["**Chronique**", "Voie indirecte + Ac anti-HLA de novo → fibrose progressive, perte lente du greffon", "Mois à années"]
+   ]
+  },
+  {
+   "heading": "Le cross-match +++",
+   "type": "callout",
+   "tone": "tip",
+   "html": "Réalisé <strong>le jour J</strong> de la greffe. Sérum du receveur + cellules nucléées du donneur. Techniques : <strong>cytométrie de flux</strong> (fluorochrome → fluorescence) et <strong>cytotoxicité dépendante du complément</strong> (lyse + colorant vital). <strong>Positif → contre-indication absolue</strong> à la greffe. Les Ac anti-HLA sont <em>acquis</em> (grossesse / transfusion / greffe antérieure) ≠ Ac anti-ABO qui sont naturels."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "Le rejet est <strong>allo-immune</strong> (≠ auto-immune) et <strong>adaptatif</strong> (≠ inné). Il N'EST PAS une hypersensibilité retardée. Les Ac anti-HLA sont <strong>acquis</strong> (grossesse, transfusion, greffe) ≠ Ac anti-ABO naturels. Une greffe orthotopique <strong>peut</strong> être rejetée."
+  }
+ ]
 }

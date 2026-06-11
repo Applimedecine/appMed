@@ -1,7 +1,56 @@
 {
  "slug": "fc20",
  "title": "Fiche — MICI",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **maladies inflammatoires chroniques de l'intestin (MICI)** regroupent la **maladie de Crohn (MC)** et la **rectocolite hémorragique (RCH)**. Elles résultent d'une **rupture de la tolérance envers le microbiote** chez un hôte génétiquement prédisposé, via une activation inappropriée des voies **Th1/Th17**. Les biothérapies ciblant TNF-α, les intégrines et IL-12/23 ont transformé le pronostic.",
+ "sections": [
+  {
+   "heading": "Maladie de Crohn vs Rectocolite hémorragique",
+   "type": "table",
+   "columns": ["", "Maladie de Crohn", "Rectocolite hémorragique"],
+   "rows": [
+    ["**Topographie**", "Tout le tube digestif (iléon terminal +++), skip lesions", "Côlon uniquement, continue depuis rectum"],
+    ["**Couches atteintes**", "Toute la paroi (transmurale)", "Muqueuse + sous-muqueuse uniquement"],
+    ["**Histologie**", "Granulomes épithélioïdes sans caséum", "Abcès cryptiques, pas de granulome"],
+    ["**Profil cytokinique**", "Th1 (IFN-γ, IL-12) + Th17 (IL-17, IL-23)", "Th2 (IL-5, IL-13) + Th17"],
+    ["**Complications**", "Sténoses, fistules, abcès", "Cancer colorectal (RCH étendue ancienne)"],
+    ["**ASCA / ANCA**", "ASCA+ (anti-Saccharomyces)", "p-ANCA+ (anti-MPO)"]
+   ]
+  },
+  {
+   "heading": "Physiopathologie — rôle de la barrière intestinale",
+   "type": "bullets",
+   "items": [
+    "**Dysbiose** : déséquilibre du microbiote (↓ Firmicutes, ↑ Proteobacteria) → antigènes bactériens franchissent la muqueuse",
+    "**Barrière épithéliale** : ↓ jonctions serrées (claudines), ↓ mucus (MUC2), ↓ peptides antimicrobiens (défensines) dans MC",
+    "**DC sous-muqueuses** : capturent les antigènes microbiens → activation Th1/Th17 au lieu de la tolérance Treg normale",
+    "**IL-23 → Th17 → IL-17/IL-22** : inflammation muqueuse et recrutement des PNN",
+    "**Gènes de prédisposition** : NOD2/CARD15 (MC) = récepteur intracellulaire des peptidoglycanes ; mutations → réponse innée défaillante → translocation bactérienne"
+   ]
+  },
+  {
+   "heading": "Traitements — du moins au plus puissant",
+   "type": "definition",
+   "items": [
+    {"t": "5-ASA (mésalazine)", "d": "Anti-inflammatoire local de la muqueuse (inhibe NF-κB local). Indications : RCH légère-modérée. Efficace uniquement dans le côlon (peu dans MC)."},
+    {"t": "Corticoïdes", "d": "Induction de la rémission (poussées modérées-sévères). Non efficaces pour la maintenance (dépendance, effets secondaires). Budésonide = action locale (iléon, côlon droit)."},
+    {"t": "Immunosuppresseurs (thiopurines : azathioprine, 6-MP ; méthotrexate)", "d": "Maintenance de la rémission. Délai d'action 3–6 mois. Risque : myélotoxicité, lymphomes EBV."},
+    {"t": "Anti-TNF-α (infliximab, adalimumab)", "d": "Biothérapie de référence pour formes sévères/cortico-réfractaires dans MC et RCH. Risque : tuberculose, infections."},
+    {"t": "Anti-intégrine α4β7 (védolizumab)", "d": "Bloque le trafic des lymphocytes vers la muqueuse intestinale (sélectivité intestinale → moins d'immunosuppression systémique)."},
+    {"t": "Anti-IL-12/23 (ustékinumab)", "d": "Bloque p40 → inhibe Th1 et Th17. Indication : MC modérée-sévère. Utilisé aussi en psoriasis."}
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "MC = tout le tube digestif, transmurale, granulomes, ASCA+, Th1+Th17. RCH = côlon, muqueuse, p-ANCA+, Th2+Th17. NOD2 = gène de prédisposition MC. Cascade : dysbiose → rupture barrière → DC → Th1/Th17 → IL-17/IFN-γ → inflammation. Traitements : 5-ASA (RCH légère), corticoïdes (induction), azathioprine (maintenance), anti-TNF (sévère), védolizumab (intestin-sélectif), ustékinumab (MC, anti-p40)."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>5-ASA non efficace dans la MC</strong> (sauf formes coliques isolées). <strong>Corticoïdes</strong> : jamais en maintenance (dépendance, os, surrénal). <strong>Anti-TNF</strong> : risque de tuberculose → Quantiféron avant traitement ; risque de réactivation d'hépatite B → sérologie HBs avant. <strong>Védolizumab</strong> : action intestinale sélective → moins d'infections systémiques que les anti-TNF. Surveiller le risque de <strong>lymphome EBV</strong> sous thiopurines (EBV séronégatif + thiopurine = association à risque)."
+  }
+ ]
 }

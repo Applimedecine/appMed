@@ -1,7 +1,67 @@
 {
  "slug": "fc16",
  "title": "Fiche — Cytokines",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **cytokines** sont des médiateurs solubles qui coordonnent les réponses immunitaires innées et adaptatives. Elles agissent de manière **pléiotrope** (un même effet sur plusieurs cellules) et **redondante** (plusieurs cytokines pour un même effet). Les grandes familles : **interleukines (IL)**, **interférons (IFN)**, **TNF**, **chimiokines** et **facteurs de croissance**.",
+ "sections": [
+  {
+   "heading": "Cytokines clés — fonctions",
+   "type": "table",
+   "columns": ["Cytokine", "Producteur principal", "Effet clé"],
+   "rows": [
+    ["**IL-2**", "LT CD4 activé", "Prolifération et survie des LT (signal 3 en autocrine)"],
+    ["**IL-4**", "LT Th2, mastocytes", "Différenciation Th2, commutation isotypique → IgE"],
+    ["**IL-12**", "Macrophages, DC", "Différenciation Th1 → IFN-γ ; activation NK"],
+    ["**IL-17**", "LT Th17", "Recrutement PNN ; défense fongique et bactérienne muqueuse"],
+    ["**IL-10**", "LT reg, macrophages M2", "Anti-inflammatoire → freine Th1/Th17 ; tolérance"],
+    ["**TNF-α**", "Macrophages, LT", "Inflammation systémique, cachexie, apoptose, activation NF-κB"],
+    ["**IFN-γ**", "LT Th1, NK", "Activation macrophages (M1), ↑ CMH-II, défense intracellulaire"],
+    ["**IFN-α/β**", "pDC, cellules infectées", "Réponse antivirale, ↑ CMH-I, activation NK"]
+   ]
+  },
+  {
+   "heading": "Polarisation Th1 / Th2 / Th17 / Treg",
+   "type": "table",
+   "columns": ["Sous-type", "Signal inducteur", "Cytokines produites", "Rôle"],
+   "rows": [
+    ["**Th1**", "IL-12 + IFN-γ", "IFN-γ, TNF-α, IL-2", "Immunité cellulaire (bactéries intracellulaires, tumeurs)"],
+    ["**Th2**", "IL-4", "IL-4, IL-5, IL-13", "Immunité humorale, IgE, helminthes, allergie"],
+    ["**Th17**", "IL-6 + TGF-β + IL-23", "IL-17A/F, IL-22", "Défense fongique/bactérienne muqueuse ; auto-immunité"],
+    ["**Treg**", "TGF-β + IL-2", "TGF-β, IL-10, IL-35", "Tolérance périphérique, frein immunitaire"]
+   ]
+  },
+  {
+   "heading": "Récepteurs et signalisation",
+   "type": "bullets",
+   "items": [
+    "Cytokines → **récepteurs membranaires** → activation de voies **JAK/STAT** (IL-2, IL-4, IFN…), NF-κB (TNF-α), MAPK",
+    "**Voie JAK/STAT** : ligand → dimérisation récepteur → activation JAK (kinases) → phosphorylation STAT → translocation nucléaire → transcription",
+    "Chaque cytokine active un profil STAT spécifique : IL-2 → STAT5 ; IFN-γ → STAT1 ; IL-4 → STAT6 ; IL-6 → STAT3",
+    "**Inhibiteurs de JAK (JAKi)** : tofacitinib, baricitinib — bloquent la signalisation de nombreuses cytokines simultanément"
+   ]
+  },
+  {
+   "heading": "Biothérapies anti-cytokines",
+   "type": "definition",
+   "items": [
+    {"t": "Anti-TNF-α", "d": "Infliximab, adalimumab, étanercept. Indications : PR, MICI, spondylarthrite, psoriasis. Risque : réactivation tuberculose → IDR ou Quantiféron avant traitement."},
+    {"t": "Anti-IL-6R (tocilizumab)", "d": "Bloque le récepteur de l'IL-6. Indications : PR, tempête cytokinique (COVID-19, CAR-T). ↓ CRP (marqueur indirect d'IL-6)."},
+    {"t": "Anti-IL-17 (sécukinumab)", "d": "Bloque IL-17A. Indications : spondylarthrite ankylosante, psoriasis en plaques, rhumatisme psoriasique."},
+    {"t": "Anti-IL-12/23 (ustékinumab)", "d": "Bloque la sous-unité p40 commune à IL-12 et IL-23. Indications : MICI (Crohn), psoriasis."},
+    {"t": "Inhibiteurs de JAK (tofacitinib, baricitinib)", "d": "Bloquent plusieurs voies cytokiniques simultanément. Indications : PR, MICI, dermatite atopique."}
+   ]
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "IL-2 = survie/prolifération T. IL-4 → IgE + Th2. IL-12 → Th1 + NK. IL-17 → PNN + muqueuses. IFN-γ = activation macrophage M1. TNF-α = inflammation systémique + NF-κB. Voie JAK/STAT = voie de signalisation des cytokines. Anti-TNF = risque tuberculose (dépistage obligatoire). Tocilizumab = anti-IL-6R."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Pléiotropie</strong> : une cytokine peut avoir des effets opposés selon la cellule cible (ex. TGF-β = immunosuppresseur périphérique MAIS inducteur de Th17 en présence d'IL-6). <strong>Anti-TNF</strong> : risque de réactivation de tuberculose latente, infections opportunistes et lymphomes → bilan pré-thérapeutique systématique. <strong>Tocilizumab</strong> : masque la fièvre (↓ CRP et IL-6) → surveillance clinique renforcée."
+  }
+ ]
 }

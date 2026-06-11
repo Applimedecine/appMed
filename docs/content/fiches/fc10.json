@@ -1,7 +1,54 @@
 {
  "slug": "fc10",
  "title": "Fiche — Vaccins & adjuvants",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Un vaccin induit une **réponse immunitaire adaptative sans infection** par un antigène ou fragment antigénique. Les **adjuvants** amplifient et orientent la réponse (sels d'aluminium → Th2 ; AS04 → Th1). Les vaccins **ARNm** (COVID-19) sont les derniers-nés. L'efficacité repose sur la **mémoire immunitaire** et la **protection collective (immunité de groupe)**.",
+ "sections": [
+  {
+   "heading": "Types de vaccins",
+   "type": "table",
+   "columns": ["Type", "Exemple", "Avantage", "Inconvénient"],
+   "rows": [
+    ["**Vivants atténués**", "ROR, BCG, fièvre jaune", "Forte immunité (Th1 + Ac), mémoire longue", "CI chez immunodéprimés et femmes enceintes"],
+    ["**Inactivés (tués)**", "Grippe injectable, polio VPI", "Sûrs", "Moins immunogènes → plusieurs doses + adjuvant"],
+    ["**Sous-unitaires / toxoïdes**", "Tétanos, coqueluche acellulaire, hépatite B", "Très sûrs, antigènes définis", "Adjuvant nécessaire"],
+    ["**Conjugués**", "Méningocoque, pneumocoque, Hib < 2 ans", "Réponse T-dépendante chez le nourrisson", "Plus complexes à produire"],
+    ["**ARNm**", "COVID-19 (Moderna, Pfizer)", "Rapide à produire, pas de virus vivant", "Fragile, chaîne du froid stricte"]
+   ]
+  },
+  {
+   "heading": "Adjuvants — rôle et exemples",
+   "type": "bullets",
+   "items": [
+    "Rôle : amplifier et orienter la réponse immune ; activer les **signaux de danger** (PRR/TLR)",
+    "**Sels d'aluminium (Alum)** : dépôt local → activation macrophages → orientation **Th2** (Ac); le plus ancien",
+    "**AS04** (alum + MPL) : MPL = ligand TLR4 → orientation **Th1** (immunité cellulaire) — utilisé dans HPV, hépatite B",
+    "**MF59** (émulsion huile/eau) : activation NLRP3 → recrutement local → amplification IgG",
+    "**Vaccins conjugués** : couplage polysaccharide + protéine porteuse → réponse **T-dépendante** (mémoire, IgG haute affinité) chez l'enfant < 2 ans"
+   ]
+  },
+  {
+   "heading": "Mécanismes de l'immunité vaccinale",
+   "type": "bullets",
+   "items": [
+    "**Réponse primaire** : première rencontre → 7–14 jours pour produire Ac (surtout IgM puis IgG)",
+    "**Mémoire immunitaire** : cellules B et T mémoires à longue durée de vie",
+    "**Réponse secondaire** : réexposition ou rappel → réponse rapide (2–5 j), intense, IgG haute affinité",
+    "**Immunité de groupe (herd immunity)** : quand la majorité est vaccinée, les sujets non vaccinés sont protégés indirectement",
+    "**Corrélat de protection** : niveau d'anticorps neutralisants corrélé à la protection clinique"
+   ]
+  },
+  {
+   "heading": "Vaccins vivants atténués vs inactivés — comparaison",
+   "type": "callout",
+   "tone": "tip",
+   "html": "<strong>Vivants atténués</strong> = meilleure immunité (Th1 + Th2, IgA muqueuses, mémoire longue), mais contre-indiqués chez l'immunodéprimé et la femme enceinte. <strong>Inactivés/sous-unitaires</strong> = plus sûrs, nécessitent adjuvant et rappels. Le calendrier vaccinal français prévoit le <strong>cocooning</strong> pour protéger le nouveau-né (vaccination de l'entourage contre coqueluche)."
+  },
+  {
+   "heading": "Pièges",
+   "type": "callout",
+   "tone": "important",
+   "html": "Vaccins <strong>vivants atténués = contre-indiqués chez l'immunodéprimé</strong> (risque de maladie vaccinale) et la femme enceinte. Les polysaccharides seuls induisent une réponse T-<strong>indépendante</strong> (IgM, pas de mémoire) → intérêt des vaccins <strong>conjugués</strong> chez l'enfant &lt; 2 ans. Adjuvant ≠ conservateur (thimérosal)."
+  }
+ ]
 }

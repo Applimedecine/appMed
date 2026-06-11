@@ -1,7 +1,52 @@
 {
  "slug": "fc11",
  "title": "Fiche — AINS & AIS",
- "updated": "2026-06-10",
- "summary": "",
- "sections": []
+ "updated": "2026-06-11",
+ "summary": "Les **AINS** inhibent les **cyclooxygénases (COX-1 et COX-2)** et bloquent la synthèse de prostanoïdes à partir de l'acide arachidonique. Les **AIS (corticoïdes)** agissent en amont via **l'inhibition de la phospholipase A2** et la répression de NF-κB → effet anti-inflammatoire puissant mais nombreux effets secondaires.",
+ "sections": [
+  {
+   "heading": "Cascade de l'acide arachidonique",
+   "type": "bullets",
+   "items": [
+    "**Phospholipides membranaires** → (phospholipase A2) → **acide arachidonique (AA)**",
+    "AA → (COX-1 / COX-2) → **prostaglandines, thromboxanes** (douleur, fièvre, agrégation plaquettaire)",
+    "AA → (5-lipoxygénase) → **leucotriènes** (bronchospasme, chimiotaxie des PNN)",
+    "**AINS** bloquent COX → ↓ prostanoïdes. **AIS** bloquent PLA2 → ↓ AA → ↓ prostaglandines + ↓ leucotriènes"
+   ]
+  },
+  {
+   "heading": "COX-1 vs COX-2",
+   "type": "table",
+   "columns": ["", "COX-1", "COX-2"],
+   "rows": [
+    ["Expression", "**Constitutive** (tous les tissus)", "**Inductible** (inflammation, fièvre)"],
+    ["Fonctions physiologiques", "Protection muqueuse gastrique (PGE2, PGI2), agrégation plaquettaire (TXA2), hémostase rénale", "Pro-inflammatoire, pro-nociceptive, hyperthermie"],
+    ["Inhibition sélective", "→ ↑ risque ulcère gastrique, ↓ agrégation plaquettaire", "→ ↑ risque cardiovasculaire (thrombose)"],
+    ["AINS sélectifs COX-2", "Épargnée", "Bloquée → moins d'effets gastriques MAIS ↑ risque CV"]
+   ]
+  },
+  {
+   "heading": "Mécanisme moléculaire des AIS (corticoïdes)",
+   "type": "bullets",
+   "items": [
+    "Corticoïde → passage transmembranaire → liaison au **récepteur glucocorticoïde cytoplasmique (GR)**",
+    "Complexe corticoïde-GR → **translocation nucléaire**",
+    "Activation des **GRE** (glucocorticoid response elements) → transcription de gènes anti-inflammatoires (lipocortine-1 / **annexine 1** → inhibe PLA2)",
+    "Répression de **NF-κB** et **AP-1** → ↓ transcription des cytokines pro-inflammatoires (TNF-α, IL-1, IL-6)",
+    "Effet **transcriptionnel** → délai d'action de quelques heures"
+   ]
+  },
+  {
+   "heading": "Effets secondaires des corticoïdes (principaux)",
+   "type": "callout",
+   "tone": "important",
+   "html": "<strong>Métaboliques :</strong> hyperglycémie, hypokaliémie, rétention sodée, HTA, obésité tronculaire. <strong>Osseux :</strong> ostéoporose (↓ ostéoblastes). <strong>Immunologiques :</strong> immunosuppression → infections opportunistes. <strong>Surrénaliens :</strong> insuffisance surrénalienne aiguë si arrêt brutal (jamais arrêter brutalement !). <strong>Digestifs :</strong> ulcère gastrique (association AINS = synergie). <strong>Locaux :</strong> atrophie cutanée (corticoïdes topiques)."
+  },
+  {
+   "heading": "À retenir pour l'examen",
+   "type": "callout",
+   "tone": "tip",
+   "html": "AINS = inhibent COX (en aval de PLA2). AIS = inhibent PLA2 (en amont) + répression NF-κB. COX-1 constitutive (protection gastrique + TXA2 plaquettes) ; COX-2 inductible (inflammation). Sélectifs COX-2 : moins d'effets gastriques mais <strong>↑ risque cardiovasculaire</strong>. Ne jamais arrêter les corticoïdes <strong>brutalement</strong> (insuffisance surrénalienne aiguë)."
+  }
+ ]
 }
