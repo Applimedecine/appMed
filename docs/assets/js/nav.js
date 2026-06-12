@@ -66,6 +66,7 @@ export async function initLayout(active = {}) {
   try { manifest = await Data.manifest(); } catch (e) { /* tolérant */ }
 
   const lessonLinks = manifest.lessons
+    .filter((L) => L.hasCours) // exclut les collections QROC seules (ex. Annales 2026)
     .sort((a, b) => a.order - b.order)
     .map((L) => {
       const on = here('cours.html', L.slug) ? ' active' : '';

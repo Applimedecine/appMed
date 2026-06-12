@@ -8,7 +8,7 @@ function chip(ok, label) {
 
 (async function () {
   const manifest = await initLayout({ page: 'home' });
-  const lessons = (manifest.lessons || []).sort((a, b) => a.order - b.order);
+  const lessons = (manifest.lessons || []).filter((l) => l.hasCours).sort((a, b) => a.order - b.order);
 
   // Statistiques globales
   let coursRead = 0, fichesRead = 0, scored = 0, scoreSum = 0;

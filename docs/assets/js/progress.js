@@ -5,7 +5,7 @@ import { esc } from './data.js';
 (async function () {
   const manifest = await initLayout({ page: 'progres' });
   const main = document.getElementById('main');
-  const lessons = (manifest.lessons || []).sort((a, b) => a.order - b.order);
+  const lessons = (manifest.lessons || []).filter((l) => l.hasCours).sort((a, b) => a.order - b.order);
   const prog = Progress.all();
 
   let coursRead = 0, fichesRead = 0, scored = 0, sum = 0, weakTotal = 0;
