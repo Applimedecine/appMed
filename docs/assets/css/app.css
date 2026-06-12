@@ -354,3 +354,39 @@ body.ed-on [data-eid]:hover { background: var(--c-accent-soft); }
 .ed-tip code { background: var(--c-surface-2); border-radius: 4px; padding: .05rem .3rem; }
 .ed-actions { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
 .ed-spacer { flex: 1; }
+
+/* ───────────────────────────── Priorités rattrapage ───────────────────────────── */
+.rtrap-excluded {
+  background: var(--c-warning-soft); color: var(--c-warning);
+  border-left: 3px solid var(--c-warning); border-radius: var(--radius-sm);
+  padding: .7rem 1rem; margin: 1rem 0; font-size: .88rem;
+}
+.rtrap-legend { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.rtrap-list { display: flex; flex-direction: column; gap: .75rem; }
+.rtrap-card { padding: 1.1rem 1.25rem; }
+.rtrap-meta { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
+.rtrap-rank { font-size: 1.4rem; font-weight: 800; line-height: 1; min-width: 2.2rem; }
+.rtrap-badge { padding: .25rem .75rem; border-radius: 999px; font-size: .82rem; font-weight: 700; white-space: nowrap; }
+.rtrap-bar-wrap { flex: 1; height: 7px; background: var(--c-surface-2); border-radius: 999px; min-width: 60px; }
+.rtrap-bar { height: 100%; border-radius: 999px; }
+.rtrap-freq { font-size: .82rem; color: var(--c-text-faint); white-space: nowrap; }
+.rtrap-title { margin: .3rem 0 .65rem; font-size: 1.08rem; font-weight: 700; }
+.rtrap-keys { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .65rem; }
+.rtrap-key {
+  padding: .2rem .6rem; background: var(--c-surface-2);
+  border-radius: var(--radius-sm); font-size: .8rem; color: var(--c-text-soft);
+}
+.rtrap-note {
+  font-size: .82rem; margin-bottom: .55rem; padding: .3rem .75rem;
+  background: var(--c-warning-soft); color: var(--c-warning);
+  border-radius: var(--radius-sm); display: inline-block;
+}
+.rtrap-courses { display: flex; flex-wrap: wrap; gap: .4rem; }
+.rtrap-course-link {
+  display: inline-flex; align-items: center;
+  padding: .35rem .9rem; border-radius: var(--radius-sm);
+  background: var(--c-surface-2); color: var(--c-primary-dark);
+  font-size: .85rem; font-weight: 600;
+  border: 1px solid var(--c-border); transition: background .12s;
+}
+.rtrap-course-link:hover { background: var(--c-primary-soft); text-decoration: none; }

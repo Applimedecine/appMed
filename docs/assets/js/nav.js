@@ -14,6 +14,7 @@ const ICONS = {
   menu: '<path d="M3 6h18M3 12h18M3 18h18"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5 4 4M20 20l-1-1M5 19l-1 1M20 4l-1 1"/>',
   moon: '<path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.6 6.6 0 0 0 21 12.8Z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/>',
 };
 const icon = (n, cls = 'ico') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -83,6 +84,7 @@ export async function initLayout(active = {}) {
         <a href="./quiz.html?set=annales" class="${location.search.includes('annales') ? 'active' : ''}">${icon('archive')}<span>Annales 2015–2024</span></a>
         <a href="./quiz.html?set=cours&mode=mixte&auto=1">${icon('mix')}<span>QCM mixte</span></a>
         <a href="./qroc.html" class="${here('qroc.html') ? 'active' : ''}">${icon('pen')}<span>QROC (réponse courte)</span></a>
+        <a href="./rattrapage.html" class="${here('rattrapage.html') ? 'active' : ''}">${icon('target')}<span>Priorités rattrapage</span></a>
         <div class="group-title">Suivi</div>
         <a href="./progres.html" class="${here('progres.html') ? 'active' : ''}">${icon('chart')}<span>Ma progression</span></a>
       </nav>
