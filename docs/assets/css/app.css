@@ -306,16 +306,20 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
   display: flex; flex-direction: column; align-items: flex-end; gap: .5rem;
 }
 .ed-tools[hidden] { display: none; }
-.ed-fab {
-  display: inline-flex; align-items: center; gap: .5rem;
-  padding: .65rem 1.1rem; border-radius: 999px; cursor: pointer;
-  font: inherit; font-weight: 650; font-size: .9rem;
-  background: var(--c-surface); color: var(--c-text);
-  border: 1px solid var(--c-border); box-shadow: var(--shadow);
+/* Bouton « Modifier le texte » ancré dans l'en-tête (barre du haut + menu latéral). */
+.ed-toggle {
+  display: inline-flex; align-items: center; gap: .45rem;
+  padding: .5rem .9rem; border-radius: 999px; cursor: pointer;
+  font: inherit; font-weight: 650; font-size: .88rem; line-height: 1;
+  white-space: nowrap; transition: .15s;
+  background: var(--c-primary-soft); color: var(--c-primary-dark);
+  border: 1px solid transparent;
 }
-.ed-fab:hover { background: var(--c-surface-2); }
-.ed-fab.on { background: var(--c-primary); color: #fff; border-color: var(--c-primary); }
-.ed-fab .ed-fab-ico { font-size: 1.05em; line-height: 1; }
+.ed-toggle:hover { background: var(--c-primary); color: #fff; }
+.ed-toggle.on { background: var(--c-primary); color: #fff; box-shadow: var(--shadow-sm); }
+.ed-toggle .ed-toggle-ico { font-size: 1.05em; line-height: 1; }
+/* Variante menu latéral : pleine largeur, bien visible sous le logo. */
+.ed-toggle-side { width: calc(100% - 1.2rem); margin: .85rem .6rem .2rem; justify-content: center; padding: .58rem 1rem; }
 .ed-resetall {
   display: inline-flex; align-items: center; cursor: pointer;
   padding: .45rem .9rem; border-radius: 999px;
@@ -325,7 +329,7 @@ table.progress th { font-size: .76rem; text-transform: uppercase; letter-spacing
 }
 .ed-resetall[hidden] { display: none; }
 .ed-resetall:hover { background: var(--c-error-soft); }
-@media (max-width: 640px) { .ed-fab .ed-fab-lbl { display: none; } .ed-fab { padding: .7rem; } }
+@media (max-width: 560px) { .topbar .ed-toggle .ed-toggle-lbl { display: none; } .topbar .ed-toggle { padding: .55rem; } }
 
 /* Mode édition : surligne les passages modifiables. */
 body.ed-on [data-eid] {
@@ -354,3 +358,39 @@ body.ed-on [data-eid]:hover { background: var(--c-accent-soft); }
 .ed-tip code { background: var(--c-surface-2); border-radius: 4px; padding: .05rem .3rem; }
 .ed-actions { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
 .ed-spacer { flex: 1; }
+
+/* ───────────────────────────── Priorités rattrapage ───────────────────────────── */
+.rtrap-excluded {
+  background: var(--c-warning-soft); color: var(--c-warning);
+  border-left: 3px solid var(--c-warning); border-radius: var(--radius-sm);
+  padding: .7rem 1rem; margin: 1rem 0; font-size: .88rem;
+}
+.rtrap-legend { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.rtrap-list { display: flex; flex-direction: column; gap: .75rem; }
+.rtrap-card { padding: 1.1rem 1.25rem; }
+.rtrap-meta { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
+.rtrap-rank { font-size: 1.4rem; font-weight: 800; line-height: 1; min-width: 2.2rem; }
+.rtrap-badge { padding: .25rem .75rem; border-radius: 999px; font-size: .82rem; font-weight: 700; white-space: nowrap; }
+.rtrap-bar-wrap { flex: 1; height: 7px; background: var(--c-surface-2); border-radius: 999px; min-width: 60px; }
+.rtrap-bar { height: 100%; border-radius: 999px; }
+.rtrap-freq { font-size: .82rem; color: var(--c-text-faint); white-space: nowrap; }
+.rtrap-title { margin: .3rem 0 .65rem; font-size: 1.08rem; font-weight: 700; }
+.rtrap-keys { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .65rem; }
+.rtrap-key {
+  padding: .2rem .6rem; background: var(--c-surface-2);
+  border-radius: var(--radius-sm); font-size: .8rem; color: var(--c-text-soft);
+}
+.rtrap-note {
+  font-size: .82rem; margin-bottom: .55rem; padding: .3rem .75rem;
+  background: var(--c-warning-soft); color: var(--c-warning);
+  border-radius: var(--radius-sm); display: inline-block;
+}
+.rtrap-courses { display: flex; flex-wrap: wrap; gap: .4rem; }
+.rtrap-course-link {
+  display: inline-flex; align-items: center;
+  padding: .35rem .9rem; border-radius: var(--radius-sm);
+  background: var(--c-surface-2); color: var(--c-primary-dark);
+  font-size: .85rem; font-weight: 600;
+  border: 1px solid var(--c-border); transition: background .12s;
+}
+.rtrap-course-link:hover { background: var(--c-primary-soft); text-decoration: none; }

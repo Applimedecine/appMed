@@ -44,9 +44,9 @@ export function applyEdits(root) {
 }
 
 // ----------------------------------------------------------------------- //
-// Interface : bouton flottant + fenêtre d'édition (construits une seule fois)
+// Interface : boutons « Modifier le texte » (en-tête) + fenêtre d'édition
 // ----------------------------------------------------------------------- //
-let modal, ta, current = null, currentRoot = null;
+let modal, ta, current = null, currentRoot = null, chromeBuilt = false;
 
 // Pile d'annulation de la saisie en cours (« Ctrl+Z » du champ d'édition),
 // regroupée par courtes pauses de frappe ; remise à zéro à chaque ouverture.
@@ -54,11 +54,14 @@ const UNDO_GROUP_MS = 400;
 let undoStack = [], undoPrev = '', undoOpen = '', undoTimer = null;
 
 function buildChrome() {
-  if (document.getElementById('ed-fab')) return;
+  if (chromeBuilt) return;
+  chromeBuilt = true;
 
+  // Bouton flottant « Tout réinitialiser » : visible seulement en mode édition,
+  // s'il existe au moins une retouche. Le bouton d'activation « Modifier le
+  // texte », lui, vit dans l'en-tête de chaque page (voir nav.js).
   const tools = document.createElement('div');
   tools.className = 'ed-tools';
-  tools.hidden = true;
 
   const resetBtn = document.createElement('button');
   resetBtn.id = 'ed-reset-all';
@@ -68,15 +71,7 @@ function buildChrome() {
   resetBtn.textContent = '↺ Tout réinitialiser';
   resetBtn.addEventListener('click', resetAllEdits);
 
-  const fab = document.createElement('button');
-  fab.id = 'ed-fab';
-  fab.type = 'button';
-  fab.className = 'ed-fab';
-  fab.setAttribute('aria-pressed', 'false');
-  fab.innerHTML = '<span class="ed-fab-ico" aria-hidden="true">✏️</span><span class="ed-fab-lbl">Modifier le texte</span>';
-  fab.addEventListener('click', toggleMode);
-
-  tools.append(resetBtn, fab);
+  tools.appendChild(resetBtn);
   document.body.appendChild(tools);
 
   modal = document.createElement('div');
@@ -118,11 +113,34 @@ function buildChrome() {
 
 function toggleMode() {
   const on = document.body.classList.toggle('ed-on');
-  const fab = document.getElementById('ed-fab');
-  fab.setAttribute('aria-pressed', String(on));
-  fab.classList.toggle('on', on);
-  fab.querySelector('.ed-fab-ico').textContent = on ? '✓' : '✏️';
-  fab.querySelector('.ed-fab-lbl').textContent = on ? 'Terminer' : 'Modifier le texte';
+  syncToggles(on);
+  updateTools();
+}
+
+// Reflète l'état (activé / désactivé) sur tous les boutons « Modifier le texte »
+// de l'en-tête : barre du haut (mobile) et menu latéral (ordinateur) restent
+// synchronisés.
+function syncToggles(on) {
+  document.querySelectorAll('.ed-toggle').forEach((btn) => {
+    btn.setAttribute('aria-pressed', String(on));
+    btn.classList.toggle('on', on);
+    const ico = btn.querySelector('.ed-toggle-ico');
+    const lbl = btn.querySelector('.ed-toggle-lbl');
+    if (ico) ico.textContent = on ? '✓' : '✏️';
+    if (lbl) lbl.textContent = on ? 'Terminer' : 'Modifier le texte';
+  });
+}
+
+// Active les boutons « Modifier le texte » de l'en-tête (présents sur chaque
+// page). Appelé par nav.js après construction du chrome partagé.
+export function wireEditToggles() {
+  buildChrome();
+  document.querySelectorAll('.ed-toggle').forEach((btn) => {
+    if (btn.__edWired) return;
+    btn.__edWired = true;
+    btn.addEventListener('click', toggleMode);
+  });
+  syncToggles(document.body.classList.contains('ed-on'));
   updateTools();
 }
 
@@ -209,12 +227,6 @@ function close() {
   updateTools(); // une retouche vient peut-être d'apparaître ou de disparaître
 }
 
-// Les boutons n'apparaissent que si la page contient du texte modifiable.
-function refreshFab(root) {
-  const tools = document.querySelector('.ed-tools');
-  if (tools) tools.hidden = !root.querySelector('[data-eid]');
-}
-
 // ----------------------------------------------------------------------- //
 // Point d'entrée : à appeler une fois par page, avec le conteneur principal.
 // ----------------------------------------------------------------------- //
@@ -225,11 +237,10 @@ export function initEditor(root) {
 
   buildChrome();
   applyEdits(root);
-  refreshFab(root);
   updateTools();
 
   // Réapplique aux contenus injectés après coup (changement de question…).
-  const obs = new MutationObserver(() => { applyEdits(root); refreshFab(root); });
+  const obs = new MutationObserver(() => applyEdits(root));
   obs.observe(root, { childList: true, subtree: true });
 
   // Capture pour devancer les comportements natifs (cocher une option de QCM).

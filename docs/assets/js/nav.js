@@ -1,6 +1,13 @@
 // Construction du chrome partagé : barre latérale, barre supérieure, thème, tiroir mobile.
 import { Data } from './data.js';
 import { Prefs, Progress } from './storage.js';
+import { initEditor, wireEditToggles } from './editor.js';
+
+// Bouton « Modifier le texte », commun à la barre du haut et au menu latéral.
+const editToggle = (extra = '') =>
+  `<button class="ed-toggle${extra}" type="button" aria-pressed="false" aria-label="Modifier le texte de la page">
+     <span class="ed-toggle-ico" aria-hidden="true">✏️</span><span class="ed-toggle-lbl">Modifier le texte</span>
+   </button>`;
 
 const ICONS = {
   home: '<path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/>',
@@ -14,6 +21,7 @@ const ICONS = {
   menu: '<path d="M3 6h18M3 12h18M3 18h18"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5 4 4M20 20l-1-1M5 19l-1 1M20 4l-1 1"/>',
   moon: '<path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.6 6.6 0 0 0 21 12.8Z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/>',
 };
 const icon = (n, cls = 'ico') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -73,6 +81,7 @@ export async function initLayout(active = {}) {
         <span class="logo">Im</span>
         <span><b>Immuno&nbsp;Révise</b><small>Immunopathologie · UE2</small></span>
       </div>
+      ${editToggle(' ed-toggle-side')}
       <nav class="nav" aria-label="Navigation principale">
         <a href="./index.html" class="${here('index.html') ? 'active' : ''}">${icon('home')}<span>Accueil</span></a>
         <div class="group-title">Cours</div>
@@ -83,6 +92,7 @@ export async function initLayout(active = {}) {
         <a href="./quiz.html?set=annales" class="${location.search.includes('annales') ? 'active' : ''}">${icon('archive')}<span>Annales 2015–2024</span></a>
         <a href="./quiz.html?set=cours&mode=mixte&auto=1">${icon('mix')}<span>QCM mixte</span></a>
         <a href="./qroc.html" class="${here('qroc.html') ? 'active' : ''}">${icon('pen')}<span>QROC (réponse courte)</span></a>
+        <a href="./rattrapage.html" class="${here('rattrapage.html') ? 'active' : ''}">${icon('target')}<span>Priorités rattrapage</span></a>
         <div class="group-title">Suivi</div>
         <a href="./progres.html" class="${here('progres.html') ? 'active' : ''}">${icon('chart')}<span>Ma progression</span></a>
       </nav>
@@ -96,6 +106,7 @@ export async function initLayout(active = {}) {
     topbar.innerHTML = `
       <button class="icon-btn" id="menu-btn" aria-label="Ouvrir le menu" aria-controls="sidebar" aria-expanded="false">${icon('menu')}</button>
       <div class="brand" style="border:0;padding:0;flex:1"><span class="logo" style="width:30px;height:30px;flex-basis:30px;font-size:.85rem">Im</span><b style="font-size:.95rem">Immuno Révise</b></div>
+      ${editToggle()}
       <button class="icon-btn" id="theme-btn"></button>`;
   } else {
     // bouton thème ancré dans la barre latérale si pas de barre supérieure visible
@@ -119,6 +130,12 @@ export async function initLayout(active = {}) {
   if (menuBtn) menuBtn.addEventListener('click', () => openDrawer(!sidebar.classList.contains('open')));
   if (scrim) scrim.addEventListener('click', () => openDrawer(false));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') openDrawer(false); });
+
+  // Édition locale du texte : boutons d'activation dans l'en-tête (toutes les
+  // pages) + moteur d'édition branché sur le contenu principal de la page.
+  wireEditToggles();
+  const mainEl = document.getElementById('main');
+  if (mainEl) initEditor(mainEl);
 
   return manifest;
 }
