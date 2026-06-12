@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-06-11",
+ "generatedAt": "2026-06-12",
  "lessons": [
   {
    "slug": "fc01",
@@ -337,6 +337,20 @@
    "quizCount": 12,
    "hasQroc": true,
    "qrocCount": 10
+  },
+  {
+   "slug": "annales2026",
+   "code": "Annales 2026",
+   "order": 25,
+   "title": "Annales 2026",
+   "shortTitle": "Annales 2026",
+   "prof": "",
+   "hasCours": false,
+   "hasFiche": false,
+   "hasQuiz": false,
+   "quizCount": 0,
+   "hasQroc": true,
+   "qrocCount": 7
   }
  ],
  "annales": [
