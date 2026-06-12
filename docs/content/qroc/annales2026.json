@@ -6,7 +6,7 @@
    "id": "annales2026-q1",
    "difficulty": "difficile",
    "points": 5,
-   "question": "Expliquer deux mécanismes **hypothétiques** qui peuvent amener à des symptômes persistants après une infection à SARS-CoV-2.",
+   "question": "Expliquer deux mécanismes **hypothétiques** qui peuvent amener à des symptômes persistants après une infection à SARS-CoV-2. *(Thème : COVID long, FC23 — Difficile)*",
    "answer": "Deux mécanismes hypothétiques sont avancés pour expliquer le **COVID long** (symptômes > 3 mois post-infection) :\n\n**1. Persistance virale ou de fragments antigéniques** : des réservoirs de protéines virales (notamment la **protéine Spike**) persistant dans des tissus sanctuaires (intestin, ganglions lymphatiques, système nerveux central) entretiendraient une **activation immune chronique** et une inflammation de bas grade persistante, responsables de la fatigue, des troubles cognitifs et des symptômes multisystémiques.\n\n**2. Auto-immunité induite par mimétisme moléculaire** : l'infection déclenche une réponse immunitaire croisée → production d'**auto-anticorps** ciblant des structures de l'hôte (anti-récepteurs autonomiques [bêta-adrénergiques, muscariniques], anti-interférons de type I, anti-ACE2). Ces auto-anticorps perturbent durablement la régulation autonome et inflammatoire, maintenant les symptômes en l'absence de virus actif.",
    "keyPoints": [
     "Mécanisme 1 : persistance virale/antigénique (protéine Spike en tissu réservoir) → activation immune chronique",
@@ -20,7 +20,7 @@
    "id": "annales2026-q2",
    "difficulty": "difficile",
    "points": 5,
-   "question": "Décrire les principaux mécanismes par lesquels le **complément** est impliqué dans la physiopathologie du **lupus systémique**.",
+   "question": "Décrire les principaux mécanismes par lesquels le **complément** est impliqué dans la physiopathologie du **lupus systémique**. *(Thème : Lupus & complément, FC19/FC21 — Difficile)*",
    "answer": "Le complément joue un rôle **paradoxal** dans le LES : à la fois **protecteur** (élimination des déchets apoptotiques) et **délétère** (inflammation et lésions tissulaires).\n\n**1. Rôle protecteur — déficit prédisposant :** La voie classique (C1q, C2, C4) élimine normalement les **corps apoptotiques** et les **complexes immuns circulants**. Ses déficits congénitaux (C1q > C4 > C2) entraînent l'accumulation de débris apoptotiques riches en auto-antigènes nucléaires (ADN, histones, nucléosomes), qui brisent la tolérance et déclenchent la production d'**AAN**.\n\n**2. Rôle délétère — activation par les complexes immuns :** Les auto-anticorps (anti-ADN, anti-C1q) forment des **complexes immuns** qui activent massivement la voie classique → dépôts de **C3b** (opsonisation) et **C3d** → libération d'**anaphylatoxines** (C3a, C5a) → recrutement de neutrophiles, activation macrophagique → **inflammation tissulaire** (glomérulonéphrite, vascularite, arthrite).\n\n**3. Marqueur d'activité :** La consommation du complément entraîne une **hypocomplémentémie** (↓ C3, ↓ C4, ↓ CH50) utilisée comme biomarqueur de **poussée lupique**.",
    "keyPoints": [
     "Rôle protecteur : C1q/C2/C4 éliminent les corps apoptotiques et complexes immuns → déficit = prédisposition au LES",
@@ -34,7 +34,7 @@
    "id": "annales2026-q3",
    "difficulty": "moyen",
    "points": 4,
-   "question": "Décrire les deux grandes phases de l'**hypersensibilité allergique immédiate** (Type 1), de la sensibilisation à la phase effectrice.",
+   "question": "Décrire les deux grandes phases de l'**hypersensibilité allergique immédiate** (Type 1), de la sensibilisation à la phase effectrice. *(Thème : Hypersensibilité immédiate type 1, FC07 — Moyen)*",
    "answer": "**Phase 1 — Sensibilisation (silencieuse, sans symptômes) :**\nLors d'une **première exposition** à l'allergène, les cellules dendritiques le captent et le présentent aux **lymphocytes Th2**, qui sécrètent **IL-4** et **IL-13**. Ces cytokines induisent le **switch isotypique** des lymphocytes B vers la production d'**IgE** spécifiques. Ces IgE se lient via leur fragment **Fc** aux récepteurs de haute affinité **FcεRI** des **mastocytes** (tissus) et **basophiles** (sang) → état sensibilisé, asymptomatique.\n\n**Phase 2 — Phase effectrice (symptomatique) :**\nLors d'une **réexposition** à l'allergène, celui-ci **pontage** les IgE membranaires des mastocytes/basophiles, déclenchant leur **dégranulation**.\n- **Réaction immédiate (0–30 min)** : libération d'**histamine**, tryptase, prostaglandines, leucotriènes C4/D4 → vasodilatation, bronchospasme, prurit, œdème (urticaire, rhinite, asthme, choc anaphylactique selon la cible).\n- **Réaction tardive (4–8 h)** : recrutement d'**éosinophiles** et basophiles par les chimiokines (éotaxine, LTB4) → inflammation tissulaire persistante.",
    "keyPoints": [
     "Sensibilisation : 1ʳᵉ exposition → Th2 (IL-4/IL-13) → switch IgE → fixation sur FcεRI des mastocytes/basophiles",
@@ -48,7 +48,7 @@
    "id": "annales2026-q4",
    "difficulty": "difficile",
    "points": 5,
-   "question": "Décrire la cascade du fonctionnement du système immunitaire entraînant la **polyradiculonévrite aiguë** (syndrome de Guillain-Barré).",
+   "question": "Décrire la cascade du fonctionnement du système immunitaire entraînant la **polyradiculonévrite aiguë** (syndrome de Guillain-Barré). *(Thème : Syndrome de Guillain-Barré, FC22 — Difficile)*",
    "answer": "La polyradiculonévrite aiguë (SGB) est une **neuropathie auto-immune** déclenchée par un **mimétisme moléculaire**.\n\n**1. Déclencheur infectieux :** Dans les semaines précédant le tableau neurologique, une infection — le plus souvent à ***Campylobacter jejuni*** (LPS portant des épitopes similaires aux gangliosides), ou à CMV, EBV, Zika, SARS-CoV-2 — active le système immunitaire.\n\n**2. Mimétisme moléculaire :** Les épitopes bactériens ou viraux partagent des analogies de structure avec les **gangliosides** (GM1, GD1a, GD1b, GQ1b) de la gaine de myéline et des nœuds de Ranvier des nerfs périphériques.\n\n**3. Production d'auto-anticorps :** Le système immunitaire génère des **anticorps anti-gangliosides** (IgG anti-GM1, anti-GD1a…) qui reconnaissent à la fois l'agent infectieux et les composants nerveux.\n\n**4. Lésions nerveuses :** Ces auto-Ac se fixent aux gangliosides du nœud de Ranvier → **activation du complément** (dépôt de C3b et du complexe d'attaque membranaire C5b-9) → lyse de la gaine de myéline → **démyélinisation** segmentaire ascendante.\n\n**5. Tableau clinique :** Paralysie flasque ascendante, aréflexie ostéotendineuse, hypo/anesthésie distale ; atteinte respiratoire dans les formes graves.",
    "keyPoints": [
     "Déclencheur : infection préalable (Campylobacter jejuni ++, CMV, EBV, Zika)",
@@ -63,7 +63,7 @@
    "id": "annales2026-q5",
    "difficulty": "difficile",
    "points": 5,
-   "question": "Expliquer, à partir de l'activation du système immunitaire, les éléments **précliniques** de la polyarthrite rhumatoïde.",
+   "question": "Expliquer, à partir de l'activation du système immunitaire, les éléments **précliniques** de la polyarthrite rhumatoïde. *(Thème : Polyarthrite rhumatoïde préclinique, FC04a — Difficile)*",
    "answer": "La phase préclinique de la PR se déroule des **années avant les premiers symptômes articulaires**, progressant en plusieurs étapes immuno-inflammatoires.\n\n**1. Susceptibilité génétique et facteurs déclencheurs :**\nLes allèles **HLA-DR4/DR1** (« épitope partagé ») et les polymorphismes *PTPN22*, *PADI4* confèrent une vulnérabilité. Le **tabac** active dans les **poumons** les **peptidyl-arginine déiminases (PAD)** → **citrullination** de protéines autologues (vimentine, fibrinogène, α-énolase).\n\n**2. Rupture de tolérance et autoimmunisation :**\nLes peptides citrullinés sont présentés par les molécules HLA-DR aux lymphocytes T CD4+. Cette activation déclenche la production d'**ACPA** (anticorps anti-peptides citrullinés) et de **facteur rhumatoïde (FR)** par les lymphocytes B → détectables **5–10 ans avant les premiers signes cliniques**.\n\n**3. Amplification systémique :**\nLes ACPA forment des **complexes immuns** → activation du complément et des **macrophages** → sécrétion de **TNF-α, IL-1, IL-6, IL-17** → initiation d'une inflammation systémique de bas grade (CRP, VS élevées précliniquement).\n\n**4. Migration vers l'articulation :**\nLes cytokines pro-inflammatoires attirent les leucocytes vers la **membrane synoviale** → **synovite subclinique** → pannus synovial → destruction ostéocartilagineuse lors du passage à la phase clinique.",
    "keyPoints": [
     "Susceptibilité : HLA-DR4/DR1, PTPN22, PADI4 + tabac",
@@ -78,7 +78,7 @@
    "id": "annales2026-q6",
    "difficulty": "moyen",
    "points": 4,
-   "question": "Quelles sont les méthodes en développement pour améliorer l'**efficacité vaccinale grippale** chez les personnes âgées ?",
+   "question": "Quelles sont les méthodes en développement pour améliorer l'**efficacité vaccinale grippale** chez les personnes âgées ? *(Thème : Vaccin grippal du sujet âgé, FC01/FC10 — Moyen)*",
    "answer": "Chez le sujet âgé, la vaccination antigrippale standard est **30 à 50 % moins efficace** qu'en population générale (immunosénescence : ↓ LT naïfs, ↓ switch/maturation des LB, inflammaging). Plusieurs stratégies sont développées :\n\n**1. Augmentation de la dose antigénique :** Le vaccin **haute dose** (Fluzone® HD, 60 μg/souche vs 15 μg) stimule plus fortement le système immunitaire appauvri → meilleure réponse anticorps et efficacité clinique démontrée chez le ≥ 65 ans.\n\n**2. Adjonction d'adjuvants :**\n- **MF59** (Fluad®) : émulsion huile-dans-eau → activation des PRR (TLR) → recrutement de cellules présentatrices d'antigènes → réponse T et B améliorée.\n- **AS03** : squalen + vitamine E → mécanisme proche de MF59.\n- À l'étude : agonistes TLR7/8/9, saponines (AS01), complexes immunostimulants (ISCOM).\n\n**3. Voies d'administration alternatives :**\n- **Intradermique** : plus riche en cellules de Langerhans → meilleure activation des CPA.\n- **Intranasale** : stimule l'immunité muqueuse (IgA sécrétoires).\n\n**4. Vaccins recombinants :** Production sans œufs de poule (Flublok®) → dose antigénique plus élevée, antigènes plus conformationnels, production accélérée.",
    "keyPoints": [
     "Vaccin haute dose (60 μg/souche) : efficacité clinique prouvée ≥ 65 ans",
@@ -92,7 +92,7 @@
    "id": "annales2026-q7",
    "difficulty": "moyen",
    "points": 4,
-   "question": "Citer et expliquer les **3 déterminants de l'immunogénicité** des anticorps.",
+   "question": "Citer et expliquer les **3 déterminants de l'immunogénicité** des anticorps. *(Thème : Immunogénicité des anticorps, FC17 — Moyen)*",
    "answer": "L'immunogénicité d'un anticorps désigne sa capacité à être reconnu comme étranger par le système immunitaire d'un individu, ce qui est particulièrement important pour les **anticorps thérapeutiques** (risque de génération d'anticorps anti-médicament, ADA). Elle repose sur **3 déterminants structuraux** :\n\n**1. Isotypie** (isotypes) :\nDéfinie par la **région constante de la chaîne lourde** → détermine la classe (IgG, IgM, IgA…) et les sous-classes (IgG1–4). L'isotype conditionne les fonctions effectrices (liaison aux FcγR, activation du complément, demi-vie). Les anticorps thérapeutiques sont quasi-exclusivement des **IgG1 ou IgG4** humanisés pour minimiser ce déterminant.\n\n**2. Allotypie** (allotypes) :\nVariations **génétiques interindividuelles** dans les régions constantes (polymorphismes Gm sur IgG, Km sur les chaînes légères κ). Un allotype étranger peut être reconnu comme non-soi → production d'**anti-allotypes** → immunogénicité et neutralisation de l'anticorps thérapeutique.\n\n**3. Idiotypie** (idiotypes) :\nÉpitopes propres aux **régions variables** (CDR) de chaque anticorps. Chaque clone possède un idiotype unique. Des **anti-idiotypes** peuvent être générés naturellement (réseau idiotypique de Jerne) ou en réponse à un anticorps thérapeutique → neutralisation de l'effet thérapeutique. C'est le déterminant d'immunogénicité le **plus difficile à contrôler** pour les anticorps thérapeutiques.",
    "keyPoints": [
     "Isotypie : région constante (CH) → classe et sous-classe (IgG1-4) → fonctions effectrices",
