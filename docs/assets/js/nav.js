@@ -89,8 +89,7 @@ export async function initLayout(active = {}) {
         <div class="group-title">Révision</div>
         <a href="./fiches.html" class="${here('fiches.html') ? 'active' : ''}">${icon('card')}<span>Fiches de révision</span></a>
         <a href="./quiz.html" class="${here('quiz.html') && !location.search.includes('annales') ? 'active' : ''}">${icon('quiz')}<span>QCM des cours</span></a>
-        <a href="./quiz.html?set=annales" class="${location.search.includes('annales') ? 'active' : ''}">${icon('archive')}<span>Annales 2015–2024</span></a>
-        <a href="./quiz.html?set=cours&mode=mixte&auto=1">${icon('mix')}<span>QCM mixte</span></a>
+<a href="./quiz.html?set=cours&mode=mixte&auto=1">${icon('mix')}<span>QCM mixte</span></a>
         <a href="./qroc.html" class="${here('qroc.html') ? 'active' : ''}">${icon('pen')}<span>QROC (réponse courte)</span></a>
         <a href="./rattrapage.html" class="${here('rattrapage.html') ? 'active' : ''}">${icon('target')}<span>Priorités rattrapage</span></a>
         <div class="group-title">Suivi</div>
