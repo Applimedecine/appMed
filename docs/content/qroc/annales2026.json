@@ -1,0 +1,105 @@
+{
+ "slug": "annales2026",
+ "title": "QROC — Annales 2026",
+ "questions": [
+  {
+   "id": "annales2026-q1",
+   "difficulty": "difficile",
+   "points": 5,
+   "question": "Expliquer deux mécanismes **hypothétiques** qui peuvent amener à des symptômes persistants après une infection à SARS-CoV-2.",
+   "answer": "Deux mécanismes hypothétiques sont avancés pour expliquer le **COVID long** (symptômes > 3 mois post-infection) :\n\n**1. Persistance virale ou de fragments antigéniques** : des réservoirs de protéines virales (notamment la **protéine Spike**) persistant dans des tissus sanctuaires (intestin, ganglions lymphatiques, système nerveux central) entretiendraient une **activation immune chronique** et une inflammation de bas grade persistante, responsables de la fatigue, des troubles cognitifs et des symptômes multisystémiques.\n\n**2. Auto-immunité induite par mimétisme moléculaire** : l'infection déclenche une réponse immunitaire croisée → production d'**auto-anticorps** ciblant des structures de l'hôte (anti-récepteurs autonomiques [bêta-adrénergiques, muscariniques], anti-interférons de type I, anti-ACE2). Ces auto-anticorps perturbent durablement la régulation autonome et inflammatoire, maintenant les symptômes en l'absence de virus actif.",
+   "keyPoints": [
+    "Mécanisme 1 : persistance virale/antigénique (protéine Spike en tissu réservoir) → activation immune chronique",
+    "Mécanisme 2 : auto-immunité (mimétisme moléculaire) → auto-Ac anti-récepteurs autonomes, anti-IFN de type I",
+    "Les deux mécanismes sont hypothétiques (à préciser) : pas encore de consensus définitif",
+    "Autres mécanismes évoqués : dysbiose intestinale, microthrombi, réactivation EBV/VZV"
+   ],
+   "trap": "Le mot **« hypothétiques »** est central dans la question : il faut éviter de présenter ces mécanismes comme établis. Deux mécanismes distincts sont attendus — ne pas confondre persistance virale et auto-immunité."
+  },
+  {
+   "id": "annales2026-q2",
+   "difficulty": "difficile",
+   "points": 5,
+   "question": "Décrire les principaux mécanismes par lesquels le **complément** est impliqué dans la physiopathologie du **lupus systémique**.",
+   "answer": "Le complément joue un rôle **paradoxal** dans le LES : à la fois **protecteur** (élimination des déchets apoptotiques) et **délétère** (inflammation et lésions tissulaires).\n\n**1. Rôle protecteur — déficit prédisposant :** La voie classique (C1q, C2, C4) élimine normalement les **corps apoptotiques** et les **complexes immuns circulants**. Ses déficits congénitaux (C1q > C4 > C2) entraînent l'accumulation de débris apoptotiques riches en auto-antigènes nucléaires (ADN, histones, nucléosomes), qui brisent la tolérance et déclenchent la production d'**AAN**.\n\n**2. Rôle délétère — activation par les complexes immuns :** Les auto-anticorps (anti-ADN, anti-C1q) forment des **complexes immuns** qui activent massivement la voie classique → dépôts de **C3b** (opsonisation) et **C3d** → libération d'**anaphylatoxines** (C3a, C5a) → recrutement de neutrophiles, activation macrophagique → **inflammation tissulaire** (glomérulonéphrite, vascularite, arthrite).\n\n**3. Marqueur d'activité :** La consommation du complément entraîne une **hypocomplémentémie** (↓ C3, ↓ C4, ↓ CH50) utilisée comme biomarqueur de **poussée lupique**.",
+   "keyPoints": [
+    "Rôle protecteur : C1q/C2/C4 éliminent les corps apoptotiques et complexes immuns → déficit = prédisposition au LES",
+    "Rôle délétère : complexes immuns (anti-ADN + ADN) → activation voie classique → C3a, C5a → inflammation",
+    "Dépôts de C3b/C3d dans les glomérules → néphrite lupique",
+    "Hypocomplémentémie (↓ C3, C4, CH50) = marqueur d'activité de la maladie"
+   ],
+   "trap": "Le complément est à la fois **protecteur** (son déficit prédispose au lupus) et **délétère** (son activation aggrave les lésions). Ne présenter qu'un seul versant est insuffisant. Le déficit en **C1q** est le plus associé au LES (pas C3 ou C5)."
+  },
+  {
+   "id": "annales2026-q3",
+   "difficulty": "moyen",
+   "points": 4,
+   "question": "Décrire les deux grandes phases de l'**hypersensibilité allergique immédiate** (Type 1), de la sensibilisation à la phase effectrice.",
+   "answer": "**Phase 1 — Sensibilisation (silencieuse, sans symptômes) :**\nLors d'une **première exposition** à l'allergène, les cellules dendritiques le captent et le présentent aux **lymphocytes Th2**, qui sécrètent **IL-4** et **IL-13**. Ces cytokines induisent le **switch isotypique** des lymphocytes B vers la production d'**IgE** spécifiques. Ces IgE se lient via leur fragment **Fc** aux récepteurs de haute affinité **FcεRI** des **mastocytes** (tissus) et **basophiles** (sang) → état sensibilisé, asymptomatique.\n\n**Phase 2 — Phase effectrice (symptomatique) :**\nLors d'une **réexposition** à l'allergène, celui-ci **pontage** les IgE membranaires des mastocytes/basophiles, déclenchant leur **dégranulation**.\n- **Réaction immédiate (0–30 min)** : libération d'**histamine**, tryptase, prostaglandines, leucotriènes C4/D4 → vasodilatation, bronchospasme, prurit, œdème (urticaire, rhinite, asthme, choc anaphylactique selon la cible).\n- **Réaction tardive (4–8 h)** : recrutement d'**éosinophiles** et basophiles par les chimiokines (éotaxine, LTB4) → inflammation tissulaire persistante.",
+   "keyPoints": [
+    "Sensibilisation : 1ʳᵉ exposition → Th2 (IL-4/IL-13) → switch IgE → fixation sur FcεRI des mastocytes/basophiles",
+    "Phase effectrice : réexposition → pontage IgE → dégranulation",
+    "Réaction immédiate (0–30 min) : histamine, leucotriènes → bronchospasme, œdème, vasodilatation",
+    "Réaction tardive (4–8 h) : éosinophiles → inflammation prolongée"
+   ],
+   "trap": "La **phase de sensibilisation** ne produit **aucun symptôme** : c'est une erreur classique de dire que la première exposition provoque des symptômes. Les symptômes n'apparaissent qu'à la **réexposition**."
+  },
+  {
+   "id": "annales2026-q4",
+   "difficulty": "difficile",
+   "points": 5,
+   "question": "Décrire la cascade du fonctionnement du système immunitaire entraînant la **polyradiculonévrite aiguë** (syndrome de Guillain-Barré).",
+   "answer": "La polyradiculonévrite aiguë (SGB) est une **neuropathie auto-immune** déclenchée par un **mimétisme moléculaire**.\n\n**1. Déclencheur infectieux :** Dans les semaines précédant le tableau neurologique, une infection — le plus souvent à ***Campylobacter jejuni*** (LPS portant des épitopes similaires aux gangliosides), ou à CMV, EBV, Zika, SARS-CoV-2 — active le système immunitaire.\n\n**2. Mimétisme moléculaire :** Les épitopes bactériens ou viraux partagent des analogies de structure avec les **gangliosides** (GM1, GD1a, GD1b, GQ1b) de la gaine de myéline et des nœuds de Ranvier des nerfs périphériques.\n\n**3. Production d'auto-anticorps :** Le système immunitaire génère des **anticorps anti-gangliosides** (IgG anti-GM1, anti-GD1a…) qui reconnaissent à la fois l'agent infectieux et les composants nerveux.\n\n**4. Lésions nerveuses :** Ces auto-Ac se fixent aux gangliosides du nœud de Ranvier → **activation du complément** (dépôt de C3b et du complexe d'attaque membranaire C5b-9) → lyse de la gaine de myéline → **démyélinisation** segmentaire ascendante.\n\n**5. Tableau clinique :** Paralysie flasque ascendante, aréflexie ostéotendineuse, hypo/anesthésie distale ; atteinte respiratoire dans les formes graves.",
+   "keyPoints": [
+    "Déclencheur : infection préalable (Campylobacter jejuni ++, CMV, EBV, Zika)",
+    "Mimétisme moléculaire : épitopes bactériens ≈ gangliosides (GM1, GD1a…) des nerfs périphériques",
+    "Réponse immune : production d'auto-Ac IgG anti-gangliosides",
+    "Lésion : auto-Ac + activation du complément (MAC) → démyélinisation au nœud de Ranvier",
+    "Tableau clinique : paralysie flasque ascendante, aréflexie, atteinte respiratoire"
+   ],
+   "trap": "Le mécanisme central est le **mimétisme moléculaire** (et non une réaction directe au virus lui-même). **Campylobacter jejuni** est le germe le plus fréquemment impliqué. Ne pas confondre SGB (SNP, démyélinisant) avec la SEP (SNC, démyélinisante centrale)."
+  },
+  {
+   "id": "annales2026-q5",
+   "difficulty": "difficile",
+   "points": 5,
+   "question": "Expliquer, à partir de l'activation du système immunitaire, les éléments **précliniques** de la polyarthrite rhumatoïde.",
+   "answer": "La phase préclinique de la PR se déroule des **années avant les premiers symptômes articulaires**, progressant en plusieurs étapes immuno-inflammatoires.\n\n**1. Susceptibilité génétique et facteurs déclencheurs :**\nLes allèles **HLA-DR4/DR1** (« épitope partagé ») et les polymorphismes *PTPN22*, *PADI4* confèrent une vulnérabilité. Le **tabac** active dans les **poumons** les **peptidyl-arginine déiminases (PAD)** → **citrullination** de protéines autologues (vimentine, fibrinogène, α-énolase).\n\n**2. Rupture de tolérance et autoimmunisation :**\nLes peptides citrullinés sont présentés par les molécules HLA-DR aux lymphocytes T CD4+. Cette activation déclenche la production d'**ACPA** (anticorps anti-peptides citrullinés) et de **facteur rhumatoïde (FR)** par les lymphocytes B → détectables **5–10 ans avant les premiers signes cliniques**.\n\n**3. Amplification systémique :**\nLes ACPA forment des **complexes immuns** → activation du complément et des **macrophages** → sécrétion de **TNF-α, IL-1, IL-6, IL-17** → initiation d'une inflammation systémique de bas grade (CRP, VS élevées précliniquement).\n\n**4. Migration vers l'articulation :**\nLes cytokines pro-inflammatoires attirent les leucocytes vers la **membrane synoviale** → **synovite subclinique** → pannus synovial → destruction ostéocartilagineuse lors du passage à la phase clinique.",
+   "keyPoints": [
+    "Susceptibilité : HLA-DR4/DR1, PTPN22, PADI4 + tabac",
+    "Citrullination pulmonaire (PAD) → néo-épitopes → rupture de tolérance",
+    "ACPA et FR détectables 5–10 ans avant les symptômes",
+    "Complexes immuns → activation complément + macrophages → TNF-α, IL-1, IL-6",
+    "Migration articulaire → synovite préclinique → futur pannus"
+   ],
+   "trap": "La **citrullination se produit dans les poumons** (et les gencives), pas dans l'articulation — la phase articulaire est secondaire. Les ACPA sont **plus spécifiques** que le FR (qui peut être présent dans d'autres maladies)."
+  },
+  {
+   "id": "annales2026-q6",
+   "difficulty": "moyen",
+   "points": 4,
+   "question": "Quelles sont les méthodes en développement pour améliorer l'**efficacité vaccinale grippale** chez les personnes âgées ?",
+   "answer": "Chez le sujet âgé, la vaccination antigrippale standard est **30 à 50 % moins efficace** qu'en population générale (immunosénescence : ↓ LT naïfs, ↓ switch/maturation des LB, inflammaging). Plusieurs stratégies sont développées :\n\n**1. Augmentation de la dose antigénique :** Le vaccin **haute dose** (Fluzone® HD, 60 μg/souche vs 15 μg) stimule plus fortement le système immunitaire appauvri → meilleure réponse anticorps et efficacité clinique démontrée chez le ≥ 65 ans.\n\n**2. Adjonction d'adjuvants :**\n- **MF59** (Fluad®) : émulsion huile-dans-eau → activation des PRR (TLR) → recrutement de cellules présentatrices d'antigènes → réponse T et B améliorée.\n- **AS03** : squalen + vitamine E → mécanisme proche de MF59.\n- À l'étude : agonistes TLR7/8/9, saponines (AS01), complexes immunostimulants (ISCOM).\n\n**3. Voies d'administration alternatives :**\n- **Intradermique** : plus riche en cellules de Langerhans → meilleure activation des CPA.\n- **Intranasale** : stimule l'immunité muqueuse (IgA sécrétoires).\n\n**4. Vaccins recombinants :** Production sans œufs de poule (Flublok®) → dose antigénique plus élevée, antigènes plus conformationnels, production accélérée.",
+   "keyPoints": [
+    "Vaccin haute dose (60 μg/souche) : efficacité clinique prouvée ≥ 65 ans",
+    "Adjuvants : MF59 (Fluad), AS03 → activation PRR → ↑ réponse T et B",
+    "Administration intradermique : ↑ densité de cellules de Langerhans",
+    "Vaccins recombinants (Flublok) : dose élevée, indépendants des œufs"
+   ],
+   "trap": "Les **vaccins vivants atténués** (intranasal LAIV) sont **contre-indiqués chez l'immunodéprimé** âgé. La simple augmentation de la fréquence de vaccination annuelle ne suffit pas : c'est la **qualité** de la réponse immune (adjuvants, dose) qui est ciblée."
+  },
+  {
+   "id": "annales2026-q7",
+   "difficulty": "moyen",
+   "points": 4,
+   "question": "Citer et expliquer les **3 déterminants de l'immunogénicité** des anticorps.",
+   "answer": "L'immunogénicité d'un anticorps désigne sa capacité à être reconnu comme étranger par le système immunitaire d'un individu, ce qui est particulièrement important pour les **anticorps thérapeutiques** (risque de génération d'anticorps anti-médicament, ADA). Elle repose sur **3 déterminants structuraux** :\n\n**1. Isotypie** (isotypes) :\nDéfinie par la **région constante de la chaîne lourde** → détermine la classe (IgG, IgM, IgA…) et les sous-classes (IgG1–4). L'isotype conditionne les fonctions effectrices (liaison aux FcγR, activation du complément, demi-vie). Les anticorps thérapeutiques sont quasi-exclusivement des **IgG1 ou IgG4** humanisés pour minimiser ce déterminant.\n\n**2. Allotypie** (allotypes) :\nVariations **génétiques interindividuelles** dans les régions constantes (polymorphismes Gm sur IgG, Km sur les chaînes légères κ). Un allotype étranger peut être reconnu comme non-soi → production d'**anti-allotypes** → immunogénicité et neutralisation de l'anticorps thérapeutique.\n\n**3. Idiotypie** (idiotypes) :\nÉpitopes propres aux **régions variables** (CDR) de chaque anticorps. Chaque clone possède un idiotype unique. Des **anti-idiotypes** peuvent être générés naturellement (réseau idiotypique de Jerne) ou en réponse à un anticorps thérapeutique → neutralisation de l'effet thérapeutique. C'est le déterminant d'immunogénicité le **plus difficile à contrôler** pour les anticorps thérapeutiques.",
+   "keyPoints": [
+    "Isotypie : région constante (CH) → classe et sous-classe (IgG1-4) → fonctions effectrices",
+    "Allotypie : polymorphismes génétiques dans les régions constantes (Gm, Km) → immunogénicité interindividuelle",
+    "Idiotypie : épitopes des régions variables (CDR) → anti-idiotypes possibles → neutralisation du médicament"
+   ],
+   "trap": "Ne pas confondre **isotypie** (différences entre classes d'Ig) et **allotypie** (différences génétiques au sein d'une même classe entre individus). L'**idiotypie** est le déterminant le plus cliniquement problématique pour les ADA contre les anticorps thérapeutiques."
+  }
+ ]
+}

@@ -134,6 +134,10 @@ LESSONS = [
      "title": "Immunopathologie des infections longues",
      "shortTitle": "Infections longues",
      "file": "FC23- LONGET_ Immunopathologie des infections _longues_(2).pdf"},
+    {"slug": "annales2026", "code": "Annales 2026", "order": 25, "prof": "",
+     "title": "Annales 2026",
+     "shortTitle": "Annales 2026",
+     "file": ""},
 ]
 
 ANNALES = [
@@ -320,6 +324,8 @@ def _resolve_path(base, filename):
 
 
 def build_cours(lesson, report=False):
+    if not lesson.get("file"):
+        return None
     # Ne jamais écraser un résumé rédigé à la main (marqué "curated": true).
     out_existing = os.path.join(COURS_DIR, lesson["slug"] + ".json")
     if os.path.exists(out_existing):
