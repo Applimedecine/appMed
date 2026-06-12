@@ -4,7 +4,7 @@ import { esc } from './data.js';
 
 (async function () {
   const manifest = await initLayout({ page: 'fiches' });
-  const lessons = (manifest.lessons || []).sort((a, b) => a.order - b.order);
+  const lessons = (manifest.lessons || []).filter((l) => l.hasCours).sort((a, b) => a.order - b.order);
   document.getElementById('grid').innerHTML = lessons.map((L) => {
     const p = Progress.lesson(L.slug);
     const ready = L.hasFiche;
